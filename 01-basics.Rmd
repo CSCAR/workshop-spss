@@ -78,10 +78,10 @@ double-click on it.
 
 **Try it: Open Exercise0\_Data**
 
-![](./media/image2.png){width="6.497396106736658in"
+![](./media/spss-image2.png){width="6.497396106736658in"
 height="3.8020833333333335in"}
 
-![](./media/image3.png){width="6.497395013123359in"
+![](./media/spss-image3.png){width="6.497395013123359in"
 height="4.052083333333333in"}
 
 ***Start a New Data File***
@@ -98,7 +98,7 @@ viewer will also record the syntax used to generate the results.
 
 **Try it: Open Exercise0\_Output**
 
-![](./media/image4.png){width="6.5in" height="5.2in"}
+![](./media/spss-image4.png){width="6.5in" height="5.2in"}
 
 The output viewer is divided into two parts: on the left, a narrow
 window shows an outline which organizes all the results. The outline can
@@ -150,7 +150,7 @@ and changing fields in the dialogue boxes which appear.
 salary variable. Change the Std. Deviation to have only two digits to
 the right of the decimal point.**
 
-![](./media/image5.png){width="6.497396106736658in"
+![](./media/spss-image5.png){width="6.497396106736658in"
 height="4.479166666666667in"}
 
 #### Export Output
@@ -166,7 +166,7 @@ file type and the location to save the file, then select "OK".
 **Try it: Export the output table as an Excel file and investigate the
 Excel file.**
 
-![](./media/image6.png){width="6.5in" height="5.200694444444444in"}
+![](./media/spss-image6.png){width="6.5in" height="5.200694444444444in"}
 
 Starting with SPSS Version 11.5, selected output objects, such as charts
 and tables, can also be exported in an Excel or Word format. This is a
@@ -222,7 +222,7 @@ The syntax window provides these advantages:
 
 **Try it: Open Exercise0\_Syntax.**
 
-![](./media/image7.png){width="6.5in" height="5.2in"}
+![](./media/spss-image7.png){width="6.5in" height="5.2in"}
 
 You can generate syntax in a few different ways:
 
@@ -247,7 +247,7 @@ a short-cut. You can also run all commands in the syntax window by using
 **Try it: In the Syntax Window, highlight number 3 and run the selection
 highlighted below. Check the Output Viewer.**
 
-![](./media/image8.png){width="6.497395013123359in"
+![](./media/spss-image8.png){width="6.497395013123359in"
 height="4.041666666666667in"}
 
 *Repetitive Commands*
@@ -291,7 +291,7 @@ delivery, you can re-run the syntax one last time and be ready to go!
 **Try it: Highlight Number 5, copy and paste the syntax. Modify the
 syntax such that VARIABLES=salbegin.**
 
-![](./media/image9.png){width="6.5in" height="5.2in"}
+![](./media/spss-image9.png){width="6.5in" height="5.2in"}
 
 #### Reading in Raw Data with Syntax
 
@@ -539,7 +539,7 @@ or double-click on particular objects.
 **Try it: In Data View for Exercise0\_Data, select "Analyze"
 "Descriptive Statistics" "Descriptives".**
 
-![](./media/image10.png){width="5.03125in" height="3.53125in"}
+![](./media/spss-image10.png){width="5.03125in" height="3.53125in"}
 
 While dialogue boxes vary according to the task involved, they all have
 at least some of the following buttons:
@@ -635,7 +635,7 @@ You can add descriptive comments to data files by going to "Utilities"
 
 An ideal Excel data set might look like this:
 
-![](./media/image11.png){width="5.59375in" height="2.357273622047244in"}
+![](./media/spss-image11.png){width="5.59375in" height="2.357273622047244in"}
 
 ## Exercise 1 -- Properly Formatted Data
 
@@ -661,7 +661,7 @@ useful liaison between other programs and SPSS.
 **Try it: Select "File" "Open". Investigate the different file types
 that you can open.**
 
-![](./media/image12.png){width="5.375in" height="3.490304024496938in"}
+![](./media/spss-image12.png){width="5.375in" height="3.490304024496938in"}
 
 Data files that are in TEXT FORMAT (.txt) are either delimited or
 divided into columns of fixed length. SPSS provides a wizard that asks
@@ -725,10 +725,10 @@ select "Continue" then "Save".
 Try it: Select "File" "Save As". Investigate the different file types.
 Select the "Variables" button and investigate.
 
-![](./media/image13.png){width="6.496790244969379in"
+![](./media/spss-image13.png){width="6.496790244969379in"
 height="3.3645833333333335in"}
 
-![](./media/image14.png){width="4.625in" height="3.5625in"}
+![](./media/spss-image14.png){width="4.625in" height="3.5625in"}
 
 ## Exercise 2 -- Importing/Exporting Excel
 

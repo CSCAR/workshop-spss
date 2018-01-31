@@ -62,7 +62,7 @@ using statistics alone which scenario it is.
 The chart on the next page lays out the essential graphical and
 statistical procedures by type and classification.
 
-![](./media/image53.png){width="9.269444444444444in"
+![](./media/spss-image53.png){width="9.269444444444444in"
 height="6.001388888888889in"}
 
 ## Parametric vs. Non-parametric Tests
@@ -96,8 +96,8 @@ In SPSS, there are two procedures which provide simple descriptive
 statistics. You can find both procedures under "Analyze" "Descriptive
 Statistics".
 
-![](./media/image55.png){width="5.0in" height="2.4583333333333335in"}
-![](./media/image56.png){width="5.0in" height="2.2395833333333335in"}
+![](./media/spss-image55.png){width="5.0in" height="2.4583333333333335in"}
+![](./media/spss-image56.png){width="5.0in" height="2.2395833333333335in"}
 
 **Frequencies** procedure provides the number and % of cases which have
 each value of a variable (e.g., 46% male, 54% female). You can request
@@ -107,7 +107,7 @@ categorical variables.
 **Try it: Use Section4\_1\_Data.sav. Obtain the frequency (descriptive)
 statistics for the variable Sex.**
 
-![](./media/image57.png){width="4.895833333333333in"
+![](./media/spss-image57.png){width="4.895833333333333in"
 height="3.0833333333333335in"}
 
 +-------------------+-----------+--------+
@@ -145,9 +145,9 @@ ordering, e.g., small, medium, large) alongside the frequencies.
 **Try it: Use Section4\_1\_Data.sav. Obtain the descriptive statistics
 for the variable Age.**
 
-![](./media/image58.png){width="6.5in" height="3.2291666666666665in"}
+![](./media/spss-image58.png){width="6.5in" height="3.2291666666666665in"}
 
-![](./media/image59.png){width="4.416666666666667in" height="2.0in"}
+![](./media/spss-image59.png){width="4.416666666666667in" height="2.0in"}
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | > **Descr |
@@ -195,13 +195,13 @@ graph image to the "Chart Preview" area. Once you select a chart, the
 Element Properties window will appear. The Element Properties window
 allows you to modify what is displayed in the graph
 
-![](./media/image60.png){width="6.5in" height="4.488888888888889in"}
+![](./media/spss-image60.png){width="6.5in" height="4.488888888888889in"}
 
 **Try it: Use Section4\_1Data.sav. Create a simple bar chart for
 "Region". **
 
-![](./media/image61.png){width="5.05625in"
-height="4.614583333333333in"}![](./media/image62.png){width="5.18125in"
+![](./media/spss-image61.png){width="5.05625in"
+height="4.614583333333333in"}![](./media/spss-image62.png){width="5.18125in"
 height="3.8229166666666665in"}
 
 ### Legacy Dialogs
@@ -215,14 +215,14 @@ specify which type of scatter plot you would like to create. The
 software will present you with the graphing dialogue box once you
 specify the specific form for the graph.
 
-![](./media/image63.png){width="3.6875in" height="1.6041666666666667in"}
-![](./media/image64.png){width="4.552083333333333in" height="4.71875in"}
+![](./media/spss-image63.png){width="3.6875in" height="1.6041666666666667in"}
+![](./media/spss-image64.png){width="4.552083333333333in" height="4.71875in"}
 
 **Try it: Use Section4\_1Data.sav. Create a simple bar chart for
 "Region". **
 
-![](./media/image65.png){width="3.5377318460192475in"
-height="4.020833333333333in"}![](./media/image62.png){width="5.18125in"
+![](./media/spss-image65.png){width="3.5377318460192475in"
+height="4.020833333333333in"}![](./media/spss-image62.png){width="5.18125in"
 height="4.177083333333333in"}
 
 Normality
@@ -232,7 +232,7 @@ Many statistical procedures assume "normality", which means the
 population which the data is from follows the Normal Distribution. You
 may know this as the "bell curve".
 
-![https://s15-us2.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdf%2FBellcurve.svg%2F2000px-Bellcurve.svg.png&sp=e6ff634ca3ce0a0de1bfab4490a45ca7](./media/image66.png){width="5.05625in"
+![https://s15-us2.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdf%2FBellcurve.svg%2F2000px-Bellcurve.svg.png&sp=e6ff634ca3ce0a0de1bfab4490a45ca7](./media/spss-image66.png){width="5.05625in"
 height="3.159650043744532in"}
 
 Many real-life variables follow a normal distribution such as height. If
@@ -262,13 +262,13 @@ from the Histogram Legacy Dialog, the QQ-plot is created under Analyze
 "Age" and display the normal curve. Obtain a QQ plot for the variable
 "Age". Hint: 'Analyze' 'Descriptive Statistics' 'QQPlot'.**
 
-![](./media/image67.png){width="3.0625in" height="2.7527777777777778in"}
+![](./media/spss-image67.png){width="3.0625in" height="2.7527777777777778in"}
 
-![](./media/image68.png){width="3.5729166666666665in"
+![](./media/spss-image68.png){width="3.5729166666666665in"
 height="2.8314818460192477in"}
 
-![](./media/image69.png){width="3.6979166666666665in"
-height="2.7043985126859145in"}![](./media/image70.png){width="3.5625in"
+![](./media/spss-image69.png){width="3.6979166666666665in"
+height="2.7043985126859145in"}![](./media/spss-image70.png){width="3.5625in"
 height="2.82245406824147in"}
 
 ## Exercise 8 -- Data Exploration and Visualization
@@ -339,13 +339,13 @@ different from zero correlation.
 For the Pearson Correlation Coefficient in SPSS, select "Analyze"
 "Correlate" "Bivariate".
 
-![](./media/image71.png){width="3.8541666666666665in" height="3.0in"}
+![](./media/spss-image71.png){width="3.8541666666666665in" height="3.0in"}
 
 For the Scatterplot in SPSS, select "Graphs" "Legacy Dialogs"
 "Scatter/Dot" "Simple Scatter" and click "Define".
 
-![](./media/image64.png){width="3.880323709536308in"
-height="3.9676115485564303in"}![](./media/image63.png){width="3.18125in"
+![](./media/spss-image64.png){width="3.880323709536308in"
+height="3.9676115485564303in"}![](./media/spss-image63.png){width="3.18125in"
 height="1.6041666666666667in"}
 
 **Try it: Use Section4\_2\_Data.sav. Investigate the correlation between
@@ -353,7 +353,7 @@ the individual behavior intention scales. Select "Analyze" "Correlate"
 "Bivariate". Select "BIndBehInt\_Pre" and "BIndBehInt\_Post". Select
 "OK".**
 
-![](./media/image72.png){width="4.895833333333333in"
+![](./media/spss-image72.png){width="4.895833333333333in"
 height="4.270833333333333in"}
 
 +-----------------+-----------------+-----------------+-----------------+
@@ -422,9 +422,9 @@ Select "BIndBehInt\_Pre" for the X Axis.
 
 Select "OK".
 
-![](./media/image73.png){width="4.30625in" height="4.572916666666667in"}
+![](./media/spss-image73.png){width="4.30625in" height="4.572916666666667in"}
 
-![](./media/image74.png){width="6.5in" height="5.197916666666667in"}
+![](./media/spss-image74.png){width="6.5in" height="5.197916666666667in"}
 
 The scatterplot indicates a linear relationship between the two
 variables.
@@ -456,10 +456,10 @@ test of independence and make sure to check the box "Chi-Square" under
 table by checking the box for "Display Clustered Bar Chart" in the
 "Crosstab" dialog box.
 
-![](./media/image76.png){width="5.046990376202975in"
+![](./media/spss-image76.png){width="5.046990376202975in"
 height="4.510416666666667in"}
 
-![](./media/image77.png){width="3.2414348206474193in"
+![](./media/spss-image77.png){width="3.2414348206474193in"
 height="3.7708333333333335in"}
 
 **Try it: Use Section4\_2\_Data.sav. Are females more likely to
@@ -472,9 +472,9 @@ Statistics" "Crosstabs". Select "Sex" for rows, "Joke" for column, check
 the box to "Display clustered bar charts". Select "Statistics" and check
 the box for "Chi-Square". Select "Continue" and the select "OK".**
 
-![](./media/image78.png){width="4.0in" height="3.7395833333333335in"}
+![](./media/spss-image78.png){width="4.0in" height="3.7395833333333335in"}
 
-![](./media/image79.png){width="2.6145833333333335in"
+![](./media/spss-image79.png){width="2.6145833333333335in"
 height="2.8777777777777778in"}
 
 +-------------+-------------+-------------+-------------+-------------+
@@ -579,7 +579,7 @@ height="2.8777777777777778in"}
 | > table   |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-![](./media/image80.png){width="4.40625in" height="2.75in"}
+![](./media/spss-image80.png){width="4.40625in" height="2.75in"}
 
 The results above indicate that there is not a significant difference
 between how females and males answered the question "Would you
@@ -612,10 +612,10 @@ continuous dependent variable and a categorical predictor.
 In SPSS, select "Analyze" "Compare Means" to find the two-sample t-test
 and one-way ANOVA
 
-![](./media/image81.png){width="4.229166666666667in"
+![](./media/spss-image81.png){width="4.229166666666667in"
 height="2.3645833333333335in"}
 
-![](./media/image82.png){width="4.90625in"
+![](./media/spss-image82.png){width="4.90625in"
 height="2.7916666666666665in"}
 
 For the side-by-side box plots, select "Graphs" "Legacy Dialogs"
@@ -623,8 +623,8 @@ For the side-by-side box plots, select "Graphs" "Legacy Dialogs"
 Continuous dependent variable, "Category Axis": Categorical predictor
 "OK"
 
-![](./media/image83.png){width="2.0104166666666665in"
-height="2.2916666666666665in"}![](./media/image84.png){width="4.114583333333333in"
+![](./media/spss-image83.png){width="2.0104166666666665in"
+height="2.2916666666666665in"}![](./media/spss-image84.png){width="4.114583333333333in"
 height="3.5833333333333335in"}
 
 **Try it: Use Section4\_2\_Data.sav. Is there a relationship between sex
@@ -636,10 +636,10 @@ Variable(s). Select "Sex" for Grouping Variable. Select "Define
 Groups..." and let group 1=1, group 2=2. Select "Continue". Select
 "OK".**
 
-![](./media/image85.png){width="4.895833333333333in"
+![](./media/spss-image85.png){width="4.895833333333333in"
 height="3.0416666666666665in"}
 
-![](./media/image86.png){width="2.4791666666666665in"
+![](./media/spss-image86.png){width="2.4791666666666665in"
 height="2.0416666666666665in"}
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
@@ -683,7 +683,7 @@ Select "Analyze" "Compare Means" "One-Way ANOVA". Select
 "BIndBehInt\_Post" for the dependent list. Select "Sex" for the factor.
 Select "OK"
 
-![](./media/image87.png){width="3.6875in" height="1.75in"}
+![](./media/spss-image87.png){width="3.6875in" height="1.75in"}
 
 +-----------+-----------+-----------+-----------+-----------+-----------+
 | > **ANOVA |
@@ -717,10 +717,10 @@ Select "Graphs" "Legacy Dialogs" "Boxplot". Select "Simple" "Summaries
 for groups of cases" "Define". Select the continuous dependent variable
 for "Variable", Categorical predictor for "Category Axis". Select "OK".
 
-![](./media/image88.png){width="3.2604166666666665in"
+![](./media/spss-image88.png){width="3.2604166666666665in"
 height="2.1979166666666665in"}
 
-![](./media/image89.png){width="5.5625in" height="4.083333333333333in"}
+![](./media/spss-image89.png){width="5.5625in" height="4.083333333333333in"}
 
 ***Paired T-Test***
 
@@ -748,7 +748,7 @@ post-treatment values.
 
 In SPSS, select "Analyze" "Compare Means" "Paired Samples T-Test".
 
-![](./media/image90.png){width="6.05625in"
+![](./media/spss-image90.png){width="6.05625in"
 height="3.3645833333333335in"}
 
 **Try it: Use Section4\_2\_Data.sav. Investigate whether or not the
@@ -760,7 +760,7 @@ t-test. Select "Analyze" "Compare Means" "Paired Samples T-Test". Select
 "BIndBehInt\_Pre" for Variable 1. Select "BIndBehInt\_Post" for Variable
 2. Select "OK".**
 
-![](./media/image91.png){width="6.18125in"
+![](./media/spss-image91.png){width="6.18125in"
 height="3.3645833333333335in"}
 
 +-----------+-----------+-----------+-----------+-----------+-----------+

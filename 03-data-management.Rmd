@@ -7,7 +7,7 @@ managing data sets. Go to "Data" "Sort Cases" to place the cases in
 order. Choose the variable that determines the ordering, and choose
 "Ascending" or "Descending".
 
-![](./media/image42.png){width="4.041666666666667in"
+![](./media/spss-image42.png){width="4.041666666666667in"
 height="3.8854166666666665in"}
 
 Selecting the ID variable and choosing "Ascending" will place the
@@ -83,10 +83,10 @@ filtered out these cases because they did not satisfy the specified
 condition. Analyses will only use those cases that are not scratched
 out.
 
-![](./media/image43.png){width="5.239583333333333in"
+![](./media/spss-image43.png){width="5.239583333333333in"
 height="4.729166666666667in"}
 
-![](./media/image44.png){width="6.5in" height="4.03125in"}
+![](./media/spss-image44.png){width="6.5in" height="4.03125in"}
 
 To return to the entire sample, go to "Data" "Select Cases", choose the
 radio button next to "All Cases," and then click "OK". The "Filter On"
@@ -106,7 +106,7 @@ sort the data first so that the cases of interest occupy the first rows.
 Determine the last row that refers to a female, or to a child under
 twelve, and proceed as above.
 
-![](./media/image45.png){width="3.96875in"
+![](./media/spss-image45.png){width="3.96875in"
 height="1.5416666666666667in"}
 
 **Note:** When SPSS selects cases randomly, repeated selections will be
@@ -130,7 +130,7 @@ At the bottom of the "Select Cases" dialogue box are three options:
 
 -   Delete unselected cases (NOT RECOMMENDED)
 
-![](./media/image46.png){width="5.239583333333333in" height="5.3125in"}
+![](./media/spss-image46.png){width="5.239583333333333in" height="5.3125in"}
 
 If you set this to "Filter out unselected cases", the unselected cases
 remain in the data set but the software temporarily excludes them from
@@ -148,8 +148,8 @@ delete cases.
 **Try it: Use Section2\_Data.sav. Select only observations with
 Education = 1 for analysis. **
 
-![](./media/image47.png){width="6.05625in" height="3.84375in"}
-![](./media/image48.png){width="6.5in" height="2.7291666666666665in"}
+![](./media/spss-image47.png){width="6.05625in" height="3.84375in"}
+![](./media/spss-image48.png){width="6.5in" height="2.7291666666666665in"}
 
 ## Analyzing Groups of Data Separately
 
@@ -183,13 +183,13 @@ To use Split File:
 -   To turn off the Split File command, return to "Data" "Split File"
     and click on "Analyze all cases, do not create groups".
 
-![](./media/image49.png){width="4.625in" height="3.5833333333333335in"}
+![](./media/spss-image49.png){width="4.625in" height="3.5833333333333335in"}
 
 **Try it: Use Section2\_Data.sav. Obtain the descriptive statistics for
 DepScale\_01 for males and females separately. Hint: Select 'Analyze'
 'Descriptive Statistics' 'Descriptives'.**
 
-![](./media/image50.png){width="3.93125in" height="2.875in"}
+![](./media/spss-image50.png){width="3.93125in" height="2.875in"}
 
 +---------+---------+---------+---------+---------+---------+---------+
 | > **Des |
@@ -256,7 +256,7 @@ together which include the instructions.
 ### Wide to Long (AKA "Variables into Cases")
 
 ![S:\\dept\\Workshops\\Workshop Slides\\SPSS Intro for
-ESIN\\Notebook\\MODIFY\\Slide13.JPG](./media/image51.jpeg){width="5.989583333333333in"
+ESIN\\Notebook\\MODIFY\\Slide13.JPG](./media/spss-image51.jpeg){width="5.989583333333333in"
 height="4.492187226596675in"}
 
 There are seven steps in this Wizard:
@@ -278,7 +278,7 @@ There are seven steps in this Wizard:
 ### Long to Wide (AKA "Cases into Variables")
 
 ![S:\\dept\\Workshops\\Workshop Slides\\SPSS Intro for
-ESIN\\Notebook\\MODIFY\\Slide27.JPG](./media/image52.jpeg){width="5.229166666666667in"
+ESIN\\Notebook\\MODIFY\\Slide27.JPG](./media/spss-image52.jpeg){width="5.229166666666667in"
 height="3.9218755468066493in"}
 
 There are five steps in this Wizard:
