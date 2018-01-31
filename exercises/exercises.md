@@ -68,7 +68,7 @@ it can be imported into SPSS properly. Save the file and close it. Open
 the file in SPSS (import it). Export this file back into Excel, but only
 save the following variables: id, salary, minority.
 
-![](./exercise-media/media/image2.png){width="6.5in"
+![](./media/image2.png){width="6.5in"
 height="4.440387139107612in"}
 
 Solution:
@@ -83,7 +83,7 @@ Solution:
 
 -   Close Exercise2\_Data\_Ready
 
-![](./exercise-media/media/image3.png){width="6.5in"
+![](./media/image3.png){width="6.5in"
 height="4.440387139107612in"}
 
 -   Open SPSS
@@ -102,10 +102,10 @@ height="4.440387139107612in"}
 
 -   The Excel data should now open in the Data Editor
 
-![](./exercise-media/media/image4.png){width="6.239583333333333in"
+![](./media/image4.png){width="6.239583333333333in"
 height="3.3229166666666665in"}
 
-![](./exercise-media/media/image5.png){width="4.041666666666667in"
+![](./media/image5.png){width="4.041666666666667in"
 height="2.5in"}
 
 -   Delete any "blank" rows of data or columns of data (indicated by
@@ -130,10 +130,10 @@ height="2.5in"}
 -   Open the new file (Exercise2\_Data\_Ready\_short) to investigate the
     results
 
-![](./exercise-media/media/image6.png){width="4.550594925634296in"
+![](./media/image6.png){width="4.550594925634296in"
 height="3.4982699037620297in"}
 
-![](./exercise-media/media/image7.png){width="3.7843613298337706in"
+![](./media/image7.png){width="3.7843613298337706in"
 height="2.914981408573928in"}
 
 Exercise 3 Solution
@@ -142,7 +142,7 @@ Exercise 3 Solution
 Open Exercise3\_Data and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book.
 
-![](./exercise-media/media/image8.png){width="6.0625in"
+![](./media/image8.png){width="6.0625in"
 height="3.320896762904637in"}
 
 Solution:
@@ -156,7 +156,7 @@ Solution:
     then select the box with three small dots. The following window will
     appear:
 
-![](./exercise-media/media/image9.png){width="4.854166666666667in"
+![](./media/image9.png){width="4.854166666666667in"
 height="3.125in"}
 
 -   Ender the value and label, then select "Add". Once all possible
@@ -167,7 +167,7 @@ height="3.125in"}
     Right click on the cell you want to copy, select copy. Then right
     click on the cell that you would like to paste in, and select paste.
 
-![](./exercise-media/media/image10.png){width="6.5in"
+![](./media/image10.png){width="6.5in"
 height="3.5605489938757655in"}
 
 -   Enter in missing values in a similar fashion---here we have discrete
@@ -178,7 +178,7 @@ height="3.5605489938757655in"}
 
 -   Save this file as Exercise3\_Data\_Cleaned
 
-![](./exercise-media/media/image11.png){width="3.3541666666666665in"
+![](./media/image11.png){width="3.3541666666666665in"
 height="2.4895833333333335in"}
 
 
@@ -209,7 +209,7 @@ Solution:
 
 -   Select Ok, and the new variable will appear in the data set
 
-![](./exercise-media/media/image12.png){width="6.459686132983377in"
+![](./media/image12.png){width="6.459686132983377in"
 height="5.278486439195101in"}
 
 Recode the education variable according to the following
@@ -260,7 +260,7 @@ Solution:
 
 -   Check the dataset in Data View
 
-![](./exercise-media/media/image13.png){width="6.5in"
+![](./media/image13.png){width="6.5in"
 height="3.7894663167104112in"}
 
 Exercise 5 Solution
@@ -281,7 +281,7 @@ Select male managers. What is their average age?
     select the If button
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.04
-AM.png](./exercise-media/media/image14.png){width="4.327660761154855in"
+AM.png](./media/image14.png){width="4.327660761154855in"
 height="4.396551837270342in"}
 
 -   Enter the following information
@@ -291,7 +291,7 @@ height="4.396551837270342in"}
     -   Continue
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.50
-AM.png](./exercise-media/media/image15.png){width="4.5in"
+AM.png](./media/image15.png){width="4.5in"
 height="3.0317311898512687in"}
 
 -   Under Output: Select Filter Out Unselected Cases
@@ -303,7 +303,7 @@ height="3.0317311898512687in"}
 -   "Analyze" "Descriptive Statistics" "Descriptives"
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./exercise-media/media/image16.png){width="4.387911198600175in"
+AM.png](./media/image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
 -   Select the age variable, select Ok
@@ -348,14 +348,14 @@ category.
 -   Select Ok
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.27.12
-AM.png](./exercise-media/media/image17.png){width="4.004309930008749in"
+AM.png](./media/image17.png){width="4.004309930008749in"
 height="2.963445975503062in"}
 
 -   AnalyzeDescriptive StatisticsDescriptives, select the age variable,
     select Ok
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./exercise-media/media/image16.png){width="4.387911198600175in"
+AM.png](./media/image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
 -   Turn off the split file!
@@ -460,13 +460,13 @@ Convert Exercise6\_Data from "Wide" format to "Long" format
 
 -   Select "Restructure selected variables into cases" then "Next"
 
-![](./exercise-media/media/image18.png){width="5.472672790901138in"
+![](./media/image18.png){width="5.472672790901138in"
 height="5.316558398950131in"}
 
 -   How many variable groups to you want to restructure? Select "One"
     then "Next"
 
-![](./exercise-media/media/image19.png){width="6.5in"
+![](./media/image19.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   Case Group Identification should be changed to "Use selected
@@ -478,19 +478,19 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./exercise-media/media/image20.png){width="6.5in"
+![](./media/image20.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   How many index variables do you want to create? Select "one" then
     "Next"
 
-![](./exercise-media/media/image21.png){width="6.5in"
+![](./media/image21.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   What kind of index values? Select "Sequential Numbers" then select
     "Next"
 
-![](./exercise-media/media/image22.png){width="6.5in"
+![](./media/image22.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   Handling of Variables not Selected: Select "Keep and treat as fixed
@@ -503,7 +503,7 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./exercise-media/media/image23.png){width="6.5in"
+![](./media/image23.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   What do you want to do? Select "Restructure the data now". In the
@@ -514,14 +514,14 @@ height="6.314580052493438in"}
 -   The following message appears, click "Ok"
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.02.44
-AM.png](./exercise-media/media/image24.png){width="5.375in"
+AM.png](./media/image24.png){width="5.375in"
 height="1.4115113735783027in"}
 
 -   Inspect the data (and change "trans1" to "X")
 
     ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at
     11.03.50
-    AM.png](./exercise-media/media/image25.png){width="5.207962598425197in"
+    AM.png](./media/image25.png){width="5.207962598425197in"
     height="4.987069116360455in"}
 
 Exercise 7 Solution
@@ -535,7 +535,7 @@ Convert Exercise7\_Data from "Long" format to "Wide" format
 
 -   Select "Data" "Restructure" to open the Wizard
 
-![](./exercise-media/media/image26.png){width="5.521132983377078in"
+![](./media/image26.png){width="5.521132983377078in"
 height="5.363636264216973in"}
 
 -   Identifier Variable(s): ID
@@ -544,14 +544,14 @@ height="5.363636264216973in"}
 
 -   Select "Next"
 
-![](./exercise-media/media/image27.png){width="6.5in"
+![](./media/image27.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   Sort the current data? Yes
 
 -   Select "Next"
 
-![](./exercise-media/media/image28.png){width="6.5in"
+![](./media/image28.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   Order of New Variable Groups: Group by original variable
@@ -560,23 +560,23 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./exercise-media/media/image29.png){width="6.5in"
+![](./media/image29.png){width="6.5in"
 height="6.314580052493438in"}
 
 -   Select "Restructure the Data Now" and "Finish"
 
-![](./exercise-media/media/image30.png){width="6.375in"
+![](./media/image30.png){width="6.375in"
 height="6.193145231846019in"}
 
 -   The following message will appear, select "Ok". Inspect the data and
     save!
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.02.44
-AM.png](./exercise-media/media/image24.png){width="5.375in"
+AM.png](./media/image24.png){width="5.375in"
 height="1.4115113735783027in"}
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.07.35
-AM.png](./exercise-media/media/image31.png){width="6.482638888888889in"
+AM.png](./media/image31.png){width="6.482638888888889in"
 height="3.345138888888889in"}
 
 Exercise 8 Solutions
@@ -597,7 +597,7 @@ Select the "Variable View" tab
 Investigate the labels and measure of each variable
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.24.37
-AM.png](./exercise-media/media/image32.png){width="6.637844488188977in"
+AM.png](./media/image32.png){width="6.637844488188977in"
 height="3.8053280839895014in"}
 
 Obtain the appropriate descriptive statistics for each variable in the
@@ -621,7 +621,7 @@ Descriptives:
 -   Notice there are only 519 respondents that have valid data points
     for all of the continuous variables.
 
-![](./exercise-media/media/image33.png){width="4.870138888888889in"
+![](./media/image33.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
   ------------------------ ------ --------- --------- ------- ----------------
@@ -645,7 +645,7 @@ Frequency Tables:
 -   Select the following variables: sex, region, race, happy, life,
     occcat80
 
-![](./exercise-media/media/image34.png){width="4.870138888888889in"
+![](./media/image34.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
 -   Investigate the output
@@ -667,12 +667,12 @@ Solution:
 
 -   Select OK
 
-![](./exercise-media/media/image35.png){width="4.979166666666667in"
+![](./media/image35.png){width="4.979166666666667in"
 height="4.484458661417323in"}
 
 Investigate the output
 
-![](./exercise-media/media/image36.png){width="3.9791666666666665in"
+![](./media/image36.png){width="3.9791666666666665in"
 height="3.177302055993001in"}
 
 -   Q-Q Plot
@@ -683,7 +683,7 @@ height="3.177302055993001in"}
 
 -   Select OK
 
-![](./exercise-media/media/image37.png){width="4.135010936132983in"
+![](./media/image37.png){width="4.135010936132983in"
 height="2.990590551181102in"}
 
 -   Investigate the output
@@ -694,7 +694,7 @@ height="2.990590551181102in"}
 -   It is particularly important to pay attention to the "tails", or the
     left most and right most points to see if they follow the line
 
-![](./exercise-media/media/image38.png){width="4.264880796150481in"
+![](./media/image38.png){width="4.264880796150481in"
 height="3.40544072615923in"}
 
 **Part 3**: Compare the average highest year of school completed
@@ -713,7 +713,7 @@ Solution:
 
 -   Select "Ok"
 
-![](./exercise-media/media/image39.png){width="4.628517060367454in"
+![](./media/image39.png){width="4.628517060367454in"
 height="3.5987948381452317in"}
 
 -   Compute the 5-Point Summary Descriptives for "educ"
@@ -724,7 +724,7 @@ height="3.5987948381452317in"}
 
 -   Select "Ok"
 
-![](./exercise-media/media/image40.png){width="4.664867672790901in"
+![](./media/image40.png){width="4.664867672790901in"
 height="2.9480522747156606in"}
 
 -   Investigate the output
@@ -762,7 +762,7 @@ Solution:
 
 -   Select "Define"
 
-![](./exercise-media/media/image41.png){width="2.5505949256342957in"
+![](./media/image41.png){width="2.5505949256342957in"
 height="1.8178455818022747in"}
 
 -   Select the variable "region" for "Define Slices by:"
@@ -772,12 +772,12 @@ height="1.8178455818022747in"}
 
 -   Select "Ok"
 
-![](./exercise-media/media/image42.png){width="4.602543744531934in"
+![](./media/image42.png){width="4.602543744531934in"
 height="4.990481189851269in"}
 
 -   Investigate the output
 
-![](./exercise-media/media/image43.png){width="3.5505949256342957in"
+![](./media/image43.png){width="3.5505949256342957in"
 height="2.835094050743657in"}
 
 Exercise A1 -- Categorical Data Analysis
@@ -821,7 +821,7 @@ display the variable.
 
 -   "Analyze" "Descriptive Statistics" "Frequencies"
 
-![](./exercise-media/media/image44.png){width="4.864583333333333in"
+![](./media/image44.png){width="4.864583333333333in"
 height="3.0833333333333335in"}
 
 -   Enter the following information
@@ -840,16 +840,16 @@ height="3.0833333333333335in"}
 
     -   Select Ok
 
-![](./exercise-media/media/image45.png){width="2.8333333333333335in"
+![](./media/image45.png){width="2.8333333333333335in"
 height="2.9791666666666665in"}
 
-![](./exercise-media/media/image46.png){width="1.90625in"
+![](./media/image46.png){width="1.90625in"
 height="0.9479166666666666in"}
 
-![](./exercise-media/media/image47.png){width="5.15625in"
+![](./media/image47.png){width="5.15625in"
 height="1.96875in"}
 
-![](./exercise-media/media/image48.png){width="6.5in"
+![](./media/image48.png){width="6.5in"
 height="5.197916666666667in"}
 
 **Question 2**
@@ -872,7 +872,7 @@ apparent relationship is statistically significant?
 
     -   Columns: happy
 
-![](./exercise-media/media/image49.png){width="4.628517060367454in"
+![](./media/image49.png){width="4.628517060367454in"
 height="3.82830271216098in"}
 
 -   Select the Statistics button
@@ -881,7 +881,7 @@ height="3.82830271216098in"}
 
     -   Select Continue
 
-![](./exercise-media/media/image50.png){width="3.0051410761154855in"
+![](./media/image50.png){width="3.0051410761154855in"
 height="3.3971161417322833in"}
 
 -   Select the Cells button
@@ -898,7 +898,7 @@ height="3.3971161417322833in"}
 
 -   Select Ok
 
-![](./exercise-media/media/image51.png){width="3.4375in"
+![](./media/image51.png){width="3.4375in"
 height="3.8125in"}
 
 -   The Pearson Chi-Square statistic indicates that the differences
@@ -920,16 +920,16 @@ height="3.8125in"}
     -   The clustered bar chart also shows that there are greater
         numbers of women that indicate that they are "not too happy".
 
-![](./exercise-media/media/image52.png){width="5.90625in"
+![](./media/image52.png){width="5.90625in"
 height="1.28125in"}
 
-![](./exercise-media/media/image53.png){width="6.5in"
+![](./media/image53.png){width="6.5in"
 height="2.6211231408573927in"}
 
-![](./exercise-media/media/image54.png){width="4.125in"
+![](./media/image54.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./exercise-media/media/image55.png){width="4.507012248468941in"
+![](./media/image55.png){width="4.507012248468941in"
 height="3.6041666666666665in"}
 
 **Question 3**
@@ -989,28 +989,28 @@ positive or negative? Is it statistically significant.
 
 -   Save this data set as Exercise11\_Data\_Updated
 
-![](./exercise-media/media/image56.png){width="3.53125in"
+![](./media/image56.png){width="3.53125in"
 height="2.0625in"}
 
-![](./exercise-media/media/image57.png){width="5.625in"
+![](./media/image57.png){width="5.625in"
 height="6.114583333333333in"}
 
-![](./exercise-media/media/image58.png){width="3.6666666666666665in"
+![](./media/image58.png){width="3.6666666666666665in"
 height="5.270833333333333in"}
 
-![](./exercise-media/media/image59.png){width="3.966178915135608in"
+![](./media/image59.png){width="3.966178915135608in"
 height="4.2551870078740155in"}
 
-![](./exercise-media/media/image60.png){width="4.316828521434821in"
+![](./media/image60.png){width="4.316828521434821in"
 height="3.45207895888014in"}
 
-![](./exercise-media/media/image61.png){width="3.992153324584427in"
+![](./media/image61.png){width="3.992153324584427in"
 height="3.5929374453193352in"}
 
-![](./exercise-media/media/image62.png){width="5.472672790901138in"
+![](./media/image62.png){width="5.472672790901138in"
 height="2.1187445319335083in"}
 
-![](./exercise-media/media/image62.png){width="5.563582677165354in"
+![](./media/image62.png){width="5.563582677165354in"
 height="2.153940288713911in"}
 
 Exercise A2 -- Continuous Data Analysis
@@ -1075,16 +1075,16 @@ there is a relationship between a student's socio-economic status and
 whether or not the student would participate in a racially insensitive
 joke.
 
-![](./exercise-media/media/image63.png){width="5.90625in"
+![](./media/image63.png){width="5.90625in"
 height="1.53125in"}
 
-![](./exercise-media/media/image64.png){width="5.229166666666667in"
+![](./media/image64.png){width="5.229166666666667in"
 height="3.3229166666666665in"}
 
-![](./exercise-media/media/image65.png){width="4.125in"
+![](./media/image65.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./exercise-media/media/image66.png){width="4.0625in"
+![](./media/image66.png){width="4.0625in"
 height="3.2486975065616797in"}
 
 **Research Question 2:** Is there a relationship between a student's
@@ -1106,16 +1106,16 @@ between "Race" and "BIndBehint\_Post". We do not have enough evidence to
 say that there is a relationship between a student's race and their post
 intervention behavior intention score.
 
-![](./exercise-media/media/image67.png){width="6.5in"
+![](./media/image67.png){width="6.5in"
 height="1.6107633420822398in"}
 
-![](./exercise-media/media/image68.png){width="3.15625in"
+![](./media/image68.png){width="3.15625in"
 height="1.0729166666666667in"}
 
-![](./exercise-media/media/image69.png){width="5.270833333333333in"
+![](./media/image69.png){width="5.270833333333333in"
 height="1.5104166666666667in"}
 
-![](./exercise-media/media/image70.png){width="3.78125in"
+![](./media/image70.png){width="3.78125in"
 height="3.023788276465442in"}
 
 **Research Question 3:** Is there a relationship between the race of a
@@ -1136,13 +1136,13 @@ student's SES and race. Notice the error message under the Chi-Square
 results table---in this case, we need to verify our statistically
 significant results with Fisher's Exact Test (pvalue=.025).
 
-![](./exercise-media/media/image71.png){width="6.229166666666667in"
+![](./media/image71.png){width="6.229166666666667in"
 height="3.1979166666666665in"}
 
-![](./exercise-media/media/image72.png){width="4.125in"
+![](./media/image72.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./exercise-media/media/image73.png){width="5.353707349081365in"
+![](./media/image73.png){width="5.353707349081365in"
 height="4.28125in"}
 
 Exercise A3 -- Methodology Choice Practice
@@ -1218,36 +1218,36 @@ variable graphing procedures, and bivariate procedures.
 **Investigate 'Salary' with descriptive statistics, box plot, and
 histogram**
 
-![](./exercise-media/media/image74.png){width="4.870138888888889in"
+![](./media/image74.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
-![](./exercise-media/media/image75.png){width="6.16875in"
+![](./media/image75.png){width="6.16875in"
 height="1.0777777777777777in"}
 
-![](./exercise-media/media/image76.png){width="5.49375in"
+![](./media/image76.png){width="5.49375in"
 height="4.947916666666667in"}
 
-![](./exercise-media/media/image77.png){width="4.277867454068241in"
+![](./media/image77.png){width="4.277867454068241in"
 height="3.415810367454068in"}
 
-![](./exercise-media/media/image78.png){width="4.329816272965879in"
+![](./media/image78.png){width="4.329816272965879in"
 height="4.666395450568679in"}
 
-![](./exercise-media/media/image79.png){width="4.316828521434821in"
+![](./media/image79.png){width="4.316828521434821in"
 height="3.446920384951881in"}
 
 **Investigate 'Gender' with a frequency table and bar chart**
 
-![](./exercise-media/media/image80.png){width="4.870138888888889in"
+![](./media/image80.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
-![](./exercise-media/media/image81.png){width="2.83125in"
+![](./media/image81.png){width="2.83125in"
 height="2.9743055555555555in"}
 
-![](./exercise-media/media/image82.wmf){width="2.5416666666666665in"
+![](./media/image82.wmf){width="2.5416666666666665in"
 height="1.2604166666666667in"}
 
-![](./exercise-media/media/image83.png){width="4.576569335083114in"
+![](./media/image83.png){width="4.576569335083114in"
 height="3.6653280839895013in"}
 
 **Investigate the average salary for males and females separately
@@ -1255,40 +1255,40 @@ height="3.6653280839895013in"}
 
 Remember to split the file by the gender variable ('male').
 
-![](./exercise-media/media/image84.png){width="4.610416666666667in"
+![](./media/image84.png){width="4.610416666666667in"
 height="3.584722222222222in"}
 
-![](./exercise-media/media/image85.png){width="4.870138888888889in"
+![](./media/image85.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
-![](./exercise-media/media/image86.png){width="6.5in"
+![](./media/image86.png){width="6.5in"
 height="1.5304133858267717in"}
 
 The descriptive statistics table above indicates that males earn more
 than females on average.
 
-![](./exercise-media/media/image87.png){width="4.498647200349956in"
+![](./media/image87.png){width="4.498647200349956in"
 height="4.051683070866142in"}
 
-![](./exercise-media/media/image88.png){width="4.400516185476816in"
+![](./media/image88.png){width="4.400516185476816in"
 height="3.51374343832021in"}
 
-![](./exercise-media/media/image89.png){width="4.872189413823272in"
+![](./media/image89.png){width="4.872189413823272in"
 height="3.8903674540682416in"}
 
 Also remember to remove the 'split file' option.
 
-![](./exercise-media/media/image90.png){width="4.610416666666667in"
+![](./media/image90.png){width="4.610416666666667in"
 height="3.584722222222222in"}
 
-![](./exercise-media/media/image91.png){width="4.628517060367454in"
+![](./media/image91.png){width="4.628517060367454in"
 height="3.8586220472440944in"}
 
 The Boxplot below indicates that males have a higher median salary than
 females, and both males and females have outliers (observation 148 and
 58 respectively).
 
-![](./exercise-media/media/image92.png){width="4.97696084864392in"
+![](./media/image92.png){width="4.97696084864392in"
 height="3.974025590551181in"}
 
 **Perform an independent samples t-test **
@@ -1296,14 +1296,14 @@ height="3.974025590551181in"}
 Remember that the dialogue box for the independent samples t-test is
 located under 'Analyze' then 'Compare Means'.
 
-![](./exercise-media/media/image93.png){width="3.654491469816273in"
-height="2.3173534558180227in"}![](./exercise-media/media/image94.png){width="2.4805555555555556in"
+![](./media/image93.png){width="3.654491469816273in"
+height="2.3173534558180227in"}![](./media/image94.png){width="2.4805555555555556in"
 height="2.0388888888888888in"}
 
-![](./exercise-media/media/image95.png){width="6.207638888888889in"
+![](./media/image95.png){width="6.207638888888889in"
 height="0.9611111111111111in"}
 
-![](./exercise-media/media/image96.png){width="6.5in"
+![](./media/image96.png){width="6.5in"
 height="1.0975918635170603in"}
 
 The table above indicates that we cannot assume equal variances between
@@ -1326,23 +1326,23 @@ investigate a scatter plot of the two variables**
 
 In SPSS, select 'Analyze' 'Correlate' 'Bivariate'
 
-![](./exercise-media/media/image97.png){width="4.0181277340332455in"
+![](./media/image97.png){width="4.0181277340332455in"
 height="3.6152088801399827in"}
 
-![](./exercise-media/media/image98.png){width="5.090972222222222in"
+![](./media/image98.png){width="5.090972222222222in"
 height="2.441666666666667in"}
 
 We see from the table above that there is a statistically significant
 correlation between faculty salary and marketability of the discipline
 (r=.407, pvalue\<.001).
 
-![](./exercise-media/media/image99.png){width="3.532638888888889in"
+![](./media/image99.png){width="3.532638888888889in"
 height="2.0652777777777778in"}
 
-![](./exercise-media/media/image100.png){width="4.459686132983377in"
+![](./media/image100.png){width="4.459686132983377in"
 height="4.850693350831146in"}
 
-![](./exercise-media/media/image101.png){width="4.719426946631671in"
+![](./media/image101.png){width="4.719426946631671in"
 height="3.7683891076115485in"}
 
 **Perform a simple linear regression where 'salary' is the
@@ -1355,26 +1355,26 @@ Model' menu.
 
 Select 'Analyze' 'Regression' 'Linear'
 
-![](./exercise-media/media/image102.png){width="4.36877624671916in"
+![](./media/image102.png){width="4.36877624671916in"
 height="3.584650043744532in"}
 
-![](./exercise-media/media/image103.png){width="3.8958333333333335in"
+![](./media/image103.png){width="3.8958333333333335in"
 height="3.49375in"}
 
-![](./exercise-media/media/image104.png){width="4.298611111111111in"
+![](./media/image104.png){width="4.298611111111111in"
 height="1.0777777777777777in"}
 
 Notice that the regression menu provides the correlation between the
 variables included in the model.
 
-![](./exercise-media/media/image105.png){width="5.090972222222222in"
+![](./media/image105.png){width="5.090972222222222in"
 height="2.558333333333333in"}
 
 The table below provides the R Square value and adjusted R Square value.
 The proportion of variance in faculty salary explained by marketability
 of discipline is 16.6%.
 
-![](./exercise-media/media/image106.png){width="4.052083333333333in"
+![](./media/image106.png){width="4.052083333333333in"
 height="1.0777777777777777in"}
 
 The table below indicates that the model fitted is significantly better
@@ -1382,7 +1382,7 @@ than what we would expect by chance (F=101.771, pvalue\<.001). The null
 hypothesis is that there is no linear relationship between faculty
 salary and marketability, and we reject this hypothesis.
 
-![](./exercise-media/media/image107.png){width="5.50625in"
+![](./media/image107.png){width="5.50625in"
 height="1.7659722222222223in"}
 
 The table below provides the parameter estimates for our model. For
@@ -1393,7 +1393,7 @@ marketability is associated with an estimated increase in mean salary of
 \$3,454. The constant (intercept) for the model is interpreted as the
 estimated mean salary when marketability is equal to zero.
 
-![](./exercise-media/media/image108.png){width="6.5in"
+![](./media/image108.png){width="6.5in"
 height="1.1952482502187227in"}
 
 Remember that the confidence intervals give us a range of reasonable
@@ -1416,15 +1416,15 @@ variables.
 
 Select 'Analyze' 'General Linear Model' 'Univariate'
 
-![](./exercise-media/media/image109.png){width="4.909027777777778in"
+![](./media/image109.png){width="4.909027777777778in"
 height="4.1819444444444445in"}
 
-![](./exercise-media/media/image110.png){width="4.005139982502187in"
+![](./media/image110.png){width="4.005139982502187in"
 height="4.132720909886264in"}
 
 The table below provides the descriptive statistics for faculty salary.
 
-![](./exercise-media/media/image111.png){width="2.636111111111111in"
+![](./media/image111.png){width="2.636111111111111in"
 height="1.0777777777777777in"}
 
 The table below indicates that the overall regression model is
@@ -1432,13 +1432,13 @@ significant (F=101.771, pvalue\<.001). This is indicated by the line for
 'Corrected Model'. The R Squared value is also listed in footnote a. for
 the table.
 
-![](./exercise-media/media/image112.png){width="5.246527777777778in"
+![](./media/image112.png){width="5.246527777777778in"
 height="2.4027777777777777in"}
 
 The parameter estimates table below provides the same information as the
 coefficients table above.
 
-![](./exercise-media/media/image113.png){width="5.753472222222222in"
+![](./media/image113.png){width="5.753472222222222in"
 height="1.3895833333333334in"}
 
 Notice that the results are the same between the two methods that can be
@@ -1451,10 +1451,10 @@ we will use the second method to obtain our regression results
 Perform the necessary regression diagnostics for the regression from
 exercise 2.
 
-![](./exercise-media/media/image114.png){width="3.4330172790901137in"
+![](./media/image114.png){width="3.4330172790901137in"
 height="4.0135225284339455in"}
 
-![](./exercise-media/media/image115.png){width="3.4986472003499562in"
+![](./media/image115.png){width="3.4986472003499562in"
 height="3.610094050743657in"}
 
 **Check the linearity and homogeneity of variance assumptions**
@@ -1463,16 +1463,16 @@ Plot the residuals against the predicted values from the model. The
 residuals should be randomly scattered around zero, and the variability
 should be constant in the plot.
 
-![](./exercise-media/media/image116.png){width="3.532638888888889in"
+![](./media/image116.png){width="3.532638888888889in"
 height="2.0652777777777778in"}
 
-![](./exercise-media/media/image117.png){width="6.5in"
+![](./media/image117.png){width="6.5in"
 height="4.652742782152231in"}
 
 The scatter plot below does not indicate that either assumption has been
 violated.
 
-![](./exercise-media/media/image118.png){width="4.8622834645669295in"
+![](./media/image118.png){width="4.8622834645669295in"
 height="3.8824573490813648in"}
 
 **Check for influential points**
@@ -1480,7 +1480,7 @@ height="3.8824573490813648in"}
 The scatter plot from exercise 2 did not indicate that there were points
 of interest.
 
-![](./exercise-media/media/image101.png){width="4.719426946631671in"
+![](./media/image101.png){width="4.719426946631671in"
 height="3.7683891076115485in"}
 
 A leverage point is an unusual point that has the potential to influence
@@ -1491,7 +1491,7 @@ parameters in the model. Here we estimate the intercept and slope for
 market, so p=2. This means that high leverage values are greater than
 2\*2/514=4/514=.0078. There are 53 points with high leverage.
 
-![](./exercise-media/media/image119.png){width="6.042713254593176in"
+![](./media/image119.png){width="6.042713254593176in"
 height="4.830773184601925in"}
 
 An influential point is one whose removal from the dataset would cause a
@@ -1505,26 +1505,26 @@ largest Cook's distance first. Remember a distance greater than 1 or
 large Cook's distances, but we do not have cause to remove them from the
 data set.
 
-![](./exercise-media/media/image120.png){width="5.602543744531934in"
+![](./media/image120.png){width="5.602543744531934in"
 height="4.478884514435696in"}
 
 **Check the normality assumption for the residuals**
 
-![](./exercise-media/media/image121.png){width="3.7843613298337706in"
+![](./media/image121.png){width="3.7843613298337706in"
 height="3.408365048118985in"}
 
 The plot below indicates that the normality assumption is reasonable.
 
-![](./exercise-media/media/image122.png){width="3.797347987751531in"
+![](./media/image122.png){width="3.797347987751531in"
 height="3.0321227034120737in"}
 
 A QQ plot can also be investigated ('Analyze' 'Descriptive Statistics'
 'QQ Plot')
 
-![](./exercise-media/media/image123.png){width="4.9272189413823275in"
+![](./media/image123.png){width="4.9272189413823275in"
 height="3.5635444006999126in"}
 
-![](./exercise-media/media/image124.png){width="5.433711723534558in"
+![](./media/image124.png){width="5.433711723534558in"
 height="4.338733595800525in"}
 
 **Activity 4: Multiple Regression with a Categorical Predictor**
@@ -1543,26 +1543,26 @@ market as the covariate. Remember that any categorical predictor in a
 basic regression model should be entered in as a 'fixed factor', while
 any continuous prediction is considered a 'covariate'.
 
-![](./exercise-media/media/image125.png){width="4.725941601049869in"
+![](./media/image125.png){width="4.725941601049869in"
 height="4.025974409448819in"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./exercise-media/media/image126.png){width="4.883333333333334in"
+![](./media/image126.png){width="4.883333333333334in"
 height="5.038888888888889in"}
 
 The table below indicates the number of Males and Females in the data
 set, along with the code that denotes the genders.
 
-![](./exercise-media/media/image127.png){width="2.6493055555555554in"
+![](./media/image127.png){width="2.6493055555555554in"
 height="0.9611111111111111in"}
 
 The table below indicates that the average salary for males is greater
 than the average salary for females (\$53,499.24 compared to
 \$42,916.60).
 
-![](./exercise-media/media/image128.png){width="3.2708333333333335in"
+![](./media/image128.png){width="3.2708333333333335in"
 height="1.5104166666666667in"}
 
 The table below indicates that the model fitted is significantly better
@@ -1574,7 +1574,7 @@ listed in footnote a. for the table. The proportion of variance in
 faculty salary explained jointly by marketability of discipline and
 gender is 25.1%. Notice that this is an increase from the previous model
 
-![](./exercise-media/media/image129.png){width="5.246527777777778in"
+![](./media/image129.png){width="5.246527777777778in"
 height="2.623611111111111in"}
 
 The table below provides the parameter estimates for the regression
@@ -1600,7 +1600,7 @@ in mean salary of \$2,997 holding gender constant.
 Notice that all of the predictor variables in the model are highly
 significant.
 
-![](./exercise-media/media/image130.png){width="5.753472222222222in"
+![](./media/image130.png){width="5.753472222222222in"
 height="2.0520833333333335in"}
 
 Note that the model fit above is also sometimes referred to as an
@@ -1614,7 +1614,7 @@ the predictors. Investigate the coefficients and R-squared. **
 
 First investigate a scatter plot between salary and time since degree.
 
-![](./exercise-media/media/image131.png){width="3.3854166666666665in"
+![](./media/image131.png){width="3.3854166666666665in"
 height="2.7072484689413825in"}
 
 Select 'Analyze' 'General Linear Model' 'Univariate'
@@ -1624,20 +1624,20 @@ market and yearsdg as the covariates. Remember that any categorical
 predictor in a basic regression model should be entered in as a 'fixed
 factor', while any continuous prediction is considered a 'covariate'.
 
-![](./exercise-media/media/image132.png){width="4.90625in"
+![](./media/image132.png){width="4.90625in"
 height="4.1875in"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./exercise-media/media/image133.png){width="3.3687773403324583in"
+![](./media/image133.png){width="3.3687773403324583in"
 height="3.476522309711286in"}
 
 The table below indicates that the R-squared value has increased from
 the last model to .684, and the model is significant (F=367.562,
 pvalue\<.001).
 
-![](./exercise-media/media/image134.png){width="5.25in"
+![](./media/image134.png){width="5.25in"
 height="2.8541666666666665in"}
 
 The estimated population mean salary for women is \$2,040.21 less than
@@ -1651,7 +1651,7 @@ marketability is estimated to increase average salary by \$38,402.
 Notice that all of the predictor variables in the model are highly
 significant.
 
-![](./exercise-media/media/image135.png){width="6.70844706911636in"
+![](./media/image135.png){width="6.70844706911636in"
 height="2.6493503937007876in"}
 
 **Activity 5: Multiple Regression with an Interaction**
@@ -1678,12 +1678,12 @@ for 'Add fit line at subgroups'. The lines for males and females are not
 parallel, and this is what we are investigating with the proposed
 interaction term.
 
-![](./exercise-media/media/image136.png){width="5.677083333333333in"
+![](./media/image136.png){width="5.677083333333333in"
 height="4.539846894138233in"}
 
 Select 'Analyze' 'General Linear Model' 'Univariate'
 
-![](./exercise-media/media/image137.png){width="3.7454002624671916in"
+![](./media/image137.png){width="3.7454002624671916in"
 height="3.1967115048118986in"}
 
 Select 'salary' as the dependent variable, 'male' as the fixed factor,
@@ -1698,20 +1698,20 @@ select 'Interaction' and select both male and yearsdg to create the
 interaction term. Select 'Continue'. Remember that main effects must
 always be included in a model that contains interaction terms.
 
-![](./exercise-media/media/image138.png){width="5.343488626421697in"
+![](./media/image138.png){width="5.343488626421697in"
 height="3.7395833333333335in"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./exercise-media/media/image139.png){width="4.199945319335083in"
+![](./media/image139.png){width="4.199945319335083in"
 height="4.334270559930009in"}
 
 The table below indicates that the model is significant (F=279.95,
 pvalue\<.001) and the R-squared has increased from the last model to
 .688.
 
-![](./exercise-media/media/image140.png){width="5.25in"
+![](./media/image140.png){width="5.25in"
 height="3.0729166666666665in"}
 
 In the presence of interaction terms, the main effect terms have
@@ -1729,7 +1729,7 @@ year since degree completion, we see the gender gap between males and
 females grows by \$227.153 on average when adjusting for the other
 covariates in the model.
 
-![](./exercise-media/media/image141.png){width="6.83236220472441in"
+![](./media/image141.png){width="6.83236220472441in"
 height="2.9870122484689414in"}
 
 **Activity 6: Multiple Regression with Diagnostics**
@@ -1745,10 +1745,10 @@ the interaction between gender and time since degree are the predictors.
 
 Create a side-by-side box plot for salary by rank.
 
-![](./exercise-media/media/image142.png){width="5.361036745406824in"
+![](./media/image142.png){width="5.361036745406824in"
 height="4.46753280839895in"}
 
-![](./exercise-media/media/image143.png){width="3.6354166666666665in"
+![](./media/image143.png){width="3.6354166666666665in"
 height="2.9071686351706036in"}
 
 Select 'Analyze' 'General Linear Model' 'Univariate'
@@ -1759,7 +1759,7 @@ that any categorical predictor in a basic regression model should be
 entered in as a 'fixed factor', while any continuous prediction is
 considered a 'covariate'.
 
-![](./exercise-media/media/image144.png){width="4.90625in"
+![](./media/image144.png){width="4.90625in"
 height="4.1875in"}
 
 Under 'Model', select 'Custom'. Under 'Build Terms' select 'Main Effect'
@@ -1768,7 +1768,7 @@ select 'Interaction' and select both male and yearsdg to create the
 interaction term. Select 'Continue'. Remember that main effects must
 always be included in a model that contains interaction terms.
 
-![](./exercise-media/media/image145.png){width="6.489583333333333in"
+![](./media/image145.png){width="6.489583333333333in"
 height="4.541666666666667in"}
 
 Under 'Save' select 'Unstandardized Predicted Values' and 'Standardized
@@ -1778,20 +1778,20 @@ Estimates', 'Residual Plot'
 The table below displays the coding scheme used for the categorical
 predictors (factors).
 
-![](./exercise-media/media/image146.png){width="2.6458333333333335in"
+![](./media/image146.png){width="2.6458333333333335in"
 height="1.625in"}
 
 The table below provides the descriptive statistics for salary broken
 out by gender and rank.
 
-![](./exercise-media/media/image147.png){width="4.03125in"
+![](./media/image147.png){width="4.03125in"
 height="3.3854166666666665in"}
 
 The table below indicates the model is significant (F=242.32,
 pvalue\<.001) and the R-squared value is .741 (an increase from the last
 model).
 
-![](./exercise-media/media/image148.png){width="5.25in"
+![](./media/image148.png){width="5.25in"
 height="3.2916666666666665in"}
 
 We can see from the table below that faculty rank is a significant
@@ -1806,7 +1806,7 @@ Professors and Full professors is \$7,819 after adjusting for the other
 covariates in the model. Put another way: Associate professors earn on
 average \$7,819 less than Full Professors, all else equal.
 
-![](./exercise-media/media/image149.png){width="6.395255905511811in"
+![](./media/image149.png){width="6.395255905511811in"
 height="3.4583333333333335in"}
 
 The residual plot below is given from the output. First investigate the
@@ -1820,7 +1820,7 @@ linearity assumption is not violated (this is approximately what we see
 here). Note that these plots could be made manually by creating scatter
 plots from the saved variables (predicted, residuals).
 
-![](./exercise-media/media/image150.png){width="4.233467847769029in"
+![](./media/image150.png){width="4.233467847769029in"
 height="3.3854166666666665in"}
 
 The GLM approach to regression doesn't allow for VIF's to be calculated
@@ -1828,10 +1828,10 @@ directly. Multicollinearity can attempt to be assessed through
 investigating the correlations or calculating the VIF manually. Note
 that pair wise correlations do not fully capture multicollinearity.
 
-![](./exercise-media/media/image151.png){width="3.4895833333333335in"
+![](./media/image151.png){width="3.4895833333333335in"
 height="3.1406255468066493in"}
 
-![](./exercise-media/media/image152.png){width="6.09375in"
+![](./media/image152.png){width="6.09375in"
 height="3.1145833333333335in"}
 
 Select 'Analyze' 'Descriptive Statistics' 'QQ Plot' and select the
@@ -1839,10 +1839,10 @@ residual variable. The plot below indicates that the distribution of the
 error terms is approximately normal. This can also be confirmed with a
 histogram.
 
-![](./exercise-media/media/image153.png){width="4.71875in"
+![](./media/image153.png){width="4.71875in"
 height="3.773487532808399in"}
 
-![](./exercise-media/media/image154.png){width="4.552083333333333in"
+![](./media/image154.png){width="4.552083333333333in"
 height="3.640207786526684in"}
 
 Exercise A5 -- Case Study II: AIDS (Logistic Regression)
@@ -1905,7 +1905,7 @@ opposite category has a higher value. Select LOG\_GDP as the only
 covariate, and click OK to fit the model. Results from fitting this
 model are included below.
 
-![](./exercise-media/media/image155.png){width="5.610416666666667in"
+![](./media/image155.png){width="5.610416666666667in"
 height="4.129861111111111in"}
 
 The first table rovides some information regarding the cases (rows) used
@@ -1913,7 +1913,7 @@ to fit that data. Note that three cases were lost in the analysis, due
 to missing data on the AIDSCAT2 variable. The final analysis sample size
 was 106.
 
-![](./exercise-media/media/image156.wmf){width="4.285416666666666in"
+![](./media/image156.wmf){width="4.285416666666666in"
 height="1.9743055555555555in"}
 
 The coding of the dependent variable is critical to understand. SPSS
@@ -1926,7 +1926,7 @@ matches up with our original 0=less than 1 in 100,000 and 1=more than 1
 in 100,000 coding so we will be modeling the probability of being in the
 "high" AIDS rate.
 
-![](./exercise-media/media/image157.wmf){width="2.6625in"
+![](./media/image157.wmf){width="2.6625in"
 height="1.0256944444444445in"}
 
 This initial classification table, located in "Block 0" of the output,
@@ -1937,7 +1937,7 @@ classification for all of the countries, and we would be correct 64.2%
 of the time. This table isn't all that informative by itself, we will
 compare it to a similar table in the next portion of the output.
 
-![](./exercise-media/media/image158.wmf){width="6.285416666666666in"
+![](./media/image158.wmf){width="6.285416666666666in"
 height="2.3506944444444446in"}
 
 This table, also in the "Block 0" portion of the output, shows the
@@ -1945,7 +1945,7 @@ maximum likelihood estimate of the intercept term in a logistic
 regression model without any covariates. This is simply the computed
 log-odds of the dependent variable being equal to 1.
 
-![](./exercise-media/media/image159.wmf){width="5.961111111111111in"
+![](./media/image159.wmf){width="5.961111111111111in"
 height="0.8444444444444444in"}
 
 We'll scroll down to the "Block 1" portion of the output, which will
@@ -1962,7 +1962,7 @@ it is classified into the 'low' AIDS rate group. These classifications
 are then compared with the actual observed classifications of the
 countries.
 
-![](./exercise-media/media/image160.wmf){width="6.285416666666666in"
+![](./media/image160.wmf){width="6.285416666666666in"
 height="2.1430555555555557in"}
 
 Note that we are actually doing a *worse* job of predicting the AIDS
@@ -1973,7 +1973,7 @@ be ***saved*** in the SPSS data set as an option if desired.
 Now, we examine the maximum likelihood estimate of the coefficient for
 LOG\_GDP in the logistic regression model:
 
-![](./exercise-media/media/image161.wmf){width="5.909027777777778in"
+![](./media/image161.wmf){width="5.909027777777778in"
 height="1.2465277777777777in"}
 
 The estimate of the parameter that represents the coefficient for
@@ -2010,25 +2010,25 @@ muslim. We need to identify the predictor as categorical so select the
 categorical button. Move the MUSLIM covariate into the 'Categorical
 Covariates' list.
 
-![](./exercise-media/media/image162.png){width="5.428472222222222in"
+![](./media/image162.png){width="5.428472222222222in"
 height="3.50625in"}
 
 Fit the logistic regression model by clicking on OK.
 
-![](./exercise-media/media/image163.png){width="5.2077602799650045in"
+![](./media/image163.png){width="5.2077602799650045in"
 height="3.844155730533683in"}
 
 Let's jump down to Block 1 in the output and first examine the
 classification table based on the model including the MUSLIM variable:
 
-![](./exercise-media/media/image164.wmf){width="6.285416666666666in"
+![](./media/image164.wmf){width="6.285416666666666in"
 height="2.1430555555555557in"}
 
 Note the substantial improvement in prediction accuracy by considering
 Muslim status! Now, we investigate the maximum likelihood estimate of
 the coefficient for MUSLIM:
 
-![](./exercise-media/media/image165.wmf){width="5.909027777777778in"
+![](./media/image165.wmf){width="5.909027777777778in"
 height="1.2465277777777777in"}
 
 The maximum likelihood estimate of the coefficient is -2.335, with a
@@ -2065,10 +2065,10 @@ babymort, urban, lit\_fema, lifeexpf, birth\_rt, tropical.* Have SPSS
 report confidence intervals for the odds ratios. (This is found under
 the 'Options' button in the Logistic Regression dialogue box.)
 
-![](./exercise-media/media/image166.png){width="5.610416666666667in"
+![](./media/image166.png){width="5.610416666666667in"
 height="4.129861111111111in"}
 
-![](./exercise-media/media/image167.png){width="4.909027777777778in"
+![](./media/image167.png){width="4.909027777777778in"
 height="4.0in"}
 
 Which predictors appear useful in predicting AIDS category? Do Muslim
@@ -2081,7 +2081,7 @@ The first table shows us that only 83 countries are used to fit this
 model, 26 were removed from analysis due to missing data on any of the
 variables used.
 
-![](./exercise-media/media/image168.wmf){width="4.285416666666666in"
+![](./media/image168.wmf){width="4.285416666666666in"
 height="1.9743055555555555in"}
 
 The first classification table (Block 0: Beginning Block) in the output
@@ -2092,7 +2092,7 @@ since 64.2% of the cases with a valid AIDS category are in the higher
 AIDS category). We would only be correct 59% of the time predicting by
 chance.
 
-![](./exercise-media/media/image169.wmf){width="5.870138888888889in"
+![](./media/image169.wmf){width="5.870138888888889in"
 height="1.8701388888888888in"}
 
 The 'Model Summary' table shows the --2 log-likelihood statistic for our
@@ -2105,20 +2105,20 @@ approximation suggests that our predictors explain about 43% of the
 variation in our response (not bad). The Nagelkerke R Square is a
 rescaled approximation that is constrained to fall between 0 and 1.
 
-![](./exercise-media/media/image170.wmf){width="3.285416666666667in"
+![](./media/image170.wmf){width="3.285416666666667in"
 height="1.0in"}
 
 The Block 1 classification table shows an increase in the percentage
 that is correctly classified (89.2% vs 59%) using the predicted
 probabilities and a 'cut-off' classification probability of 0.5.
 
-![](./exercise-media/media/image171.wmf){width="5.870138888888889in"
+![](./media/image171.wmf){width="5.870138888888889in"
 height="2.129861111111111in"}
 
 Let's examine the estimated coefficients for the predictors included in
 our model:
 
-![](./exercise-media/media/image172.wmf){width="5.753472222222222in"
+![](./media/image172.wmf){width="5.753472222222222in"
 height="2.532638888888889in"}
 
 The B column contains the estimated coefficients in the logistic
@@ -2177,10 +2177,10 @@ variables (such as weight, and acceleration).
 5)  Using the codebook below, define the proper attributes in Variable
     View
 
-![](./exercise-media/media/image173.png){width="6.5in"
+![](./media/image173.png){width="6.5in"
 height="2.324293525809274in"}
 
-![](./exercise-media/media/image174.png){width="3.295138888888889in"
+![](./media/image174.png){width="3.295138888888889in"
 height="2.295138888888889in"}
 
 **Working with Variables**
@@ -2345,10 +2345,10 @@ variables (such as weight, and acceleration).
     r.  You only need to modify the measurement type, variable labels,
         variable values, and missing values.
 
-![](./exercise-media/media/image173.png){width="6.5in"
+![](./media/image173.png){width="6.5in"
 height="2.324293525809274in"}
 
-![](./exercise-media/media/image174.png){width="3.295138888888889in"
+![](./media/image174.png){width="3.295138888888889in"
 height="2.295138888888889in"}
 
 **Working with Variables:**
@@ -2450,7 +2450,7 @@ height="2.295138888888889in"}
 
     c.  Select OK
 
-> ![](./exercise-media/media/image175.png){width="5.590277777777778in"
+> ![](./media/image175.png){width="5.590277777777778in"
 > height="2.295138888888889in"}
 
 2)  Get frequency tables for all categorical variables (nominal/ordinal)
@@ -2470,16 +2470,16 @@ height="2.295138888888889in"}
 
     f.  Select OK
 
-> ![](./exercise-media/media/image176.png){width="4.508333333333334in"
+> ![](./media/image176.png){width="4.508333333333334in"
 > height="3.967361111111111in"}
 >
-> ![](./exercise-media/media/image177.png){width="4.926388888888889in"
+> ![](./media/image177.png){width="4.926388888888889in"
 > height="1.9673611111111111in"}
 >
-> ![](./exercise-media/media/image178.png){width="5.0in"
+> ![](./media/image178.png){width="5.0in"
 > height="2.4180555555555556in"}
 >
-> ![](./exercise-media/media/image179.png){width="4.909722222222222in"
+> ![](./media/image179.png){width="4.909722222222222in"
 > height="1.7541666666666667in"}
 
 3)  Create a histogram of Horsepower.
@@ -2494,7 +2494,7 @@ height="2.295138888888889in"}
 
     k.  Investigate output
 
-> ![](./exercise-media/media/image180.jpeg){width="3.0611329833770777in"
+> ![](./media/image180.jpeg){width="3.0611329833770777in"
 > height="2.4527996500437443in"}
 
 4)  Create a histogram of Weight.
@@ -2509,7 +2509,7 @@ height="2.295138888888889in"}
 
     p.  Investigate output
 
-> ![](./exercise-media/media/image181.jpeg){width="3.4873632983377076in"
+> ![](./media/image181.jpeg){width="3.4873632983377076in"
 > height="2.794326334208224in"}
 
 5)  Create a QQ Plot for Weight (to help assess normality)
@@ -2520,7 +2520,7 @@ height="2.295138888888889in"}
 
     s.  Select OK
 
-> ![](./exercise-media/media/image182.jpeg){width="3.5857239720034997in"
+> ![](./media/image182.jpeg){width="3.5857239720034997in"
 > height="2.8731397637795277in"}
 
 6)  Create a bar chart for Origin.
@@ -2535,7 +2535,7 @@ height="2.295138888888889in"}
 
     x.  Select OK
 
-> ![](./exercise-media/media/image183.jpeg){width="2.9873632983377076in"
+> ![](./media/image183.jpeg){width="2.9873632983377076in"
 > height="2.3936898512685914in"}
 
 7)  Organize the output by Year (Analyzing groups of cases separately,
@@ -2572,7 +2572,7 @@ height="2.295138888888889in"}
 
         xxiv. Select OK
 
-![](./exercise-media/media/image184.png){width="4.487363298337708in"
+![](./media/image184.png){width="4.487363298337708in"
 height="5.060705380577428in"}
 
 z.  Investigate Weight (descriptive statistics)
@@ -2583,7 +2583,7 @@ z.  Investigate Weight (descriptive statistics)
 
     xxvii.  Select OK
 
-![](./exercise-media/media/image185.png){width="5.791666666666667in"
+![](./media/image185.png){width="5.791666666666667in"
 height="6.291666666666667in"}
 
 a.  What do you see happening in these two variables over time?
@@ -2630,7 +2630,7 @@ b.  Remember to turn the Split File command off before proceeding!
 
         x.  Close out of chart editor
 
-![](./exercise-media/media/image186.jpeg){width="3.536544181977253in"
+![](./media/image186.jpeg){width="3.536544181977253in"
 height="2.833733595800525in"}
 
 b.  What is the relationship between Horsepower and Weight as shown in
@@ -2694,7 +2694,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
 
     l.  Select OK
 
-![](./exercise-media/media/image187.png){width="4.552220034995625in"
+![](./media/image187.png){width="4.552220034995625in"
 height="3.639344925634296in"}
 
 3)  What is the general trend of MPG across years?
@@ -2719,7 +2719,7 @@ height="3.639344925634296in"}
 
     f.  Select OK
 
-> ![](./exercise-media/media/image188.png){width="4.511209536307962in"
+> ![](./media/image188.png){width="4.511209536307962in"
 > height="3.6065573053368327in"}
 
 a.  What is the general relationship between MPG and the Origin of the
@@ -2743,7 +2743,7 @@ b.  Create a side-by-side Boxplot of Miles per gallon vs. the recoded
 
     g.  Select OK
 
-![](./exercise-media/media/image189.png){width="4.336912729658793in"
+![](./media/image189.png){width="4.336912729658793in"
 height="3.4672134733158355in"}
 
 1)  Create a correlation matrix and scatter plot matrix for Horsepower,
