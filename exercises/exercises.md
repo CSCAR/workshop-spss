@@ -1244,7 +1244,7 @@ height="3.077777777777778in"}
 ![](./media/image81.png){width="2.83125in"
 height="2.9743055555555555in"}
 
-![](./media/image82.wmf){width="2.5416666666666665in"
+![](./media/image82.png){width="2.5416666666666665in"
 height="1.2604166666666667in"}
 
 ![](./media/image83.png){width="4.576569335083114in"
@@ -1913,7 +1913,7 @@ to fit that data. Note that three cases were lost in the analysis, due
 to missing data on the AIDSCAT2 variable. The final analysis sample size
 was 106.
 
-![](./media/image156.wmf){width="4.285416666666666in"
+![](./media/image156.png){width="4.285416666666666in"
 height="1.9743055555555555in"}
 
 The coding of the dependent variable is critical to understand. SPSS
@@ -1926,7 +1926,7 @@ matches up with our original 0=less than 1 in 100,000 and 1=more than 1
 in 100,000 coding so we will be modeling the probability of being in the
 "high" AIDS rate.
 
-![](./media/image157.wmf){width="2.6625in"
+![](./media/image157.png){width="2.6625in"
 height="1.0256944444444445in"}
 
 This initial classification table, located in "Block 0" of the output,
@@ -1937,7 +1937,7 @@ classification for all of the countries, and we would be correct 64.2%
 of the time. This table isn't all that informative by itself, we will
 compare it to a similar table in the next portion of the output.
 
-![](./media/image158.wmf){width="6.285416666666666in"
+![](./media/image158.png){width="6.285416666666666in"
 height="2.3506944444444446in"}
 
 This table, also in the "Block 0" portion of the output, shows the
@@ -1945,7 +1945,7 @@ maximum likelihood estimate of the intercept term in a logistic
 regression model without any covariates. This is simply the computed
 log-odds of the dependent variable being equal to 1.
 
-![](./media/image159.wmf){width="5.961111111111111in"
+![](./media/image159.png){width="5.961111111111111in"
 height="0.8444444444444444in"}
 
 We'll scroll down to the "Block 1" portion of the output, which will
@@ -1962,7 +1962,7 @@ it is classified into the 'low' AIDS rate group. These classifications
 are then compared with the actual observed classifications of the
 countries.
 
-![](./media/image160.wmf){width="6.285416666666666in"
+![](./media/image160.png){width="6.285416666666666in"
 height="2.1430555555555557in"}
 
 Note that we are actually doing a *worse* job of predicting the AIDS
@@ -1973,7 +1973,7 @@ be ***saved*** in the SPSS data set as an option if desired.
 Now, we examine the maximum likelihood estimate of the coefficient for
 LOG\_GDP in the logistic regression model:
 
-![](./media/image161.wmf){width="5.909027777777778in"
+![](./media/image161.png){width="5.909027777777778in"
 height="1.2465277777777777in"}
 
 The estimate of the parameter that represents the coefficient for
@@ -2021,14 +2021,14 @@ height="3.844155730533683in"}
 Let's jump down to Block 1 in the output and first examine the
 classification table based on the model including the MUSLIM variable:
 
-![](./media/image164.wmf){width="6.285416666666666in"
+![](./media/image164.png){width="6.285416666666666in"
 height="2.1430555555555557in"}
 
 Note the substantial improvement in prediction accuracy by considering
 Muslim status! Now, we investigate the maximum likelihood estimate of
 the coefficient for MUSLIM:
 
-![](./media/image165.wmf){width="5.909027777777778in"
+![](./media/image165.png){width="5.909027777777778in"
 height="1.2465277777777777in"}
 
 The maximum likelihood estimate of the coefficient is -2.335, with a
@@ -2081,7 +2081,7 @@ The first table shows us that only 83 countries are used to fit this
 model, 26 were removed from analysis due to missing data on any of the
 variables used.
 
-![](./media/image168.wmf){width="4.285416666666666in"
+![](./media/image168.png){width="4.285416666666666in"
 height="1.9743055555555555in"}
 
 The first classification table (Block 0: Beginning Block) in the output
@@ -2092,7 +2092,7 @@ since 64.2% of the cases with a valid AIDS category are in the higher
 AIDS category). We would only be correct 59% of the time predicting by
 chance.
 
-![](./media/image169.wmf){width="5.870138888888889in"
+![](./media/image169.png){width="5.870138888888889in"
 height="1.8701388888888888in"}
 
 The 'Model Summary' table shows the --2 log-likelihood statistic for our
@@ -2105,20 +2105,20 @@ approximation suggests that our predictors explain about 43% of the
 variation in our response (not bad). The Nagelkerke R Square is a
 rescaled approximation that is constrained to fall between 0 and 1.
 
-![](./media/image170.wmf){width="3.285416666666667in"
+![](./media/image170.png){width="3.285416666666667in"
 height="1.0in"}
 
 The Block 1 classification table shows an increase in the percentage
 that is correctly classified (89.2% vs 59%) using the predicted
 probabilities and a 'cut-off' classification probability of 0.5.
 
-![](./media/image171.wmf){width="5.870138888888889in"
+![](./media/image171.png){width="5.870138888888889in"
 height="2.129861111111111in"}
 
 Let's examine the estimated coefficients for the predictors included in
 our model:
 
-![](./media/image172.wmf){width="5.753472222222222in"
+![](./media/image172.png){width="5.753472222222222in"
 height="2.532638888888889in"}
 
 The B column contains the estimated coefficients in the logistic
