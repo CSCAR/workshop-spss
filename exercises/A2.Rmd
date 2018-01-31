@@ -60,16 +60,16 @@ there is a relationship between a student's socio-economic status and
 whether or not the student would participate in a racially insensitive
 joke.
 
-![](./media/image63.png){width="5.90625in"
+![](./media/spss-exer-image63.png){width="5.90625in"
 height="1.53125in"}
 
-![](./media/image64.png){width="5.229166666666667in"
+![](./media/spss-exer-image64.png){width="5.229166666666667in"
 height="3.3229166666666665in"}
 
-![](./media/image65.png){width="4.125in"
+![](./media/spss-exer-image65.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./media/image66.png){width="4.0625in"
+![](./media/spss-exer-image66.png){width="4.0625in"
 height="3.2486975065616797in"}
 
 **Research Question 2:** Is there a relationship between a student's
@@ -91,16 +91,16 @@ between "Race" and "BIndBehint\_Post". We do not have enough evidence to
 say that there is a relationship between a student's race and their post
 intervention behavior intention score.
 
-![](./media/image67.png){width="6.5in"
+![](./media/spss-exer-image67.png){width="6.5in"
 height="1.6107633420822398in"}
 
-![](./media/image68.png){width="3.15625in"
+![](./media/spss-exer-image68.png){width="3.15625in"
 height="1.0729166666666667in"}
 
-![](./media/image69.png){width="5.270833333333333in"
+![](./media/spss-exer-image69.png){width="5.270833333333333in"
 height="1.5104166666666667in"}
 
-![](./media/image70.png){width="3.78125in"
+![](./media/spss-exer-image70.png){width="3.78125in"
 height="3.023788276465442in"}
 
 **Research Question 3:** Is there a relationship between the race of a
@@ -121,11 +121,11 @@ student's SES and race. Notice the error message under the Chi-Square
 results table---in this case, we need to verify our statistically
 significant results with Fisher's Exact Test (pvalue=.025).
 
-![](./media/image71.png){width="6.229166666666667in"
+![](./media/spss-exer-image71.png){width="6.229166666666667in"
 height="3.1979166666666665in"}
 
-![](./media/image72.png){width="4.125in"
+![](./media/spss-exer-image72.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./media/image73.png){width="5.353707349081365in"
+![](./media/spss-exer-image73.png){width="5.353707349081365in"
 height="4.28125in"}

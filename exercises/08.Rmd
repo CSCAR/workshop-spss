@@ -16,7 +16,7 @@ Select the "Variable View" tab
 Investigate the labels and measure of each variable
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.24.37
-AM.png](./media/image32.png){width="6.637844488188977in"
+AM.png](./media/spss-exer-image32.png){width="6.637844488188977in"
 height="3.8053280839895014in"}
 
 Obtain the appropriate descriptive statistics for each variable in the
@@ -40,7 +40,7 @@ Descriptives:
 -   Notice there are only 519 respondents that have valid data points
     for all of the continuous variables.
 
-![](./media/image33.png){width="4.870138888888889in"
+![](./media/spss-exer-image33.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
   ------------------------ ------ --------- --------- ------- ----------------
@@ -64,7 +64,7 @@ Frequency Tables:
 -   Select the following variables: sex, region, race, happy, life,
     occcat80
 
-![](./media/image34.png){width="4.870138888888889in"
+![](./media/spss-exer-image34.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
 -   Investigate the output
@@ -86,12 +86,12 @@ Solution:
 
 -   Select OK
 
-![](./media/image35.png){width="4.979166666666667in"
+![](./media/spss-exer-image35.png){width="4.979166666666667in"
 height="4.484458661417323in"}
 
 Investigate the output
 
-![](./media/image36.png){width="3.9791666666666665in"
+![](./media/spss-exer-image36.png){width="3.9791666666666665in"
 height="3.177302055993001in"}
 
 -   Q-Q Plot
@@ -102,7 +102,7 @@ height="3.177302055993001in"}
 
 -   Select OK
 
-![](./media/image37.png){width="4.135010936132983in"
+![](./media/spss-exer-image37.png){width="4.135010936132983in"
 height="2.990590551181102in"}
 
 -   Investigate the output
@@ -113,7 +113,7 @@ height="2.990590551181102in"}
 -   It is particularly important to pay attention to the "tails", or the
     left most and right most points to see if they follow the line
 
-![](./media/image38.png){width="4.264880796150481in"
+![](./media/spss-exer-image38.png){width="4.264880796150481in"
 height="3.40544072615923in"}
 
 **Part 3**: Compare the average highest year of school completed
@@ -132,7 +132,7 @@ Solution:
 
 -   Select "Ok"
 
-![](./media/image39.png){width="4.628517060367454in"
+![](./media/spss-exer-image39.png){width="4.628517060367454in"
 height="3.5987948381452317in"}
 
 -   Compute the 5-Point Summary Descriptives for "educ"
@@ -143,7 +143,7 @@ height="3.5987948381452317in"}
 
 -   Select "Ok"
 
-![](./media/image40.png){width="4.664867672790901in"
+![](./media/spss-exer-image40.png){width="4.664867672790901in"
 height="2.9480522747156606in"}
 
 -   Investigate the output
@@ -181,7 +181,7 @@ Solution:
 
 -   Select "Define"
 
-![](./media/image41.png){width="2.5505949256342957in"
+![](./media/spss-exer-image41.png){width="2.5505949256342957in"
 height="1.8178455818022747in"}
 
 -   Select the variable "region" for "Define Slices by:"
@@ -191,10 +191,10 @@ height="1.8178455818022747in"}
 
 -   Select "Ok"
 
-![](./media/image42.png){width="4.602543744531934in"
+![](./media/spss-exer-image42.png){width="4.602543744531934in"
 height="4.990481189851269in"}
 
 -   Investigate the output
 
-![](./media/image43.png){width="3.5505949256342957in"
+![](./media/spss-exer-image43.png){width="3.5505949256342957in"
 height="2.835094050743657in"}

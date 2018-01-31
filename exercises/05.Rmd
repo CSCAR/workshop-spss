@@ -16,7 +16,7 @@ Select male managers. What is their average age?
     select the If button
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.04
-AM.png](./media/image14.png){width="4.327660761154855in"
+AM.png](./media/spss-exer-image14.png){width="4.327660761154855in"
 height="4.396551837270342in"}
 
 -   Enter the following information
@@ -26,7 +26,7 @@ height="4.396551837270342in"}
     -   Continue
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.50
-AM.png](./media/image15.png){width="4.5in"
+AM.png](./media/spss-exer-image15.png){width="4.5in"
 height="3.0317311898512687in"}
 
 -   Under Output: Select Filter Out Unselected Cases
@@ -38,7 +38,7 @@ height="3.0317311898512687in"}
 -   "Analyze" "Descriptive Statistics" "Descriptives"
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./media/image16.png){width="4.387911198600175in"
+AM.png](./media/spss-exer-image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
 -   Select the age variable, select Ok
@@ -83,14 +83,14 @@ category.
 -   Select Ok
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.27.12
-AM.png](./media/image17.png){width="4.004309930008749in"
+AM.png](./media/spss-exer-image17.png){width="4.004309930008749in"
 height="2.963445975503062in"}
 
 -   AnalyzeDescriptive StatisticsDescriptives, select the age variable,
     select Ok
 
 ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./media/image16.png){width="4.387911198600175in"
+AM.png](./media/spss-exer-image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
 -   Turn off the split file!

@@ -6,7 +6,7 @@ it can be imported into SPSS properly. Save the file and close it. Open
 the file in SPSS (import it). Export this file back into Excel, but only
 save the following variables: id, salary, minority.
 
-![](./media/image2.png){width="6.5in"
+![](./media/spss-exer-image2.png){width="6.5in"
 height="4.440387139107612in"}
 
 Solution:
@@ -21,7 +21,7 @@ Solution:
 
 -   Close Exercise2\_Data\_Ready
 
-![](./media/image3.png){width="6.5in"
+![](./media/spss-exer-image3.png){width="6.5in"
 height="4.440387139107612in"}
 
 -   Open SPSS
@@ -40,10 +40,10 @@ height="4.440387139107612in"}
 
 -   The Excel data should now open in the Data Editor
 
-![](./media/image4.png){width="6.239583333333333in"
+![](./media/spss-exer-image4.png){width="6.239583333333333in"
 height="3.3229166666666665in"}
 
-![](./media/image5.png){width="4.041666666666667in"
+![](./media/spss-exer-image5.png){width="4.041666666666667in"
 height="2.5in"}
 
 -   Delete any "blank" rows of data or columns of data (indicated by
@@ -68,8 +68,8 @@ height="2.5in"}
 -   Open the new file (Exercise2\_Data\_Ready\_short) to investigate the
     results
 
-![](./media/image6.png){width="4.550594925634296in"
+![](./media/spss-exer-image6.png){width="4.550594925634296in"
 height="3.4982699037620297in"}
 
-![](./media/image7.png){width="3.7843613298337706in"
+![](./media/spss-exer-image7.png){width="3.7843613298337706in"
 height="2.914981408573928in"}

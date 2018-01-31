@@ -23,7 +23,7 @@ Solution:
 
 -   Select Ok, and the new variable will appear in the data set
 
-![](./media/image12.png){width="6.459686132983377in"
+![](./media/spss-exer-image12.png){width="6.459686132983377in"
 height="5.278486439195101in"}
 
 Recode the education variable according to the following
@@ -74,5 +74,5 @@ Solution:
 
 -   Check the dataset in Data View
 
-![](./media/image13.png){width="6.5in"
+![](./media/spss-exer-image13.png){width="6.5in"
 height="3.7894663167104112in"}

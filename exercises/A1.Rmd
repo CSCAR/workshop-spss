@@ -39,7 +39,7 @@ display the variable.
 
 -   "Analyze" "Descriptive Statistics" "Frequencies"
 
-![](./media/image44.png){width="4.864583333333333in"
+![](./media/spss-exer-image44.png){width="4.864583333333333in"
 height="3.0833333333333335in"}
 
 -   Enter the following information
@@ -58,16 +58,16 @@ height="3.0833333333333335in"}
 
     -   Select Ok
 
-![](./media/image45.png){width="2.8333333333333335in"
+![](./media/spss-exer-image45.png){width="2.8333333333333335in"
 height="2.9791666666666665in"}
 
-![](./media/image46.png){width="1.90625in"
+![](./media/spss-exer-image46.png){width="1.90625in"
 height="0.9479166666666666in"}
 
-![](./media/image47.png){width="5.15625in"
+![](./media/spss-exer-image47.png){width="5.15625in"
 height="1.96875in"}
 
-![](./media/image48.png){width="6.5in"
+![](./media/spss-exer-image48.png){width="6.5in"
 height="5.197916666666667in"}
 
 **Question 2**
@@ -90,7 +90,7 @@ apparent relationship is statistically significant?
 
     -   Columns: happy
 
-![](./media/image49.png){width="4.628517060367454in"
+![](./media/spss-exer-image49.png){width="4.628517060367454in"
 height="3.82830271216098in"}
 
 -   Select the Statistics button
@@ -99,7 +99,7 @@ height="3.82830271216098in"}
 
     -   Select Continue
 
-![](./media/image50.png){width="3.0051410761154855in"
+![](./media/spss-exer-image50.png){width="3.0051410761154855in"
 height="3.3971161417322833in"}
 
 -   Select the Cells button
@@ -116,7 +116,7 @@ height="3.3971161417322833in"}
 
 -   Select Ok
 
-![](./media/image51.png){width="3.4375in"
+![](./media/spss-exer-image51.png){width="3.4375in"
 height="3.8125in"}
 
 -   The Pearson Chi-Square statistic indicates that the differences
@@ -138,16 +138,16 @@ height="3.8125in"}
     -   The clustered bar chart also shows that there are greater
         numbers of women that indicate that they are "not too happy".
 
-![](./media/image52.png){width="5.90625in"
+![](./media/spss-exer-image52.png){width="5.90625in"
 height="1.28125in"}
 
-![](./media/image53.png){width="6.5in"
+![](./media/spss-exer-image53.png){width="6.5in"
 height="2.6211231408573927in"}
 
-![](./media/image54.png){width="4.125in"
+![](./media/spss-exer-image54.png){width="4.125in"
 height="1.9895833333333333in"}
 
-![](./media/image55.png){width="4.507012248468941in"
+![](./media/spss-exer-image55.png){width="4.507012248468941in"
 height="3.6041666666666665in"}
 
 **Question 3**
@@ -207,26 +207,26 @@ positive or negative? Is it statistically significant.
 
 -   Save this data set as Exercise11\_Data\_Updated
 
-![](./media/image56.png){width="3.53125in"
+![](./media/spss-exer-image56.png){width="3.53125in"
 height="2.0625in"}
 
-![](./media/image57.png){width="5.625in"
+![](./media/spss-exer-image57.png){width="5.625in"
 height="6.114583333333333in"}
 
-![](./media/image58.png){width="3.6666666666666665in"
+![](./media/spss-exer-image58.png){width="3.6666666666666665in"
 height="5.270833333333333in"}
 
-![](./media/image59.png){width="3.966178915135608in"
+![](./media/spss-exer-image59.png){width="3.966178915135608in"
 height="4.2551870078740155in"}
 
-![](./media/image60.png){width="4.316828521434821in"
+![](./media/spss-exer-image60.png){width="4.316828521434821in"
 height="3.45207895888014in"}
 
-![](./media/image61.png){width="3.992153324584427in"
+![](./media/spss-exer-image61.png){width="3.992153324584427in"
 height="3.5929374453193352in"}
 
-![](./media/image62.png){width="5.472672790901138in"
+![](./media/spss-exer-image62.png){width="5.472672790901138in"
 height="2.1187445319335083in"}
 
-![](./media/image62.png){width="5.563582677165354in"
+![](./media/spss-exer-image62.png){width="5.563582677165354in"
 height="2.153940288713911in"}

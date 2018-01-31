@@ -4,7 +4,7 @@ Exercise 3 Solution
 Open Exercise3\_Data and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book.
 
-![](./media/image8.png){width="6.0625in"
+![](./media/spss-exer-image8.png){width="6.0625in"
 height="3.320896762904637in"}
 
 Solution:
@@ -18,7 +18,7 @@ Solution:
     then select the box with three small dots. The following window will
     appear:
 
-![](./media/image9.png){width="4.854166666666667in"
+![](./media/spss-exer-image9.png){width="4.854166666666667in"
 height="3.125in"}
 
 -   Ender the value and label, then select "Add". Once all possible
@@ -29,7 +29,7 @@ height="3.125in"}
     Right click on the cell you want to copy, select copy. Then right
     click on the cell that you would like to paste in, and select paste.
 
-![](./media/image10.png){width="6.5in"
+![](./media/spss-exer-image10.png){width="6.5in"
 height="3.5605489938757655in"}
 
 -   Enter in missing values in a similar fashion---here we have discrete
@@ -40,5 +40,5 @@ height="3.5605489938757655in"}
 
 -   Save this file as Exercise3\_Data\_Cleaned
 
-![](./media/image11.png){width="3.3541666666666665in"
+![](./media/spss-exer-image11.png){width="3.3541666666666665in"
 height="2.4895833333333335in"}
