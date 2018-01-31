@@ -2494,7 +2494,7 @@ height="2.295138888888889in"}
 
     k.  Investigate output
 
-> ![](./media/image180.jpeg){width="3.0611329833770777in"
+> ![](./media/image180.png){width="3.0611329833770777in"
 > height="2.4527996500437443in"}
 
 4)  Create a histogram of Weight.
@@ -2509,7 +2509,7 @@ height="2.295138888888889in"}
 
     p.  Investigate output
 
-> ![](./media/image181.jpeg){width="3.4873632983377076in"
+> ![](./media/image181.png){width="3.4873632983377076in"
 > height="2.794326334208224in"}
 
 5)  Create a QQ Plot for Weight (to help assess normality)
@@ -2520,7 +2520,7 @@ height="2.295138888888889in"}
 
     s.  Select OK
 
-> ![](./media/image182.jpeg){width="3.5857239720034997in"
+> ![](./media/image182.png){width="3.5857239720034997in"
 > height="2.8731397637795277in"}
 
 6)  Create a bar chart for Origin.
@@ -2535,7 +2535,7 @@ height="2.295138888888889in"}
 
     x.  Select OK
 
-> ![](./media/image183.jpeg){width="2.9873632983377076in"
+> ![](./media/image183.png){width="2.9873632983377076in"
 > height="2.3936898512685914in"}
 
 7)  Organize the output by Year (Analyzing groups of cases separately,
@@ -2630,7 +2630,7 @@ b.  Remember to turn the Split File command off before proceeding!
 
         x.  Close out of chart editor
 
-![](./media/image186.jpeg){width="3.536544181977253in"
+![](./media/image186.png){width="3.536544181977253in"
 height="2.833733595800525in"}
 
 b.  What is the relationship between Horsepower and Weight as shown in
