@@ -1,42 +1,16 @@
-[Exercises]{.underline} {#exercises .TOCHeading}
-=======================
-
-Table of Contents {#table-of-contents .TOCHeading}
-=================
-
-Exercise 1 Solution 114
-
-Exercise 2 Solution 115
-
-Exercise 3 Solution 119
-
-Exercise 4 Solution 123
-
-Exercise 5 Solution 127
-
-Exercise 6 Solution 132
-
-Exercise 7 Solution 139
-
-Exercise 8 Solutions 145
-
-Exercise A1 -- Categorical Data Analysis 155
-
-Exercise A1 Solution 156
-
-Exercise A2 -- Continuous Data Analysis 169
-
-Exercise A2 Solution 170
-
-Exercise A3 -- Methodology Choice Practice 176
-
-Exercise A4 -- Case Study I: Salary (Regression) 178
-
-Exercise A5 -- Case Study II: AIDS (Logistic Regression) 230
-
-Final Project 244
-
-Final Project Solution 248
+---
+title: "SPSS Exercise Solutions"
+author: "Josh Errickson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    config:
+      sharing: null
+documentclass: book
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
 
 Exercise 1 Solution
 ===================
