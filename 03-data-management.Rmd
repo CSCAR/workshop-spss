@@ -1,0 +1,308 @@
+
+
+Section 3: Understanding Data Management Tasks
+==============================================
+
+Sorting Cases
+-------------
+
+Sorting cases based on a particular variable is often necessary when
+managing data sets. Go to "Data" "Sort Cases" to place the cases in
+order. Choose the variable that determines the ordering, and choose
+"Ascending" or "Descending".
+
+![](./media/image42.png){width="4.041666666666667in"
+height="3.8854166666666665in"}
+
+Selecting the ID variable and choosing "Ascending" will place the
+subject with the smallest ID number in the top row. The bottom row will
+contain data on the subject with the largest (highest) ID number.
+
+When sorting by more than one variable, SPSS sorts the data initially
+based on the first variable. Within each value of that first variable,
+it sorts again based on the second variable. Make sure to select
+"Ascending" or "Descending" for each variable when you are sorting by
+multiple variables. Highlight the variable by clicking on it, and choose
+the correct ordering.
+
+Suppose we want to sort by gender and then by age, with both in
+ascending order. Suppose the codes for gender are as follows:
+
+0 male
+
+1 female
+
+SPSS would first put males at the top of the file and females at the
+bottom. SPSS would then sort by age within each gender group. The first
+rows of the data set would contain the youngest men in the sample and
+the last subjects at the bottom would be the oldest women in the sample.
+
+Analyzing Subsets of Data
+-------------------------
+
+You can use the "Select Cases" command to instruct the software to
+calculate statistical results or summaries based on only some of the
+cases in the data set. You can define the subset by certain
+characteristics, such as women over age 40, or you can instruct the
+software to select a random sample of cases with size that you specify.
+
+**Note:** The Select Cases procedure affects which cases that SPSS
+includes in analysis and output only. It has no effect on
+transformations of the data, such as computing, recoding, or counting.
+
+Selecting cases involves turning on a filter that handles the inclusion
+of certain cases and the exclusion of others. When the filter is on,
+analyses or summaries will only use the selected cases. There will be a
+message "Filter On" at the bottom right of the Data Editor window
+whenever SPSS is using only selected cases.
+
+The first time you invoke the "Select Cases" procedure, the software
+creates a variable called filter\_\$ in the data set. This variable is
+equal to 0 for excluded cases and 1 for included cases. SPSS deletes and
+then re-creates the filter\_\$ variable each time you run "Select
+Cases".
+
+Users can specify their own filter variable. He or she can use any
+variable as a filter as long as a value of 0 for that variable indicates
+exclusion and a value of 1 inclusion. Click the "Use filter variable"
+option under "Data" "Select Cases" to do this; move your filter variable
+into the box.
+
+### If Condition is Satisfied
+
+Go to "Data" "Select Cases" to use only some of the cases. Click "If
+condition is satisfied...." to select cases based on certain criteria.
+Then click the "If..." button to pull up a window in which you will
+state the condition. Some example conditions are:
+
+gender='m' (selects men only)
+
+age\<=12 and sex=2 (selects children 12 and under of one sex only)
+
+marital=0 (selects all "never married" respondents)
+
+You can return to the data editor by clicking "Continue" and "OK".
+Notice that certain rows have been "scratched" out by SPSS. SPSS has
+filtered out these cases because they did not satisfy the specified
+condition. Analyses will only use those cases that are not scratched
+out.
+
+![](./media/image43.png){width="5.239583333333333in"
+height="4.729166666666667in"}
+
+![](./media/image44.png){width="6.5in" height="4.03125in"}
+
+To return to the entire sample, go to "Data" "Select Cases", choose the
+radio button next to "All Cases," and then click "OK". The "Filter On"
+message will disappear and all results from that point on refer to the
+entire data set.
+
+### Randomly Selecting Subsets
+
+You may examine a randomly selected portion of the data by clicking
+"Random Sample of Cases" in the "Select Cases" window. Then click the
+"Sample..." button. You can then give an approximate percentage. If you
+want to take an exact number of cases, first determine the total number
+of cases (rows) and place this number in the "from the first \-\--
+cases" segment of the dialogue box. If you would like to take a precise
+number of cases from, say, all women, or all children under twelve, then
+sort the data first so that the cases of interest occupy the first rows.
+Determine the last row that refers to a female, or to a child under
+twelve, and proceed as above.
+
+![](./media/image45.png){width="3.96875in"
+height="1.5416666666666667in"}
+
+**Note:** When SPSS selects cases randomly, repeated selections will be
+different even when everything specified by the user has stayed the
+same. An approximate 30% sample of cases will result in a different 30%
+each time the user repeats the procedure.
+
+**Helpful Hint:** To use the same random selection of cases over and
+over again, first take the initial random sample. Then re-name the
+filter\_\$ variable to any name of your choosing. SPSS will leave the
+variable alone, and you can re-use the filter in consecutive SPSS
+sessions.
+
+### Output Options
+
+At the bottom of the "Select Cases" dialogue box are three options:
+
+-   Filter out unselected cases (recommended)
+
+-   Copy selected cases to a new dataset (recommended)
+
+-   Delete unselected cases (NOT RECOMMENDED)
+
+![](./media/image46.png){width="5.239583333333333in" height="5.3125in"}
+
+If you set this to "Filter out unselected cases", the unselected cases
+remain in the data set but the software temporarily excludes them from
+all analyses. If you choose the second option, SPSS copies the selected
+cases to a new dataset and you can save the dataset on your disk by
+assigning a file name. The content of your original dataset remains
+untouched with these two options.
+
+If the you change the option to "Delete unselected cases", unselected
+cases disappear from the data entirely. Be careful when permanently
+deleting cases, because you CANNOT undo the deletion. Make sure to first
+save your data file under a different name if you wish to permanently
+delete cases.
+
+**Try it: Use Section2\_Data.sav. Select only observations with
+Education = 1 for analysis. **
+
+![](./media/image47.png){width="6.05625in" height="3.84375in"}
+![](./media/image48.png){width="6.5in" height="2.7291666666666665in"}
+
+Analyzing Groups of Data Separately
+-----------------------------------
+
+When analyzing groups of cases separately, such as men and women, the
+Split File command spares you from having to repeatedly select different
+groups of cases.
+
+The Split File command first sorts the data into groups based on a
+specified variable. After that, SPSS generates any requested output for
+each group separately. If we split the file based on gender and then
+request the mean current salary, we would receive a mean current salary
+for men and a mean current salary for women. A flag at the bottom right
+of the data editor will read "Split File On" when you are using this
+option.
+
+You can use multiple variables to divide the data. If you use both
+gender and job category as grouping variables, for example, then SPSS
+will give all output for each job category group within each gender.
+
+To use Split File:
+
+-   Go to "Data" "Split File".
+
+-   Click on "Compare Groups" or "Organize Output by Groups".
+
+-   Select variable(s) which divide the data into groups.
+
+-   Click OK.
+
+-   To turn off the Split File command, return to "Data" "Split File"
+    and click on "Analyze all cases, do not create groups".
+
+![](./media/image49.png){width="4.625in" height="3.5833333333333335in"}
+
+**Try it: Use Section2\_Data.sav. Obtain the descriptive statistics for
+DepScale\_01 for males and females separately. Hint: Select 'Analyze'
+'Descriptive Statistics' 'Descriptives'.**
+
+![](./media/image50.png){width="3.93125in" height="2.875in"}
+
++---------+---------+---------+---------+---------+---------+---------+
+| > **Des |
+| criptiv |
+| e       |
+| > Stati |
+| stics** |
++---------+---------+---------+---------+---------+---------+---------+
+| > Gende | > N     | > Minim | > Maxim | > Mean  | > Std.  |
+| r       |         | um      | um      |         | > Devia |
+|         |         |         |         |         | tion    |
++---------+---------+---------+---------+---------+---------+---------+
+| > F     | > DepSc | > 4     | > 2.00  | > 12.00 | > 7.250 | > 4.573 |
+|         | ale\_01 |         |         |         | 0       | 47      |
++---------+---------+---------+---------+---------+---------+---------+
+|         | > Valid | > 4     |         |         |         |         |
+|         | > N     |         |         |         |         |         |
+|         | > (list |         |         |         |         |         |
+|         | wise)   |         |         |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+| > M     | > DepSc | > 4     | > 4.00  | > 15.00 | > 9.000 | > 4.690 |
+|         | ale\_01 |         |         |         | 0       | 42      |
++---------+---------+---------+---------+---------+---------+---------+
+|         | > Valid | > 4     |         |         |         |         |
+|         | > N     |         |         |         |         |         |
+|         | > (list |         |         |         |         |         |
+|         | wise)   |         |         |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+
+ Exercise 5 -- Subsetting Data
+------------------------------
+
+Open Exercise5\_Data.
+
+Select male managers. What is their average age?
+
+(You can obtain the average age by choosing "Analyze" -\> "Descriptive
+Statistics" -\> "Descriptives" and placing "Age of Respondednt \[age\]"
+in the right hand side.)
+
+Use the "split file" procedure to get the average age for each job
+category.
+
+Converting Data Formats
+-----------------------
+
+Different statistical methods frequently require different data formats.
+A repeated measures analysis of variance, for example, requires that
+data be in Wide format, while a linear mixed model requires that the
+data be in Long format. SPSS makes it easy to convert between the two
+formats. The examples below demonstrate how to use the wizard in SPSS.
+
+To convert a dataset from one format to the other, first select "Data"
+and then "Restructure". SPSS uses terminology that differs from
+conventional phrasing.
+
+-   Wide to Long Variables into Cases
+
+-   Long to Wide Cases into Variables
+
+We will briefly discuss these two variations, before doing exercises
+together which include the instructions.
+
+### Wide to Long (AKA "Variables into Cases")
+
+![S:\\dept\\Workshops\\Workshop Slides\\SPSS Intro for
+ESIN\\Notebook\\MODIFY\\Slide13.JPG](./media/image51.jpeg){width="5.989583333333333in"
+height="4.492187226596675in"}
+
+There are seven steps in this Wizard:
+
+1.  Identify the restructuring plan to be from "Variables into Cases".
+
+2.  Select the number of variable groups.
+
+3.  Select variables.
+
+4.  Create index variables (usually one).
+
+5.  Create one index variable.
+
+6.  Choose options.
+
+7.  Finish.
+
+### Long to Wide (AKA "Cases into Variables")
+
+![S:\\dept\\Workshops\\Workshop Slides\\SPSS Intro for
+ESIN\\Notebook\\MODIFY\\Slide27.JPG](./media/image52.jpeg){width="5.229166666666667in"
+height="3.9218755468066493in"}
+
+There are five steps in this Wizard:
+
+1.  Identify the restructuring plan as "Cases into Variables".
+
+2.  Select variables.
+
+3.  Sort the data.
+
+4.  Choose options.
+
+5.  Finish.
+
+### Exercise 6 -- Restructuring I (Wide to Long)
+
+Convert Exercise6\_Data from "Wide" format to "Long" format
+
+### Exercise 7 -- Restructuring II (Long to Wide)
+
+Convert Exercise7\_Data from "Long" format to "Wide" format
+
+(Both exercises to be done together.)
