@@ -1917,7 +1917,7 @@ Everything On One Page Handout
 The chart on the next page lays out the essential graphical and
 statistical procedures by type and classification.
 
-![](./media/image53.emf){width="9.269444444444444in"
+![](./media/image53.png){width="9.269444444444444in"
 height="6.001388888888889in"}
 
 Parametric vs. Non-parametric Tests
