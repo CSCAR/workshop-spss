@@ -1,3 +1,18 @@
+---
+title: "Introduction to SPSS"
+author: "Josh Errickson"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    config:
+      sharing: null
+documentclass: book
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+
 Introduction to SPSS  {#introduction-to-spss .TOCHeading}
 =====================
 
@@ -228,7 +243,7 @@ will alternate between theory and practice. The format will alternate
 between lecture and lab sessions. Please ask questions as soon as they
 arise in your mind. Please provide feedback or voice concerns.
 
- 
+
 -
 
 Section 1: The Basics of SPSS
@@ -2713,10 +2728,10 @@ height="2.0416666666666665in"}
 |           | > Female  | > 43      | > 5.5940  | > 2.03090 | > .30971  |
 +-----------+-----------+-----------+-----------+-----------+-----------+
 
-                                                           Levene\'s Test for Equality of Variances   t-test for Equality of Means                                                                                                                                       
+                                                           Levene\'s Test for Equality of Variances   t-test for Equality of Means
   -------------------------------------------------------- ------------------------------------------ ------------------------------ ------- -------- ----------------- ----------------- ----------------------- ------------------------------------------- ---------- ---------
-                                                           F                                          Sig.                           t       df       Sig. (2-tailed)   Mean Difference   Std. Error Difference   95% Confidence Interval of the Difference              
-                                                                                                                                                                                                                  Lower                                       Upper      
+                                                           F                                          Sig.                           t       df       Sig. (2-tailed)   Mean Difference   Std. Error Difference   95% Confidence Interval of the Difference
+                                                                                                                                                                                                                  Lower                                       Upper
   Individual behavior intention scale after intervention   Equal variances assumed                    0.695                          0.408   -0.484   55                0.631             -0.29038                0.60044                                     -1.49370   0.91293
                                                            Equal variances not assumed                                                       -0.535   26.647            0.597             -0.29038                0.54294                                     -1.40509   0.82433
 
@@ -2873,11 +2888,11 @@ height="3.3645833333333335in"}
 |             | ion         |             |             |             |
 +-------------+-------------+-------------+-------------+-------------+
 
-  **Paired Samples Test**                                                                                                                                                                                                                                         
+  **Paired Samples Test**
   ------------------------- ------------------------------------------------------------------------------------------------------------------ ---------------- ----------------- ------------------------------------------- ---------- ---------- -------- ---- -------
-                            Paired Differences                                                                                                 t                df                Sig. (2-tailed)                                                                 
-                            Mean                                                                                                               Std. Deviation   Std. Error Mean   95% Confidence Interval of the Difference                                       
-                                                                                                                                                                                  Lower                                       Upper                               
+                            Paired Differences                                                                                                 t                df                Sig. (2-tailed)
+                            Mean                                                                                                               Std. Deviation   Std. Error Mean   95% Confidence Interval of the Difference
+                                                                                                                                                                                  Lower                                       Upper
   Pair 1                    Individual behavior intention scale before intervention - Individual behavior intention scale after intervention   -1.94729         1.87705           0.24437                                     -2.43645   -1.45813   -7.969   58   0.000
 
 The tables above indicate that there is a significant increase in
