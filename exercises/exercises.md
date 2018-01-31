@@ -45,7 +45,7 @@ In order to analyze data properly in SPSS, we need to follow the
 guidelines set out above. Open Exercise1\_Data and see what guidelines
 we have ignored.
 
-![](./exercise-media/media/image1.png){width="4.229166666666667in"
+![](./media/spss-exer-image1.png){width="4.229166666666667in"
 height="3.2511712598425198in"}
 
 Solution:
