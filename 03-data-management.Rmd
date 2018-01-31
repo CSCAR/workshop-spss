@@ -1,10 +1,6 @@
+# Understanding Data Management Tasks
 
-
-Section 3: Understanding Data Management Tasks
-==============================================
-
-Sorting Cases
--------------
+## Sorting Cases
 
 Sorting cases based on a particular variable is often necessary when
 managing data sets. Go to "Data" "Sort Cases" to place the cases in
@@ -37,8 +33,8 @@ bottom. SPSS would then sort by age within each gender group. The first
 rows of the data set would contain the youngest men in the sample and
 the last subjects at the bottom would be the oldest women in the sample.
 
-Analyzing Subsets of Data
--------------------------
+## Analyzing Subsets of Data
+
 
 You can use the "Select Cases" command to instruct the software to
 calculate statistical results or summaries based on only some of the
@@ -155,8 +151,8 @@ Education = 1 for analysis. **
 ![](./media/image47.png){width="6.05625in" height="3.84375in"}
 ![](./media/image48.png){width="6.5in" height="2.7291666666666665in"}
 
-Analyzing Groups of Data Separately
------------------------------------
+## Analyzing Groups of Data Separately
+
 
 When analyzing groups of cases separately, such as men and women, the
 Split File command spares you from having to repeatedly select different
@@ -223,8 +219,8 @@ DepScale\_01 for males and females separately. Hint: Select 'Analyze'
 |         | wise)   |         |         |         |         |         |
 +---------+---------+---------+---------+---------+---------+---------+
 
- Exercise 5 -- Subsetting Data
-------------------------------
+##  Exercise 5 -- Subsetting Data
+
 
 Open Exercise5\_Data.
 
@@ -237,8 +233,8 @@ in the right hand side.)
 Use the "split file" procedure to get the average age for each job
 category.
 
-Converting Data Formats
------------------------
+## Converting Data Formats
+
 
 Different statistical methods frequently require different data formats.
 A repeated measures analysis of variance, for example, requires that

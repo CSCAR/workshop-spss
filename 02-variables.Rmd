@@ -1,9 +1,9 @@
 
-Section 2: Working with Variables
-=================================
+# Working with Variables
 
-Variable View in Data Editor
-----------------------------
+
+## Variable View in Data Editor
+
 
 Variables in SPSS vary in length and may consist of letters, numbers,
 dates, or dollar values. Some values, such as "don't know" replies on a
@@ -262,8 +262,8 @@ from Education to DepScale.**
 Open Exercise3\_Data and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book below.
 
-Creating New Variables and Defining the Correct Attributes
-----------------------------------------------------------
+## Creating New Variables and Defining the Correct Attributes
+
 
 To create a new variable in SPSS for entering data, simply double-click
 on an empty column's heading, or start entering data directly into the
@@ -292,8 +292,8 @@ top of that.
 
 ![](./media/image26.png){width="6.5in" height="2.7840277777777778in"}
 
-Computing Variables
--------------------
+## Computing Variables
+
 
 You can use the COMPUTE command to create new numeric or string
 variables by:
@@ -603,8 +603,8 @@ Inspect the output.**
 
 ![](./media/image35.png){width="6.5in" height="3.7430555555555554in"}
 
-Automatic Recoding
-------------------
+## Automatic Recoding
+
 
 The Automatic Recode procedure recodes any variable's values into
 consecutive integers 1, 2, 3, etc.... The software codes the lowest
@@ -644,8 +644,8 @@ Call this new variable AutoGender.**
 ![](./media/image37.png){width="4.677083333333333in"
 height="4.854166666666667in"}
 
-Conditional Transformations with If/Then Logic
-----------------------------------------------
+## Conditional Transformations with If/Then Logic
+
 
 The "If" button, which appears in the Compute, Recode, and Count
 dialogue boxes, represents an important feature in variable
@@ -694,8 +694,8 @@ your criteria. Some examples of If expressions are as follows:
 
 -   educat = 5 or educat = 6 \[ e.g., respondents with a BA or MA \]
 
-Rank Cases
-----------
+## Rank Cases
+
 
 You can perform variable transformations based on the ranked value for a
 particular variable. It may be more convenient to analyze the quartiles,
@@ -713,8 +713,8 @@ height="3.1458333333333335in"}
 ![](./media/image41.png){width="3.5729166666666665in"
 height="2.2083333333333335in"}
 
-Exercise 4 -- Computing and Transforming Variables
---------------------------------------------------
+## Exercise 4 -- Computing and Transforming Variables
+
 
 Open Exercise4\_Data.
 

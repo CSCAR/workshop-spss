@@ -13,12 +13,8 @@ github-repo: rstudio/bookdown-demo
 ---
 
 
-Introduction to SPSS  {#introduction-to-spss .TOCHeading}
-=====================
 
-
-Overview of the Workshop
-========================
+# Overview of the Workshop
 
 There are four sections to this workshop:
 

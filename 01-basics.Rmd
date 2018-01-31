@@ -1,8 +1,7 @@
-Section 1: The Basics of SPSS
-=============================
+# The Basics of SPSS
 
-What does SPSS Stand For?
--------------------------
+## What does SPSS Stand For?
+
 
 -   Originally, SPSS stood for Statistical Package for the Social
     Sciences.
@@ -12,8 +11,8 @@ What does SPSS Stand For?
 -   SPSS has also been known as "PASW" which stands for Predictive
     Analytics Software.
 
-SPSS Compared to Other Statistical Software Packages
-----------------------------------------------------
+## SPSS Compared to Other Statistical Software Packages
+
 
 We can think of statistical software packages on a spectrum organized by
 difficulty and complexity. On one end we have Excel which is easy and
@@ -42,8 +41,8 @@ capabilities that SPSS will give you over Excel. While SPSS seems to be
 more restrictive than Excel, the restrictions it sets ensure that your
 data set is ready for statistical analysis.
 
-The Three Parts of SPSS
------------------------
+## The Three Parts of SPSS
+
 
 There are three parts to SPSS, each with its own window: Data Editor,
 Output Viewer, and Syntax Window. The sections below describe each of
@@ -528,8 +527,8 @@ BY ethnic .
 
 -   The word "then" never appears in "if then" types of commands.
 
-Good to Know
-------------
+## Good to Know
+
 
 ### Dialogue Boxes
 
@@ -582,8 +581,8 @@ option "Display names" and "Display labels" for variable labels.
 You can add descriptive comments to data files by going to "Utilities"
 "Data File Comments".
 
-Tips for Preparing an Excel File for Use with SPSS
---------------------------------------------------
+## Tips for Preparing an Excel File for Use with SPSS
+
 
 -   Place the variable names in the first row. Be sure the names follow
     these rules:
@@ -638,16 +637,16 @@ An ideal Excel data set might look like this:
 
 ![](./media/image11.png){width="5.59375in" height="2.357273622047244in"}
 
-Exercise 1 -- Properly Formatted Data
--------------------------------------
+## Exercise 1 -- Properly Formatted Data
+
 
 In order to analyze data properly in SPSS, we need to follow the
 guidelines set out in the course notes.
 
 Open Exercise1\_Data and see what guidelines we have ignored.
 
-Importing Data into SPSS
-------------------------
+## Importing Data into SPSS
+
 
 SPSS can easily read in data from Excel, SAS or Stata, as well as
 several lesser used options.
@@ -708,8 +707,8 @@ allow you to stop and resume the import process in a later SPSS session.
 When using the menus, there is no way to stop halfway through and save
 your work.
 
-Exporting Data from SPSS
-------------------------
+## Exporting Data from SPSS
+
 
 To save files in a certain format so that you can move data from SPSS to
 another program (this is exporting from SPSS), make certain you are in
@@ -731,8 +730,8 @@ height="3.3645833333333335in"}
 
 ![](./media/image14.png){width="4.625in" height="3.5625in"}
 
-Exercise 2 -- Importing/Exporting Excel
----------------------------------------
+## Exercise 2 -- Importing/Exporting Excel
+
 
 Open Exercise2\_Data (an Excel file). Modify this Excel file such that
 it can be imported into SPSS properly. Save the file and close it.
@@ -740,8 +739,8 @@ it can be imported into SPSS properly. Save the file and close it.
 Open the file in SPSS (import it). Export this file back into Excel, but
 only save the following variables: id, salary, minority.
 
-Getting Help from SPSS
-----------------------
+## Getting Help from SPSS
+
 
 Underneath the help menu are several different options. Here are a few:
 

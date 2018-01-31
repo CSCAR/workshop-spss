@@ -1,8 +1,8 @@
-Section 4: Understanding Graphical & Statistical Procedures
-===========================================================
+# Understanding Graphical & Statistical Procedures
 
-Thinking About Statistics
--------------------------
+
+## Thinking About Statistics
+
 
 Statistics is in a sense a giant toolbox containing a collection of
 graphical and statistical procedures.\
@@ -42,8 +42,8 @@ procedures, graphical and statistical, into 4 major classifications:
 
 -   Repeated, Longitudinal, Clustered, Multilevel, and Mixed Procedures
 
-Correlation vs. Causation
--------------------------
+## Correlation vs. Causation
+
 
 The presence of a correlation between two variables DOES NOT imply that
 there is causation between them. Any of the three scenarios below could
@@ -56,8 +56,8 @@ using statistics alone which scenario it is.
 
 -   C causes both A and B
 
-Everything On One Page Handout
-------------------------------
+## Everything On One Page Handout
+
 
 The chart on the next page lays out the essential graphical and
 statistical procedures by type and classification.
@@ -65,8 +65,8 @@ statistical procedures by type and classification.
 ![](./media/image53.png){width="9.269444444444444in"
 height="6.001388888888889in"}
 
-Parametric vs. Non-parametric Tests
------------------------------------
+## Parametric vs. Non-parametric Tests
+
 
 There are varying assumptions that underlie the validity of each
 statistical procedure. A common assumption for statistical procedures is
@@ -77,8 +77,8 @@ distributional assumption, and generally use ranks in the place of the
 raw scores. The table below gives non-parametric tests that are
 equivalent to common parametric tests.
 
-Basic Summary Statistics (Investigate One Variable at a Time)
--------------------------------------------------------------
+## Basic Summary Statistics (Investigate One Variable at a Time)
+
 
 As the name implies, One-Variable-Only Procedures help us investigate a
 single variable at a time. They can tell us about the frequency
@@ -271,8 +271,8 @@ height="2.8314818460192477in"}
 height="2.7043985126859145in"}![](./media/image70.png){width="3.5625in"
 height="2.82245406824147in"}
 
-Exercise 8 -- Data Exploration and Visualization
-------------------------------------------------
+## Exercise 8 -- Data Exploration and Visualization
+
 
 Open Exercise8\_Data.sav
 
@@ -303,8 +303,8 @@ box to "Analyze all cases".
 **Part 4**: Produce a pie chart for the variable "region". (We didn't
 cover this, you can use either Chart Builder or Legacy Dialogs.)
 
-Investigating Two Variables at a Time
--------------------------------------
+## Investigating Two Variables at a Time
+
 
 The main purpose of any graphical and statistical procedure is to
 investigate a variable or the relationships between variables. We start
@@ -835,8 +835,8 @@ height="3.3645833333333335in"}
 The tables above indicate that there is a significant increase in
 average behavior intention score after the intervention (p-value\<.001).
 
-Investigating Many Variables at a Time
---------------------------------------
+## Investigating Many Variables at a Time
+
 
 It is often useful to investigate the relationship between one outcome
 variable and multiple predictor variables. The type of the outcome
@@ -848,8 +848,8 @@ generalized linear models include binary logistic regression and ordinal
 logistic regression. Linear regression and binary linear regression will
 be covered through **EXERCISES** in this workshop, time permitting.
 
-Repeated Measures, Longitudinal, Clustered, Multilevel, Mixed Procedures
-------------------------------------------------------------------------
+## Repeated Measures, Longitudinal, Clustered, Multilevel, Mixed Procedures
+
 
 It is very common in many studies to take multiple measurements on a
 unit of analysis, typically a subject. These multiple measures may be
@@ -868,8 +868,8 @@ advanced procedures to analyze such data sets is beyond the scope of
 this workshop, you should be able to identify these multilevel data sets
 and discuss them with your statistician.
 
-Other Procedures in SPSS
-------------------------
+## Other Procedures in SPSS
+
 
 Here is a non-exhaustive list of other procedures in SPSS that you may
 use:
@@ -924,8 +924,8 @@ Chi-square automatic interaction detection (CHAID)
 
 Neural networks
 
-Miscellaneous
--------------
+## Miscellaneous
+
 
 ### Descriptive Statistics
 
@@ -1049,11 +1049,11 @@ Statnotes: http://faculty.chass.ncsu.edu/garson/PA765/statnote.htm
 
 http://www.ats.ucla.edu/stat/SPSS/
 
-Interpreting Interactions in a Regression Model Overview
-========================================================
+# Interpreting Interactions in a Regression Model Overview
 
-Two-Way Interactions
---------------------
+
+## Two-Way Interactions
+
 
 ### General
 
@@ -1132,8 +1132,8 @@ the interaction between A and B.
 -   The regression coefficient for B shows the relationship between age
     and Y when IQ equals zero.
 
-Three-Way Interactions
-----------------------
+## Three-Way Interactions
+
 
 The same principles apply from above. The general model:
 
