@@ -1,0 +1,78 @@
+Exercise 4 Solution
+===================
+
+Open Exercise4\_Data.
+
+Compute a new variable that is the change from beginning salary to
+current salary for each employee.
+
+Solution:
+
+-   "Transform" "Compute Variable" Select "Reset"
+
+-   Enter the following information
+
+-   Target Variable: salchange
+
+-   Double click (or use the arrow) to move salary to the Numeric
+    Expression window
+
+-   Use the calculator box below the numeric expression box to enter a
+    minus sign (alternatively, you could type a minus sign) then select
+    salbegin
+
+-   Select Ok, and the new variable will appear in the data set
+
+![](./media/image12.png){width="6.459686132983377in"
+height="5.278486439195101in"}
+
+Recode the education variable according to the following
+
+1=High School or Less (educ\<=12)
+
+2=Some College (12\<educ\<=15)
+
+3=Bachelor's Degree or Higher (educ\>=16)
+
+Solution:
+
+-   "Transform" "Recode into different variables"
+
+-   Move education (educ) into the Input Variable Output Variable window
+    by double clicking on it or using the arrow
+
+-   Name: EducRecode
+
+-   Label: Leave Blank
+
+-   Click the change button
+
+-   Under old value, select the radio dial for Range, LOWEST through
+    value: enter 12
+
+-   Under new value, select the radio dial for Value: enter 1
+
+-   Select Add
+
+-   Under old value, select the radio dial for Range: enter 13 through
+    15
+
+-   Under new value, select the radio dial for Value: enter 2
+
+-   Select Add
+
+-   Under old value, select the radio dial for Range, value through
+    HIGHEST: enter 16
+
+-   Under new value, select the radio dial for Value: enter 3
+
+-   Select Add
+
+-   Select Continue
+
+-   Select OK
+
+-   Check the dataset in Data View
+
+![](./media/image13.png){width="6.5in"
+height="3.7894663167104112in"}
