@@ -1,4 +1,4 @@
-Exercise 2 Solution
+# Exercise 2 Solution
 ===================
 
 Open Exercise2\_Data (an Excel file). Modify this Excel file such that
@@ -26,7 +26,7 @@ height="4.440387139107612in"}
 
 -   Open SPSS
 
--   Select "File" "Open" "Data"
+-   Select File - Open - Data
 
 -   Under "Files of Type" select either "All Files" or "Excel" to view
     Exercise2\_Data\_Ready, select the file, then select "Open"
@@ -49,7 +49,7 @@ height="2.5in"}
 -   Delete any "blank" rows of data or columns of data (indicated by
     ".") by highlighting, right click, select "cut"
 
--   Select "File" "Save As"
+-   Select File - Save As
 
 -   Let the file name be Exercise2\_Data\_Ready\_short
 

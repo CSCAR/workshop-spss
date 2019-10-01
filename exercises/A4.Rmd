@@ -21,7 +21,7 @@ histogram**
 ![](./media/spss-exer-image74.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
-![](./media/spss-exer-image75.png){width="6.16875in"
+![](./media/Salary.png){width="6.16875in"
 height="1.0777777777777777in"}
 
 ![](./media/spss-exer-image76.png){width="5.49375in"
@@ -44,8 +44,8 @@ height="3.077777777777778in"}
 ![](./media/spss-exer-image81.png){width="2.83125in"
 height="2.9743055555555555in"}
 
-![](./media/spss-exer-image82.png){width="2.5416666666666665in"
-height="1.2604166666666667in"}
+![](./media/Male.png){width="6in"
+height="3in"}
 
 ![](./media/spss-exer-image83.png){width="4.576569335083114in"
 height="3.6653280839895013in"}
@@ -61,22 +61,22 @@ height="3.584722222222222in"}
 ![](./media/spss-exer-image85.png){width="4.870138888888889in"
 height="3.077777777777778in"}
 
-![](./media/spss-exer-image86.png){width="6.5in"
-height="1.5304133858267717in"}
+![](./media/Salary_gender.png){width="6.5in"
+height="2in"}
 
 The descriptive statistics table above indicates that males earn more
 than females on average.
 
-![](./media/spss-exer-image87.png){width="4.498647200349956in"
-height="4.051683070866142in"}
+![](./media/spss-exer-image87.png){width="6.498647200349956in"
+height="6.051683070866142in"}
 
-![](./media/spss-exer-image88.png){width="4.400516185476816in"
-height="3.51374343832021in"}
+![](./media/spss-exer-image88.png){width="8in"
+height="6.5in"}
 
-![](./media/spss-exer-image89.png){width="4.872189413823272in"
-height="3.8903674540682416in"}
+![](./media/spss-exer-image89.png){width="8in"
+height="6.5in"}
 
-Also remember to remove the 'split file' option.
+Also remember to remove the 'Split File' option.
 
 ![](./media/spss-exer-image90.png){width="4.610416666666667in"
 height="3.584722222222222in"}
@@ -88,8 +88,8 @@ The Boxplot below indicates that males have a higher median salary than
 females, and both males and females have outliers (observation 148 and
 58 respectively).
 
-![](./media/spss-exer-image92.png){width="4.97696084864392in"
-height="3.974025590551181in"}
+![](./media/spss-exer-image92.png){width="8in"
+height="7in"}
 
 **Perform an independent samples t-test **
 
@@ -97,21 +97,20 @@ Remember that the dialogue box for the independent samples t-test is
 located under 'Analyze' then 'Compare Means'.
 
 ![](./media/spss-exer-image93.png){width="3.654491469816273in"
-height="2.3173534558180227in"}![](./media/spss-exer-image94.png){width="2.4805555555555556in"
+height="2.3173534558180227in"}
+
+![](./media/spss-exer-image94.png){width="2.4805555555555556in"
 height="2.0388888888888888in"}
 
-![](./media/spss-exer-image95.png){width="6.207638888888889in"
-height="0.9611111111111111in"}
-
-![](./media/spss-exer-image96.png){width="6.5in"
-height="1.0975918635170603in"}
+![](./media/Sex_sal.png){width="8in"
+height="3in"}
 
 The table above indicates that we cannot assume equal variances between
 males and females (Levene's Test pvalue\<.05). Regardless, we see that
 the differences between average male and female salaries are large
 enough to be considered statistically significant (t=10.250, df=297.227,
 pvalue\<.001). The confidence interval for the mean difference between
-genders is \[8550.79, 12614.47\]. This is the plausible range of values
+genders is [8550.79, 12614.47]. This is the plausible range of values
 for the difference between males and females.
 
 **Activity 2: Simple Linear Regression**
@@ -124,12 +123,12 @@ marketability of the discipline the faculty member is in.
 **Investigate the correlation between 'salary' and 'market' and
 investigate a scatter plot of the two variables**
 
-In SPSS, select 'Analyze' 'Correlate' 'Bivariate'
+In SPSS, select Analyze - Correlate - Bivariate
 
 ![](./media/spss-exer-image97.png){width="4.0181277340332455in"
 height="3.6152088801399827in"}
 
-![](./media/spss-exer-image98.png){width="5.090972222222222in"
+![](./media/Sal_mark_cor.png){width="5.090972222222222in"
 height="2.441666666666667in"}
 
 We see from the table above that there is a statistically significant
@@ -142,8 +141,8 @@ height="2.0652777777777778in"}
 ![](./media/spss-exer-image100.png){width="4.459686132983377in"
 height="4.850693350831146in"}
 
-![](./media/spss-exer-image101.png){width="4.719426946631671in"
-height="3.7683891076115485in"}
+![](./media/spss-exer-image101.png){width="8in"
+height="6.5in"}
 
 **Perform a simple linear regression where 'salary' is the
 dependent/outcome variable and 'market' is the independent/predictor
@@ -153,7 +152,7 @@ This can be done multiple ways in SPSS. The first way uses the
 regression menu from 'Analyze' while the second uses the 'General Linear
 Model' menu.
 
-Select 'Analyze' 'Regression' 'Linear'
+Select Analyze - Regression - Linear
 
 ![](./media/spss-exer-image102.png){width="4.36877624671916in"
 height="3.584650043744532in"}
@@ -161,31 +160,24 @@ height="3.584650043744532in"}
 ![](./media/spss-exer-image103.png){width="3.8958333333333335in"
 height="3.49375in"}
 
-![](./media/spss-exer-image104.png){width="4.298611111111111in"
-height="1.0777777777777777in"}
-
 Notice that the regression menu provides the correlation between the
 variables included in the model.
-
-![](./media/spss-exer-image105.png){width="5.090972222222222in"
-height="2.558333333333333in"}
 
 The table below provides the R Square value and adjusted R Square value.
 The proportion of variance in faculty salary explained by marketability
 of discipline is 16.6%.
-
-![](./media/spss-exer-image106.png){width="4.052083333333333in"
-height="1.0777777777777777in"}
 
 The table below indicates that the model fitted is significantly better
 than what we would expect by chance (F=101.771, pvalue\<.001). The null
 hypothesis is that there is no linear relationship between faculty
 salary and marketability, and we reject this hypothesis.
 
-![](./media/spss-exer-image107.png){width="5.50625in"
-height="1.7659722222222223in"}
+![](./media/Reg1.png){width="6in"
+height="8in"}
 
-The table below provides the parameter estimates for our model. For
+![](./media/Reg2.png){width="8in"}
+
+The table above provides the parameter estimates for our model. For
 every one unit increase in marketability, faculty salary increases by an
 average of \$34,545. We could also interpret the beta coefficient for
 marketability the following way: the effect of a .1 point increase in
@@ -193,12 +185,9 @@ marketability is associated with an estimated increase in mean salary of
 \$3,454. The constant (intercept) for the model is interpreted as the
 estimated mean salary when marketability is equal to zero.
 
-![](./media/spss-exer-image108.png){width="6.5in"
-height="1.1952482502187227in"}
-
 Remember that the confidence intervals give us a range of reasonable
 values for an estimate. The 95% confidence interval for our estimate of
-market discipline is \[\$27817, \$41272\].
+market discipline is [$27817, $41272].
 
 The hypothesis tests provided with the 't' statistic and 'Sig.' columns
 help us decide if a particular value (usually zero) is a reasonable
@@ -214,7 +203,7 @@ linear regression is preferred when there are categorical
 predictor/independent variables or interaction terms between independent
 variables.
 
-Select 'Analyze' 'General Linear Model' 'Univariate'
+Select Analyze - General Linear Model - Univariate
 
 ![](./media/spss-exer-image109.png){width="4.909027777777778in"
 height="4.1819444444444445in"}
@@ -224,27 +213,21 @@ height="4.132720909886264in"}
 
 The table below provides the descriptive statistics for faculty salary.
 
-![](./media/spss-exer-image111.png){width="2.636111111111111in"
-height="1.0777777777777777in"}
+![](./media/Reg3.png){width="6in"
+height="6in"}
 
-The table below indicates that the overall regression model is
+The table above indicates that the overall regression model is
 significant (F=101.771, pvalue\<.001). This is indicated by the line for
 'Corrected Model'. The R Squared value is also listed in footnote a. for
 the table.
 
-![](./media/spss-exer-image112.png){width="5.246527777777778in"
-height="2.4027777777777777in"}
-
-The parameter estimates table below provides the same information as the
-coefficients table above.
-
-![](./media/spss-exer-image113.png){width="5.753472222222222in"
-height="1.3895833333333334in"}
+The parameter estimates table above provides the same information as the
+previous coefficients table.
 
 Notice that the results are the same between the two methods that can be
 used in SPSS to perform a regression. For the remainder of the workshop
 we will use the second method to obtain our regression results
-('Analyze' 'General Linear Model' 'Univariate').
+(Analyze - General Linear Model - Univariate).
 
 **Activity 3: Simple Linear Regression Diagnostics**
 
@@ -272,16 +255,16 @@ height="4.652742782152231in"}
 The scatter plot below does not indicate that either assumption has been
 violated.
 
-![](./media/spss-exer-image118.png){width="4.8622834645669295in"
-height="3.8824573490813648in"}
+![](./media/spss-exer-image118.png){width="7.2in"
+height="6in"}
 
 **Check for influential points**
 
 The scatter plot from exercise 2 did not indicate that there were points
 of interest.
 
-![](./media/spss-exer-image101.png){width="4.719426946631671in"
-height="3.7683891076115485in"}
+![](./media/spss-exer-image101.png){width="7.2in"
+height="6in"}
 
 A leverage point is an unusual point that has the potential to influence
 the fit of the model. Sort the data set by Leverage in descending order.
@@ -305,27 +288,26 @@ largest Cook's distance first. Remember a distance greater than 1 or
 large Cook's distances, but we do not have cause to remove them from the
 data set.
 
-![](./media/spss-exer-image120.png){width="5.602543744531934in"
-height="4.478884514435696in"}
+![](./media/spss-exer-image120.png){width="6in"
+height="4.8in"}
 
 **Check the normality assumption for the residuals**
 
-![](./media/spss-exer-image121.png){width="3.7843613298337706in"
-height="3.408365048118985in"}
+![](./media/spss-exer-image121.png){width="6in"
+height="5.3in"}
 
 The plot below indicates that the normality assumption is reasonable.
 
-![](./media/spss-exer-image122.png){width="3.797347987751531in"
-height="3.0321227034120737in"}
+![](./media/spss-exer-image122.png){width="8in"
+height="6.7in"}
 
-A QQ plot can also be investigated ('Analyze' 'Descriptive Statistics'
-'QQ Plot')
+A QQ plot can also be investigated (Analyze - Descriptive Statistics - QQ Plot)
 
-![](./media/spss-exer-image123.png){width="4.9272189413823275in"
-height="3.5635444006999126in"}
+![](./media/spss-exer-image123.png){width="6in"
+height="4.4in"}
 
-![](./media/spss-exer-image124.png){width="5.433711723534558in"
-height="4.338733595800525in"}
+![](./media/spss-exer-image124.png){width="8in"
+height="6.5in"}
 
 **Activity 4: Multiple Regression with a Categorical Predictor**
 
@@ -336,7 +318,7 @@ gender.
 **Create a multiple regression model where salary is the dependent
 variable, and both marketability and gender are the predictors. **
 
-Select 'Analyze' 'General Linear Model' 'Univariate'
+Select Analyze - General Linear Model - Univariate
 
 Select 'salary' as the dependent variable, male as the fixed factor, and
 market as the covariate. Remember that any categorical predictor in a
@@ -355,29 +337,26 @@ height="5.038888888888889in"}
 The table below indicates the number of Males and Females in the data
 set, along with the code that denotes the genders.
 
-![](./media/spss-exer-image127.png){width="2.6493055555555554in"
-height="0.9611111111111111in"}
+![](./media/Reg4.png){width="8in"
+height="8in"}
 
-The table below indicates that the average salary for males is greater
+The table above indicates that the average salary for males is greater
 than the average salary for females (\$53,499.24 compared to
 \$42,916.60).
 
-![](./media/spss-exer-image128.png){width="3.2708333333333335in"
-height="1.5104166666666667in"}
-
-The table below indicates that the model fitted is significantly better
+The table above indicates that the model fitted is significantly better
 than what we would expect by chance (F=85.799, pvalue\<.001). The null
 hypothesis is that there is no linear relationship between faculty
 salary and the model predictors, and we reject this hypothesis. This is
 indicated by the line for 'Corrected Model'. The R Squared value is also
 listed in footnote a. for the table. The proportion of variance in
 faculty salary explained jointly by marketability of discipline and
-gender is 25.1%. Notice that this is an increase from the previous model
+gender is 25.1%. Notice that this is an increase from the previous model.
 
-![](./media/spss-exer-image129.png){width="5.246527777777778in"
-height="2.623611111111111in"}
+![](./media/Reg5.png){width="8in"
+height="8in"}
 
-The table below provides the parameter estimates for the regression
+The table above provides the parameter estimates for the regression
 model. The difference in population mean salaries between men and women,
 when controlling for marketability is estimated to be \$8,708.42.
 
@@ -389,8 +368,7 @@ gender variable: When controlling for marketability, faculty salaries
 are on average \$8,708.42 less for females when compared to males.
 
 The marketability coefficient now is interpreted as the effect of
-marketability for a given gender. This can also be thought of as the
-within-gender effect of marketability of discipline. For every one unit
+marketability after accounting gender. For every one unit
 increase in marketability, faculty salary increases by an average of
 \$29,972.60 holding gender constant. We could also interpret the beta
 coefficient for marketability the following way: the effect of a .1
@@ -399,9 +377,6 @@ in mean salary of \$2,997 holding gender constant.
 
 Notice that all of the predictor variables in the model are highly
 significant.
-
-![](./media/spss-exer-image130.png){width="5.753472222222222in"
-height="2.0520833333333335in"}
 
 Note that the model fit above is also sometimes referred to as an
 analysis of covariance (ANCOVA) model. The inclusion of a continuous
@@ -414,10 +389,10 @@ the predictors. Investigate the coefficients and R-squared. **
 
 First investigate a scatter plot between salary and time since degree.
 
-![](./media/spss-exer-image131.png){width="3.3854166666666665in"
-height="2.7072484689413825in"}
+![](./media/spss-exer-image131.png){width="6.8in"
+height="5.4in"}
 
-Select 'Analyze' 'General Linear Model' 'Univariate'
+Select Analyze - General Linear Model - Univariate
 
 Select 'salary' as the dependent variable, male as the fixed factor, and
 market and yearsdg as the covariates. Remember that any categorical
@@ -437,8 +412,8 @@ The table below indicates that the R-squared value has increased from
 the last model to .684, and the model is significant (F=367.562,
 pvalue\<.001).
 
-![](./media/spss-exer-image134.png){width="5.25in"
-height="2.8541666666666665in"}
+![](./media/Reg6.png){width="8in"
+height="8in"}
 
 The estimated population mean salary for women is \$2,040.21 less than
 men for a given marketability and time since degree. The estimated
@@ -451,8 +426,8 @@ marketability is estimated to increase average salary by \$38,402.
 Notice that all of the predictor variables in the model are highly
 significant.
 
-![](./media/spss-exer-image135.png){width="6.70844706911636in"
-height="2.6493503937007876in"}
+![](./media/Reg7.png){width="8in"
+height="8in"}
 
 **Activity 5: Multiple Regression with an Interaction**
 
@@ -469,19 +444,17 @@ gender and the effect of gender depends on time since degree.
 variable, marketability, gender, time since degree, and the interaction
 between gender and time since degree are the predictors. **
 
-Create a scatter plot: Select 'Graphs' 'Legacy Dialogs' 'Scatter/Dot'
-'Simple'
+Create a scatter plot: Select Graphs - Legacy Dialogs - Scatter/Dot
+and choose 'Simple' and 'Define'. Let the y-axis be 'salary',
+the x-axis be 'yearsdg', and set markers by 'male'. Select the graph
+in chart editor and click the box for 'Add fit line at subgroups'.
+The lines for males and females are not parallel, and this is what
+we are investigating with the proposed interaction term.
 
-'Define'. Let the y-axis be 'salary', the x-axis be 'yearsdg', set
-markers by 'male'. Select the graph in chart editor and click the box
-for 'Add fit line at subgroups'. The lines for males and females are not
-parallel, and this is what we are investigating with the proposed
-interaction term.
+![](./media/spss-exer-image136.png){width="8in"
+height="6.5in"}
 
-![](./media/spss-exer-image136.png){width="5.677083333333333in"
-height="4.539846894138233in"}
-
-Select 'Analyze' 'General Linear Model' 'Univariate'
+Select Analyze - General Linear Model - Univariate
 
 ![](./media/spss-exer-image137.png){width="3.7454002624671916in"
 height="3.1967115048118986in"}
@@ -511,8 +484,8 @@ The table below indicates that the model is significant (F=279.95,
 pvalue\<.001) and the R-squared has increased from the last model to
 .688.
 
-![](./media/spss-exer-image140.png){width="5.25in"
-height="3.0729166666666665in"}
+![](./media/Reg8.png){width="8in"
+height="8in"}
 
 In the presence of interaction terms, the main effect terms have
 different interpretations. The estimated gender gap when time since
@@ -529,8 +502,8 @@ year since degree completion, we see the gender gap between males and
 females grows by \$227.153 on average when adjusting for the other
 covariates in the model.
 
-![](./media/spss-exer-image141.png){width="6.83236220472441in"
-height="2.9870122484689414in"}
+![](./media/Reg9.png){width="8in"
+height="8in"}
 
 **Activity 6: Multiple Regression with Diagnostics**
 
@@ -548,10 +521,10 @@ Create a side-by-side box plot for salary by rank.
 ![](./media/spss-exer-image142.png){width="5.361036745406824in"
 height="4.46753280839895in"}
 
-![](./media/spss-exer-image143.png){width="3.6354166666666665in"
-height="2.9071686351706036in"}
+![](./media/spss-exer-image143.png){width="7.2in"
+height="5.8in"}
 
-Select 'Analyze' 'General Linear Model' 'Univariate'
+Select Analyze - General Linear Model - Univariate
 
 Select 'salary' as the dependent variable, 'male' and 'rank' as the
 fixed factors, and 'market' and 'yearsdg' as the covariates. Remember
@@ -578,20 +551,20 @@ Estimates', 'Residual Plot'
 The table below displays the coding scheme used for the categorical
 predictors (factors).
 
-![](./media/spss-exer-image146.png){width="2.6458333333333335in"
+![](./media/Reg10.png){width="2.6458333333333335in"
 height="1.625in"}
 
 The table below provides the descriptive statistics for salary broken
 out by gender and rank.
 
-![](./media/spss-exer-image147.png){width="4.03125in"
+![](./media/Reg11.png){width="4.03125in"
 height="3.3854166666666665in"}
 
 The table below indicates the model is significant (F=242.32,
 pvalue\<.001) and the R-squared value is .741 (an increase from the last
 model).
 
-![](./media/spss-exer-image148.png){width="5.25in"
+![](./media/Reg12.png){width="5.25in"
 height="3.2916666666666665in"}
 
 We can see from the table below that faculty rank is a significant
@@ -606,7 +579,7 @@ Professors and Full professors is \$7,819 after adjusting for the other
 covariates in the model. Put another way: Associate professors earn on
 average \$7,819 less than Full Professors, all else equal.
 
-![](./media/spss-exer-image149.png){width="6.395255905511811in"
+![](./media/Reg13.png){width="6.395255905511811in"
 height="3.4583333333333335in"}
 
 The residual plot below is given from the output. First investigate the
@@ -620,8 +593,8 @@ linearity assumption is not violated (this is approximately what we see
 here). Note that these plots could be made manually by creating scatter
 plots from the saved variables (predicted, residuals).
 
-![](./media/spss-exer-image150.png){width="4.233467847769029in"
-height="3.3854166666666665in"}
+![](./media/spss-exer-image150.png){width="7in"
+height="5.6in"}
 
 The GLM approach to regression doesn't allow for VIF's to be calculated
 directly. Multicollinearity can attempt to be assessed through
@@ -631,7 +604,7 @@ that pair wise correlations do not fully capture multicollinearity.
 ![](./media/spss-exer-image151.png){width="3.4895833333333335in"
 height="3.1406255468066493in"}
 
-![](./media/spss-exer-image152.png){width="6.09375in"
+![](./media/Corr2.png){width="6.09375in"
 height="3.1145833333333335in"}
 
 Select 'Analyze' 'Descriptive Statistics' 'QQ Plot' and select the
@@ -639,8 +612,8 @@ residual variable. The plot below indicates that the distribution of the
 error terms is approximately normal. This can also be confirmed with a
 histogram.
 
-![](./media/spss-exer-image153.png){width="4.71875in"
-height="3.773487532808399in"}
+![](./media/spss-exer-image153.png){width="7in"
+height="5.7in"}
 
-![](./media/spss-exer-image154.png){width="4.552083333333333in"
-height="3.640207786526684in"}
+![](./media/spss-exer-image154.png){width="7in"
+height="5.4in"}

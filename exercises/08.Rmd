@@ -15,9 +15,7 @@ Select the "Variable View" tab
 
 Investigate the labels and measure of each variable
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.24.37
-AM.png](./media/spss-exer-image32.png){width="6.637844488188977in"
-height="3.8053280839895014in"}
+![](./media/spss-exer-image32.png){width="6.637844488188977in" height="3.8053280839895014in"}
 
 Obtain the appropriate descriptive statistics for each variable in the
 dataset. Remember, continuous variables should be investigated with
@@ -28,14 +26,14 @@ Solution:
 
 Descriptives:
 
--   Select "Analyze" "Descriptive Statistics" "Descriptives"
+-   Select Analyze - Descriptive Statistics - Descriptives
 
 <!-- -->
 
 -   Select the following variables: sibs, childs, age, educ, paeduc,
     maeduc, speduc, prestg80
 
--   Select "Ok"
+-   Select "OK"
 
 -   Notice there are only 519 respondents that have valid data points
     for all of the continuous variables.
@@ -59,7 +57,7 @@ height="3.077777777777778in"}
 
 Frequency Tables:
 
--   Select "Analyze" "Descriptive Statistics" "Frequencies"
+-   Select Analyze - Descriptive Statistics - Frequencies
 
 -   Select the following variables: sex, region, race, happy, life,
     occcat80
@@ -78,7 +76,7 @@ Solution:
 
 -   Histogram in Legacy Dialogs
 
--   Select "Graphs" "Legacy Dialogs" "Histogram"
+-   Select Graphs - Legacy Dialogs - Histogram
 
 -   Variable: prestg80
 
@@ -96,7 +94,7 @@ height="3.177302055993001in"}
 
 -   Q-Q Plot
 
--   Select "Analyze" "Descriptive Statistics" "Q-Q Plots"
+-   Select Analyze - Descriptive Statistics - Q-Q Plots
 
 -   Select the variable prestg80
 
@@ -124,24 +122,24 @@ Solution:
 -   Set up the dataset such that the output is split by groups based on
     sex
 
--   Select "Data" "Split File"
+-   Select Data - Split File
 
 -   Select "Compare Groups"
 
 -   Select the variable sex for "Groups Based on:"
 
--   Select "Ok"
+-   Select "OK"
 
 ![](./media/spss-exer-image39.png){width="4.628517060367454in"
 height="3.5987948381452317in"}
 
 -   Compute the 5-Point Summary Descriptives for "educ"
 
--   Select "Analyze" "Descriptive Statistics" "Descriptives"
+-   Select Analyze - Descriptive Statistics - Descriptives
 
 -   Select the variable "educ"
 
--   Select "Ok"
+-   Select "OK"
 
 ![](./media/spss-exer-image40.png){width="4.664867672790901in"
 height="2.9480522747156606in"}
@@ -152,30 +150,25 @@ height="2.9480522747156606in"}
 
 -   Females have an average of 12.63 years of education
 
-  -------- -------------------- --------- --------- ------ ---------------- -------
+![](./media/EDUC_sex.png){width="5in"
+height="2in"}
 
-  sex      N                    Minimum   Maximum   Mean   Std. Deviation
-  Male     educ                 633       3         20     13.23            3.143
-           Valid N (listwise)   633
-  Female   educ                 877       0         20     12.63            2.839
-           Valid N (listwise)   877
-  -------- -------------------- --------- --------- ------ ---------------- -------
 
 -   Turn the split file feature off
 
--   Select "Data" "Split File"
+-   Select Data - Split File
 
 -   Select "Analyze all cases, do not create groups" (Alternatively,
     "Reset" can be selected)
 
--   Select "Ok"
+-   Select "OK"
 
 **Part 4**: Produce a pie chart for the variable "region". Use "Legacy
 Dialogs".
 
 Solution:
 
--   Select "Graphs" "Legacy Dialogs" "Pie"
+-   Select Graphs - Legacy Dialogs - Pie
 
 -   Under "Data in Chare Are" select "Summaries for groups of cases"
 
@@ -189,12 +182,12 @@ height="1.8178455818022747in"}
 -   The default for "Slices Represent" is "N of cases", and leave this
     at the default
 
--   Select "Ok"
+-   Select "OK"
 
 ![](./media/spss-exer-image42.png){width="4.602543744531934in"
 height="4.990481189851269in"}
 
 -   Investigate the output
 
-![](./media/spss-exer-image43.png){width="3.5505949256342957in"
-height="2.835094050743657in"}
+![](./media/spss-exer-image43.png){width="4.5in"
+height="4.5in"}

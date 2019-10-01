@@ -23,18 +23,23 @@ use. SPSS builds on what you already know from Excel, which makes the
 transition from Excel to a more powerful statistical software package
 easier.
 
+**Easiest:** Excel
+
+SPSS
+
 Minitab
 
-JMP Stata
+JMP
 
-SPSS SAS
+Stata,SAS
+
+R/S-Plus
 
 Matlab
 
-> R/S-Plus
+**Hardest:** C++
 
-Excel C++
-
+SPSS requires that data, code, and output are in separate places, unlike Excel.
 These differences seem big at first, but they are a small price to pay
 for the additional data management, graphical, and statistical
 capabilities that SPSS will give you over Excel. While SPSS seems to be
@@ -121,8 +126,8 @@ piece of output; scroll down to see the remainder.
 #### Labels in Output
 
 Variable labels and value labels will be used in place of the actual
-variable names or values, by default. This can be changed under "Edit"
-"Options" "Output" tab. SPSS can display labels only, the actual names
+variable names or values, by default. This can be changed under the
+Edit - Options - Output tab. SPSS can display labels only, the actual names
 or values only, or both.
 
 #### Tables & Charts
@@ -137,7 +142,7 @@ cells.
 
 **Helpful Hint:** To remove scientific notation in a table, double-click
 on the table and highlight the columns or rows containing the notation.
-Under "Format" "Cell Properties" and select a new numeric format, such
+Under Format - Cell Properties and select a new numeric format, such
 as \#,\#\#\#.\#\#. The number of decimal places can be increased or
 decreased here as well.
 
@@ -160,7 +165,7 @@ order to open a SPSS output file, your computer must have SPSS.
 Sometimes it is useful to export the information from your output file
 into another format, such as Microsoft Excel or Microsoft Word. Excel is
 a great platform to export to---tables turn out very nicely. To export,
-select "File" "Export" and the export wizard will appear. Select the
+select File - Export and the export wizard will appear. Select the
 file type and the location to save the file, then select "OK".
 
 **Try it: Export the output table as an Excel file and investigate the
@@ -173,7 +178,7 @@ and tables, can also be exported in an Excel or Word format. This is a
 very useful feature that can be used to export selected tables from the
 Output Viewer into an Excel format, for additional work such as creation
 of custom graphs. To export charts, select the charts in the output
-window by clicking once on them, and then go to "File" "Export" select
+window by clicking once on them, and then go to File - Export and select
 "Selected" where it asks what objects to export. Choose the "html" file
 type for charts, and under the Graphics portion of the dialogue box a
 drop down menu allows one to access the various types of image files
@@ -186,7 +191,7 @@ output into a Word file. The steps are as follows:
 
 -   Click once to select the piece(s) of output to move.
 
--   Go to "Edit" "Copy", press the short-cut ctrl-C, or right-click and
+-   Go to Edit - Copy, press the short-cut ctrl-C, or right-click and
     select "Copy").
 
 -   In Word, place the cursor where the output will go.
@@ -239,10 +244,10 @@ syntax window will open if no syntax window was open previously.
 #### Run Syntax
 
 To run commands in the syntax window, highlight the commands of interest
-and go to "Run" "Selection". Alternatively, you can click on the toolbar
+and go to Run - Selection. Alternatively, you can click on the toolbar
 button that looks like a "Play" symbol on a CD player or press ctrl-R as
 a short-cut. You can also run all commands in the syntax window by using
-"Run" "All".
+Run - All.
 
 **Try it: In the Syntax Window, highlight number 3 and run the selection
 highlighted below. Check the Output Viewer.**
@@ -310,7 +315,7 @@ these steps to get a copy of the data file in SPSS format:
     the path and the name of the file to match the current file location
     and name (the file should contain instructions as well).
 
--   Select "Run" "All" .
+-   Select Run - All .
 
 #### Syntax Examples
 
@@ -536,8 +541,8 @@ The main way that a user tells SPSS what to do is through dialogue
 boxes. These are windows that pop up when you click on an item in a menu
 or double-click on particular objects.
 
-**Try it: In Data View for Exercise0\_Data, select "Analyze"
-"Descriptive Statistics" "Descriptives".**
+**Try it: In Data View for Exercise0\_Data, select Analyze -
+Descriptive Statistics - Descriptives.**
 
 ![](./media/spss-image10.png){width="5.03125in" height="3.53125in"}
 
@@ -574,12 +579,12 @@ You could choose to display either variable labels or names in the
 variable list. For example, if you want the names to be displayed, go to
 then "Edit" menu and click "Options". When a new window comes up, click
 on the tab labeled "General". In the "Variable Lists" section, choose
-option "Display names" and "Display labels" for variable labels.
+option "Display names" or "Display labels" for variable labels.
 
 ### Adding Comments
 
-You can add descriptive comments to data files by going to "Utilities"
-"Data File Comments".
+You can add descriptive comments to data files by going to Utilities -
+Data File Comments.
 
 ## Tips for Preparing an Excel File for Use with SPSS
 
@@ -651,14 +656,14 @@ Open Exercise1\_Data and see what guidelines we have ignored.
 SPSS can easily read in data from Excel, SAS or Stata, as well as
 several lesser used options.
 
-To open a file from another program, go to "File" "Open". Under "File
+To open a file from another program, go to File - Open. Under "File
 Type" find the program the data file was created in. Select this type
 and find the file you'd like to open. Click "Open". It's that easy --
 the data file should appear. If your data is not stored in a format that
 SPSS can read, then first convert the file to Excel format. Excel is a
 useful liaison between other programs and SPSS.
 
-**Try it: Select "File" "Open". Investigate the different file types
+**Try it: Select File - Open. Investigate the different file types
 that you can open.**
 
 ![](./media/spss-image12.png){width="5.375in" height="3.490304024496938in"}
@@ -683,18 +688,18 @@ Name,Age,Gender,Occupation,Yearly,Salary
 
 Jim,25 ,Male,Accountant,65,000
 
-Read delimited files into SPSS by going to "File" "Read Text Data".
+Read delimited files into SPSS by going to File - Read Text Data.
 First, locate the name of the text file and click Open. Answer the
 questions as you go along, clicking Next to move on to the next
 question. Be sure to choose the Delimited file type, and identify the
 character (comma, space, tab, etc) that acts as the delimiter.
 
-Similarly, read fixed-column data files by going to "File" "Read Text
-Data". Open the file containing the text data. Follow along with the
+Similarly, read fixed-column data files by going to File - Read Text
+Data. Open the file containing the text data. Follow along with the
 questions, clicking Next to move along. Be sure to select the Fixed
 width option.
 
-You may name the variables for either delimited or fixed with files
+You may name the variables for either delimited or fixed width files
 during the import procedure, or after the data have already been read
 into the Data Editor. Sometimes the variable names are already in the
 top row of the text file. You will be able to tell SPSS whether these
@@ -712,7 +717,7 @@ your work.
 
 To save files in a certain format so that you can move data from SPSS to
 another program (this is exporting from SPSS), make certain you are in
-the Data Editor window, and go to "File" "Save As" and then select "File
+the Data Editor window, and go to File -> Save As and then select "File
 Type". Be sure to give this new file a name.
 
 You can export to most of the same file types as you can import.
@@ -722,7 +727,7 @@ selecting the "Variables..." button in the "Save Data As" window. Once
 you have selected the variables that you want for the new data file,
 select "Continue" then "Save".
 
-Try it: Select "File" "Save As". Investigate the different file types.
+Try it: Select File - Save As. Investigate the different file types.
 Select the "Variables" button and investigate.
 
 ![](./media/spss-image13.png){width="6.496790244969379in"

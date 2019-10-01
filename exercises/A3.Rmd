@@ -1,5 +1,5 @@
 
-Exercise A3 -- Methodology Choice Practice
+# Exercise A3 -- Methodology Choice Practice
 ==========================================
 
 In the below questions first determine what the appropriate analysis

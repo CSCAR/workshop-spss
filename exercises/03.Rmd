@@ -22,7 +22,7 @@ Solution:
 height="3.125in"}
 
 -   Ender the value and label, then select "Add". Once all possible
-    value labels are added, select "Ok"
+    value labels are added, select "OK"
 
 -   When value labels (or other attributes such as label or missing)
     repeat for a variable, you can copy and paste the attribute values.

@@ -81,7 +81,7 @@ the four most important types:
 -   Date is still numeric but displayed using hours, minutes, and
     seconds
 
-![](./media/spss-image16.png){width="3.5729166666666665in"
+![](./media/spss-image16.png){width="8in"
 height="4.572916666666667in"}
 
 Most statistical analyses use only numeric variables. SPSS can handle a
@@ -313,7 +313,7 @@ old values may not be overwritten. If some of the necessary information
 is missing for a certain case in the file, and the software cannot
 compute the new value, then the value from the old variable will remain.
 
-Select "Transform" "Compute Variable" and enter a name for the new
+Select Transform - Compute Variable and enter a name for the new
 variable in the upper left box, labeled "Target Variable." SPSS will
 automatically create the new variable when it executes the compute
 command.
@@ -409,19 +409,19 @@ COS Cosine
 
 **Statistical Functions:**
 
-SUM\[.n\] Sum of arguments
+SUM(.n) Sum of arguments
 
-MEAN\[.n\] Mean of arguments
+MEAN(.n) Mean of arguments
 
-SD\[.n\] Standard deviation of arguments
+SD(.n) Standard deviation of arguments
 
-VARIANCE\[.n\] Variance of arguments
+VARIANCE(.n) Variance of arguments
 
-CFVAR\[.n\] Coefficient of variation of arguments
+CFVAR(.n) Coefficient of variation of arguments
 
-MIN\[.n\] Minimum of arguments
+MIN(.n) Minimum of arguments
 
-MAX\[.n\] Maximum of arguments
+MAX(.n) Maximum of arguments
 
 **Missing Values Functions:**
 
@@ -509,7 +509,7 @@ Values within Cases" to tally up the number of A's each student earned.
 
 To use the Count Values within Cases procedure:
 
--   Go to "Transform" "Count Values within Cases".
+-   Go to Transform - Count Values within Cases.
 
 -   Specify a new variable name under "Target Variable".
 
@@ -528,25 +528,19 @@ Often, you will need to convert string variables into numeric variables
 in order to use them in a certain statistical procedure. Recoding is
 also a way to collapse a continuous variable into categories.
 
-Below are some pictorial representations of some possible recodes:
+Below are representations of some possible recodes:
 
-**"Male" 1**
+**"Male" -- 1**
 
-**"Female" 0**
+**"Female"  -- 0**
 
-**1 0**
+**1 -- 0**
 
-**2 1**
+**2 -- 1**
 
-**3 2 **
+**3 -- 2 **
 
-**. **
-
-**.**
-
-**.**
-
-**15**
+**4:15 -- 9 **
 
 ### Manual Recoding
 
@@ -561,7 +555,7 @@ not change, which is not the case with "Recode Into Same Variables".
 "Recode Into Same Variables" is risky since you will not be able to undo
 the changes if you make a mistake.
 
-Select "Transform" "Recode into Different Variables"
+Select Transform - Recode into Different Variables"
 
 ![](./media/spss-image32.png){width="6.5in" height="3.6305555555555555in"}
 
@@ -622,7 +616,7 @@ numeric variables.
 
 To use Automatic Recode:
 
--   Go to "Transform" "Automatic Recode".
+-   Go to Transform - Automatic Recode.
 
 -   Choose the original variable to be recoded.
 
@@ -662,7 +656,7 @@ Assuming that we have a string variable called "everpreg" coded "Y" and
 "N" for yes and no, and that our number of births variable is called
 "numbirth", we would proceed as follows:
 
-Go to "Transform" "Compute (Variable)"
+Go to Transform - Compute Variable
 
 -   Put numbirth in the "Target Variable" box.
 
@@ -674,7 +668,7 @@ Go to "Transform" "Compute (Variable)"
 
 -   Type everpreg = "N" in the condition box.
 
--   Click "Continue" and "Ok".
+-   Click "Continue" and "OK".
 
 ![](./media/spss-image38.png){width="5.953517060367454in"
 height="4.864583333333333in"}
@@ -688,11 +682,11 @@ Count procedures.
 You can use the words and, or, and not within the If box to help write
 your criteria. Some examples of If expressions are as follows:
 
--   sex = "f" and age \> 50 \[ women over 50 \]
+-   sex = "f" and age \> 50 *women over 50
 
--   not missing(income) \[ participants whose income is known \]
+-   not missing(income) *participants whose income is known
 
--   educat = 5 or educat = 6 \[ e.g., respondents with a BA or MA \]
+-   educat = 5 or educat = 6 *respondents with a BA or MA
 
 ## Rank Cases
 

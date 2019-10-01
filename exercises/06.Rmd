@@ -7,7 +7,7 @@ Convert Exercise6\_Data from "Wide" format to "Long" format
 
 -   Open Exercise6\_Data
 
--   Select "Data" "Restructure" to open the Wizard
+-   Select Data - Restructure to open the Wizard
 
 -   Select "Restructure selected variables into cases" then "Next"
 
@@ -54,23 +54,17 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./media/spss-exer-image23.png){width="6.5in"
-height="6.314580052493438in"}
+![](./media/spss-exer-image23.png){width="6.5in" height="6.314580052493438in"}
 
 -   What do you want to do? Select "Restructure the data now". In the
     future you may want to keep the syntax.
 
 -   Select "Finish"
 
--   The following message appears, click "Ok"
+-   The following message appears, click "OK"
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 11.02.44
-AM.png](./media/spss-exer-image24.png){width="5.375in"
-height="1.4115113735783027in"}
+![](./media/spss-exer-image24.png){width="5.375in" height="1.4115113735783027in"}
 
 -   Inspect the data (and change "trans1" to "X")
 
-    ![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at
-    11.03.50
-    AM.png](./media/spss-exer-image25.png){width="5.207962598425197in"
-    height="4.987069116360455in"}
+![](./media/spss-exer-image25.png){width="5.207962598425197in" height="4.987069116360455in"}

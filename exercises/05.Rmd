@@ -10,13 +10,12 @@ Select male managers. What is their average age?
 -   Check Values for sex and occat80 to see what values correspond to
     "male" and "manager" (it's 1 and 1).
 
--   "Data" "Select Cases"
+-   Data - Select Cases
 
 -   Under Select: Select the If Condition is Satisfied radio dial and
     select the If button
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.04
-AM.png](./media/spss-exer-image14.png){width="4.327660761154855in"
+![](./media/spss-exer-image14.png){width="4.327660761154855in"
 height="4.396551837270342in"}
 
 -   Enter the following information
@@ -25,44 +24,26 @@ height="4.396551837270342in"}
 
     -   Continue
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.22.50
-AM.png](./media/spss-exer-image15.png){width="4.5in"
+![](./media/spss-exer-image15.png){width="4.5in"
 height="3.0317311898512687in"}
 
 -   Under Output: Select Filter Out Unselected Cases
 
--   Select Ok
+-   Select OK
 
 -   Inspect the data in Data View
 
--   "Analyze" "Descriptive Statistics" "Descriptives"
+-   Analyze - Descriptive Statistics - Descriptives
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./media/spss-exer-image16.png){width="4.387911198600175in"
+![](./media/spss-exer-image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
--   Select the age variable, select Ok
+-   Select the age variable, select OK
 
 -   Turn off the filter!
 
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| > **Descr |
-| iptive    |
-| > Statist |
-| ics**     |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-|           | > N       | > Minimum | > Maximum | > Mean    | > Std.    |
-|           |           |           |           |           | > Deviati |
-|           |           |           |           |           | on        |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| > Age of  | > 160     | > 21      | > 89      | > 45.47   | > 15.627  |
-| > Respond |           |           |           |           |           |
-| ent       |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
-| > Valid N | > 160     |           |           |           |           |
-| > (listwi |           |           |           |           |           |
-| se)       |           |           |           |           |           |
-+-----------+-----------+-----------+-----------+-----------+-----------+
+![](./media/MM_age.png){width="4in"
+height="1in"}
 
 Part 2
 
@@ -71,7 +52,7 @@ category.
 
 **Solution:**
 
--   "Data" "Split File"
+-   Data - Split File
 
 -   Select Compare Groups
 
@@ -82,102 +63,17 @@ category.
 
 -   Select Ok
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.27.12
-AM.png](./media/spss-exer-image17.png){width="4.004309930008749in"
+![](./media/spss-exer-image17.png){width="4.004309930008749in"
 height="2.963445975503062in"}
 
--   AnalyzeDescriptive StatisticsDescriptives, select the age variable,
-    select Ok
+-   Analyze - Descriptive Statistics - Descriptives
 
-![Macintosh HD:Users:jerrick:Desktop:Screen Shot 2017-01-06 at 10.23.45
-AM.png](./media/spss-exer-image16.png){width="4.387911198600175in"
+-   Select the age variable and OK
+
+![](./media/spss-exer-image16.png){width="4.387911198600175in"
 height="2.52586176727909in"}
 
 -   Turn off the split file!
 
-+---------+---------+---------+---------+---------+---------+---------+
-| > **Des |
-| criptiv |
-| e       |
-| > Stati |
-| stics** |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Occup | > N     | > Minim | > Maxim | > Mean  | > Std.  |
-| ational |         | um      | um      |         | > Devia |
-| > Categ |         |         |         |         | tion    |
-| ory     |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > .     | > Age   | > 98    | > 18    | > 88    | > 43.24 | > 21.56 |
-|         | > of    |         |         |         |         | 0       |
-|         | > Respo |         |         |         |         |         |
-|         | ndent   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 98    |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Manag | > Age   | > 339   | > 21    | > 89    | > 44.76 | > 15.71 |
-| erial   | > of    |         |         |         |         | 3       |
-| > and   | > Respo |         |         |         |         |         |
-| > Profe | ndent   |         |         |         |         |         |
-| ssional |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 339   |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Techn | > Age   | > 454   | > 19    | > 89    | > 45.57 | > 17.71 |
-| ical    | > of    |         |         |         |         | 6       |
-| > and   | > Respo |         |         |         |         |         |
-| > Sales | ndent   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 454   |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Servi | > Age   | > 204   | > 19    | > 89    | > 45.35 | > 18.17 |
-| ce      | > of    |         |         |         |         | 5       |
-|         | > Respo |         |         |         |         |         |
-|         | ndent   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 204   |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Farmi | > Age   | > 36    | > 21    | > 84    | > 47.69 | > 19.15 |
-| ng,     | > of    |         |         |         |         | 6       |
-| > Fores | > Respo |         |         |         |         |         |
-| t,      | ndent   |         |         |         |         |         |
-| > and   |         |         |         |         |         |         |
-| > Fishi |         |         |         |         |         |         |
-| ng      |         |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 36    |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Produ | > Age   | > 163   | > 20    | > 89    | > 46.91 | > 17.91 |
-| ction   | > of    |         |         |         |         | 7       |
-| > and   | > Respo |         |         |         |         |         |
-| > Craft | ndent   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 163   |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Gener | > Age   | > 220   | > 18    | > 89    | > 47.10 | > 18.56 |
-| al      | > of    |         |         |         |         | 6       |
-| > Labor | > Respo |         |         |         |         |         |
-|         | ndent   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 220   |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
+![](./media/OCC_age.png){width="6in"
+height="4in"}

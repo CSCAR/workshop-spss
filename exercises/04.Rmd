@@ -8,7 +8,9 @@ current salary for each employee.
 
 Solution:
 
--   "Transform" "Compute Variable" Select "Reset"
+-   Transform - Compute Variable
+
+-   Select "Reset"
 
 -   Enter the following information
 
@@ -21,7 +23,7 @@ Solution:
     minus sign (alternatively, you could type a minus sign) then select
     salbegin
 
--   Select Ok, and the new variable will appear in the data set
+-   Select OK, and the new variable will appear in the data set
 
 ![](./media/spss-exer-image12.png){width="6.459686132983377in"
 height="5.278486439195101in"}
@@ -36,7 +38,7 @@ Recode the education variable according to the following
 
 Solution:
 
--   "Transform" "Recode into different variables"
+-   Transform- Recode into different variables
 
 -   Move education (educ) into the Input Variable Output Variable window
     by double clicking on it or using the arrow
@@ -74,5 +76,4 @@ Solution:
 
 -   Check the dataset in Data View
 
-![](./media/spss-exer-image13.png){width="6.5in"
-height="3.7894663167104112in"}
+![](./media/spss-exer-image13.png){width="6.5in" height="3.7894663167104112in"}

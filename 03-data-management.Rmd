@@ -3,7 +3,7 @@
 ## Sorting Cases
 
 Sorting cases based on a particular variable is often necessary when
-managing data sets. Go to "Data" "Sort Cases" to place the cases in
+managing data sets. Go to Data - Sort Cases to place the cases in
 order. Choose the variable that determines the ordering, and choose
 "Ascending" or "Descending".
 
@@ -61,21 +61,21 @@ Cases".
 Users can specify their own filter variable. He or she can use any
 variable as a filter as long as a value of 0 for that variable indicates
 exclusion and a value of 1 inclusion. Click the "Use filter variable"
-option under "Data" "Select Cases" to do this; move your filter variable
+option under Data - Select Cases to do this; move your filter variable
 into the box.
 
 ### If Condition is Satisfied
 
-Go to "Data" "Select Cases" to use only some of the cases. Click "If
+Go to Data - Select Cases" to use only some of the cases. Click "If
 condition is satisfied...." to select cases based on certain criteria.
 Then click the "If..." button to pull up a window in which you will
 state the condition. Some example conditions are:
 
-gender='m' (selects men only)
+gender='m' *selects men only
 
-age\<=12 and sex=2 (selects children 12 and under of one sex only)
+age\<=12 and sex=2 *selects children 12 and under of one sex only
 
-marital=0 (selects all "never married" respondents)
+marital=0 *selects all never married respondents
 
 You can return to the data editor by clicking "Continue" and "OK".
 Notice that certain rows have been "scratched" out by SPSS. SPSS has
@@ -88,7 +88,7 @@ height="4.729166666666667in"}
 
 ![](./media/spss-image44.png){width="6.5in" height="4.03125in"}
 
-To return to the entire sample, go to "Data" "Select Cases", choose the
+To return to the entire sample, go to Data - Select Cases, choose the
 radio button next to "All Cases," and then click "OK". The "Filter On"
 message will disappear and all results from that point on refer to the
 entire data set.
@@ -172,7 +172,7 @@ will give all output for each job category group within each gender.
 
 To use Split File:
 
--   Go to "Data" "Split File".
+-   Go to Data - Split File.
 
 -   Click on "Compare Groups" or "Organize Output by Groups".
 
@@ -180,44 +180,18 @@ To use Split File:
 
 -   Click OK.
 
--   To turn off the Split File command, return to "Data" "Split File"
+-   To turn off the Split File command, return to Data - Split File
     and click on "Analyze all cases, do not create groups".
 
 ![](./media/spss-image49.png){width="4.625in" height="3.5833333333333335in"}
 
 **Try it: Use Section2\_Data.sav. Obtain the descriptive statistics for
-DepScale\_01 for males and females separately. Hint: Select 'Analyze'
-'Descriptive Statistics' 'Descriptives'.**
+DepScale\_01 for males and females separately. Hint: Select Analyze -
+Descriptive Statistics - Descriptives.**
 
 ![](./media/spss-image50.png){width="3.93125in" height="2.875in"}
 
-+---------+---------+---------+---------+---------+---------+---------+
-| > **Des |
-| criptiv |
-| e       |
-| > Stati |
-| stics** |
-+---------+---------+---------+---------+---------+---------+---------+
-| > Gende | > N     | > Minim | > Maxim | > Mean  | > Std.  |
-| r       |         | um      | um      |         | > Devia |
-|         |         |         |         |         | tion    |
-+---------+---------+---------+---------+---------+---------+---------+
-| > F     | > DepSc | > 4     | > 2.00  | > 12.00 | > 7.250 | > 4.573 |
-|         | ale\_01 |         |         |         | 0       | 47      |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 4     |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
-| > M     | > DepSc | > 4     | > 4.00  | > 15.00 | > 9.000 | > 4.690 |
-|         | ale\_01 |         |         |         | 0       | 42      |
-+---------+---------+---------+---------+---------+---------+---------+
-|         | > Valid | > 4     |         |         |         |         |
-|         | > N     |         |         |         |         |         |
-|         | > (list |         |         |         |         |         |
-|         | wise)   |         |         |         |         |         |
-+---------+---------+---------+---------+---------+---------+---------+
+![](./media/spss-image-splitfile.png){width="5in" height="1.5in"}
 
 ##  Exercise 5 -- Subsetting Data
 
@@ -226,11 +200,11 @@ Open Exercise5\_Data.
 
 Select male managers. What is their average age?
 
-(You can obtain the average age by choosing "Analyze" -\> "Descriptive
-Statistics" -\> "Descriptives" and placing "Age of Respondednt \[age\]"
-in the right hand side.)
+(You can obtain the average age by choosing Analyze - Descriptive
+Statistics - Descriptives and moving "Age of Respondent (age)"
+to the right hand side.)
 
-Use the "split file" procedure to get the average age for each job
+Use the "Split File" procedure to get the average age for each job
 category.
 
 ## Converting Data Formats

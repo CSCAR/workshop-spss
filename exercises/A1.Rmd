@@ -1,4 +1,4 @@
-Exercise A1 -- Categorical Data Analysis
+# Exercise A1 -- Categorical Data Analysis
 ========================================
 
 **Question 1 **
@@ -21,7 +21,6 @@ respondent's education and their spouses' education. Is this correlation
 positive or negative? Is it statistically significant.
 
 
-=
 
 Exercise A1 Solution
 ====================
@@ -37,7 +36,7 @@ display the variable.
 -   We have one categorical variable that we would like to
     investigate...check the all on one page handout!
 
--   "Analyze" "Descriptive Statistics" "Frequencies"
+-   Analyze - Descriptive Statistics - Frequencies
 
 ![](./media/spss-exer-image44.png){width="4.864583333333333in"
 height="3.0833333333333335in"}
@@ -56,16 +55,13 @@ height="3.0833333333333335in"}
 
     -   Select the box for Display Frequency Tables
 
-    -   Select Ok
+    -   Select OK
 
 ![](./media/spss-exer-image45.png){width="2.8333333333333335in"
 height="2.9791666666666665in"}
 
-![](./media/spss-exer-image46.png){width="1.90625in"
-height="0.9479166666666666in"}
-
-![](./media/spss-exer-image47.png){width="5.15625in"
-height="1.96875in"}
+![](./media/Happy.png){width="4in"
+height="3in"}
 
 ![](./media/spss-exer-image48.png){width="6.5in"
 height="5.197916666666667in"}
@@ -80,7 +76,7 @@ apparent relationship is statistically significant?
 -   We are going to compare two categorical variables. From out handout,
     we will use Pearson Chi-Square crosstabs to do this!
 
--   AnalyzeDescriptive StatisticsCrosstabs
+-   Analyze - Descriptive Statistics - Crosstabs
 
 <!-- -->
 
@@ -114,7 +110,7 @@ height="3.3971161417322833in"}
 
 -   Select the box for Display Clustered Bar Charts
 
--   Select Ok
+-   Select OK
 
 ![](./media/spss-exer-image51.png){width="3.4375in"
 height="3.8125in"}
@@ -138,14 +134,8 @@ height="3.8125in"}
     -   The clustered bar chart also shows that there are greater
         numbers of women that indicate that they are "not too happy".
 
-![](./media/spss-exer-image52.png){width="5.90625in"
-height="1.28125in"}
-
-![](./media/spss-exer-image53.png){width="6.5in"
-height="2.6211231408573927in"}
-
-![](./media/spss-exer-image54.png){width="4.125in"
-height="1.9895833333333333in"}
+![](./media/Sex_Happy.png){width="6in"
+height="5.33in"}
 
 ![](./media/spss-exer-image55.png){width="4.507012248468941in"
 height="3.6041666666666665in"}
@@ -160,9 +150,9 @@ positive or negative? Is it statistically significant.
 
 **Solution: **
 
--   GraphsLegacy DialoguesScatter/Dot
+-   Graphs - Legacy Dialogues - Scatter/Dot
 
--   Simple ScatterDefine
+-   Simple Scatter and Define
 
 <!-- -->
 
@@ -172,7 +162,7 @@ positive or negative? Is it statistically significant.
 
     -   X Axis: educ
 
-    -   Select Ok
+    -   Select OK
 
 -   Check the output for the scatter plot
 
@@ -200,7 +190,7 @@ positive or negative? Is it statistically significant.
 
     -   Check the box for Flag significant correlations
 
-    -   Select Ok
+    -   Select OK
 
 -   The output indicates that the correlation between education and
     spouses' education is positive and statistically significant.
@@ -225,8 +215,4 @@ height="3.45207895888014in"}
 ![](./media/spss-exer-image61.png){width="3.992153324584427in"
 height="3.5929374453193352in"}
 
-![](./media/spss-exer-image62.png){width="5.472672790901138in"
-height="2.1187445319335083in"}
-
-![](./media/spss-exer-image62.png){width="5.563582677165354in"
-height="2.153940288713911in"}
+![](./media/Corr.png){width="6in" height="7in"}

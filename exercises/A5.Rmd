@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 Exercise A5 -- Case Study II: AIDS (Logistic Regression)
 ========================================================
 
@@ -24,7 +29,7 @@ the two categories of the outcome. The model has the form:
 $$\ln\left( \frac{p}{1 - p} \right) = \beta_{0} + \beta_{1}x_{1} + \beta_{2}x_{x} + \ldots + \beta_{p}x_{p}\ $$
 
 where p is the probability of the outcome variable being equal to 1. The
-$\ln\left( \frac{p}{1 - p} \right)$ outcome is known as the log-odds.
+$$\ln\left( \frac{p}{1 - p} \right)$$ outcome is known as the log-odds.
 
 *Note: It is possible to change which level of the outcome variable the
 probability references, so you can model the probability that y=0
@@ -46,7 +51,7 @@ per capita, LOG\_GDP).
 *Perform a simple logistic regression where 'aidscat2' is the outcome
 variable and 'log\_gdp' is the independent/predictor variable.*
 
-Select 'Analyze'-\>'Regression'-\>'Binary Logistic' to open the logistic
+Select Analyze - Regression - Binary Logistic' to open the logistic
 regression dialogue box.
 
 Select AIDSCAT2 as the binary dependent variable. Note that the category
