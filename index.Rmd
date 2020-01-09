@@ -18,15 +18,35 @@ github-repo: rstudio/bookdown-demo
 
 There are four sections to this workshop:
 
-Section 1 The Basics of SPSS
-
-Section 2 Working with Variables
-
-Section 3 Understanding Data Management Tasks
-
-Section 4 Understanding Graphical & Statistical Procedures, Msc.
+- Chapter 2: The Basics of SPSS
+- Chapter 3: Working with Variables
+- Chapter 4: Understanding Data Management Tasks
+- Chapter 5: Understanding Graphical & Statistical Procedures, Msc.
 
 These sections will generally be presented in sequence. The discussion
 will alternate between theory and practice. The format will alternate
 between lecture and lab sessions. Please ask questions as soon as they
 arise in your mind. Please provide feedback or voice concerns.
+
+## Contact information
+
+### CSCAR
+
+- Office Hours: Monday-Friday 9am to 5pm (Closed Tuesday 12-1pm)
+- Phone: 734.764.7828
+- Statistical Assistance: stats-consulting@umich.edu
+- Data Science Assistance: ds-consulting@umich.edu
+- High Performance Computing: hpc-consulting@umich.edu
+- http://cscar.research.umich.edu/
+
+## Acknowledgments
+
+These notes have evolved over the years thanks to many CSCAR
+statisticians, including Corey Powell, Josh Errickson, Giselle
+Kolenic, and Missy Plegue.
+
+This material was created for use in workshops and short courses
+presented by faculty and staff from the Consulting for Statistics,
+Computing \& Analytics Research (CSCAR) at the University of
+Michigan. No part of this material may be used for other purposes,
+copied, changed, or sold.
