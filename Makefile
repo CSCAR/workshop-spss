@@ -2,12 +2,12 @@ default:
 	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 
 clean:
-	@rm -rf _book
+	@rm -rf docs
 
 fresh: clean default
 
 open:
-	@open _book/index.html
+	@open docs/index.html
 
 publish:
 	@cp -r _book/* ~/repositories/josherrickson.github.io/spss/.
