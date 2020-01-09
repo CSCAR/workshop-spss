@@ -12,6 +12,4 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# Solutions
-
-here
+# Appendix

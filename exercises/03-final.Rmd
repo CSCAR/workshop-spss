@@ -1,6 +1,5 @@
 
-Final Project
-=============
+# Final Project
 
 **The Data (Refer to Final Project Folder)**
 
@@ -129,8 +128,7 @@ Final Steps
 2)  Select a few tables and/or charts that you would like to present and
     paste them into Microsoft Word
 
-Final Project Solution
-======================
+## Final Project Solution
 
 **The Data:**
 
