@@ -1,6 +1,6 @@
 ---
 title: "Introduction to SPSS"
-author: "Josh Errickson"
+author: "CSCAR Staff"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
