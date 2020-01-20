@@ -51,6 +51,10 @@ Computing \& Analytics Research (CSCAR) at the University of
 Michigan. No part of this material may be used for other purposes,
 copied, changed, or sold.
 
+## Images
+
+All images embedded within the document should link to a full-size version of the image.
+
 ## Data
 
 There are a number of data sets used in these notes; some used for the examples, others for the execises.
