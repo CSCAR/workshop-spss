@@ -271,7 +271,7 @@ correct attributes to each variable by following the code book.
 |              |                                       |5 = Production and Craft         |               |
 |              |                                       |6 = General Labor                |               |
 
-Solution:
+#### Exercise 3 Solution
 
 -   In Variable View, the first four columns do not need to be modified
 
@@ -309,7 +309,19 @@ Open [exercise4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data
 Compute a new variable that is the change from beginning salary to
 current salary for each employee.
 
-Solution:
+Recode the education variable into a new variable according to the
+following
+
+- 1=High School or Less (educ\<=12)
+
+- 2=Some College (12\<educ\<=16)
+
+- 3=Bachelor's Degree or Higher (educ\>=17)
+
+#### Exercise 4 Solution
+
+Compute a new variable that is the change from beginning salary to
+current salary for each employee.
 
 -   Transform - Compute Variable
 
@@ -330,15 +342,14 @@ Solution:
 
 [![](./media/spss-exer-image12.png){width="6.459686132983377in" height="5.278486439195101in"}](./media/spss-exer-image12.png){target="_blank"}
 
-Recode the education variable according to the following
+Recode the education variable into a new variable according to the
+following
 
-1=High School or Less (educ\<=12)
+- 1=High School or Less (educ\<=12)
 
-2=Some College (12\<educ\<=15)
+- 2=Some College (12\<educ\<=16)
 
-3=Bachelor's Degree or Higher (educ\>=16)
-
-Solution:
+- 3=Bachelor's Degree or Higher (educ\>=17)
 
 -   Transform- Recode into different variables
 
@@ -386,7 +397,13 @@ Open [exercise5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data
 
 Select male managers. What is their average age?
 
-**Solution:**
+(You can obtain the average age by choosing Analyze - Descriptive Statistics - Descriptives and moving “Age of Respondent (age)” to the right hand side.)
+
+Use the “Split File” procedure to get the average age for each job category.
+
+#### Exercise 5 Solution
+
+Select male managers. What is their average age?
 
 -   Check Values for sex and occat80 to see what values correspond to
     "male" and "manager" (it's 1 and 1).
@@ -422,12 +439,7 @@ Select male managers. What is their average age?
 
 [![](./media/MM_age.png){width="4in" height="1in"}](./media/MM_age.png){target="_blank"}
 
-Part 2
-
-Use the "split file" procedure to get the mean current age for each job
-category.
-
-**Solution:**
+Use the “Split File” procedure to get the average age for each job category.
 
 -   Data - Split File
 
@@ -450,13 +462,13 @@ category.
 
 -   Turn off the split file!
 
-[![](./media/OCC_age.png){width="6in" height="4in"}](./media/OCC_age.png){target="_blank"}
+[![](./media/OCC_age.png)](./media/OCC_age.png){target="_blank"}
 
 ### Exercise 6
 
-Convert [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav) from "Wide" format to "Long" format
+Convert exercise6_data from "Wide" format to "Long" format
 
-**Solution: **
+#### Exercise 6 Solution
 
 -   Open [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav)
 
@@ -519,9 +531,9 @@ Convert [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/d
 
 ### Exercise 7
 
-Convert [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav) from "Long" format to "Wide" format
+Convert exercise7_data from "Long" format to "Wide" format
 
-**Solution: **
+#### Exercise 7 Solution
 
 -   Open [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav)
 
@@ -564,53 +576,69 @@ Convert [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/d
 
 ### Exercise 8
 
+Open [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
+
 **Part 1**: Investigate the variable attributes. Determine which
 variables are categorical variables (nominal and ordinal), and which
 variables are continuous (scale).
 
-Solution:
+Obtain the appropriate descriptive statistics for each variable.
+Remember, continuous variables should be investigated with descriptives
+and categorical variables should be investigated with frequency tables.
+
+\*Hint: Select more than one variable in the "Analyze","Descriptive
+Statistics","Descriptives", or "Frequencies" dialog boxes.
+
+**Part 2**: Assess the distribution of the Occupational Prestige Score
+("prestg80") with both a histogram (normal curve displayed) and a Q-Q
+plot. Is the assumption that the population of Occupational Prestige
+Scores is normally distributed reasonable?
+
+**Part 3**: Compare the average highest year of school completed
+("educ") for males and females.
+
+\*Hint: First split the file by "sex" (Data - Split File), then
+calculate the descriptive statistics. Be sure to return to the Split
+File menu when you are done with this question and return the dialog
+box to "Analyze all cases".
+
+**Part 4**: Produce a pie chart for the variable "region". (We didn't
+cover this, you can use either Chart Builder or Legacy Dialogs.)
+
+#### Exericse 8 Solution
 
 Open the dataset [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
 
-Select the "Variable View" tab
+**Part 1**
 
-Investigate the labels and measure of each variable
+Investigate the variable attributes. Determine which
+variables are categorical variables (nominal and ordinal), and which
+variables are continuous (scale).
+
+- Select the "Variable View" tab
+
+- Investigate the labels and measure of each variable
 
 [![](./media/spss-exer-image32.png){width="6.637844488188977in" height="3.8053280839895014in"} ](./media/spss-exer-image32.png){target="_blank"}
+
 Obtain the appropriate descriptive statistics for each variable in the
 dataset. Remember, continuous variables should be investigated with
 5-point summary descriptives and categorical variables should be
 investigated with frequency tables.
-
-Solution:
-
-Descriptives:
 
 -   Select Analyze - Descriptive Statistics - Descriptives
 
 -   Select the following variables: sibs, childs, age, educ, paeduc,
     maeduc, speduc, prestg80
 
+[![](./media/spss-exer-image33.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image33.png){target="_blank"}
+
 -   Select "OK"
 
 -   Notice there are only 519 respondents that have valid data points
     for all of the continuous variables.
 
-[![](./media/spss-exer-image33.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image33.png){target="_blank"}
-
-  ------------------------ ------ --------- --------- ------- ----------------
-  Descriptive Statistics
-                           N      Minimum   Maximum   Mean    Std. Deviation
-  sibs                     1505   0         26        3.93    3.047
-  childs                   1509   0         8         1.90    1.765
-  age                      1514   18        89        45.63   17.808
-  educ                     1510   0         20        12.88   2.984
-  paeduc                   1069   0         20        10.88   4.129
-  maeduc                   1233   0         20        10.79   3.463
-  speduc                   790    0         20        12.89   3.059
-  prestg80                 1418   17        86        42.93   13.067
-  Valid N (listwise)       519
-  ------------------------ ------ --------- --------- ------- ----------------
+[![](./media/spss-exer-image33b.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image33b.png){target="_blank"}
 
 Frequency Tables:
 
@@ -628,7 +656,6 @@ Frequency Tables:
 plot. Is the assumption that the population of Occupational Prestige
 Scores is normally distributed reasonable?
 
-Solution:
 
 -   Histogram in Legacy Dialogs
 
@@ -669,8 +696,6 @@ Investigate the output
 **Part 3**: Compare the average highest year of school completed
 ("educ") for males and females.
 
-Solution:
-
 -   Set up the dataset such that the output is split by groups based on
     sex
 
@@ -700,7 +725,7 @@ Solution:
 
 -   Females have an average of 12.63 years of education
 
-[![](./media/EDUC_sex.png){width="5in" height="2in"}](./media/EDUC_sex.png){target="_blank"}
+[![](./media/EDUC_sex.png)](./media/EDUC_sex.png){target="_blank"}
 
 
 -   Turn the split file feature off
@@ -714,8 +739,6 @@ Solution:
 
 **Part 4**: Produce a pie chart for the variable "region". Use "Legacy
 Dialogs".
-
-Solution:
 
 -   Select Graphs - Legacy Dialogs - Pie
 
@@ -736,7 +759,7 @@ Solution:
 
 -   Investigate the output
 
-[![](./media/spss-exer-image43.png){width="4.5in" height="4.5in"}](./media/spss-exer-image43.png){target="_blank"}
+[![](./media/spss-exer-image43.png){width="4.5in" height="3.93in"}](./media/spss-exer-image43.png){target="_blank"}
 
 ## Additional Exercises
 
@@ -798,7 +821,7 @@ display the variable.
 
 [![](./media/spss-exer-image45.png){width="2.8333333333333335in" height="2.9791666666666665in"}](./media/spss-exer-image45.png){target="_blank"}
 
-[![](./media/Happy.png){width="4in" height="3in"}](./media/Happy.png){target="_blank"}
+[![](./media/Happy.png){width="4.84in" height="3in"}](./media/Happy.png){target="_blank"}
 
 [![](./media/spss-exer-image48.png){width="6.5in" height="5.197916666666667in"}](./media/spss-exer-image48.png){target="_blank"}
 
@@ -1048,7 +1071,7 @@ significant results with Fisher's Exact Test (pvalue=.025).
 
 [![](./media/SES_race.png){width="8in" height="6in"}](./media/SES_race.png){target="_blank"}
 
-[![](./media/spss-exer-image73.png){width="6in" height="8in"}](./media/spss-exer-image73.png){target="_blank"}
+[![](./media/spss-exer-image73.png){width="6in" height="5in"}](./media/spss-exer-image73.png){target="_blank"}
 
 ### Exercise A3 -- Methodology Choice Practice
 
@@ -1157,11 +1180,11 @@ Remember to split the file by the gender variable ('male').
 The descriptive statistics table above indicates that males earn more
 than females on average.
 
-[![](./media/spss-exer-image87.png){width="6.498647200349956in" height="6.051683070866142in"}](./media/spss-exer-image87.png){target="_blank"}
+[![](./media/spss-exer-image87.png){width="4.5in" height="4in"}](./media/spss-exer-image87.png){target="_blank"}
 
-[![](./media/spss-exer-image88.png){width="8in" height="6.5in"}](./media/spss-exer-image88.png){target="_blank"}
+[![](./media/spss-exer-image88.png){width="5in" height="5in"}](./media/spss-exer-image88.png){target="_blank"}
 
-[![](./media/spss-exer-image89.png){width="8in" height="6.5in"}](./media/spss-exer-image89.png){target="_blank"}
+[![](./media/spss-exer-image89.png){width="5in" height="5in"}](./media/spss-exer-image89.png){target="_blank"}
 
 Also remember to remove the 'Split File' option.
 
@@ -1173,7 +1196,7 @@ The Boxplot below indicates that males have a higher median salary than
 females, and both males and females have outliers (observation 148 and
 58 respectively).
 
-[![](./media/spss-exer-image92.png){width="8in" height="7in"}](./media/spss-exer-image92.png){target="_blank"}
+[![](./media/spss-exer-image92.png){width="4.5in" height="4.5in"}](./media/spss-exer-image92.png){target="_blank"}
 
 **Perform an independent samples t-test **
 
@@ -1218,7 +1241,7 @@ correlation between faculty salary and marketability of the discipline
 
 [![](./media/spss-exer-image100.png){width="4.459686132983377in" height="4.850693350831146in"}](./media/spss-exer-image100.png){target="_blank"}
 
-[![](./media/spss-exer-image101.png){width="8in" height="6.5in"}](./media/spss-exer-image101.png){target="_blank"}
+[![](./media/spss-exer-image101.png){width="4.5in" height="4.5in"}](./media/spss-exer-image101.png){target="_blank"}
 
 **Perform a simple linear regression where 'salary' is the
 dependent/outcome variable and 'market' is the independent/predictor
@@ -1359,7 +1382,7 @@ data set.
 
 The plot below indicates that the normality assumption is reasonable.
 
-[![](./media/spss-exer-image122.png){width="8in" height="6.7in"}](./media/spss-exer-image122.png){target="_blank"}
+[![](./media/spss-exer-image122.png){width="4.5in" height="4.5in"}](./media/spss-exer-image122.png){target="_blank"}
 
 A QQ plot can also be investigated (Analyze - Descriptive Statistics - QQ Plot)
 
@@ -1393,7 +1416,7 @@ Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 The table below indicates the number of Males and Females in the data
 set, along with the code that denotes the genders.
 
-[![](./media/Reg4.png){width="8in" height="8in"}](./media/Reg4.png){target="_blank"}
+[![](./media/Reg4.png){width="4in" height="4in"}](./media/Reg4.png){target="_blank"}
 
 The table above indicates that the average salary for males is greater
 than the average salary for females (\$53,499.24 compared to
@@ -1463,7 +1486,7 @@ The table below indicates that the R-squared value has increased from
 the last model to .684, and the model is significant (F=367.562,
 pvalue\<.001).
 
-[![](./media/Reg6.png){width="8in" height="8in"}](./media/Reg6.png){target="_blank"}
+[![](./media/Reg6.png){width="4in" height="4in"}](./media/Reg6.png){target="_blank"}
 
 The estimated population mean salary for women is \$2,040.21 less than
 men for a given marketability and time since degree. The estimated
@@ -1529,7 +1552,7 @@ The table below indicates that the model is significant (F=279.95,
 pvalue\<.001) and the R-squared has increased from the last model to
 .688.
 
-[![](./media/Reg8.png){width="8in" height="8in"}](./media/Reg8.png){target="_blank"}
+[![](./media/Reg8.png){width="5in" height="5in"}](./media/Reg8.png){target="_blank"}
 
 In the presence of interaction terms, the main effect terms have
 different interpretations. The estimated gender gap when time since
@@ -1628,7 +1651,7 @@ linearity assumption is not violated (this is approximately what we see
 here). Note that these plots could be made manually by creating scatter
 plots from the saved variables (predicted, residuals).
 
-[![](./media/spss-exer-image150.png){width="7in" height="5.6in"}](./media/spss-exer-image150.png){target="_blank"}
+[![](./media/spss-exer-image150.png){width="5in" height="3.6in"}](./media/spss-exer-image150.png){target="_blank"}
 
 The GLM approach to regression doesn't allow for VIF's to be calculated
 directly. Multicollinearity can attempt to be assessed through
