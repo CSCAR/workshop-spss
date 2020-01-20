@@ -503,101 +503,94 @@ and name (the file should contain instructions as well).</p></li>
 <div id="syntax-examples" class="section level4" number="2.3.3.3">
 <h4><span class="header-section-number">2.3.3.3</span> Syntax Examples</h4>
 <p><strong>1) Accessing an SPSS data file and rename the dataset</strong></p>
-<p>GET FILE = 'C:\SPSS\data\example.sav'.</p>
-<p>EXECUTE .</p>
-<p>DATASET NAME example.</p>
+<pre><code>GET FILE = \&#39;C:\\SPSS\\data\\example.sav\&#39;.
+EXECUTE.
+DATASET NAME example.</code></pre>
 <p><strong>2) Entering new variables and data</strong></p>
-<p>DATA LIST LIST / age (F2.0) sex (A1) income (F2.1) ethnic (F1.0).</p>
-<p>BEGIN DATA</p>
-<p>45 F 60.9 2</p>
-<p>52 M 22.3 1</p>
-<p>34 M 45.8 3</p>
-<p>67 F 34.5 1</p>
-<p>END DATA.</p>
+<pre><code>DATA LIST LIST / age (F2.0) sex (A1) income (F2.1) ethnic (F1.0).
+BEGIN DATA
+45 F 60.9 2
+52 M 22.3 1
+34 M 45.8 3
+67 F 34.5 1
+END DATA.</code></pre>
 <p><strong>3) Creating new numeric or string variables</strong></p>
-<p>NUMERIC ses (F1.0) / numkids yrsmarr (F2.0).</p>
-<p>STRING state (A2) / region (A1) / citycode (A4).</p>
+<pre><code>NUMERIC ses (F1.0) / numkids yrsmarr (F2.0).
+STRING state (A2) / region (A1) / citycode (A4).</code></pre>
 <p><strong>4) Labeling variables</strong></p>
-<p>VARIABLE LABELS age "Age" sex "Sex" income "Annual income in
-thousands"</p>
-<p>ethnic "Ethnic category".</p>
+<pre><code>VARIABLE LABELS age \&quot;Age\&quot; sex \&quot;Sex\&quot; income \&quot;Annual income in thousands\&quot; ethnic \&quot;Ethnic category\&quot;.</code></pre>
 <p><strong>5) Labeling values of a variable</strong></p>
-<p>VALUE LABELS sex 'M' "Male" 'F' "Female"</p>
-<p>/ ethnic 1 "European American" 2 "African American" 3 "Asian
-American".</p>
+<pre><code>VALUE LABELS sex \&#39;M\&#39; \&quot;Male\&quot; \&#39;F\&#39; \&quot;Female\&quot; / ethnic 1 \&quot;European American\&quot; 2 \&quot;African American\&quot; 3 \&quot;Asian American\&quot;.</code></pre>
 <p><strong>6) Defining missing values</strong></p>
-<p>MISSING VALUES sex (‘X’) ethnic (8,9) income (7777) age (0).</p>
+<pre><code>MISSING VALUES sex (&#39;X&#39;) ethnic (8,9) income (7777) age (0).</code></pre>
 <p><strong>7) Calculating a new variable using a function</strong></p>
-<p>COMPUTE log10inc = LG10(income) .</p>
-<p>EXECUTE .</p>
+<pre><code>COMPUTE log10inc = LG10(income).
+EXECUTE.</code></pre>
 <p><strong>8) Calculating a new variable using “if then” logic</strong></p>
-<p>IF (sex='M' and age &gt;= 65) olderman=1.</p>
-<p>IF (sex='F' or age &lt; 65) olderman=0.</p>
-<p>EXECUTE .</p>
+<pre><code>IF (sex=\&#39;M\&#39; and age \&gt;= 65) olderman=1.
+IF (sex=\&#39;F\&#39; or age \&lt; 65) olderman=0.
+EXECUTE.</code></pre>
 <p>or:</p>
-<p>COMPUTE olderman = (sex='M' and age &gt;= 65).</p>
-<p>EXECUTE .</p>
+<pre><code>COMPUTE olderman = (sex=\&#39;M\&#39; and age \&gt;= 65).
+EXECUTE.</code></pre>
 <p><strong>9) Recoding a variable</strong></p>
-<p>RECODE ethnic (1=0) (2=1) (3=1) .</p>
-<p>EXECUTE .</p>
+<pre><code>RECODE ethnic (1=0) (2=1) (3=1).
+EXECUTE.</code></pre>
 <p><strong>10) Recoding into a new variable, keeping the original intact</strong></p>
-<p>RECODE ethnic (1=0) (2=1) (3=1) INTO wh_nonwh .</p>
-<p>EXECUTE .</p>
-<p>RECODE income (LOWEST THRU 25 = 1) (26 THRU 44 = 2) (45 THRU HIGHEST=3)</p>
-<p>INTO incomcat .</p>
-<p>EXECUTE .</p>
+<pre><code>RECODE ethnic (1=0) (2=1) (3=1) INTO wh\_nonwh.
+EXECUTE.
+
+RECODE income (LOWEST THRU 25 = 1) (26 THRU 44 = 2) (45 THRU HIGHEST=3)
+INTO incomcat.
+EXECUTE.</code></pre>
 <p><strong>11) Obtaining descriptive statistics for continuous variables</strong></p>
-<p>DESCRIPTIVES</p>
-<p>VARIABLES=income age</p>
-<p>/STATISTICS=MEAN STDDEV VARIANCE MIN MAX SEMEAN .</p>
+<pre><code>DESCRIPTIVES VARIABLES=income age
+ /STATISTICS=MEAN STDDEV VARIANCE MIN MAX SEMEAN.</code></pre>
 <p><strong>12) Getting frequencies for categorical variables</strong></p>
-<p>FREQUENCIES</p>
-<p>VARIABLES=sex ethnic olderman.</p>
+<pre><code>FREQUENCIES VARIABLES=sex ethnic olderman.</code></pre>
 <p><strong>13) Obtaining a cross-tabulation between two categorical variables</strong></p>
-<p>CROSSTABS</p>
-<p>/TABLES = jobcat BY gender</p>
-<p>/STATISTIC = CHISQ</p>
-<p>/CELLS = COUNT ROW COLUMN .</p>
+<pre><code>CROSSTABS
+ /TABLES = jobcat BY gender
+ /STATISTIC = CHISQ
+ /CELLS = COUNT ROW COLUMN.</code></pre>
 <p><strong>14) Producing a histogram</strong></p>
-<p>GRAPH</p>
-<p>/HISTOGRAM(NORMAL)=income</p>
-<p>/TITLE= 'Histogram of Income'.</p>
+<pre><code>GRAPH
+ /HISTOGRAM(NORMAL)=income
+ /TITLE= \&#39;Histogram of Income\&#39;.</code></pre>
 <p><strong>15) Creating side-by-side box-plots</strong></p>
-<p>EXAMINE</p>
-<p>VARIABLES=income BY ethnic</p>
-<p>/PLOT=BOXPLOT</p>
-<p>/STATISTICS=NONE</p>
-<p>/NOTOTAL.</p>
+<pre><code>EXAMINE VARIABLES=income BY ethnic
+ /PLOT=BOXPLOT
+ /STATISTICS=NONE
+ /NOTOTAL.</code></pre>
 <p><strong>16) Generating a scatter plot</strong></p>
-<p>GRAPH</p>
-<p>/SCATTERPLOT(BIVAR)=age WITH income</p>
-<p>/MISSING=LISTWISE .</p>
+<pre><code>GRAPH
+ /SCATTERPLOT(BIVAR)=age WITH income
+ /MISSING=LISTWISE.</code></pre>
 <p><strong>17) Obtaining a line graph</strong></p>
-<p>GRAPH</p>
-<p>/LINE(SIMPLE)=MEAN(income) BY ethnic.</p>
+<pre><code>GRAPH
+ /LINE(SIMPLE)=MEAN(income) BY ethnic.</code></pre>
 <p><strong>18) Getting a line graph with multiple lines (e.g. one for women, one
 for men)</strong></p>
-<p>GRAPH</p>
-<p>/LINE(MULTIPLE)=MEAN(income) BY ethnic BY sex.</p>
+<pre><code>GRAPH
+ /LINE(MULTIPLE)=MEAN(income) BY ethnic BY sex.</code></pre>
 <p><strong>19) Choosing a subset of the data to analyze or examine</strong></p>
-<p>COMPUTE filt_var=(gender='m').</p>
-<p>FILTER BY filt_var.</p>
-<p>EXECUTE .</p>
+<pre><code>COMPUTE filt\_var=(gender=\&#39;m\&#39;).
+FILTER BY filt\_var.
+EXECUTE.</code></pre>
 <p><strong>20) Returning to the entire sample after looking at a subset</strong></p>
-<p>FILTER OFF.</p>
-<p>EXECUTE.</p>
+<pre><code>FILTER OFF.
+EXECUTE.</code></pre>
 <p><strong>21) Splitting the observations into strata, so that future analyses
 will be repeated for each stratum separately</strong></p>
-<p>SORT CASES BY ethnic .</p>
-<p>SPLIT FILE</p>
-<p>BY ethnic .</p>
+<pre><code>SORT CASES BY ethnic.
+SPLIT FILE BY ethnic.</code></pre>
 </div>
 <div id="writing-syntax-tips" class="section level4" number="2.3.3.4">
 <h4><span class="header-section-number">2.3.3.4</span> Writing Syntax Tips</h4>
 <ul>
 <li><p>Each command must begin on a new line and must end with a period.</p></li>
 <li><p>A comment can be included in a syntax file. The comment starts with
-an asterisk (*) and can go beyond one line. A period (.) is
+an asterisk (<code>*</code>) and can go beyond one line. A period (<code>.</code>) is
 required in the end of the last line to terminate the comment.</p></li>
 <li><p>SPSS syntax is case insensitive. Capitalized words are used to
 indicate keywords and command names in SPSS documentation, while
@@ -609,14 +602,14 @@ letters, but use four or five to avoid ambiguities.</p></li>
 <li><p>Variable names must always be typed out in full. Numbers and
 underscores are valid in a variable name if they are not the first
 letter.</p></li>
-<li><p>The use of capitals will not distinguish two variable names; “name”
-and “NAME” are identical.</p></li>
-<li><p>Sub-commands are preceded by a forward slash ( / ); they need not
+<li><p>The use of capitals will not distinguish two variable names; <code>name</code>
+and <code>NAME</code> are identical.</p></li>
+<li><p>Sub-commands are preceded by a forward slash (<code>/</code>); they need not
 begin on a new line. However, lines of code can’t be more than 80
 characters long.</p></li>
-<li><p>The word “EXECUTE” and a period (.) should be included after each
-command, such as COMPUTE and RECODE, that requires changes to the
-data set. Adding in “EXECUTE.” will never hurt anything; if in
+<li><p>The word <code>EXECUTE</code> and a period (<code>.</code>) should be included after each
+command, such as <code>COMPUTE</code> and <code>RECODE</code>, that requires changes to the
+data set. Adding in <code>EXECUTE.</code> will never hurt anything; if in
 doubt, include it.</p></li>
 <li><p>Labels and other items enclosed in quotes must not run onto the next
 line.</p></li>
