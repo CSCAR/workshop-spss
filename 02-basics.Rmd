@@ -633,7 +633,7 @@ Data File Comments.
 
 An ideal Excel data set might look like this:
 
-[![](./media/spss-image11.png){width="5.59375in" height="2.357273622047244in"} ](./media/spss-image11.png){target="_blank"}
+[![](./media/spss-image11.png){width="439px" height="185px"} ](./media/spss-image11.png){target="_blank"}
 
 ## Exercise 1 -- Properly Formatted Data
 
@@ -669,17 +669,19 @@ data. This facility is somewhat like Excel's data-reading wizard.
 Delimited files have rows of values that are separated by tabs, commas,
 or spaces.
 
-A row of data from a tab-delimited file might look like:
+The first rows of data from a tab-delimited file might look like (where the first row identifies variable names, the second row is the first row of data):
 
+```
 Name Age Gender Occupation Yearly Salary
-
 Jim 25 Male Accountant 65,000
+```
 
 A row of data from a comma-delimited file might look like:
 
+```
 Name,Age,Gender,Occupation,Yearly,Salary
-
-Jim,25 ,Male,Accountant,65,000
+Jim,25,Male,Accountant,65,000
+```
 
 Read delimited files into SPSS by going to File - Read Text Data.
 First, locate the name of the text file and click Open. Answer the
@@ -723,7 +725,7 @@ select "Continue" then "Save".
 Try it: Select File - Save As. Investigate the different file types.
 Select the "Variables" button and investigate.
 
-[![](./media/spss-image13.png){width="6.496790244969379in" height="3.3645833333333335in"}](./media/spss-image13.png){target="_blank"}
+[![](./media/spss-image13.png){width="5.17in" height="3.36in"}](./media/spss-image13.png){target="_blank"}
 
 [![](./media/spss-image14.png){width="4.625in" height="3.5625in"} ](./media/spss-image14.png){target="_blank"}
 
