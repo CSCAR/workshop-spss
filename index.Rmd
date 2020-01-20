@@ -18,15 +18,17 @@ github-repo: rstudio/bookdown-demo
 
 There are four sections to this workshop:
 
-- Chapter 2: The Basics of SPSS
-- Chapter 3: Working with Variables
-- Chapter 4: Understanding Data Management Tasks
-- Chapter 5: Understanding Graphical & Statistical Procedures, Msc.
+- [Chapter 2](the-basics-of-spss.html): The Basics of SPSS
+- [Chapter 3](working-with-variables.html): Working with Variables
+- [Chapter 4](understanding-data-management-tasks.html): Understanding Data Management Tasks
+- [Chapter 5](understanding-graphical-statistical-procedures.html): Understanding Graphical & Statistical Procedures, Msc.
 
 These sections will generally be presented in sequence. The discussion
 will alternate between theory and practice. The format will alternate
 between lecture and lab sessions. Please ask questions as soon as they
 arise in your mind. Please provide feedback or voice concerns.
+
+There is additionally an [Appendix](appendix.html) which primarily houses the exercise solutions, as well as a collection of additional, more advanced, exercises.
 
 ## Contact information
 
