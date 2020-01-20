@@ -1730,14 +1730,14 @@ opposite category has a higher value. Select LOG\_GDP as the only
 covariate, and click OK to fit the model. Results from fitting this
 model are included below.
 
-[![](./media/spss-exer-image155.png){width="5.610416666666667in" height="4.129861111111111in"}](./media/spss-exer-image155.png){target="_blank"}
+[![](./media/spss-exer-image155.png)](./media/spss-exer-image155.png){target="_blank"}
 
 The first table rovides some information regarding the cases (rows) used
 to fit that data. Note that three cases were lost in the analysis, due
 to missing data on the AIDSCAT2 variable. The final analysis sample size
 was 106.
 
-[![](./media/spss-exer-image156.png){width="4.285416666666666in" height="1.9743055555555555in"}](./media/spss-exer-image156.png){target="_blank"}
+[![](./media/spss-exer-image156.png)](./media/spss-exer-image156.png){target="_blank"}
 
 The coding of the dependent variable is critical to understand. SPSS
 will model the probability that the "internal value" of the dependent
@@ -1749,7 +1749,7 @@ matches up with our original 0=less than 1 in 100,000 and 1=more than 1
 in 100,000 coding so we will be modeling the probability of being in the
 "high" AIDS rate.
 
-[![](./media/spss-exer-image157.png){width="2.6625in" height="1.0256944444444445in"}](./media/spss-exer-image157.png){target="_blank"}
+[![](./media/spss-exer-image157.png)](./media/spss-exer-image157.png){target="_blank"}
 
 This initial classification table, located in "Block 0" of the output,
 shows how well we would do predicting by chance what the outcome will be
@@ -1759,14 +1759,14 @@ classification for all of the countries, and we would be correct 64.2%
 of the time. This table isn't all that informative by itself, we will
 compare it to a similar table in the next portion of the output.
 
-[![](./media/spss-exer-image158.png){width="6.285416666666666in" height="2.3506944444444446in"}](./media/spss-exer-image158.png){target="_blank"}
+[![](./media/spss-exer-image158.png)](./media/spss-exer-image158.png){target="_blank"}
 
 This table, also in the "Block 0" portion of the output, shows the
 maximum likelihood estimate of the intercept term in a logistic
 regression model without any covariates. This is simply the computed
 log-odds of the dependent variable being equal to 1.
 
-[![](./media/spss-exer-image159.png){width="5.961111111111111in" height="0.8444444444444444in"}](./media/spss-exer-image159.png){target="_blank"}
+[![](./media/spss-exer-image159.png)](./media/spss-exer-image159.png){target="_blank"}
 
 We'll scroll down to the "Block 1" portion of the output, which will
 contain the maximum likelihood estimates of the parameters in our model.
@@ -1782,7 +1782,7 @@ it is classified into the 'low' AIDS rate group. These classifications
 are then compared with the actual observed classifications of the
 countries.
 
-[![](./media/spss-exer-image160.png){width="6.285416666666666in" height="2.1430555555555557in"}](./media/spss-exer-image160.png){target="_blank"}
+[![](./media/spss-exer-image160.png)](./media/spss-exer-image160.png){target="_blank"}
 
 Note that we are actually doing a *worse* job of predicting the AIDS
 rate when using LOG\_GDP as a predictor (63.2% correct vs. 64.2% correct
@@ -1792,7 +1792,7 @@ be ***saved*** in the SPSS data set as an option if desired.
 Now, we examine the maximum likelihood estimate of the coefficient for
 LOG\_GDP in the logistic regression model:
 
-[![](./media/spss-exer-image161.png){width="5.909027777777778in" height="1.2465277777777777in"}](./media/spss-exer-image161.png){target="_blank"}
+[![](./media/spss-exer-image161.png)](./media/spss-exer-image161.png){target="_blank"}
 
 The estimate of the parameter that represents the coefficient for
 LOG\_GDP in the model is equal to 0.491, with a standard error of 0.329.
@@ -1837,13 +1837,13 @@ Fit the logistic regression model by clicking on OK.
 Let's jump down to Block 1 in the output and first examine the
 classification table based on the model including the MUSLIM variable:
 
-[![](./media/spss-exer-image164.png){width="6.285416666666666in" height="2.1430555555555557in"}](./media/spss-exer-image164.png){target="_blank"}
+[![](./media/spss-exer-image164.png)](./media/spss-exer-image164.png){target="_blank"}
 
 Note the substantial improvement in prediction accuracy by considering
 Muslim status! Now, we investigate the maximum likelihood estimate of
 the coefficient for MUSLIM:
 
-[![](./media/spss-exer-image165.png){width="5.909027777777778in" height="1.2465277777777777in"}](./media/spss-exer-image165.png){target="_blank"}
+[![](./media/spss-exer-image165.png)](./media/spss-exer-image165.png){target="_blank"}
 
 The maximum likelihood estimate of the coefficient is -2.335, with a
 standard error of 0.537. The Wald statistic based on that estimate is
@@ -1893,7 +1893,7 @@ The first table shows us that only 83 countries are used to fit this
 model, 26 were removed from analysis due to missing data on any of the
 variables used.
 
-[![](./media/spss-exer-image168.png){width="4.285416666666666in" height="1.9743055555555555in"}](./media/spss-exer-image168.png){target="_blank"}
+[![](./media/spss-exer-image168.png)](./media/spss-exer-image168.png){target="_blank"}
 
 The first classification table (Block 0: Beginning Block) in the output
 shows you the result of classifying cases strictly by predicting them to
@@ -1903,7 +1903,7 @@ since 64.2% of the cases with a valid AIDS category are in the higher
 AIDS category). We would only be correct 59% of the time predicting by
 chance.
 
-[![](./media/spss-exer-image169.png){width="5.870138888888889in" height="1.8701388888888888in"}](./media/spss-exer-image169.png){target="_blank"}
+[![](./media/spss-exer-image169.png)](./media/spss-exer-image169.png){target="_blank"}
 
 The 'Model Summary' table shows the --2 log-likelihood statistic for our
 model, as well as two analogs of R^2^ in the multiple regression context
@@ -1911,17 +1911,17 @@ for a logistic regression model. **These are approximations of R-squared
 in linear regression models, and should not be reported as the same
 thing; they should really only be used to compare the fits of competing
 models fitted using the same cases.** The Cox & Snell R Square
-approximation suggests that our predictors explain about 43% of the
+approximation suggests that our predictors explain about 41% of the
 variation in our response (not bad). The Nagelkerke R Square is a
 rescaled approximation that is constrained to fall between 0 and 1.
 
-[![](./media/spss-exer-image170.png){width="3.285416666666667in" height="1.0in"}](./media/spss-exer-image170.png){target="_blank"}
+[![](./media/spss-exer-image170.png)](./media/spss-exer-image170.png){target="_blank"}
 
 The Block 1 classification table shows an increase in the percentage
-that is correctly classified (89.2% vs 59%) using the predicted
+that is correctly classified (83.1% vs 59%) using the predicted
 probabilities and a 'cut-off' classification probability of 0.5.
 
-[![](./media/spss-exer-image171.png){width="5.870138888888889in" height="2.129861111111111in"}](./media/spss-exer-image171.png){target="_blank"}
+[![](./media/spss-exer-image171.png)](./media/spss-exer-image171.png){target="_blank"}
 
 Let's examine the estimated coefficients for the predictors included in
 our model:
@@ -1934,7 +1934,7 @@ regression model, which indicate the change in the
 AIDS category) associated with a one-unit increase in each predictor.
 So, for example, a one-unit increase in *Muslim* (or being in a Muslim
 country) decreases the **log-odds** of being in the higher AIDS category
-by 6.553, holding all other predictors constant.
+by 5.987, holding all other predictors constant.
 
 The Sig. column provides the results of a significance test for each of
 the parameters (or coefficients) for the predictors in the model. This
@@ -1945,8 +1945,8 @@ with the log odds of "success." The Exp(B) column indicates the factor
 by which the odds of "success" are ***multiplied*** when the predictor
 increases by one unit, holding the other predictors constant. So, for
 example, a one-unit increase in Muslim will ***multiply*** the odds of
-being in the higher AIDS category by 0.001, or reduce the odds of being
-in the higher AIDS category by 99.9%. The Exp(B) factor is known as an
+being in the higher AIDS category by 0.003, or reduce the odds of being
+in the higher AIDS category by 99.7%. The Exp(B) factor is known as an
 **odds ratio.** The 95% confidence interval for Exp(B) will not contain
 1 if the predictor is significant. An odds ratio of 1 means that
 one-unit changes in the predictor multiply the odds of "success" by 1,
