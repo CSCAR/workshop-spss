@@ -1,5 +1,7 @@
 # Understanding Data Management Tasks
 
+Data for this section: [section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav)
+
 ## Sorting Cases
 
 Sorting cases based on a particular variable is often necessary when
@@ -145,7 +147,7 @@ deleting cases, because you CANNOT undo the deletion. Make sure to first
 save your data file under a different name if you wish to permanently
 delete cases.
 
-**Try it: Use Section2\_Data.sav. Select only observations with
+**Try it: Use [section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav). Select only observations with
 Education = 1 for analysis. **
 
 ![](./media/spss-image47.png){width="6.05625in" height="3.84375in"}
@@ -185,7 +187,7 @@ To use Split File:
 
 ![](./media/spss-image49.png){width="4.625in" height="3.5833333333333335in"}
 
-**Try it: Use Section2\_Data.sav. Obtain the descriptive statistics for
+**Try it: Use [section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav). Obtain the descriptive statistics for
 DepScale\_01 for males and females separately. Hint: Select Analyze -
 Descriptive Statistics - Descriptives.**
 
@@ -195,8 +197,7 @@ Descriptive Statistics - Descriptives.**
 
 ##  Exercise 5 -- Subsetting Data
 
-
-Open Exercise5\_Data.
+Open [exercise5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise5/exercise5_data.sav).
 
 Select male managers. What is their average age?
 
@@ -267,12 +268,12 @@ There are five steps in this Wizard:
 
 5.  Finish.
 
-### Exercise 6 -- Restructuring I (Wide to Long)
+## Exercise 6 -- Restructuring I (Wide to Long)
 
-Convert Exercise6\_Data from "Wide" format to "Long" format
+Convert [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav) from "Wide" format to "Long" format
 
-### Exercise 7 -- Restructuring II (Long to Wide)
+## Exercise 7 -- Restructuring II (Long to Wide)
 
-Convert Exercise7\_Data from "Long" format to "Wide" format
+Convert [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav) from "Long" format to "Wide" format
 
 (Both exercises to be done together.)

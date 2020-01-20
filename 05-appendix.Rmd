@@ -1,5 +1,122 @@
 # Appendix
 
+## Interpreting Interactions in a Regression Model Overview
+
+
+### Two-Way Interactions
+
+
+#### General
+
+Let our regression model follow this form:
+
+Y=A+B+A\*B
+
+Where Y represents our dependent/outcome variable and A\*B represents
+the interaction between A and B.
+
+-   The regression coefficient for A shows the effect of A when B=0.
+
+-   The regression coefficient for B shows the effect of B when A=0.
+
+-   The regression coefficient for A\*B demonstrates how A changes with
+    a one unit increase in B. It also demonstrates how B changes with a
+    one unit increase in A.
+
+#### Two Categorical Variables
+
+-   Let A represent gender
+
+    -   0=Female
+
+    -   1=Male
+
+-   Let B represent treatment condition
+
+    -   0=Control
+
+    -   1=Experimental
+
+-   The interaction regression coefficient shows whether the effect of
+    treatment condition is different for males and females.
+
+-   The regression coefficient for A shows the difference in Y between
+    males and females for the 'control' treatment group.
+
+-   The regression coefficient for B shows the difference in Y between
+    treatment and control groups for females.
+
+#### One Categorical and One Continuous Variable
+
+-   Let A represent gender
+
+    -   0=Female
+
+    -   1=Male
+
+-   Let B represent a continuous variable: age in years.
+
+-   The interaction regression coefficient shows if the effect of age on
+    Y is different for males and females.
+
+-   The regression coefficient for A shows the difference between males
+    and females when age is equal to zero.
+
+-   The regression coefficient for B shows the effect of age for
+    females.
+
+#### Two Continuous Variables
+
+-   Let A represent a continuous variable: IQ score.
+
+-   Let B represent a continuous variable: Age.
+
+-   The interaction regression coefficient shows
+
+    -   if the relationship between age and Y differs according to IQ
+
+    -   if the relationship between IQ and Y differs according to age.
+
+-   The regression coefficient for A shows the relationship between IQ
+    and Y when age equals zero.
+
+-   The regression coefficient for B shows the relationship between age
+    and Y when IQ equals zero.
+
+### Three-Way Interactions
+
+
+The same principles apply from above. The general model:
+
+Y=A+B+C+A\*B+A\*C+B\*C+A\*B\*C
+
+-   The coefficient for A shows the effect of A on Y when both B and C
+    are zero.
+
+-   The coefficient for B shows the effect of B on Y when both A and C
+    are zero.
+
+-   The coefficient for C shows the effect of C on Y when both A and B
+    are zero.
+
+-   The coefficient for A\*B shows the interaction between A and B when
+    C is zero.
+
+-   The coefficient for A\*C shows the interaction between A and C when
+    B is zero.
+
+-   The coefficient for B\*C shows the interaction between B and C when
+    A is zero.
+
+-   The interaction regression coefficient shows if the relationship
+    between
+
+    -   A and Y differs according to B and C
+
+    -   B and Y differs according to A and C
+
+    -   C and Y differs according to A and B.
+
 ## Execise Solutions
 
 ### Exercise 1

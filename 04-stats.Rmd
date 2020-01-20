@@ -1,8 +1,8 @@
 # Understanding Graphical & Statistical Procedures
 
+Data for this section: [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav), [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav)
 
 ## Thinking About Statistics
-
 
 Statistics is in a sense a giant toolbox containing a collection of
 graphical and statistical procedures.\
@@ -104,7 +104,7 @@ each value of a variable (e.g., 46% male, 54% female). You can request
 other output by clicking Statistics. Frequencies are most useful for
 categorical variables.
 
-**Try it: Use Section4\_1\_Data.sav. Obtain the frequency (descriptive)
+**Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain the frequency (descriptive)
 statistics for the variable Sex.**
 
 ![](./media/spss-image57.png){width="4.895833333333333in"
@@ -120,7 +120,7 @@ by clicking Options. Descriptives are most useful for continuous
 variables, and sometimes useful for ordinal data (categorical data with
 ordering, e.g., small, medium, large) alongside the frequencies.
 
-**Try it: Use Section4\_1\_Data.sav. Obtain the descriptive statistics
+**Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain the descriptive statistics
 for the variable Age.**
 
 ![](./media/spss-image58.png){width="6.5in" height="3.2291666666666665in"}
@@ -159,7 +159,7 @@ allows you to modify what is displayed in the graph
 
 ![](./media/spss-image60.png){width="6.5in" height="4.488888888888889in"}
 
-**Try it: Use Section4\_1Data.sav. Create a simple bar chart for
+**Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Create a simple bar chart for
 "Region". **
 
 ![](./media/spss-image61.png){width="5.05625in"
@@ -180,7 +180,7 @@ specify the specific form for the graph.
 ![](./media/spss-image63.png){width="3.6875in" height="1.6041666666666667in"}
 ![](./media/spss-image64.png){width="4.552083333333333in" height="4.71875in"}
 
-**Try it: Use Section4\_1Data.sav. Create a simple bar chart for
+**Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Create a simple bar chart for
 "Region". **
 
 ![](./media/spss-image65.png){width="3.5377318460192475in"
@@ -220,7 +220,7 @@ for its values to fall along the 90° line. The histogram can be created
 from the Histogram Legacy Dialog, the QQ-plot is created under Analyze
 - Descriptive Statistics - QQPlot.
 
-**Try it: Use Section4\_1Data.sav. Obtain a histogram for the variable
+**Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain a histogram for the variable
 "Age" and display the normal curve. Obtain a QQ plot for the variable
 "Age". Hint: Analyze - Descriptive Statistics - QQPlot.**
 
@@ -237,8 +237,7 @@ height="2.82245406824147in"}
 
 ## Exercise 8 -- Data Exploration and Visualization
 
-
-Open Exercise8\_Data.sav
+Open [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
 
 **Part 1**: Investigate the variable attributes. Determine which
 variables are categorical variables (nominal and ordinal), and which
@@ -314,7 +313,7 @@ height="3.9676115485564303in"}
 ![](./media/spss-image63.png){width="3.18125in"
 height="1.6041666666666667in"}
 
-**Try it: Use Section4\_2\_Data.sav. Investigate the correlation between
+**Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav) Investigate the correlation between
 the individual behavior intention scales. Select Analyze - Correlate -
 Bivariate. Select "BIndBehInt\_Pre" and "BIndBehInt\_Post". Select
 "OK".**
@@ -386,7 +385,7 @@ table by checking the box for "Display Clustered Bar Chart" in the
 
 
 
-**Try it: Use Section4\_2\_Data.sav. Are females more likely to
+**Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Are females more likely to
 participate in jokes that are derogatory to any racial group?
 Investigate the data to see what types of variables we have to answer
 this question. We have the categorical variable "Sex" and the
@@ -452,7 +451,7 @@ height="2.2916666666666665in"}
 ![](./media/spss-image84.png){width="4.114583333333333in"
 height="3.5833333333333335in"}
 
-**Try it: Use Section4\_2\_Data.sav. Is there a relationship between sex
+**Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Is there a relationship between sex
 and the post intervention intension scale score? Sex is a categorical
 variable, the intension scale is continuous. We can use either an
 independent samples t-test or one-way ANOVA. Select Analyze - Compare
@@ -519,7 +518,7 @@ In SPSS, select Analyze - Compare Means - Paired Samples T-Test.
 ![](./media/spss-image90.png){width="6.05625in"
 height="3.3645833333333335in"}
 
-**Try it: Use Section4\_2\_Data.sav. Investigate whether or not the
+**Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Investigate whether or not the
 average intention scores are statistically different from each other.
 Since these variables are pre and post variables, it would be
 interesting to see if the intervention was successful in increasing the
@@ -747,126 +746,3 @@ EXAMPLE:
 > *35.00 1.00 1.00*
 >
 > *100.0 .0 .0*
-
-### Useful websites
-
-Statnotes: http://faculty.chass.ncsu.edu/garson/PA765/statnote.htm
-
-https://stats.idre.ucla.edu/spss/
-
-# Interpreting Interactions in a Regression Model Overview
-
-
-## Two-Way Interactions
-
-
-### General
-
-Let our regression model follow this form:
-
-Y=A+B+A\*B
-
-Where Y represents our dependent/outcome variable and A\*B represents
-the interaction between A and B.
-
--   The regression coefficient for A shows the effect of A when B=0.
-
--   The regression coefficient for B shows the effect of B when A=0.
-
--   The regression coefficient for A\*B demonstrates how A changes with
-    a one unit increase in B. It also demonstrates how B changes with a
-    one unit increase in A.
-
-### Two Categorical Variables
-
--   Let A represent gender
-
-    -   0=Female
-
-    -   1=Male
-
--   Let B represent treatment condition
-
-    -   0=Control
-
-    -   1=Experimental
-
--   The interaction regression coefficient shows whether the effect of
-    treatment condition is different for males and females.
-
--   The regression coefficient for A shows the difference in Y between
-    males and females for the 'control' treatment group.
-
--   The regression coefficient for B shows the difference in Y between
-    treatment and control groups for females.
-
-### One Categorical and One Continuous Variable
-
--   Let A represent gender
-
-    -   0=Female
-
-    -   1=Male
-
--   Let B represent a continuous variable: age in years.
-
--   The interaction regression coefficient shows if the effect of age on
-    Y is different for males and females.
-
--   The regression coefficient for A shows the difference between males
-    and females when age is equal to zero.
-
--   The regression coefficient for B shows the effect of age for
-    females.
-
-### Two Continuous Variables
-
--   Let A represent a continuous variable: IQ score.
-
--   Let B represent a continuous variable: Age.
-
--   The interaction regression coefficient shows
-
-    -   if the relationship between age and Y differs according to IQ
-
-    -   if the relationship between IQ and Y differs according to age.
-
--   The regression coefficient for A shows the relationship between IQ
-    and Y when age equals zero.
-
--   The regression coefficient for B shows the relationship between age
-    and Y when IQ equals zero.
-
-## Three-Way Interactions
-
-
-The same principles apply from above. The general model:
-
-Y=A+B+C+A\*B+A\*C+B\*C+A\*B\*C
-
--   The coefficient for A shows the effect of A on Y when both B and C
-    are zero.
-
--   The coefficient for B shows the effect of B on Y when both A and C
-    are zero.
-
--   The coefficient for C shows the effect of C on Y when both A and B
-    are zero.
-
--   The coefficient for A\*B shows the interaction between A and B when
-    C is zero.
-
--   The coefficient for A\*C shows the interaction between A and C when
-    B is zero.
-
--   The coefficient for B\*C shows the interaction between B and C when
-    A is zero.
-
--   The interaction regression coefficient shows if the relationship
-    between
-
-    -   A and Y differs according to B and C
-
-    -   B and Y differs according to A and C
-
-    -   C and Y differs according to A and B.

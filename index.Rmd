@@ -59,9 +59,9 @@ There are a number of data sets used in these notes; some used for the examples,
 
 ### Example Data
 
-- Section 3: [Section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav)
-- Section 4: [Section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav)
-- Section 5: [Section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav), [Section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav)
+- Section 3: [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav)
+- Section 4: [section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav)
+- Section 5: [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav), [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav)
 
 ### Exercise Data
 

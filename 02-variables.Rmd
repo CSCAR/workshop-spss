@@ -1,6 +1,7 @@
 
 # Working with Variables
 
+Data for this section: [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav)
 
 ## Variable View in Data Editor
 
@@ -16,7 +17,7 @@ variable's name in the Data Editor. Doing this will open the Variable
 View tab in the Data Editor window. Alternatively, select the "Variable
 View" tab at the bottom left corner of the data editor window.
 
-**Try it: Open Section2\_Data.sav. Select "Variable View".**
+**Try it: Open [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Select "Variable View".**
 
 ![](./media/spss-image15.png){width="6.5in" height="2.7083333333333335in"}
 
@@ -100,7 +101,7 @@ To change back to days, hours, or years, it is necessary to use a
 function to turn the information into a more usable, practical form. See
 the section Computing New Variables for more information.
 
-**Try it: Use Section2\_Data.sav. Change the Variable Type for the ID
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Change the Variable Type for the ID
 variable from Dollar to Numeric.**
 
 ![](./media/spss-image17.png){width="6.5in" height="3.6909722222222223in"}
@@ -114,7 +115,7 @@ cell for a given variable in Variable View, and enter a description for
 the variable. Variable labels can be up to 255 characters as of Version
 15.0.
 
-**Try it: Use Section2\_Data.sav. Provide a label for DepScale
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Provide a label for DepScale
 (Depression Scale 1998).**
 
 ![](./media/spss-image19.png){width="6.5in" height="3.6909722222222223in"}
@@ -143,7 +144,7 @@ the corresponding label in the Value Label box. Then press "Add". If you
 do not press "Add", the information you have typed for that value will
 be ignored.
 
-**Try it: Use Section2\_Data.sav. Enter in value labels for variable
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Enter in value labels for variable
 Education:**
 
 **1=High School or Less**
@@ -180,7 +181,7 @@ Missing column for a given variable, and then clicking on the small grey
 box that appears as "(...)". You may specify single values or a range of
 values.
 
-**Try it: Use Section2\_Data.sav.Enter missing value codes for Education
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav).Enter missing value codes for Education
 (99).**
 
 ![](./media/spss-image21.png){width="3.375in" height="2.4895833333333335in"}
@@ -217,7 +218,7 @@ Each variable in SPSS may be designated as
 Graphs from the Interactive graphics method use this information. This
 field has no bearing for most procedures.
 
-**Try it: Use Section2\_Data.sav. Change the Measure for the Education
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Change the Measure for the Education
 variable from Scale to Ordinal.**
 
 ![](./media/spss-image22.png){width="6.5in" height="2.296527777777778in"}
@@ -251,15 +252,15 @@ instantly. You can also right-click and use the copy and paste
 functions. You can use this same copy and paste feature for other
 variable attributes and save a great deal of time!
 
-**Try it: Use Section2\_Data.sav. Copy and paste the missing value code
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Copy and paste the missing value code
 from Education to DepScale.**
 
 ![](./media/spss-image23.png){width="6.5in" height="2.7840277777777778in"}
 ![](./media/spss-image24.png){width="6.5in" height="2.7840277777777778in"}
 
-### Exercise 3 -- Variable Attributes
+## Exercise 3 -- Variable Attributes
 
-Open Exercise3\_Data and go to Variable View. Practice defining the
+Open [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav) and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book below.
 
 ## Creating New Variables and Defining the Correct Attributes
@@ -288,7 +289,7 @@ replaces the highlighted column entirely, and could over-write an
 existing variable. Be sure to create a new, blank column and paste on
 top of that.
 
-**Try it: Use Section2\_Data.sav. Create a new variable called NewVar.**
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Create a new variable called NewVar.**
 
 ![](./media/spss-image26.png){width="6.5in" height="2.7840277777777778in"}
 
@@ -356,7 +357,7 @@ var4, var5)", for example, would mean that an individual must have
 answered at least 3 of the 5 questions. The new variable will have a
 missing value otherwise.
 
-**Try it: Use Section2\_Data.sav. Calculate the average depression score
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Calculate the average depression score
 using DepScale\_01, DepScale\_02, DepScale\_3. First use the function
 "mean". Next write the expression by hand. Investigate the
 differences.**
@@ -590,7 +591,7 @@ variable, or vice-versa:
 -   Check the box marked "Convert numeric strings to numbers" to change
     from string to numeric in the "Old and New Values" window.
 
-**Try it: Use Section2\_Data.sav. Recode Gender with F=1 and M=2.
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Recode Gender with F=1 and M=2.
 Inspect the output.**
 
 ![](./media/spss-image34.png){width="6.5in" height="3.6305555555555555in"}
@@ -632,7 +633,7 @@ those labels will carry over to the corresponding new values. If there
 were no value labels, then the old values themselves become the new
 labels.
 
-**Try it: Use Section2\_Data.sav. Use Automatic Recode to recode Gender.
+**Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Use Automatic Recode to recode Gender.
 Call this new variable AutoGender.**
 
 ![](./media/spss-image37.png){width="4.677083333333333in"
@@ -709,8 +710,7 @@ height="2.2083333333333335in"}
 
 ## Exercise 4 -- Computing and Transforming Variables
 
-
-Open Exercise4\_Data.
+Open [exercise4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise4/exercise4_data.sav).
 
 Compute a new variable that is the change from beginning salary to
 current salary for each employee.
@@ -718,8 +718,8 @@ current salary for each employee.
 Recode the education variable into a new variable according to the
 following
 
-1=High School or Less (educ\<=12)
+- 1=High School or Less (educ\<=12)
 
-2=Some College (12\<educ\<=16)
+- 2=Some College (12\<educ\<=16)
 
-3=Bachelor's Degree or Higher (educ\>=17)
+- 3=Bachelor's Degree or Higher (educ\>=17)

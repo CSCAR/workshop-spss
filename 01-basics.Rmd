@@ -81,7 +81,7 @@ To open a data file, go to "File" at the upper left of the menu bar.
 Click "Open" then "Data". Locate the file that you want to open and
 double-click on it.
 
-**Try it: Open Exercise0\_Data**
+**Try it: Open [exercise0_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_data.sav)**
 
 ![](./media/spss-image2.png){width="6.497396106736658in"
 height="3.8020833333333335in"}
@@ -101,7 +101,7 @@ tables or graphs, can be viewed. The output window does not appear until
 the first time SPSS is asked to provide some sort of results. The output
 viewer will also record the syntax used to generate the results.
 
-**Try it: Open Exercise0\_Output**
+**Try it: Open [exercise0_output.spv](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_output.spv)**
 
 ![](./media/spss-image4.png){width="6.5in" height="5.2in"}
 
@@ -225,7 +225,7 @@ The syntax window provides these advantages:
 -   It can be sent to other SPSS users to help in setting up data files
     or to re-create your analyses.
 
-**Try it: Open Exercise0\_Syntax.**
+**Try it: Open [exercise0_syntax.sps](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_syntax.sps)** (Right-click & Save-as)
 
 ![](./media/spss-image7.png){width="6.5in" height="5.2in"}
 
@@ -541,7 +541,7 @@ The main way that a user tells SPSS what to do is through dialogue
 boxes. These are windows that pop up when you click on an item in a menu
 or double-click on particular objects.
 
-**Try it: In Data View for Exercise0\_Data, select Analyze -
+**Try it: In Data View for [exercise0_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_data.sav), select Analyze -
 Descriptive Statistics - Descriptives.**
 
 ![](./media/spss-image10.png){width="5.03125in" height="3.53125in"}
@@ -648,7 +648,7 @@ An ideal Excel data set might look like this:
 In order to analyze data properly in SPSS, we need to follow the
 guidelines set out in the course notes.
 
-Open Exercise1\_Data and see what guidelines we have ignored.
+Open [exercise1\_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav) and see what guidelines we have ignored.
 
 ## Importing Data into SPSS
 
@@ -738,7 +738,7 @@ height="3.3645833333333335in"}
 ## Exercise 2 -- Importing/Exporting Excel
 
 
-Open Exercise2\_Data (an Excel file). Modify this Excel file such that
+Open [exercise2_data.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise2/exercise2_data.xls) (an Excel file). Modify this Excel file such that
 it can be imported into SPSS properly. Save the file and close it.
 
 Open the file in SPSS (import it). Export this file back into Excel, but
