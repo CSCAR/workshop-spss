@@ -122,7 +122,7 @@ Y=A+B+C+A\*B+A\*C+B\*C+A\*B\*C
 ### Exercise 1
 
 In order to analyze data properly in SPSS, we need to follow the
-guidelines set out above. Open Exercise1\_Data and see what guidelines
+guidelines set out above. Open [exercise1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav) and see what guidelines
 we have ignored.
 
 ![](./media/spss-exer-image1.png){width="4.229166666666667in"
@@ -142,7 +142,7 @@ Anything else?
 
 ### Exercise 2
 
-Open Exercise2\_Data (an Excel file). Modify this Excel file such that
+Open [exercise2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise2/exercise2_data.sav) (an Excel file). Modify this Excel file such that
 it can be imported into SPSS properly. Save the file and close it. Open
 the file in SPSS (import it). Export this file back into Excel, but only
 save the following variables: id, salary, minority.
@@ -217,7 +217,7 @@ height="2.914981408573928in"}
 
 ### Exercise 3
 
-Open Exercise3\_Data and go to Variable View. Practice defining the
+Open [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav) and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book.
 
 ![](./media/spss-exer-image8.png){width="6.0625in"
@@ -254,14 +254,12 @@ height="3.5605489938757655in"}
 -   Use the drop down menu for "Measure" to specify the correct
     measurement type
 
--   Save this file as Exercise3\_Data\_Cleaned
-
 ![](./media/spss-exer-image11.png){width="3.3541666666666665in"
 height="2.4895833333333335in"}
 
 ### Exercise 4
 
-Open Exercise4\_Data.
+Open [exercise4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise4/exercise4_data.sav).
 
 Compute a new variable that is the change from beginning salary to
 current salary for each employee.
@@ -340,7 +338,7 @@ Solution:
 
 ### Exercise 5
 
-Open Exercise5\_Data.
+Open [exercise5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise5/exercise5_data.sav).
 
 Select male managers. What is their average age?
 
@@ -419,11 +417,11 @@ height="4in"}
 
 ### Exercise 6
 
-Convert Exercise6\_Data from "Wide" format to "Long" format
+Convert [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav) from "Wide" format to "Long" format
 
 **Solution: **
 
--   Open Exercise6\_Data
+-   Open [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav)
 
 -   Select Data - Restructure to open the Wizard
 
@@ -489,11 +487,11 @@ height="6.314580052493438in"}
 
 ### Exercise 7
 
-Convert Exercise7\_Data from "Long" format to "Wide" format
+Convert [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav) from "Long" format to "Wide" format
 
 **Solution: **
 
--   Open Exercise7\_Data
+-   Open [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav)
 
 -   Select Data - Restructure to open the Wizard
 
@@ -539,15 +537,13 @@ height="6.193145231846019in"}
 
 ### Exercise 8
 
-Open Exercise8\_Data.sav
-
 **Part 1**: Investigate the variable attributes. Determine which
 variables are categorical variables (nominal and ordinal), and which
 variables are continuous (scale).
 
 Solution:
 
-Open the dataset (Exercise8\_Data)
+Open the dataset [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
 
 Select the "Variable View" tab
 
@@ -605,7 +601,7 @@ height="3.077777777777778in"}
 
 -   Investigate the output
 
-**Part 3**: Assess the distribution of the Occupational Prestige Score
+**Part 2**: Assess the distribution of the Occupational Prestige Score
 ("prestg80") with both a histogram (normal curve displayed) and a Q-Q
 plot. Is the assumption that the population of Occupational Prestige
 Scores is normally distributed reasonable?
@@ -736,7 +732,7 @@ height="4.5in"}
 
 **Question 1 **
 
-Open ExerciseA1\_Data. What percent of respondents said they were "Very
+Open [exercisea1_data](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea1/exercisea1_data.sav). What percent of respondents said they were "Very
 Happy"? What about "Not too happy"? "Pretty happy"? Use a graph to
 display the variable.
 
@@ -759,7 +755,7 @@ positive or negative? Is it statistically significant.
 
 **Question 1 **
 
-Open Exercise12\_Data. What percent of respondents said they were "Very
+Open [exercisea1_data](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea1/exercisea1_data.sav). What percent of respondents said they were "Very
 Happy"? What about "Not too happy"? "Pretty happy"? Use a graph to
 display the variable.
 
@@ -927,8 +923,6 @@ positive or negative? Is it statistically significant.
 -   The output indicates that the correlation between education and
     spouses' education is positive and statistically significant.
 
--   Save this data set as Exercise11\_Data\_Updated
-
 ![](./media/spss-exer-image56.png){width="3.53125in"
 height="2.0625in"}
 
@@ -952,7 +946,7 @@ height="3.5929374453193352in"}
 ### Exercise A2 -- Continuous Data Analysis
 
 
-Open ExerciseA2\_Data.sav
+Open [exercisea2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea2/exercisea2_data.sav).
 
 **Research Question 1:** Is there a relationship between a student's
 socio-economic status and whether or not the student would participate
@@ -1071,7 +1065,7 @@ In the below questions first determine what the appropriate analysis
 method is based on the variables of interest and carry out these methods
 within SPSS.
 
-**A. From ExerciseA3\_Data\_A**
+**A. From [exercisea3_data_a.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_a.sav)**
 
 1.  Is there a relationship between sex (gender) and job category
     (jobcat)?
@@ -1085,7 +1079,7 @@ within SPSS.
 4.  Is there a relationship between experience (jobtime) and salary
     (salary)?
 
-**B. From ExerciseA3\_Data\_B**
+**B. From [exercisea3_data_b.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_b.sav)**
 
 1.  Is there a relationship between general happiness (happy) and
     occupational prestige score (prestg80)?
@@ -1119,7 +1113,7 @@ Crosstabs
 
 ### Exercise A4 -- Case Study I: Salary (Regression)
 
-Open ExerciseA4\_Data.sav
+Open [exercisea4_data](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea4/exercisea4_data.sav).
 
 **Background**
 
@@ -1738,7 +1732,7 @@ height="5.4in"}
 
 ### Exercise A5 -- Case Study II: AIDS (Logistic Regression)
 
-Open ExerciseA5\_Data.sav
+Open [exercisea5_data](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea5/exercisea5_data.sav)
 
 **Background**
 
@@ -2037,7 +2031,7 @@ or effectively do not change the odds.
 
 ## Final Project
 
-**The Data (Refer to Final Project Folder)**
+**The Data**
 
 The cars data sets contain data on specifications of 406 vehicles from
 1970 to 1982. Among the variables in the data set are information on
@@ -2050,7 +2044,8 @@ variables (such as weight, and acceleration).
 
 **Getting Started**
 
-1)  Investigate cars\_wave1.xls and cars\_wave2.xls and prepare the data
+1)  Investigate [cars\_wave1.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave1.xls) and
+    [cars\_wave2.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave2.xls) and prepare the data
     for SPSS
 
 2)  Open SPSS and import cars\_wave1.xls and cars\_wave2.xls from
