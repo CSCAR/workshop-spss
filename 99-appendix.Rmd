@@ -125,8 +125,7 @@ In order to analyze data properly in SPSS, we need to follow the
 guidelines set out above. Open [exercise1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav) and see what guidelines
 we have ignored.
 
-![](./media/spss-exer-image1.png){width="4.229166666666667in"
-height="3.2511712598425198in"}
+[![](./media/spss-exer-image1.png){width="4.229166666666667in" height="3.2511712598425198in"}](./media/spss-exer-image1.png){target="_blank"}
 
 Solution:
 
@@ -147,8 +146,7 @@ it can be imported into SPSS properly. Save the file and close it. Open
 the file in SPSS (import it). Export this file back into Excel, but only
 save the following variables: id, salary, minority.
 
-![](./media/spss-exer-image2.png){width="6.5in"
-height="4.440387139107612in"}
+[![](./media/spss-exer-image2.png){width="6.5in" height="4.440387139107612in"}](./media/spss-exer-image2.png){target="_blank"}
 
 Solution:
 
@@ -162,8 +160,7 @@ Solution:
 
 -   Close Exercise2\_Data\_Ready
 
-![](./media/spss-exer-image3.png){width="6.5in"
-height="4.440387139107612in"}
+[![](./media/spss-exer-image3.png){width="6.5in" height="4.440387139107612in"}](./media/spss-exer-image3.png){target="_blank"}
 
 -   Open SPSS
 
@@ -181,11 +178,9 @@ height="4.440387139107612in"}
 
 -   The Excel data should now open in the Data Editor
 
-![](./media/spss-exer-image4.png){width="6.239583333333333in"
-height="3.3229166666666665in"}
+[![](./media/spss-exer-image4.png){width="6.239583333333333in" height="3.3229166666666665in"}](./media/spss-exer-image4.png){target="_blank"}
 
-![](./media/spss-exer-image5.png){width="4.041666666666667in"
-height="2.5in"}
+[![](./media/spss-exer-image5.png){width="4.041666666666667in" height="2.5in"}](./media/spss-exer-image5.png){target="_blank"}
 
 -   Delete any "blank" rows of data or columns of data (indicated by
     ".") by highlighting, right click, select "cut"
@@ -209,19 +204,16 @@ height="2.5in"}
 -   Open the new file (Exercise2\_Data\_Ready\_short) to investigate the
     results
 
-![](./media/spss-exer-image6.png){width="4.550594925634296in"
-height="3.4982699037620297in"}
+[![](./media/spss-exer-image6.png){width="4.550594925634296in" height="3.4982699037620297in"}](./media/spss-exer-image6.png){target="_blank"}
 
-![](./media/spss-exer-image7.png){width="3.7843613298337706in"
-height="2.914981408573928in"}
+[![](./media/spss-exer-image7.png){width="3.7843613298337706in" height="2.914981408573928in"}](./media/spss-exer-image7.png){target="_blank"}
 
 ### Exercise 3
 
 Open [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav) and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book.
 
-![](./media/spss-exer-image8.png){width="6.0625in"
-height="3.320896762904637in"}
+[![](./media/spss-exer-image8.png){width="6.0625in" height="3.320896762904637in"}](./media/spss-exer-image8.png){target="_blank"}
 
 Solution:
 
@@ -234,8 +226,7 @@ Solution:
     then select the box with three small dots. The following window will
     appear:
 
-![](./media/spss-exer-image9.png){width="4.854166666666667in"
-height="3.125in"}
+[![](./media/spss-exer-image9.png){width="4.854166666666667in" height="3.125in"}](./media/spss-exer-image9.png){target="_blank"}
 
 -   Ender the value and label, then select "Add". Once all possible
     value labels are added, select "OK"
@@ -245,8 +236,7 @@ height="3.125in"}
     Right click on the cell you want to copy, select copy. Then right
     click on the cell that you would like to paste in, and select paste.
 
-![](./media/spss-exer-image10.png){width="6.5in"
-height="3.5605489938757655in"}
+[![](./media/spss-exer-image10.png){width="6.5in" height="3.5605489938757655in"}](./media/spss-exer-image10.png){target="_blank"}
 
 -   Enter in missing values in a similar fashion---here we have discrete
     missing values
@@ -254,8 +244,7 @@ height="3.5605489938757655in"}
 -   Use the drop down menu for "Measure" to specify the correct
     measurement type
 
-![](./media/spss-exer-image11.png){width="3.3541666666666665in"
-height="2.4895833333333335in"}
+[![](./media/spss-exer-image11.png){width="3.3541666666666665in" height="2.4895833333333335in"}](./media/spss-exer-image11.png){target="_blank"}
 
 ### Exercise 4
 
@@ -283,8 +272,7 @@ Solution:
 
 -   Select OK, and the new variable will appear in the data set
 
-![](./media/spss-exer-image12.png){width="6.459686132983377in"
-height="5.278486439195101in"}
+[![](./media/spss-exer-image12.png){width="6.459686132983377in" height="5.278486439195101in"}](./media/spss-exer-image12.png){target="_blank"}
 
 Recode the education variable according to the following
 
@@ -334,7 +322,7 @@ Solution:
 
 -   Check the dataset in Data View
 
-![](./media/spss-exer-image13.png){width="6.5in" height="3.7894663167104112in"}
+[![](./media/spss-exer-image13.png){width="6.5in" height="3.7894663167104112in"} ](./media/spss-exer-image13.png){target="_blank"}
 
 ### Exercise 5
 
@@ -352,8 +340,7 @@ Select male managers. What is their average age?
 -   Under Select: Select the If Condition is Satisfied radio dial and
     select the If button
 
-![](./media/spss-exer-image14.png){width="4.327660761154855in"
-height="4.396551837270342in"}
+[![](./media/spss-exer-image14.png){width="4.327660761154855in" height="4.396551837270342in"}](./media/spss-exer-image14.png){target="_blank"}
 
 -   Enter the following information
 
@@ -361,8 +348,7 @@ height="4.396551837270342in"}
 
     -   Continue
 
-![](./media/spss-exer-image15.png){width="4.5in"
-height="3.0317311898512687in"}
+[![](./media/spss-exer-image15.png){width="4.5in" height="3.0317311898512687in"}](./media/spss-exer-image15.png){target="_blank"}
 
 -   Under Output: Select Filter Out Unselected Cases
 
@@ -372,15 +358,13 @@ height="3.0317311898512687in"}
 
 -   Analyze - Descriptive Statistics - Descriptives
 
-![](./media/spss-exer-image16.png){width="4.387911198600175in"
-height="2.52586176727909in"}
+[![](./media/spss-exer-image16.png){width="4.387911198600175in" height="2.52586176727909in"}](./media/spss-exer-image16.png){target="_blank"}
 
 -   Select the age variable, select OK
 
 -   Turn off the filter!
 
-![](./media/MM_age.png){width="4in"
-height="1in"}
+[![](./media/MM_age.png){width="4in" height="1in"}](./media/MM_age.png){target="_blank"}
 
 Part 2
 
@@ -400,20 +384,17 @@ category.
 
 -   Select Ok
 
-![](./media/spss-exer-image17.png){width="4.004309930008749in"
-height="2.963445975503062in"}
+[![](./media/spss-exer-image17.png){width="4.004309930008749in" height="2.963445975503062in"}](./media/spss-exer-image17.png){target="_blank"}
 
 -   Analyze - Descriptive Statistics - Descriptives
 
 -   Select the age variable and OK
 
-![](./media/spss-exer-image16.png){width="4.387911198600175in"
-height="2.52586176727909in"}
+[![](./media/spss-exer-image16.png){width="4.387911198600175in" height="2.52586176727909in"}](./media/spss-exer-image16.png){target="_blank"}
 
 -   Turn off the split file!
 
-![](./media/OCC_age.png){width="6in"
-height="4in"}
+[![](./media/OCC_age.png){width="6in" height="4in"}](./media/OCC_age.png){target="_blank"}
 
 ### Exercise 6
 
@@ -427,14 +408,12 @@ Convert [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/d
 
 -   Select "Restructure selected variables into cases" then "Next"
 
-![](./media/spss-exer-image18.png){width="5.472672790901138in"
-height="5.316558398950131in"}
+[![](./media/spss-exer-image18.png){width="5.472672790901138in" height="5.316558398950131in"}](./media/spss-exer-image18.png){target="_blank"}
 
 -   How many variable groups to you want to restructure? Select "One"
     then "Next"
 
-![](./media/spss-exer-image19.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image19.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image19.png){target="_blank"}
 
 -   Case Group Identification should be changed to "Use selected
     variable" and the variable should be the ID variable
@@ -445,20 +424,17 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./media/spss-exer-image20.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image20.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image20.png){target="_blank"}
 
 -   How many index variables do you want to create? Select "one" then
     "Next"
 
-![](./media/spss-exer-image21.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image21.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image21.png){target="_blank"}
 
 -   What kind of index values? Select "Sequential Numbers" then select
     "Next"
 
-![](./media/spss-exer-image22.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image22.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image22.png){target="_blank"}
 
 -   Handling of Variables not Selected: Select "Keep and treat as fixed
     variable(s)"
@@ -470,7 +446,7 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./media/spss-exer-image23.png){width="6.5in" height="6.314580052493438in"}
+[![](./media/spss-exer-image23.png){width="6.5in" height="6.314580052493438in"} ](./media/spss-exer-image23.png){target="_blank"}
 
 -   What do you want to do? Select "Restructure the data now". In the
     future you may want to keep the syntax.
@@ -479,11 +455,11 @@ height="6.314580052493438in"}
 
 -   The following message appears, click "OK"
 
-![](./media/spss-exer-image24.png){width="5.375in" height="1.4115113735783027in"}
+[![](./media/spss-exer-image24.png){width="5.375in" height="1.4115113735783027in"} ](./media/spss-exer-image24.png){target="_blank"}
 
 -   Inspect the data (and change "trans1" to "X")
 
-![](./media/spss-exer-image25.png){width="5.207962598425197in" height="4.987069116360455in"}
+[![](./media/spss-exer-image25.png){width="5.207962598425197in" height="4.987069116360455in"} ](./media/spss-exer-image25.png){target="_blank"}
 
 ### Exercise 7
 
@@ -495,8 +471,7 @@ Convert [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/d
 
 -   Select Data - Restructure to open the Wizard
 
-![](./media/spss-exer-image26.png){width="5.521132983377078in"
-height="5.363636264216973in"}
+[![](./media/spss-exer-image26.png){width="5.521132983377078in" height="5.363636264216973in"}](./media/spss-exer-image26.png){target="_blank"}
 
 -   Identifier Variable(s): ID
 
@@ -504,15 +479,13 @@ height="5.363636264216973in"}
 
 -   Select "Next"
 
-![](./media/spss-exer-image27.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image27.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image27.png){target="_blank"}
 
 -   Sort the current data? Yes
 
 -   Select "Next"
 
-![](./media/spss-exer-image28.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image28.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image28.png){target="_blank"}
 
 -   Order of New Variable Groups: Group by original variable
 
@@ -520,20 +493,18 @@ height="6.314580052493438in"}
 
 -   Select "Next"
 
-![](./media/spss-exer-image29.png){width="6.5in"
-height="6.314580052493438in"}
+[![](./media/spss-exer-image29.png){width="6.5in" height="6.314580052493438in"}](./media/spss-exer-image29.png){target="_blank"}
 
 -   Select "Restructure the Data Now" and "Finish"
 
-![](./media/spss-exer-image30.png){width="6.375in"
-height="6.193145231846019in"}
+[![](./media/spss-exer-image30.png){width="6.375in" height="6.193145231846019in"}](./media/spss-exer-image30.png){target="_blank"}
 
 -   The following message will appear, select "OK". Inspect the data and
     save!
 
-![](./media/spss-exer-image24.png){width="5.375in" height="1.4115113735783027in"}
+[![](./media/spss-exer-image24.png){width="5.375in" height="1.4115113735783027in"} ](./media/spss-exer-image24.png){target="_blank"}
 
-![](./media/spss-exer-image31.png){width="6.482638888888889in" height="3.345138888888889in"}
+[![](./media/spss-exer-image31.png){width="6.482638888888889in" height="3.345138888888889in"} ](./media/spss-exer-image31.png){target="_blank"}
 
 ### Exercise 8
 
@@ -549,8 +520,7 @@ Select the "Variable View" tab
 
 Investigate the labels and measure of each variable
 
-![](./media/spss-exer-image32.png){width="6.637844488188977in" height="3.8053280839895014in"}
-
+[![](./media/spss-exer-image32.png){width="6.637844488188977in" height="3.8053280839895014in"} ](./media/spss-exer-image32.png){target="_blank"}
 Obtain the appropriate descriptive statistics for each variable in the
 dataset. Remember, continuous variables should be investigated with
 5-point summary descriptives and categorical variables should be
@@ -562,8 +532,6 @@ Descriptives:
 
 -   Select Analyze - Descriptive Statistics - Descriptives
 
-<!-- -->
-
 -   Select the following variables: sibs, childs, age, educ, paeduc,
     maeduc, speduc, prestg80
 
@@ -572,8 +540,7 @@ Descriptives:
 -   Notice there are only 519 respondents that have valid data points
     for all of the continuous variables.
 
-![](./media/spss-exer-image33.png){width="4.870138888888889in"
-height="3.077777777777778in"}
+[![](./media/spss-exer-image33.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image33.png){target="_blank"}
 
   ------------------------ ------ --------- --------- ------- ----------------
   Descriptive Statistics
@@ -596,8 +563,7 @@ Frequency Tables:
 -   Select the following variables: sex, region, race, happy, life,
     occcat80
 
-![](./media/spss-exer-image34.png){width="4.870138888888889in"
-height="3.077777777777778in"}
+[![](./media/spss-exer-image34.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image34.png){target="_blank"}
 
 -   Investigate the output
 
@@ -618,13 +584,11 @@ Solution:
 
 -   Select OK
 
-![](./media/spss-exer-image35.png){width="4.979166666666667in"
-height="4.484458661417323in"}
+[![](./media/spss-exer-image35.png){width="4.979166666666667in" height="4.484458661417323in"}](./media/spss-exer-image35.png){target="_blank"}
 
 Investigate the output
 
-![](./media/spss-exer-image36.png){width="3.9791666666666665in"
-height="3.177302055993001in"}
+[![](./media/spss-exer-image36.png){width="3.9791666666666665in" height="3.177302055993001in"}](./media/spss-exer-image36.png){target="_blank"}
 
 -   Q-Q Plot
 
@@ -634,8 +598,7 @@ height="3.177302055993001in"}
 
 -   Select OK
 
-![](./media/spss-exer-image37.png){width="4.135010936132983in"
-height="2.990590551181102in"}
+[![](./media/spss-exer-image37.png){width="4.135010936132983in" height="2.990590551181102in"}](./media/spss-exer-image37.png){target="_blank"}
 
 -   Investigate the output
 
@@ -645,8 +608,7 @@ height="2.990590551181102in"}
 -   It is particularly important to pay attention to the "tails", or the
     left most and right most points to see if they follow the line
 
-![](./media/spss-exer-image38.png){width="4.264880796150481in"
-height="3.40544072615923in"}
+[![](./media/spss-exer-image38.png){width="4.264880796150481in" height="3.40544072615923in"}](./media/spss-exer-image38.png){target="_blank"}
 
 **Part 3**: Compare the average highest year of school completed
 ("educ") for males and females.
@@ -664,8 +626,7 @@ Solution:
 
 -   Select "OK"
 
-![](./media/spss-exer-image39.png){width="4.628517060367454in"
-height="3.5987948381452317in"}
+[![](./media/spss-exer-image39.png){width="4.628517060367454in" height="3.5987948381452317in"}](./media/spss-exer-image39.png){target="_blank"}
 
 -   Compute the 5-Point Summary Descriptives for "educ"
 
@@ -675,8 +636,7 @@ height="3.5987948381452317in"}
 
 -   Select "OK"
 
-![](./media/spss-exer-image40.png){width="4.664867672790901in"
-height="2.9480522747156606in"}
+[![](./media/spss-exer-image40.png){width="4.664867672790901in" height="2.9480522747156606in"}](./media/spss-exer-image40.png){target="_blank"}
 
 -   Investigate the output
 
@@ -684,8 +644,7 @@ height="2.9480522747156606in"}
 
 -   Females have an average of 12.63 years of education
 
-![](./media/EDUC_sex.png){width="5in"
-height="2in"}
+[![](./media/EDUC_sex.png){width="5in" height="2in"}](./media/EDUC_sex.png){target="_blank"}
 
 
 -   Turn the split file feature off
@@ -708,8 +667,7 @@ Solution:
 
 -   Select "Define"
 
-![](./media/spss-exer-image41.png){width="2.5505949256342957in"
-height="1.8178455818022747in"}
+[![](./media/spss-exer-image41.png){width="2.5505949256342957in" height="1.8178455818022747in"}](./media/spss-exer-image41.png){target="_blank"}
 
 -   Select the variable "region" for "Define Slices by:"
 
@@ -718,13 +676,11 @@ height="1.8178455818022747in"}
 
 -   Select "OK"
 
-![](./media/spss-exer-image42.png){width="4.602543744531934in"
-height="4.990481189851269in"}
+[![](./media/spss-exer-image42.png){width="4.602543744531934in" height="4.990481189851269in"}](./media/spss-exer-image42.png){target="_blank"}
 
 -   Investigate the output
 
-![](./media/spss-exer-image43.png){width="4.5in"
-height="4.5in"}
+[![](./media/spss-exer-image43.png){width="4.5in" height="4.5in"}](./media/spss-exer-image43.png){target="_blank"}
 
 ## Additional Exercises
 
@@ -766,8 +722,7 @@ display the variable.
 
 -   Analyze - Descriptive Statistics - Frequencies
 
-![](./media/spss-exer-image44.png){width="4.864583333333333in"
-height="3.0833333333333335in"}
+[![](./media/spss-exer-image44.png){width="4.864583333333333in" height="3.0833333333333335in"}](./media/spss-exer-image44.png){target="_blank"}
 
 -   Enter the following information
 
@@ -785,14 +740,11 @@ height="3.0833333333333335in"}
 
     -   Select OK
 
-![](./media/spss-exer-image45.png){width="2.8333333333333335in"
-height="2.9791666666666665in"}
+[![](./media/spss-exer-image45.png){width="2.8333333333333335in" height="2.9791666666666665in"}](./media/spss-exer-image45.png){target="_blank"}
 
-![](./media/Happy.png){width="4in"
-height="3in"}
+[![](./media/Happy.png){width="4in" height="3in"}](./media/Happy.png){target="_blank"}
 
-![](./media/spss-exer-image48.png){width="6.5in"
-height="5.197916666666667in"}
+[![](./media/spss-exer-image48.png){width="6.5in" height="5.197916666666667in"}](./media/spss-exer-image48.png){target="_blank"}
 
 **Question 2**
 
@@ -814,8 +766,7 @@ apparent relationship is statistically significant?
 
     -   Columns: happy
 
-![](./media/spss-exer-image49.png){width="4.628517060367454in"
-height="3.82830271216098in"}
+[![](./media/spss-exer-image49.png){width="4.628517060367454in" height="3.82830271216098in"}](./media/spss-exer-image49.png){target="_blank"}
 
 -   Select the Statistics button
 
@@ -823,8 +774,7 @@ height="3.82830271216098in"}
 
     -   Select Continue
 
-![](./media/spss-exer-image50.png){width="3.0051410761154855in"
-height="3.3971161417322833in"}
+[![](./media/spss-exer-image50.png){width="3.0051410761154855in" height="3.3971161417322833in"}](./media/spss-exer-image50.png){target="_blank"}
 
 -   Select the Cells button
 
@@ -840,8 +790,7 @@ height="3.3971161417322833in"}
 
 -   Select OK
 
-![](./media/spss-exer-image51.png){width="3.4375in"
-height="3.8125in"}
+[![](./media/spss-exer-image51.png){width="3.4375in" height="3.8125in"}](./media/spss-exer-image51.png){target="_blank"}
 
 -   The Pearson Chi-Square statistic indicates that the differences
     between men and women are statistically significant
@@ -862,11 +811,9 @@ height="3.8125in"}
     -   The clustered bar chart also shows that there are greater
         numbers of women that indicate that they are "not too happy".
 
-![](./media/Sex_Happy.png){width="6in"
-height="5.33in"}
+[![](./media/Sex_Happy.png){width="6in" height="5.33in"}](./media/Sex_Happy.png){target="_blank"}
 
-![](./media/spss-exer-image55.png){width="4.507012248468941in"
-height="3.6041666666666665in"}
+[![](./media/spss-exer-image55.png){width="4.507012248468941in" height="3.6041666666666665in"}](./media/spss-exer-image55.png){target="_blank"}
 
 **Question 3**
 
@@ -923,25 +870,19 @@ positive or negative? Is it statistically significant.
 -   The output indicates that the correlation between education and
     spouses' education is positive and statistically significant.
 
-![](./media/spss-exer-image56.png){width="3.53125in"
-height="2.0625in"}
+[![](./media/spss-exer-image56.png){width="3.53125in" height="2.0625in"}](./media/spss-exer-image56.png){target="_blank"}
 
-![](./media/spss-exer-image57.png){width="5.625in"
-height="6.114583333333333in"}
+[![](./media/spss-exer-image57.png){width="5.625in" height="6.114583333333333in"}](./media/spss-exer-image57.png){target="_blank"}
 
-![](./media/spss-exer-image58.png){width="3.6666666666666665in"
-height="5.270833333333333in"}
+[![](./media/spss-exer-image58.png){width="3.6666666666666665in" height="5.270833333333333in"}](./media/spss-exer-image58.png){target="_blank"}
 
-![](./media/spss-exer-image59.png){width="3.966178915135608in"
-height="4.2551870078740155in"}
+[![](./media/spss-exer-image59.png){width="3.966178915135608in" height="4.2551870078740155in"}](./media/spss-exer-image59.png){target="_blank"}
 
-![](./media/spss-exer-image60.png){width="4.316828521434821in"
-height="3.45207895888014in"}
+[![](./media/spss-exer-image60.png){width="4.316828521434821in" height="3.45207895888014in"}](./media/spss-exer-image60.png){target="_blank"}
 
-![](./media/spss-exer-image61.png){width="3.992153324584427in"
-height="3.5929374453193352in"}
+[![](./media/spss-exer-image61.png){width="3.992153324584427in" height="3.5929374453193352in"}](./media/spss-exer-image61.png){target="_blank"}
 
-![](./media/Corr.png){width="6in" height="7in"}
+[![](./media/Corr.png){width="6in" height="7in"} ](./media/Corr.png){target="_blank"}
 
 ### Exercise A2 -- Continuous Data Analysis
 
@@ -1004,11 +945,9 @@ there is a relationship between a student's socio-economic status and
 whether or not the student would participate in a racially insensitive
 joke.
 
-![](./media/SES_joke.png){width="8in"
-height="8in"}
+[![](./media/SES_joke.png){width="8in" height="8in"}](./media/SES_joke.png){target="_blank"}
 
-![](./media/spss-exer-image66.png){width="8in"
-height="6in"}
+[![](./media/spss-exer-image66.png){width="8in" height="6in"}](./media/spss-exer-image66.png){target="_blank"}
 
 **Research Question 2:** Is there a relationship between a student's
 race and their post intervention behavior intention scale? What
@@ -1029,11 +968,9 @@ between "Race" and "BIndBehint\_Post". We do not have enough evidence to
 say that there is a relationship between a student's race and their post
 intervention behavior intention score.
 
-![](./media/BEHAV_race.png){width="8in"
-height="6in"}
+[![](./media/BEHAV_race.png){width="8in" height="6in"}](./media/BEHAV_race.png){target="_blank"}
 
-![](./media/spss-exer-image70.png){width="7.6in"
-height="7in"}
+[![](./media/spss-exer-image70.png){width="7.6in" height="7in"}](./media/spss-exer-image70.png){target="_blank"}
 
 **Research Question 3:** Is there a relationship between the race of a
 student and their socio-economic status? What techniques would you use
@@ -1053,11 +990,9 @@ student's SES and race. Notice the error message under the Chi-Square
 results table---in this case, we need to verify our statistically
 significant results with Fisher's Exact Test (pvalue=.025).
 
-![](./media/SES_race.png){width="8in"
-height="6in"}
+[![](./media/SES_race.png){width="8in" height="6in"}](./media/SES_race.png){target="_blank"}
 
-![](./media/spss-exer-image73.png){width="6in"
-height="8in"}
+[![](./media/spss-exer-image73.png){width="6in" height="8in"}](./media/spss-exer-image73.png){target="_blank"}
 
 ### Exercise A3 -- Methodology Choice Practice
 
@@ -1130,92 +1065,70 @@ variable graphing procedures, and bivariate procedures.
 **Investigate 'Salary' with descriptive statistics, box plot, and
 histogram**
 
-![](./media/spss-exer-image74.png){width="4.870138888888889in"
-height="3.077777777777778in"}
+[![](./media/spss-exer-image74.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image74.png){target="_blank"}
 
-![](./media/Salary.png){width="6.16875in"
-height="1.0777777777777777in"}
+[![](./media/Salary.png){width="6.16875in" height="1.0777777777777777in"}](./media/Salary.png){target="_blank"}
 
-![](./media/spss-exer-image76.png){width="5.49375in"
-height="4.947916666666667in"}
+[![](./media/spss-exer-image76.png){width="5.49375in" height="4.947916666666667in"}](./media/spss-exer-image76.png){target="_blank"}
 
-![](./media/spss-exer-image77.png){width="4.277867454068241in"
-height="3.415810367454068in"}
+[![](./media/spss-exer-image77.png){width="4.277867454068241in" height="3.415810367454068in"}](./media/spss-exer-image77.png){target="_blank"}
 
-![](./media/spss-exer-image78.png){width="4.329816272965879in"
-height="4.666395450568679in"}
+[![](./media/spss-exer-image78.png){width="4.329816272965879in" height="4.666395450568679in"}](./media/spss-exer-image78.png){target="_blank"}
 
-![](./media/spss-exer-image79.png){width="4.316828521434821in"
-height="3.446920384951881in"}
+[![](./media/spss-exer-image79.png){width="4.316828521434821in" height="3.446920384951881in"}](./media/spss-exer-image79.png){target="_blank"}
 
 **Investigate 'Gender' with a frequency table and bar chart**
 
-![](./media/spss-exer-image80.png){width="4.870138888888889in"
-height="3.077777777777778in"}
+[![](./media/spss-exer-image80.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image80.png){target="_blank"}
 
-![](./media/spss-exer-image81.png){width="2.83125in"
-height="2.9743055555555555in"}
+[![](./media/spss-exer-image81.png){width="2.83125in" height="2.9743055555555555in"}](./media/spss-exer-image81.png){target="_blank"}
 
-![](./media/Male.png){width="6in"
-height="3in"}
+[![](./media/Male.png){width="6in" height="3in"}](./media/Male.png){target="_blank"}
 
-![](./media/spss-exer-image83.png){width="4.576569335083114in"
-height="3.6653280839895013in"}
+[![](./media/spss-exer-image83.png){width="4.576569335083114in" height="3.6653280839895013in"}](./media/spss-exer-image83.png){target="_blank"}
 
 **Investigate the average salary for males and females separately
 (descriptive statistics, histogram, side-by-side box plot)**
 
 Remember to split the file by the gender variable ('male').
 
-![](./media/spss-exer-image84.png){width="4.610416666666667in"
-height="3.584722222222222in"}
+[![](./media/spss-exer-image84.png){width="4.610416666666667in" height="3.584722222222222in"}](./media/spss-exer-image84.png){target="_blank"}
 
-![](./media/spss-exer-image85.png){width="4.870138888888889in"
-height="3.077777777777778in"}
+[![](./media/spss-exer-image85.png){width="4.870138888888889in" height="3.077777777777778in"}](./media/spss-exer-image85.png){target="_blank"}
 
-![](./media/Salary_gender.png){width="6.5in"
-height="2in"}
+[![](./media/Salary_gender.png){width="6.5in" height="2in"}](./media/Salary_gender.png){target="_blank"}
 
 The descriptive statistics table above indicates that males earn more
 than females on average.
 
-![](./media/spss-exer-image87.png){width="6.498647200349956in"
-height="6.051683070866142in"}
+[![](./media/spss-exer-image87.png){width="6.498647200349956in" height="6.051683070866142in"}](./media/spss-exer-image87.png){target="_blank"}
 
-![](./media/spss-exer-image88.png){width="8in"
-height="6.5in"}
+[![](./media/spss-exer-image88.png){width="8in" height="6.5in"}](./media/spss-exer-image88.png){target="_blank"}
 
-![](./media/spss-exer-image89.png){width="8in"
-height="6.5in"}
+[![](./media/spss-exer-image89.png){width="8in" height="6.5in"}](./media/spss-exer-image89.png){target="_blank"}
 
 Also remember to remove the 'Split File' option.
 
-![](./media/spss-exer-image90.png){width="4.610416666666667in"
-height="3.584722222222222in"}
+[![](./media/spss-exer-image90.png){width="4.610416666666667in" height="3.584722222222222in"}](./media/spss-exer-image90.png){target="_blank"}
 
-![](./media/spss-exer-image91.png){width="4.628517060367454in"
-height="3.8586220472440944in"}
+[![](./media/spss-exer-image91.png){width="4.628517060367454in" height="3.8586220472440944in"}](./media/spss-exer-image91.png){target="_blank"}
 
 The Boxplot below indicates that males have a higher median salary than
 females, and both males and females have outliers (observation 148 and
 58 respectively).
 
-![](./media/spss-exer-image92.png){width="8in"
-height="7in"}
+[![](./media/spss-exer-image92.png){width="8in" height="7in"}](./media/spss-exer-image92.png){target="_blank"}
 
 **Perform an independent samples t-test **
 
 Remember that the dialogue box for the independent samples t-test is
 located under 'Analyze' then 'Compare Means'.
 
-![](./media/spss-exer-image93.png){width="3.654491469816273in"
-height="2.3173534558180227in"}
+[![](./media/spss-exer-image93.png){width="3.654491469816273in" height="2.3173534558180227in"}](./media/spss-exer-image93.png){target="_blank"}
 
-![](./media/spss-exer-image94.png){width="2.4805555555555556in"
-height="2.0388888888888888in"}
+[![](./media/spss-exer-image94.png){width="2.4805555555555556in" height="2.0388888888888888in"}](./media/spss-exer-image94.png){target="_blank"}
 
-![](./media/Sex_sal.png){width="8in"
-height="3in"}
+[![](./media/Sex_sal.png){width="8in" height="3in"}](./media/Sex_sal.png){target="_blank"}
 
 The table above indicates that we cannot assume equal variances between
 males and females (Levene's Test pvalue\<.05). Regardless, we see that
@@ -1237,24 +1150,19 @@ investigate a scatter plot of the two variables**
 
 In SPSS, select Analyze - Correlate - Bivariate
 
-![](./media/spss-exer-image97.png){width="4.0181277340332455in"
-height="3.6152088801399827in"}
+[![](./media/spss-exer-image97.png){width="4.0181277340332455in" height="3.6152088801399827in"}](./media/spss-exer-image97.png){target="_blank"}
 
-![](./media/Sal_mark_cor.png){width="5.090972222222222in"
-height="2.441666666666667in"}
+[![](./media/Sal_mark_cor.png){width="5.090972222222222in" height="2.441666666666667in"}](./media/Sal_mark_cor.png){target="_blank"}
 
 We see from the table above that there is a statistically significant
 correlation between faculty salary and marketability of the discipline
 (r=.407, pvalue\<.001).
 
-![](./media/spss-exer-image99.png){width="3.532638888888889in"
-height="2.0652777777777778in"}
+[![](./media/spss-exer-image99.png){width="3.532638888888889in" height="2.0652777777777778in"}](./media/spss-exer-image99.png){target="_blank"}
 
-![](./media/spss-exer-image100.png){width="4.459686132983377in"
-height="4.850693350831146in"}
+[![](./media/spss-exer-image100.png){width="4.459686132983377in" height="4.850693350831146in"}](./media/spss-exer-image100.png){target="_blank"}
 
-![](./media/spss-exer-image101.png){width="8in"
-height="6.5in"}
+[![](./media/spss-exer-image101.png){width="8in" height="6.5in"}](./media/spss-exer-image101.png){target="_blank"}
 
 **Perform a simple linear regression where 'salary' is the
 dependent/outcome variable and 'market' is the independent/predictor
@@ -1266,11 +1174,9 @@ Model' menu.
 
 Select Analyze - Regression - Linear
 
-![](./media/spss-exer-image102.png){width="4.36877624671916in"
-height="3.584650043744532in"}
+[![](./media/spss-exer-image102.png){width="4.36877624671916in" height="3.584650043744532in"}](./media/spss-exer-image102.png){target="_blank"}
 
-![](./media/spss-exer-image103.png){width="3.8958333333333335in"
-height="3.49375in"}
+[![](./media/spss-exer-image103.png){width="3.8958333333333335in" height="3.49375in"}](./media/spss-exer-image103.png){target="_blank"}
 
 Notice that the regression menu provides the correlation between the
 variables included in the model.
@@ -1284,10 +1190,9 @@ than what we would expect by chance (F=101.771, pvalue\<.001). The null
 hypothesis is that there is no linear relationship between faculty
 salary and marketability, and we reject this hypothesis.
 
-![](./media/Reg1.png){width="6in"
-height="8in"}
+[![](./media/Reg1.png){width="6in" height="8in"}](./media/Reg1.png){target="_blank"}
 
-![](./media/Reg2.png){width="8in"}
+[![](./media/Reg2.png){width="8in"} ](./media/Reg2.png){target="_blank"}
 
 The table above provides the parameter estimates for our model. For
 every one unit increase in marketability, faculty salary increases by an
@@ -1317,16 +1222,13 @@ variables.
 
 Select Analyze - General Linear Model - Univariate
 
-![](./media/spss-exer-image109.png){width="4.909027777777778in"
-height="4.1819444444444445in"}
+[![](./media/spss-exer-image109.png){width="4.909027777777778in" height="4.1819444444444445in"}](./media/spss-exer-image109.png){target="_blank"}
 
-![](./media/spss-exer-image110.png){width="4.005139982502187in"
-height="4.132720909886264in"}
+[![](./media/spss-exer-image110.png){width="4.005139982502187in" height="4.132720909886264in"}](./media/spss-exer-image110.png){target="_blank"}
 
 The table below provides the descriptive statistics for faculty salary.
 
-![](./media/Reg3.png){width="6in"
-height="6in"}
+[![](./media/Reg3.png){width="6in" height="6in"}](./media/Reg3.png){target="_blank"}
 
 The table above indicates that the overall regression model is
 significant (F=101.771, pvalue\<.001). This is indicated by the line for
@@ -1346,11 +1248,9 @@ we will use the second method to obtain our regression results
 Perform the necessary regression diagnostics for the regression from
 exercise 2.
 
-![](./media/spss-exer-image114.png){width="3.4330172790901137in"
-height="4.0135225284339455in"}
+[![](./media/spss-exer-image114.png){width="3.4330172790901137in" height="4.0135225284339455in"}](./media/spss-exer-image114.png){target="_blank"}
 
-![](./media/spss-exer-image115.png){width="3.4986472003499562in"
-height="3.610094050743657in"}
+[![](./media/spss-exer-image115.png){width="3.4986472003499562in" height="3.610094050743657in"}](./media/spss-exer-image115.png){target="_blank"}
 
 **Check the linearity and homogeneity of variance assumptions**
 
@@ -1358,25 +1258,21 @@ Plot the residuals against the predicted values from the model. The
 residuals should be randomly scattered around zero, and the variability
 should be constant in the plot.
 
-![](./media/spss-exer-image116.png){width="3.532638888888889in"
-height="2.0652777777777778in"}
+[![](./media/spss-exer-image116.png){width="3.532638888888889in" height="2.0652777777777778in"}](./media/spss-exer-image116.png){target="_blank"}
 
-![](./media/spss-exer-image117.png){width="6.5in"
-height="4.652742782152231in"}
+[![](./media/spss-exer-image117.png){width="6.5in" height="4.652742782152231in"}](./media/spss-exer-image117.png){target="_blank"}
 
 The scatter plot below does not indicate that either assumption has been
 violated.
 
-![](./media/spss-exer-image118.png){width="7.2in"
-height="6in"}
+[![](./media/spss-exer-image118.png){width="7.2in" height="6in"}](./media/spss-exer-image118.png){target="_blank"}
 
 **Check for influential points**
 
 The scatter plot from exercise 2 did not indicate that there were points
 of interest.
 
-![](./media/spss-exer-image101.png){width="7.2in"
-height="6in"}
+[![](./media/spss-exer-image101.png){width="7.2in" height="6in"}](./media/spss-exer-image101.png){target="_blank"}
 
 A leverage point is an unusual point that has the potential to influence
 the fit of the model. Sort the data set by Leverage in descending order.
@@ -1386,8 +1282,7 @@ parameters in the model. Here we estimate the intercept and slope for
 market, so p=2. This means that high leverage values are greater than
 2\*2/514=4/514=.0078. There are 53 points with high leverage.
 
-![](./media/spss-exer-image119.png){width="6.042713254593176in"
-height="4.830773184601925in"}
+[![](./media/spss-exer-image119.png){width="6.042713254593176in" height="4.830773184601925in"}](./media/spss-exer-image119.png){target="_blank"}
 
 An influential point is one whose removal from the dataset would cause a
 large change in the fit of the regression model. An influential point
@@ -1400,26 +1295,21 @@ largest Cook's distance first. Remember a distance greater than 1 or
 large Cook's distances, but we do not have cause to remove them from the
 data set.
 
-![](./media/spss-exer-image120.png){width="6in"
-height="4.8in"}
+[![](./media/spss-exer-image120.png){width="6in" height="4.8in"}](./media/spss-exer-image120.png){target="_blank"}
 
 **Check the normality assumption for the residuals**
 
-![](./media/spss-exer-image121.png){width="6in"
-height="5.3in"}
+[![](./media/spss-exer-image121.png){width="6in" height="5.3in"}](./media/spss-exer-image121.png){target="_blank"}
 
 The plot below indicates that the normality assumption is reasonable.
 
-![](./media/spss-exer-image122.png){width="8in"
-height="6.7in"}
+[![](./media/spss-exer-image122.png){width="8in" height="6.7in"}](./media/spss-exer-image122.png){target="_blank"}
 
 A QQ plot can also be investigated (Analyze - Descriptive Statistics - QQ Plot)
 
-![](./media/spss-exer-image123.png){width="6in"
-height="4.4in"}
+[![](./media/spss-exer-image123.png){width="6in" height="4.4in"}](./media/spss-exer-image123.png){target="_blank"}
 
-![](./media/spss-exer-image124.png){width="8in"
-height="6.5in"}
+[![](./media/spss-exer-image124.png){width="8in" height="6.5in"}](./media/spss-exer-image124.png){target="_blank"}
 
 **Activity 4: Multiple Regression with a Categorical Predictor**
 
@@ -1437,20 +1327,17 @@ market as the covariate. Remember that any categorical predictor in a
 basic regression model should be entered in as a 'fixed factor', while
 any continuous prediction is considered a 'covariate'.
 
-![](./media/spss-exer-image125.png){width="4.725941601049869in"
-height="4.025974409448819in"}
+[![](./media/spss-exer-image125.png){width="4.725941601049869in" height="4.025974409448819in"}](./media/spss-exer-image125.png){target="_blank"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./media/spss-exer-image126.png){width="4.883333333333334in"
-height="5.038888888888889in"}
+[![](./media/spss-exer-image126.png){width="4.883333333333334in" height="5.038888888888889in"}](./media/spss-exer-image126.png){target="_blank"}
 
 The table below indicates the number of Males and Females in the data
 set, along with the code that denotes the genders.
 
-![](./media/Reg4.png){width="8in"
-height="8in"}
+[![](./media/Reg4.png){width="8in" height="8in"}](./media/Reg4.png){target="_blank"}
 
 The table above indicates that the average salary for males is greater
 than the average salary for females (\$53,499.24 compared to
@@ -1465,8 +1352,7 @@ listed in footnote a. for the table. The proportion of variance in
 faculty salary explained jointly by marketability of discipline and
 gender is 25.1%. Notice that this is an increase from the previous model.
 
-![](./media/Reg5.png){width="8in"
-height="8in"}
+[![](./media/Reg5.png){width="8in" height="8in"}](./media/Reg5.png){target="_blank"}
 
 The table above provides the parameter estimates for the regression
 model. The difference in population mean salaries between men and women,
@@ -1501,8 +1387,7 @@ the predictors. Investigate the coefficients and R-squared. **
 
 First investigate a scatter plot between salary and time since degree.
 
-![](./media/spss-exer-image131.png){width="6.8in"
-height="5.4in"}
+[![](./media/spss-exer-image131.png){width="6.8in" height="5.4in"}](./media/spss-exer-image131.png){target="_blank"}
 
 Select Analyze - General Linear Model - Univariate
 
@@ -1511,21 +1396,18 @@ market and yearsdg as the covariates. Remember that any categorical
 predictor in a basic regression model should be entered in as a 'fixed
 factor', while any continuous prediction is considered a 'covariate'.
 
-![](./media/spss-exer-image132.png){width="4.90625in"
-height="4.1875in"}
+[![](./media/spss-exer-image132.png){width="4.90625in" height="4.1875in"}](./media/spss-exer-image132.png){target="_blank"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./media/spss-exer-image133.png){width="3.3687773403324583in"
-height="3.476522309711286in"}
+[![](./media/spss-exer-image133.png){width="3.3687773403324583in" height="3.476522309711286in"}](./media/spss-exer-image133.png){target="_blank"}
 
 The table below indicates that the R-squared value has increased from
 the last model to .684, and the model is significant (F=367.562,
 pvalue\<.001).
 
-![](./media/Reg6.png){width="8in"
-height="8in"}
+[![](./media/Reg6.png){width="8in" height="8in"}](./media/Reg6.png){target="_blank"}
 
 The estimated population mean salary for women is \$2,040.21 less than
 men for a given marketability and time since degree. The estimated
@@ -1538,8 +1420,7 @@ marketability is estimated to increase average salary by \$38,402.
 Notice that all of the predictor variables in the model are highly
 significant.
 
-![](./media/Reg7.png){width="8in"
-height="8in"}
+[![](./media/Reg7.png){width="8in" height="8in"}](./media/Reg7.png){target="_blank"}
 
 **Activity 5: Multiple Regression with an Interaction**
 
@@ -1563,13 +1444,11 @@ in chart editor and click the box for 'Add fit line at subgroups'.
 The lines for males and females are not parallel, and this is what
 we are investigating with the proposed interaction term.
 
-![](./media/spss-exer-image136.png){width="8in"
-height="6.5in"}
+[![](./media/spss-exer-image136.png){width="8in" height="6.5in"}](./media/spss-exer-image136.png){target="_blank"}
 
 Select Analyze - General Linear Model - Univariate
 
-![](./media/spss-exer-image137.png){width="3.7454002624671916in"
-height="3.1967115048118986in"}
+[![](./media/spss-exer-image137.png){width="3.7454002624671916in" height="3.1967115048118986in"}](./media/spss-exer-image137.png){target="_blank"}
 
 Select 'salary' as the dependent variable, 'male' as the fixed factor,
 and 'market' and 'yearsdg' as the covariates. Remember that any
@@ -1583,21 +1462,18 @@ select 'Interaction' and select both male and yearsdg to create the
 interaction term. Select 'Continue'. Remember that main effects must
 always be included in a model that contains interaction terms.
 
-![](./media/spss-exer-image138.png){width="5.343488626421697in"
-height="3.7395833333333335in"}
+[![](./media/spss-exer-image138.png){width="5.343488626421697in" height="3.7395833333333335in"}](./media/spss-exer-image138.png){target="_blank"}
 
 Under 'Options', select 'Descriptive Statistics', 'Parameter Estimates',
 'Residual Plot'
 
-![](./media/spss-exer-image139.png){width="4.199945319335083in"
-height="4.334270559930009in"}
+[![](./media/spss-exer-image139.png){width="4.199945319335083in" height="4.334270559930009in"}](./media/spss-exer-image139.png){target="_blank"}
 
 The table below indicates that the model is significant (F=279.95,
 pvalue\<.001) and the R-squared has increased from the last model to
 .688.
 
-![](./media/Reg8.png){width="8in"
-height="8in"}
+[![](./media/Reg8.png){width="8in" height="8in"}](./media/Reg8.png){target="_blank"}
 
 In the presence of interaction terms, the main effect terms have
 different interpretations. The estimated gender gap when time since
@@ -1614,8 +1490,7 @@ year since degree completion, we see the gender gap between males and
 females grows by \$227.153 on average when adjusting for the other
 covariates in the model.
 
-![](./media/Reg9.png){width="8in"
-height="8in"}
+[![](./media/Reg9.png){width="8in" height="8in"}](./media/Reg9.png){target="_blank"}
 
 **Activity 6: Multiple Regression with Diagnostics**
 
@@ -1630,11 +1505,9 @@ the interaction between gender and time since degree are the predictors.
 
 Create a side-by-side box plot for salary by rank.
 
-![](./media/spss-exer-image142.png){width="5.361036745406824in"
-height="4.46753280839895in"}
+[![](./media/spss-exer-image142.png){width="5.361036745406824in" height="4.46753280839895in"}](./media/spss-exer-image142.png){target="_blank"}
 
-![](./media/spss-exer-image143.png){width="7.2in"
-height="5.8in"}
+[![](./media/spss-exer-image143.png){width="7.2in" height="5.8in"}](./media/spss-exer-image143.png){target="_blank"}
 
 Select Analyze - General Linear Model - Univariate
 
@@ -1644,8 +1517,7 @@ that any categorical predictor in a basic regression model should be
 entered in as a 'fixed factor', while any continuous prediction is
 considered a 'covariate'.
 
-![](./media/spss-exer-image144.png){width="4.90625in"
-height="4.1875in"}
+[![](./media/spss-exer-image144.png){width="4.90625in" height="4.1875in"}](./media/spss-exer-image144.png){target="_blank"}
 
 Under 'Model', select 'Custom'. Under 'Build Terms' select 'Main Effect'
 and enter the variables male, market, yearsdg, rank. Under 'Build Terms'
@@ -1653,8 +1525,7 @@ select 'Interaction' and select both male and yearsdg to create the
 interaction term. Select 'Continue'. Remember that main effects must
 always be included in a model that contains interaction terms.
 
-![](./media/spss-exer-image145.png){width="6.489583333333333in"
-height="4.541666666666667in"}
+[![](./media/spss-exer-image145.png){width="6.489583333333333in" height="4.541666666666667in"}](./media/spss-exer-image145.png){target="_blank"}
 
 Under 'Save' select 'Unstandardized Predicted Values' and 'Standardized
 Residuals'. Under 'Options', select 'Descriptive Statistics', 'Parameter
@@ -1663,21 +1534,18 @@ Estimates', 'Residual Plot'
 The table below displays the coding scheme used for the categorical
 predictors (factors).
 
-![](./media/Reg10.png){width="2.6458333333333335in"
-height="1.625in"}
+[![](./media/Reg10.png){width="2.6458333333333335in" height="1.625in"}](./media/Reg10.png){target="_blank"}
 
 The table below provides the descriptive statistics for salary broken
 out by gender and rank.
 
-![](./media/Reg11.png){width="4.03125in"
-height="3.3854166666666665in"}
+[![](./media/Reg11.png){width="4.03125in" height="3.3854166666666665in"}](./media/Reg11.png){target="_blank"}
 
 The table below indicates the model is significant (F=242.32,
 pvalue\<.001) and the R-squared value is .741 (an increase from the last
 model).
 
-![](./media/Reg12.png){width="5.25in"
-height="3.2916666666666665in"}
+[![](./media/Reg12.png){width="5.25in" height="3.2916666666666665in"}](./media/Reg12.png){target="_blank"}
 
 We can see from the table below that faculty rank is a significant
 predictor of salary. The table above indicates that rank=1=Assistant
@@ -1691,8 +1559,7 @@ Professors and Full professors is \$7,819 after adjusting for the other
 covariates in the model. Put another way: Associate professors earn on
 average \$7,819 less than Full Professors, all else equal.
 
-![](./media/Reg13.png){width="6.395255905511811in"
-height="3.4583333333333335in"}
+[![](./media/Reg13.png){width="6.395255905511811in" height="3.4583333333333335in"}](./media/Reg13.png){target="_blank"}
 
 The residual plot below is given from the output. First investigate the
 predicted (x axis) vs. std. residual plot to check for the constant
@@ -1705,30 +1572,25 @@ linearity assumption is not violated (this is approximately what we see
 here). Note that these plots could be made manually by creating scatter
 plots from the saved variables (predicted, residuals).
 
-![](./media/spss-exer-image150.png){width="7in"
-height="5.6in"}
+[![](./media/spss-exer-image150.png){width="7in" height="5.6in"}](./media/spss-exer-image150.png){target="_blank"}
 
 The GLM approach to regression doesn't allow for VIF's to be calculated
 directly. Multicollinearity can attempt to be assessed through
 investigating the correlations or calculating the VIF manually. Note
 that pair wise correlations do not fully capture multicollinearity.
 
-![](./media/spss-exer-image151.png){width="3.4895833333333335in"
-height="3.1406255468066493in"}
+[![](./media/spss-exer-image151.png){width="3.4895833333333335in" height="3.1406255468066493in"}](./media/spss-exer-image151.png){target="_blank"}
 
-![](./media/Corr2.png){width="6.09375in"
-height="3.1145833333333335in"}
+[![](./media/Corr2.png){width="6.09375in" height="3.1145833333333335in"}](./media/Corr2.png){target="_blank"}
 
 Select 'Analyze' 'Descriptive Statistics' 'QQ Plot' and select the
 residual variable. The plot below indicates that the distribution of the
 error terms is approximately normal. This can also be confirmed with a
 histogram.
 
-![](./media/spss-exer-image153.png){width="7in"
-height="5.7in"}
+[![](./media/spss-exer-image153.png){width="7in" height="5.7in"}](./media/spss-exer-image153.png){target="_blank"}
 
-![](./media/spss-exer-image154.png){width="7in"
-height="5.4in"}
+[![](./media/spss-exer-image154.png){width="7in" height="5.4in"}](./media/spss-exer-image154.png){target="_blank"}
 
 ### Exercise A5 -- Case Study II: AIDS (Logistic Regression)
 
@@ -1789,16 +1651,14 @@ opposite category has a higher value. Select LOG\_GDP as the only
 covariate, and click OK to fit the model. Results from fitting this
 model are included below.
 
-![](./media/spss-exer-image155.png){width="5.610416666666667in"
-height="4.129861111111111in"}
+[![](./media/spss-exer-image155.png){width="5.610416666666667in" height="4.129861111111111in"}](./media/spss-exer-image155.png){target="_blank"}
 
 The first table rovides some information regarding the cases (rows) used
 to fit that data. Note that three cases were lost in the analysis, due
 to missing data on the AIDSCAT2 variable. The final analysis sample size
 was 106.
 
-![](./media/spss-exer-image156.png){width="4.285416666666666in"
-height="1.9743055555555555in"}
+[![](./media/spss-exer-image156.png){width="4.285416666666666in" height="1.9743055555555555in"}](./media/spss-exer-image156.png){target="_blank"}
 
 The coding of the dependent variable is critical to understand. SPSS
 will model the probability that the "internal value" of the dependent
@@ -1810,8 +1670,7 @@ matches up with our original 0=less than 1 in 100,000 and 1=more than 1
 in 100,000 coding so we will be modeling the probability of being in the
 "high" AIDS rate.
 
-![](./media/spss-exer-image157.png){width="2.6625in"
-height="1.0256944444444445in"}
+[![](./media/spss-exer-image157.png){width="2.6625in" height="1.0256944444444445in"}](./media/spss-exer-image157.png){target="_blank"}
 
 This initial classification table, located in "Block 0" of the output,
 shows how well we would do predicting by chance what the outcome will be
@@ -1821,16 +1680,14 @@ classification for all of the countries, and we would be correct 64.2%
 of the time. This table isn't all that informative by itself, we will
 compare it to a similar table in the next portion of the output.
 
-![](./media/spss-exer-image158.png){width="6.285416666666666in"
-height="2.3506944444444446in"}
+[![](./media/spss-exer-image158.png){width="6.285416666666666in" height="2.3506944444444446in"}](./media/spss-exer-image158.png){target="_blank"}
 
 This table, also in the "Block 0" portion of the output, shows the
 maximum likelihood estimate of the intercept term in a logistic
 regression model without any covariates. This is simply the computed
 log-odds of the dependent variable being equal to 1.
 
-![](./media/spss-exer-image159.png){width="5.961111111111111in"
-height="0.8444444444444444in"}
+[![](./media/spss-exer-image159.png){width="5.961111111111111in" height="0.8444444444444444in"}](./media/spss-exer-image159.png){target="_blank"}
 
 We'll scroll down to the "Block 1" portion of the output, which will
 contain the maximum likelihood estimates of the parameters in our model.
@@ -1846,8 +1703,7 @@ it is classified into the 'low' AIDS rate group. These classifications
 are then compared with the actual observed classifications of the
 countries.
 
-![](./media/spss-exer-image160.png){width="6.285416666666666in"
-height="2.1430555555555557in"}
+[![](./media/spss-exer-image160.png){width="6.285416666666666in" height="2.1430555555555557in"}](./media/spss-exer-image160.png){target="_blank"}
 
 Note that we are actually doing a *worse* job of predicting the AIDS
 rate when using LOG\_GDP as a predictor (63.2% correct vs. 64.2% correct
@@ -1857,8 +1713,7 @@ be ***saved*** in the SPSS data set as an option if desired.
 Now, we examine the maximum likelihood estimate of the coefficient for
 LOG\_GDP in the logistic regression model:
 
-![](./media/spss-exer-image161.png){width="5.909027777777778in"
-height="1.2465277777777777in"}
+[![](./media/spss-exer-image161.png){width="5.909027777777778in" height="1.2465277777777777in"}](./media/spss-exer-image161.png){target="_blank"}
 
 The estimate of the parameter that represents the coefficient for
 LOG\_GDP in the model is equal to 0.491, with a standard error of 0.329.
@@ -1894,26 +1749,22 @@ muslim. We need to identify the predictor as categorical so select the
 categorical button. Move the MUSLIM covariate into the 'Categorical
 Covariates' list.
 
-![](./media/spss-exer-image162.png){width="5.428472222222222in"
-height="3.50625in"}
+[![](./media/spss-exer-image162.png){width="5.428472222222222in" height="3.50625in"}](./media/spss-exer-image162.png){target="_blank"}
 
 Fit the logistic regression model by clicking on OK.
 
-![](./media/spss-exer-image163.png){width="5.2077602799650045in"
-height="3.844155730533683in"}
+[![](./media/spss-exer-image163.png){width="5.2077602799650045in" height="3.844155730533683in"}](./media/spss-exer-image163.png){target="_blank"}
 
 Let's jump down to Block 1 in the output and first examine the
 classification table based on the model including the MUSLIM variable:
 
-![](./media/spss-exer-image164.png){width="6.285416666666666in"
-height="2.1430555555555557in"}
+[![](./media/spss-exer-image164.png){width="6.285416666666666in" height="2.1430555555555557in"}](./media/spss-exer-image164.png){target="_blank"}
 
 Note the substantial improvement in prediction accuracy by considering
 Muslim status! Now, we investigate the maximum likelihood estimate of
 the coefficient for MUSLIM:
 
-![](./media/spss-exer-image165.png){width="5.909027777777778in"
-height="1.2465277777777777in"}
+[![](./media/spss-exer-image165.png){width="5.909027777777778in" height="1.2465277777777777in"}](./media/spss-exer-image165.png){target="_blank"}
 
 The maximum likelihood estimate of the coefficient is -2.335, with a
 standard error of 0.537. The Wald statistic based on that estimate is
@@ -1949,11 +1800,9 @@ babymort, urban, lit\_fema, lifeexpf, birth\_rt, tropical.* Have SPSS
 report confidence intervals for the odds ratios. (This is found under
 the 'Options' button in the Logistic Regression dialogue box.)
 
-![](./media/spss-exer-image166.png){width="5.610416666666667in"
-height="4.129861111111111in"}
+[![](./media/spss-exer-image166.png){width="5.610416666666667in" height="4.129861111111111in"}](./media/spss-exer-image166.png){target="_blank"}
 
-![](./media/spss-exer-image167.png){width="4.909027777777778in"
-height="4.0in"}
+[![](./media/spss-exer-image167.png){width="4.909027777777778in" height="4.0in"}](./media/spss-exer-image167.png){target="_blank"}
 
 Which predictors appear useful in predicting AIDS category? Do Muslim
 countries still have lower odds of being in the higher AIDS prevalence
@@ -1965,8 +1814,7 @@ The first table shows us that only 83 countries are used to fit this
 model, 26 were removed from analysis due to missing data on any of the
 variables used.
 
-![](./media/spss-exer-image168.png){width="4.285416666666666in"
-height="1.9743055555555555in"}
+[![](./media/spss-exer-image168.png){width="4.285416666666666in" height="1.9743055555555555in"}](./media/spss-exer-image168.png){target="_blank"}
 
 The first classification table (Block 0: Beginning Block) in the output
 shows you the result of classifying cases strictly by predicting them to
@@ -1976,8 +1824,7 @@ since 64.2% of the cases with a valid AIDS category are in the higher
 AIDS category). We would only be correct 59% of the time predicting by
 chance.
 
-![](./media/spss-exer-image169.png){width="5.870138888888889in"
-height="1.8701388888888888in"}
+[![](./media/spss-exer-image169.png){width="5.870138888888889in" height="1.8701388888888888in"}](./media/spss-exer-image169.png){target="_blank"}
 
 The 'Model Summary' table shows the --2 log-likelihood statistic for our
 model, as well as two analogs of R^2^ in the multiple regression context
@@ -1989,21 +1836,18 @@ approximation suggests that our predictors explain about 43% of the
 variation in our response (not bad). The Nagelkerke R Square is a
 rescaled approximation that is constrained to fall between 0 and 1.
 
-![](./media/spss-exer-image170.png){width="3.285416666666667in"
-height="1.0in"}
+[![](./media/spss-exer-image170.png){width="3.285416666666667in" height="1.0in"}](./media/spss-exer-image170.png){target="_blank"}
 
 The Block 1 classification table shows an increase in the percentage
 that is correctly classified (89.2% vs 59%) using the predicted
 probabilities and a 'cut-off' classification probability of 0.5.
 
-![](./media/spss-exer-image171.png){width="5.870138888888889in"
-height="2.129861111111111in"}
+[![](./media/spss-exer-image171.png){width="5.870138888888889in" height="2.129861111111111in"}](./media/spss-exer-image171.png){target="_blank"}
 
 Let's examine the estimated coefficients for the predictors included in
 our model:
 
-![](./media/spss-exer-image172.png){width="5.753472222222222in"
-height="2.532638888888889in"}
+[![](./media/spss-exer-image172.png){width="5.753472222222222in" height="2.532638888888889in"}](./media/spss-exer-image172.png){target="_blank"}
 
 The B column contains the estimated coefficients in the logistic
 regression model, which indicate the change in the
@@ -2058,11 +1902,9 @@ variables (such as weight, and acceleration).
 5)  Using the codebook below, define the proper attributes in Variable
     View
 
-![](./media/spss-exer-image173.png){width="6.5in"
-height="2.324293525809274in"}
+[![](./media/spss-exer-image173.png){width="6.5in" height="2.324293525809274in"}](./media/spss-exer-image173.png){target="_blank"}
 
-![](./media/spss-exer-image174.png){width="3.295138888888889in"
-height="2.295138888888889in"}
+[![](./media/spss-exer-image174.png){width="3.295138888888889in" height="2.295138888888889in"}](./media/spss-exer-image174.png){target="_blank"}
 
 **Working with Variables**
 
@@ -2225,11 +2067,9 @@ variables (such as weight, and acceleration).
     r.  You only need to modify the measurement type, variable labels,
         variable values, and missing values.
 
-![](./media/spss-exer-image173.png){width="6.5in"
-height="2.324293525809274in"}
+[![](./media/spss-exer-image173.png){width="6.5in" height="2.324293525809274in"}](./media/spss-exer-image173.png){target="_blank"}
 
-![](./media/spss-exer-image174.png){width="3.295138888888889in"
-height="2.295138888888889in"}
+[![](./media/spss-exer-image174.png){width="3.295138888888889in" height="2.295138888888889in"}](./media/spss-exer-image174.png){target="_blank"}
 
 **Working with Variables:**
 
@@ -2330,8 +2170,7 @@ height="2.295138888888889in"}
 
     c.  Select OK
 
-> ![](./media/spss-exer-image175.png){width="5.590277777777778in"
-> height="2.295138888888889in"}
+[![](./media/spss-exer-image175.png){width="5.590277777777778in" height="2.295138888888889in"}](./media/spss-exer-image175.png){target="_blank"}
 
 2)  Get frequency tables for all categorical variables (nominal/ordinal)
     in the data set.
@@ -2350,17 +2189,13 @@ height="2.295138888888889in"}
 
     f.  Select OK
 
-> ![](./media/spss-exer-image176.png){width="4.508333333333334in"
-> height="3.967361111111111in"}
->
-> ![](./media/spss-exer-image177.png){width="4.926388888888889in"
-> height="1.9673611111111111in"}
->
-> ![](./media/spss-exer-image178.png){width="5.0in"
-> height="2.4180555555555556in"}
->
-> ![](./media/spss-exer-image179.png){width="4.909722222222222in"
-> height="1.7541666666666667in"}
+[![](./media/spss-exer-image176.png){width="4.508333333333334in" height="3.967361111111111in"}](./media/spss-exer-image176.png){target="_blank"}
+
+[![](./media/spss-exer-image177.png){width="4.926388888888889in" height="1.9673611111111111in"}](./media/spss-exer-image177.png){target="_blank"}
+
+[![](./media/spss-exer-image178.png){width="5.0in" height="2.4180555555555556in"}](./media/spss-exer-image178.png){target="_blank"}
+
+[![](./media/spss-exer-image179.png){width="4.909722222222222in" height="1.7541666666666667in"}](./media/spss-exer-image179.png){target="_blank"}
 
 3)  Create a histogram of Horsepower.
 
@@ -2374,8 +2209,7 @@ height="2.295138888888889in"}
 
     k.  Investigate output
 
-> ![](./media/spss-exer-image180.png){width="3.0611329833770777in"
-> height="2.4527996500437443in"}
+[![](./media/spss-exer-image180.png){width="3.0611329833770777in" height="2.4527996500437443in"}](./media/spss-exer-image180.png){target="_blank"}
 
 4)  Create a histogram of Weight.
 
@@ -2389,8 +2223,7 @@ height="2.295138888888889in"}
 
     p.  Investigate output
 
-> ![](./media/spss-exer-image181.png){width="3.4873632983377076in"
-> height="2.794326334208224in"}
+[![](./media/spss-exer-image181.png){width="3.4873632983377076in" height="2.794326334208224in"}](./media/spss-exer-image181.png){target="_blank"}
 
 5)  Create a QQ Plot for Weight (to help assess normality)
 
@@ -2400,8 +2233,7 @@ height="2.295138888888889in"}
 
     s.  Select OK
 
-> ![](./media/spss-exer-image182.png){width="3.5857239720034997in"
-> height="2.8731397637795277in"}
+[![](./media/spss-exer-image182.png){width="3.5857239720034997in" height="2.8731397637795277in"}](./media/spss-exer-image182.png){target="_blank"}
 
 6)  Create a bar chart for Origin.
 
@@ -2415,8 +2247,7 @@ height="2.295138888888889in"}
 
     x.  Select OK
 
-> ![](./media/spss-exer-image183.png){width="2.9873632983377076in"
-> height="2.3936898512685914in"}
+[![](./media/spss-exer-image183.png){width="2.9873632983377076in" height="2.3936898512685914in"}](./media/spss-exer-image183.png){target="_blank"}
 
 7)  Organize the output by Year (Analyzing groups of cases separately,
     compare groups). Before proceeding, select only cases with Year not
@@ -2452,8 +2283,7 @@ height="2.295138888888889in"}
 
         xxiv. Select OK
 
-![](./media/spss-exer-image184.png){width="4.487363298337708in"
-height="5.060705380577428in"}
+[![](./media/spss-exer-image184.png){width="4.487363298337708in" height="5.060705380577428in"}](./media/spss-exer-image184.png){target="_blank"}
 
 z.  Investigate Weight (descriptive statistics)
 
@@ -2463,8 +2293,7 @@ z.  Investigate Weight (descriptive statistics)
 
     xxvii.  Select OK
 
-![](./media/spss-exer-image185.png){width="5.791666666666667in"
-height="6.291666666666667in"}
+[![](./media/spss-exer-image185.png){width="5.791666666666667in" height="6.291666666666667in"}](./media/spss-exer-image185.png){target="_blank"}
 
 a.  What do you see happening in these two variables over time?
 
@@ -2510,8 +2339,7 @@ b.  Remember to turn the Split File command off before proceeding!
 
         x.  Close out of chart editor
 
-![](./media/spss-exer-image186.png){width="3.536544181977253in"
-height="2.833733595800525in"}
+[![](./media/spss-exer-image186.png){width="3.536544181977253in" height="2.833733595800525in"}](./media/spss-exer-image186.png){target="_blank"}
 
 b.  What is the relationship between Horsepower and Weight as shown in
     this graph?
@@ -2574,8 +2402,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
 
     l.  Select OK
 
-![](./media/spss-exer-image187.png){width="4.552220034995625in"
-height="3.639344925634296in"}
+[![](./media/spss-exer-image187.png){width="4.552220034995625in" height="3.639344925634296in"}](./media/spss-exer-image187.png){target="_blank"}
 
 3)  What is the general trend of MPG across years?
 
@@ -2599,8 +2426,7 @@ height="3.639344925634296in"}
 
     f.  Select OK
 
-> ![](./media/spss-exer-image188.png){width="4.511209536307962in"
-> height="3.6065573053368327in"}
+[ ![](./media/spss-exer-image188.png){width="4.511209536307962in"  height="3.6065573053368327in"}](./media/spss-exer-image188.png){target="_blank"}
 
 a.  What is the general relationship between MPG and the Origin of the
     car?
@@ -2623,8 +2449,7 @@ b.  Create a side-by-side Boxplot of Miles per gallon vs. the recoded
 
     g.  Select OK
 
-![](./media/spss-exer-image189.png){width="4.336912729658793in"
-height="3.4672134733158355in"}
+[![](./media/spss-exer-image189.png){width="4.336912729658793in" height="3.4672134733158355in"}](./media/spss-exer-image189.png){target="_blank"}
 
 1)  Create a correlation matrix and scatter plot matrix for Horsepower,
     Weight, and Year. How strongly are these variables correlated?

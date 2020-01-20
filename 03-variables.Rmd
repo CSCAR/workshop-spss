@@ -19,7 +19,7 @@ View" tab at the bottom left corner of the data editor window.
 
 **Try it: Open [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Select "Variable View".**
 
-![](./media/spss-image15.png){width="6.5in" height="2.7083333333333335in"}
+[![](./media/spss-image15.png){width="6.5in" height="2.7083333333333335in"} ](./media/spss-image15.png){target="_blank"}
 
 There are eleven columns in the Variable View, containing values that
 are attributes for the variables that you can change:
@@ -82,8 +82,7 @@ the four most important types:
 -   Date is still numeric but displayed using hours, minutes, and
     seconds
 
-![](./media/spss-image16.png){width="8in"
-height="4.572916666666667in"}
+[![](./media/spss-image16.png){width="8in" height="4.572916666666667in"}](./media/spss-image16.png){target="_blank"}
 
 Most statistical analyses use only numeric variables. SPSS can handle a
 short string variable, such as gender coded as "m" and "f", when that
@@ -104,8 +103,9 @@ the section Computing New Variables for more information.
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Change the Variable Type for the ID
 variable from Dollar to Numeric.**
 
-![](./media/spss-image17.png){width="6.5in" height="3.6909722222222223in"}
-![](./media/spss-image18.png){width="6.5in" height="3.113888888888889in"}
+[![](./media/spss-image17.png){width="6.5in" height="3.6909722222222223in"} ](./media/spss-image17.png){target="_blank"}
+
+[![](./media/spss-image18.png){width="6.5in" height="3.113888888888889in"} ](./media/spss-image18.png){target="_blank"}
 
 ### Variable Labels
 
@@ -118,7 +118,7 @@ the variable. Variable labels can be up to 255 characters as of Version
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Provide a label for DepScale
 (Depression Scale 1998).**
 
-![](./media/spss-image19.png){width="6.5in" height="3.6909722222222223in"}
+[![](./media/spss-image19.png){width="6.5in" height="3.6909722222222223in"} ](./media/spss-image19.png){target="_blank"}
 
 ### Value Labels
 
@@ -153,7 +153,7 @@ Education:**
 
 **3=College Graduate**
 
-![](./media/spss-image20.png){width="4.875in" height="3.1041666666666665in"}
+[![](./media/spss-image20.png){width="4.875in" height="3.1041666666666665in"} ](./media/spss-image20.png){target="_blank"}
 
 ### Missing Value Labels
 
@@ -184,7 +184,7 @@ values.
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav).Enter missing value codes for Education
 (99).**
 
-![](./media/spss-image21.png){width="3.375in" height="2.4895833333333335in"}
+[![](./media/spss-image21.png){width="3.375in" height="2.4895833333333335in"} ](./media/spss-image21.png){target="_blank"}
 
 ### Columns & Alignment
 
@@ -221,7 +221,7 @@ field has no bearing for most procedures.
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Change the Measure for the Education
 variable from Scale to Ordinal.**
 
-![](./media/spss-image22.png){width="6.5in" height="2.296527777777778in"}
+[![](./media/spss-image22.png){width="6.5in" height="2.296527777777778in"} ](./media/spss-image22.png){target="_blank"}
 
 ### Copy and Paste Variable Attributes
 
@@ -255,8 +255,9 @@ variable attributes and save a great deal of time!
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Copy and paste the missing value code
 from Education to DepScale.**
 
-![](./media/spss-image23.png){width="6.5in" height="2.7840277777777778in"}
-![](./media/spss-image24.png){width="6.5in" height="2.7840277777777778in"}
+[![](./media/spss-image23.png){width="6.5in" height="2.7840277777777778in"} ](./media/spss-image23.png){target="_blank"}
+
+[![](./media/spss-image24.png){width="6.5in" height="2.7840277777777778in"} ](./media/spss-image24.png){target="_blank"}
 
 ## Exercise 3 -- Variable Attributes
 
@@ -291,7 +292,7 @@ top of that.
 
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Create a new variable called NewVar.**
 
-![](./media/spss-image26.png){width="6.5in" height="2.7840277777777778in"}
+[![](./media/spss-image26.png){width="6.5in" height="2.7840277777777778in"} ](./media/spss-image26.png){target="_blank"}
 
 ## Computing Variables
 
@@ -319,7 +320,7 @@ variable in the upper left box, labeled "Target Variable." SPSS will
 automatically create the new variable when it executes the compute
 command.
 
-![](./media/spss-image27.png){width="6.5in" height="5.0125in"}
+[![](./media/spss-image27.png){width="6.5in" height="5.0125in"} ](./media/spss-image27.png){target="_blank"}
 
 By default, SPSS assumes that the user wants to compute a numeric
 variable. If you want to create a string variable, click "Type & Label"
@@ -362,11 +363,11 @@ using DepScale\_01, DepScale\_02, DepScale\_3. First use the function
 "mean". Next write the expression by hand. Investigate the
 differences.**
 
-![](./media/spss-image28.png){width="6.497297681539807in"
-height="4.177083333333333in"}
-![](./media/spss-image29.png){width="6.497297681539807in"
-height="4.458333333333333in"} ![](./media/spss-image30.png){width="6.5in"
-height="4.731944444444444in"}
+[![](./media/spss-image28.png){width="6.497297681539807in" height="4.177083333333333in"}](./media/spss-image28.png){target="_blank"}
+
+[![](./media/spss-image29.png){width="6.497297681539807in" height="4.458333333333333in"}](./media/spss-image29.png){target="_blank"}
+
+[![](./media/spss-image30.png){width="6.5in" height="4.731944444444444in"}](./media/spss-image30.png){target="_blank"}
 
 ### List of Functions Available in the Compute Command
 
@@ -520,7 +521,7 @@ To use the Count Values within Cases procedure:
 
 -   Click "Continue", then "OK".
 
-![](./media/spss-image31.png){width="4.875in" height="2.8229166666666665in"}
+[![](./media/spss-image31.png){width="4.875in" height="2.8229166666666665in"} ](./media/spss-image31.png){target="_blank"}
 
 ***Recoding Variables***
 
@@ -558,7 +559,7 @@ the changes if you make a mistake.
 
 Select Transform - Recode into Different Variables"
 
-![](./media/spss-image32.png){width="6.5in" height="3.6305555555555555in"}
+[![](./media/spss-image32.png){width="6.5in" height="3.6305555555555555in"} ](./media/spss-image32.png){target="_blank"}
 
 In the "Recode Into Different Variables" dialogue box:
 
@@ -579,7 +580,7 @@ In the "Recode Into Different Variables" dialogue box:
 
 -   Click "OK".
 
-![](./media/spss-image33.png){width="6.5in" height="3.7430555555555554in"}
+[![](./media/spss-image33.png){width="6.5in" height="3.7430555555555554in"} ](./media/spss-image33.png){target="_blank"}
 
 Note that when using "Recode Into Different Variables", it is also
 possible to recode a numeric variable into a character (string)
@@ -594,9 +595,9 @@ variable, or vice-versa:
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Recode Gender with F=1 and M=2.
 Inspect the output.**
 
-![](./media/spss-image34.png){width="6.5in" height="3.6305555555555555in"}
+[![](./media/spss-image34.png){width="6.5in" height="3.6305555555555555in"}[ ](./media/spss-image34.png){target="_blank"}
 
-![](./media/spss-image35.png){width="6.5in" height="3.7430555555555554in"}
+[![](./media/spss-image35.png){width="6.5in" height="3.7430555555555554in"} ](./media/spss-image35.png){target="_blank"}
 
 ## Automatic Recoding
 
@@ -625,8 +626,7 @@ To use Automatic Recode:
 
 -   Select the order -- start numbering from smallest or largest values.
 
-![](./media/spss-image36.png){width="4.677083333333333in"
-height="4.854166666666667in"}
+[![](./media/spss-image36.png){width="4.677083333333333in" height="4.854166666666667in"}](./media/spss-image36.png){target="_blank"}
 
 **Helpful Hint:** If you had assigned value labels for the old variable,
 those labels will carry over to the corresponding new values. If there
@@ -636,8 +636,7 @@ labels.
 **Try it: Use [section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav). Use Automatic Recode to recode Gender.
 Call this new variable AutoGender.**
 
-![](./media/spss-image37.png){width="4.677083333333333in"
-height="4.854166666666667in"}
+[![](./media/spss-image37.png){width="4.677083333333333in" height="4.854166666666667in"}](./media/spss-image37.png){target="_blank"}
 
 ## Conditional Transformations with If/Then Logic
 
@@ -671,10 +670,9 @@ Go to Transform - Compute Variable
 
 -   Click "Continue" and "OK".
 
-![](./media/spss-image38.png){width="5.953517060367454in"
-height="4.864583333333333in"}
+[![](./media/spss-image38.png){width="5.953517060367454in" height="4.864583333333333in"}](./media/spss-image38.png){target="_blank"}
 
-![](./media/spss-image39.png){width="5.6875in" height="4.3511811023622045in"}
+[![](./media/spss-image39.png){width="5.6875in" height="4.3511811023622045in"} ](./media/spss-image39.png){target="_blank"}
 
 This "If" button, which allows transformations to take place for
 selected cases only, works exactly the same in the Compute, Recode, and
@@ -703,10 +701,9 @@ by checking the box for Ntiles and placing the number 4 in the blank
 space. SPSS will create a new categorical variable and add it to the end
 of the original dataset.
 
-![](./media/spss-image40.png){width="5.083333333333333in"
-height="3.1458333333333335in"}
-![](./media/spss-image41.png){width="3.5729166666666665in"
-height="2.2083333333333335in"}
+[![](./media/spss-image40.png){width="5.083333333333333in" height="3.1458333333333335in"}](./media/spss-image40.png){target="_blank"}
+
+[![](./media/spss-image41.png){width="3.5729166666666665in" height="2.2083333333333335in"}](./media/spss-image41.png){target="_blank"}
 
 ## Exercise 4 -- Computing and Transforming Variables
 

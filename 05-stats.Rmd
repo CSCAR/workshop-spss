@@ -62,8 +62,7 @@ using statistics alone which scenario it is.
 The chart on the next page lays out the essential graphical and
 statistical procedures by type and classification.
 
-![](./media/spss-image53.png){width="9.269444444444444in"
-height="10in"}
+[![](./media/spss-image53.png){width="9.269444444444444in" height="10in"}](./media/spss-image53.png){target="_blank"}
 
 ## Parametric vs. Non-parametric Tests
 
@@ -96,8 +95,9 @@ In SPSS, there are two procedures which provide simple descriptive
 statistics. You can find both procedures under Analyze - Descriptive
 Statistics.
 
-![](./media/spss-image55.png){width="5.0in" height="2.4583333333333335in"}
-![](./media/spss-image56.png){width="5.0in" height="2.2395833333333335in"}
+[![](./media/spss-image55.png){width="5.0in" height="2.4583333333333335in"} ](./media/spss-image55.png){target="_blank"}
+
+[![](./media/spss-image56.png){width="5.0in" height="2.2395833333333335in"} ](./media/spss-image56.png){target="_blank"}
 
 **Frequencies** procedure provides the number and % of cases which have
 each value of a variable (e.g., 46% male, 54% female). You can request
@@ -107,11 +107,9 @@ categorical variables.
 **Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain the frequency (descriptive)
 statistics for the variable Sex.**
 
-![](./media/spss-image57.png){width="4.895833333333333in"
-height="3.0833333333333335in"}
+[![](./media/spss-image57.png){width="4.895833333333333in" height="3.0833333333333335in"}](./media/spss-image57.png){target="_blank"}
 
-![](./media/Desc_stats.png){width="4.895833333333333in"
-height="3.0833333333333335in"}
+[![](./media/Desc_stats.png){width="4.895833333333333in" height="3.0833333333333335in"}](./media/Desc_stats.png){target="_blank"}
 
 
 **Descriptives** provides the mean, standard deviation, minimum, maximum
@@ -123,12 +121,11 @@ ordering, e.g., small, medium, large) alongside the frequencies.
 **Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain the descriptive statistics
 for the variable Age.**
 
-![](./media/spss-image58.png){width="6.5in" height="3.2291666666666665in"}
+[![](./media/spss-image58.png){width="6.5in" height="3.2291666666666665in"} ](./media/spss-image58.png){target="_blank"}
 
-![](./media/spss-image59.png){width="4.416666666666667in" height="2.0in"}
+[![](./media/spss-image59.png){width="4.416666666666667in" height="2.0in"} ](./media/spss-image59.png){target="_blank"}
 
-![](./media/Desc_stats2.png){width="4.895833333333333in"
-height="1.5in"}
+[![](./media/Desc_stats2.png){width="4.895833333333333in" height="1.5in"}](./media/Desc_stats2.png){target="_blank"}
 
 As a first step in data analysis, one might run frequencies on all
 categorical variables and descriptives on all continuous variables.
@@ -157,14 +154,14 @@ graph image to the "Chart Preview" area. Once you select a chart, the
 Element Properties window will appear. The Element Properties window
 allows you to modify what is displayed in the graph
 
-![](./media/spss-image60.png){width="6.5in" height="4.488888888888889in"}
+[![](./media/spss-image60.png){width="6.5in" height="4.488888888888889in"} ](./media/spss-image60.png){target="_blank"}
 
 **Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Create a simple bar chart for
 "Region". **
 
-![](./media/spss-image61.png){width="5.05625in"
-height="4.614583333333333in"}![](./media/spss-image62.png){width="5.18125in"
-height="3.8229166666666665in"}
+[![](./media/spss-image61.png){width="5.05625in" height="4.614583333333333in"}](./media/spss-image61.png){target="_blank"}
+
+[![](./media/spss-image62.png){width="5.18125in" height="3.8229166666666665in"}](./media/spss-image62.png){target="_blank"}
 
 ### Legacy Dialogs
 
@@ -177,15 +174,16 @@ specify which type of scatter plot you would like to create. The
 software will present you with the graphing dialogue box once you
 specify the specific form for the graph.
 
-![](./media/spss-image63.png){width="3.6875in" height="1.6041666666666667in"}
-![](./media/spss-image64.png){width="4.552083333333333in" height="4.71875in"}
+[![](./media/spss-image63.png){width="3.6875in" height="1.6041666666666667in"} ](./media/spss-image63.png){target="_blank"}
+
+[![](./media/spss-image64.png){width="4.552083333333333in" height="4.71875in"} ](./media/spss-image64.png){target="_blank"}
 
 **Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Create a simple bar chart for
 "Region". **
 
-![](./media/spss-image65.png){width="3.5377318460192475in"
-height="4.020833333333333in"}![](./media/spss-image62.png){width="5.18125in"
-height="4.177083333333333in"}
+[![](./media/spss-image65.png){width="3.5377318460192475in" height="4.020833333333333in"}](./media/spss-image65.png){target="_blank"}
+
+[![](./media/spss-image62.png){width="5.18125in" height="4.177083333333333in"}](./media/spss-image62.png){target="_blank"}
 
 Normality
 ---------
@@ -194,8 +192,7 @@ Many statistical procedures assume "normality", which means the
 population which the data is from follows the Normal Distribution. You
 may know this as the "bell curve".
 
-![https://s15-us2.ixquick.com/cgi-bin/serveimage?url=https:%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdf%2FBellcurve.svg%2F2000px-Bellcurve.svg.png&sp=e6ff634ca3ce0a0de1bfab4490a45ca7](./media/spss-image66.png){width="5.05625in"
-height="3.159650043744532in"}
+[![](https://upload.wikimedia.org/wikipedia/commons/d/df/Bellcurve.svg){width="5.05625in"height="3.159650043744532in"}](https://upload.wikimedia.org/wikipedia/commons/d/df/Bellcurve.svg){target="_blank"}
 
 Many real-life variables follow a normal distribution such as height. If
 you were to collect a random sample of heights, most people would fall
@@ -224,16 +221,13 @@ from the Histogram Legacy Dialog, the QQ-plot is created under Analyze
 "Age" and display the normal curve. Obtain a QQ plot for the variable
 "Age". Hint: Analyze - Descriptive Statistics - QQPlot.**
 
-![](./media/spss-image67.png){width="4.0625in" height="2.7527777777777778in"}
+[![](./media/spss-image67.png){width="4.0625in" height="2.7527777777777778in"} ](./media/spss-image67.png){target="_blank"}
 
-![](./media/spss-image68.png){width="4.5729166666666665in"
-height="2.8314818460192477in"}
+[![](./media/spss-image68.png){width="4.5729166666666665in" height="2.8314818460192477in"}](./media/spss-image68.png){target="_blank"}
 
-![](./media/spss-image69.png){width="4.6979166666666665in"
-height="2.7043985126859145in"}
+[![](./media/spss-image69.png){width="4.6979166666666665in" height="2.7043985126859145in"}](./media/spss-image69.png){target="_blank"}
 
-![](./media/spss-image70.png){width="4.5625in"
-height="2.82245406824147in"}
+[![](./media/spss-image70.png){width="4.5625in" height="2.82245406824147in"}](./media/spss-image70.png){target="_blank"}
 
 ## Exercise 8 -- Data Exploration and Visualization
 
@@ -302,27 +296,23 @@ no correlation between the variables.
 For the Pearson Correlation Coefficient in SPSS, select Analyze -
 Correlate - Bivariate.
 
-![](./media/spss-image71.png){width="3.8541666666666665in" height="3.0in"}
+[![](./media/spss-image71.png){width="3.8541666666666665in" height="3.0in"} ](./media/spss-image71.png){target="_blank"}
 
 For the Scatterplot in SPSS, select Graphs - Legacy Dialogs
 - Scatter/Dot, choose "Simple Scatter", and click "Define".
 
-![](./media/spss-image64.png){width="3.880323709536308in"
-height="3.9676115485564303in"}
+[![](./media/spss-image64.png){width="3.880323709536308in" height="3.9676115485564303in"}](./media/spss-image64.png){target="_blank"}
 
-![](./media/spss-image63.png){width="3.18125in"
-height="1.6041666666666667in"}
+[![](./media/spss-image63.png){width="3.18125in" height="1.6041666666666667in"}](./media/spss-image63.png){target="_blank"}
 
 **Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav) Investigate the correlation between
 the individual behavior intention scales. Select Analyze - Correlate -
 Bivariate. Select "BIndBehInt\_Pre" and "BIndBehInt\_Post". Select
 "OK".**
 
-![](./media/spss-image72.png){width="5in"
+[![](./media/spss-image72.png){width="3.7256in" height="3.25in"}](./media/spss-image72.png){target="_blank"}
 
-
-![](./media/Correl.png){width="5in"
-height="3.25in"}
+[![](./media/Correl.png){width="5in" height="3.25in"}](./media/Correl.png){target="_blank"}
 
 The table indicates that there is a significant correlation between the
 pre intervention and post intervention behavior scale scores. Our
@@ -347,9 +337,9 @@ Select "BIndBehInt\_Pre" for the X Axis.
 
 Select "OK".
 
-![](./media/spss-image73.png){width="4.30625in" height="4.572916666666667in"}
+[![](./media/spss-image73.png){width="4.30625in" height="4.572916666666667in"} ](./media/spss-image73.png){target="_blank"}
 
-![](./media/spss-image74.png){width="6.5in" height="5.197916666666667in"}
+[![](./media/spss-image74.png){width="6.5in" height="5.197916666666667in"} ](./media/spss-image74.png){target="_blank"}
 
 The scatterplot indicates a linear relationship between the two
 variables.
@@ -395,14 +385,13 @@ Statistics" "Crosstabs". Select "Sex" for rows, "Joke" for column, check
 the box to "Display clustered bar charts". Select "Statistics" and check
 the box for "Chi-Square". Select "Continue" and the select "OK".**
 
-![](./media/spss-image78.png){width="4.0in" height="3.7395833333333335in"}
+[![](./media/spss-image78.png){width="4.0in" height="3.7395833333333335in"} ](./media/spss-image78.png){target="_blank"}
 
-![](./media/spss-image79.png){width="2.6145833333333335in"
-height="2.8777777777777778in"}
+[![](./media/spss-image79.png){width="2.6145833333333335in" height="2.8777777777777778in"}](./media/spss-image79.png){target="_blank"}
 
-![](./media/Chi_sq.png){width="5in" height="5in"}
+[![](./media/Chi_sq.png){width="5in" height="5in"} ](./media/Chi_sq.png){target="_blank"}
 
-![](./media/spss-image80.png){width="4.40625in" height="2.75in"}
+[![](./media/spss-image80.png){width="4.40625in" height="2.75in"} ](./media/spss-image80.png){target="_blank"}
 
 The results above indicate that there is not a significant difference
 between how females and males answered the question "Would you
@@ -434,22 +423,18 @@ continuous dependent variable and a categorical predictor.
 In SPSS, select Analyze - Compare Means to find the two-sample t-test
 and one-way ANOVA
 
-![](./media/spss-image81.png){width="4.229166666666667in"
-height="2.3645833333333335in"}
+[![](./media/spss-image81.png){width="4.229166666666667in" height="2.3645833333333335in"}](./media/spss-image81.png){target="_blank"}
 
-![](./media/spss-image82.png){width="4.90625in"
-height="2.7916666666666665in"}
+[![](./media/spss-image82.png){width="4.90625in" height="2.7916666666666665in"}](./media/spss-image82.png){target="_blank"}
 
 For the side-by-side box plots, select Graphs- Legacy Dialogs - Boxplot,
 choose "Simple" and "Summaries for groups of cases", and click "Define."
 In the next dialog, move the continuous variable and the grouping variable
 from the left-hand list of variables to the "Variable" and "Category Axis" boxes.
 
-![](./media/spss-image83.png){width="2.0104166666666665in"
-height="2.2916666666666665in"}
+[![](./media/spss-image83.png){width="2.0104166666666665in" height="2.2916666666666665in"}](./media/spss-image83.png){target="_blank"}
 
-![](./media/spss-image84.png){width="4.114583333333333in"
-height="3.5833333333333335in"}
+[![](./media/spss-image84.png){width="4.114583333333333in" height="3.5833333333333335in"}](./media/spss-image84.png){target="_blank"}
 
 **Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Is there a relationship between sex
 and the post intervention intension scale score? Sex is a categorical
@@ -460,15 +445,11 @@ Variable(s). Select "Sex" for Grouping Variable. Select "Define
 Groups..." and let group 1=1, group 2=2. Select "Continue" and
 "OK".**
 
-![](./media/spss-image85.png){width="4.895833333333333in"
-height="3.0416666666666665in"}
+[![](./media/spss-image85.png){width="4.895833333333333in" height="3.0416666666666665in"}](./media/spss-image85.png){target="_blank"}
 
-![](./media/spss-image86.png){width="2.4791666666666665in"
-height="2.0416666666666665in"}
+[![](./media/spss-image86.png){width="2.4791666666666665in" height="2.0416666666666665in"}](./media/spss-image86.png){target="_blank"}
 
-
-![](./media/Compare_means1.png){width="7in" height="3.5in"}
-
+[![](./media/Compare_means1.png){width="7in" height="3.5in"} ](./media/Compare_means1.png){target="_blank"}
 
 The tables above indicate that the males and females have similar
 average intension scale scores (males=5.3, females=5.59). We fail to
@@ -481,9 +462,9 @@ Select Analyze - Compare Means - One-Way ANOVA". Select
 "BIndBehInt\_Post" for the dependent list. Select "Sex" for the factor.
 Select "OK"
 
-![](./media/spss-image87.png){width="3.6875in" height="1.75in"}
+[![](./media/spss-image87.png){width="3.6875in" height="1.75in"} ](./media/spss-image87.png){target="_blank"}
 
-![](./media/Compare_means2.png){width="4in" height="2in"}
+[![](./media/Compare_means2.png){width="4in" height="2in"} ](./media/Compare_means2.png){target="_blank"}
 
 The ANOVA table above yields the same p-value and conclusion as using
 the two-sample t-test.
@@ -492,10 +473,9 @@ Select Graphs - Legacy Dialogs - Boxplot. Select "Simple" and "Summaries
 for groups of cases" and click "Define". Select the continuous dependent variable
 for "Variable" and the grouping variable for "Category Axis". Select "OK".
 
-![](./media/spss-image88.png){width="4.2604166666666665in"
-height="3.1979166666666665in"}
+[![](./media/spss-image88.png){width="4.2604166666666665in" height="3.1979166666666665in"}](./media/spss-image88.png){target="_blank"}
 
-![](./media/spss-image89.png){width="5.5625in" height="4.083333333333333in"}
+[![](./media/spss-image89.png){width="5.5625in" height="4.083333333333333in"} ](./media/spss-image89.png){target="_blank"}
 
 ***Paired T-Test***
 
@@ -515,8 +495,7 @@ only considers cases with both pre-treatment and post-treatment values.
 
 In SPSS, select Analyze - Compare Means - Paired Samples T-Test.
 
-![](./media/spss-image90.png){width="6.05625in"
-height="3.3645833333333335in"}
+[![](./media/spss-image90.png){width="6.05625in" height="3.3645833333333335in"}](./media/spss-image90.png){target="_blank"}
 
 **Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Investigate whether or not the
 average intention scores are statistically different from each other.
@@ -527,11 +506,9 @@ t-test. Select Analyze - Compare Means - Paired Samples T-Test. Select
 "BIndBehInt\_Pre" for Variable 1. Select "BIndBehInt\_Post" for Variable
 2. Select "OK".**
 
-![](./media/spss-image91.png){width="6.18125in"
-height="3.3645833333333335in"}
+[![](./media/spss-image91.png){width="6.18125in" height="3.3645833333333335in"}](./media/spss-image91.png){target="_blank"}
 
-![](./media/Paired.png){width="7in"
-height="5in"}
+[![](./media/Paired.png){width="7in" height="5in"}](./media/Paired.png){target="_blank"}
 
 The tables above indicate that there is a significant increase in
 average behavior intention score after the intervention (p-value\<.001).
