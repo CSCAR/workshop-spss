@@ -258,6 +258,57 @@ from Education to DepScale.**
 Open [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav) and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book below.
 
+|Name          |Label                                  |Value Label                      |Missing Values |Measure
+|:-------------|:--------------------------------------|:--------------------------------|:--------------|:-------
+|              |                                       |                                 |               |
+|IDnum         |<none>                                 |<none>                           |<none>         |Scale
+|              |                                       |                                 |               |
+|sex           |Respondent's Sex                       |1 = Male                         |<none>         |Nominal
+|              |                                       |2 = Female                       |               |
+|race          |Race of Respondent                     |1 = White                        |<none>         |Nominal
+|              |                                       |2 = Black                        |               |
+|              |                                       |3 = Other                        |               |
+|region        |Region of the United States            |1 = North East                   |<none>         |Nominal
+|              |                                       |2 = South East                   |               |
+|              |                                       |3 = West                         |               |
+|happy         |General Happiness                      |0 = NAP                          |0, 8, 9        |Ordinal
+|              |                                       |1 = Very Happy                   |               |
+|              |                                       |2 = Pretty Happy                 |               |
+|              |                                       |3 = Not too Happy                |               |
+|              |                                       |8 = DK                           |               |
+|              |                                       |9 = NA                           |               |
+|life          |Is Life Exciting or Dull               |0 = NAP                          |0, 8, 9        |Ordinal
+|              |                                       |1 = Exciting                     |               |
+|              |                                       |2 = Routine                      |               |
+|              |                                       |3 = Dull                         |               |
+|              |                                       |8 = DK                           |               |
+|              |                                       |9 = NA                           |               |
+|sibs          |Number of Brothers and Sisters         |98 = DK                          |98, 99         |Scale
+|              |                                       |99 = NA                          |               |
+|childs        |Number of Children                     |8 = Eight or More                |9              |Scale
+|              |                                       |9 = NA                           |               |
+|age           |Age of Respondent                      |98 = DK                          |0, 98, 99      |Scale
+|              |                                       |99 = NA                          |               |
+|educ          |Highest Year of School Completed       |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|paeduc        |Highest Year School, Father            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|maeduc        |Highest Year School, Mother            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|seeduc        |Highest Year School, Spouse            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|prestg80      |Occupational Prestige Score            |0 = DK,NA,NAP                    |0              |Scale
+|occcat80      |Occupational Category                  |1 = Managerial and Professional  |<none>         |Nominal
+|              |                                       |2 = Technical and Sales          |               |
+|              |                                       |3 = Service                      |               |
+|              |                                       |4 = Farming, Forest, and Fishing |               |
+|              |                                       |5 = Production and Craft         |               |
+|              |                                       |6 = General Labor                |               |
+
 ## Creating New Variables and Defining the Correct Attributes
 
 
@@ -657,7 +708,7 @@ current salary for each employee.
 Recode the education variable into a new variable according to the
 following
 
-- 1=High School or Less (educ\<=12)
+- 1=High School or Less           (educ\<=12)
 
 - 2=Some College (12\<educ\<=16)
 

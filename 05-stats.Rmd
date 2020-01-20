@@ -59,10 +59,10 @@ using statistics alone which scenario it is.
 ## Everything On One Page Handout
 
 
-The chart on the next page lays out the essential graphical and
+The chart below lays out the essential graphical and
 statistical procedures by type and classification.
 
-[![](./media/spss-image53.png){width="9.269444444444444in" height="10in"}](./media/spss-image53.png){target="_blank"}
+[![](./media/spss-image53.png){width="5in" height="4in"}](./media/procedures_handout.pdf){target="_blank"}
 
 ## Parametric vs. Non-parametric Tests
 
@@ -95,9 +95,9 @@ In SPSS, there are two procedures which provide simple descriptive
 statistics. You can find both procedures under Analyze - Descriptive
 Statistics.
 
-[![](./media/spss-image55.png){width="5.0in" height="2.4583333333333335in"} ](./media/spss-image55.png){target="_blank"}
+[![](./media/spss-image55.png){width="4.5in" height="2.4583333333333335in"} ](./media/spss-image55.png){target="_blank"}
 
-[![](./media/spss-image56.png){width="5.0in" height="2.2395833333333335in"} ](./media/spss-image56.png){target="_blank"}
+[![](./media/spss-image56.png){width="4.5in" height="2.2395833333333335in"} ](./media/spss-image56.png){target="_blank"}
 
 **Frequencies** procedure provides the number and % of cases which have
 each value of a variable (e.g., 46% male, 54% female). You can request
@@ -356,9 +356,8 @@ Suppose that we're interested in determining if there is a significant
 relationship between smoking status and lung cancer status. Our
 variables are:
 
-1\) Smoking Status (1=Yes, 0=No) , and
-
-2\) Lung Cancer Status (1=Diagnosed, 2=Not Diagnosed).
+1. Smoking Status (1=Yes, 0=No) , and
+2. Lung Cancer Status (1=Diagnosed, 2=Not Diagnosed).
 
 We can summarize these variables in a 2x2 table called a **crosstab**
 where the cell values represent the counts in our data that fall in
@@ -409,11 +408,9 @@ two-sample t-test, and is appropriate when there are two or more groups.
 There are 3 assumptions that must be met in order to perform these
 tests:
 
-1)  Normality
-
-2)  Homogeneity of variance for ANOVA
-
-3)  Independence of groups and observations
+1. Normality
+2. Homogeneity of variance for ANOVA
+3. Independence of groups and observations
 
 You can investigate normality with Q-Q plots or histograms and use
 Levene's test to assess homogeneity of variance. You can also
@@ -462,7 +459,7 @@ Select Analyze - Compare Means - One-Way ANOVA". Select
 "BIndBehInt\_Post" for the dependent list. Select "Sex" for the factor.
 Select "OK"
 
-[![](./media/spss-image87.png){width="3.6875in" height="1.75in"} ](./media/spss-image87.png){target="_blank"}
+[![](./media/spss-image87.png){width="4.78in" height="1.75in"} ](./media/spss-image87.png){target="_blank"}
 
 [![](./media/Compare_means2.png){width="4in" height="2in"} ](./media/Compare_means2.png){target="_blank"}
 
@@ -552,174 +549,38 @@ and discuss them with your statistician.
 Here is a non-exhaustive list of other procedures in SPSS that you may
 use:
 
-Tests for checking the assumptions of normality
-
-Intraclass correlation coefficient
-
-Partial correlations\
-General linear models\
-Generalized linear models
-
-Categorical data analysis
-
-Randomized clinical trials
-
-Case-control clinical trials
-
-Matching and propensity scores\
-Survival analysis\
-Cox regression
-
-Two-stage least squares regression
-
-Probit regression\
-Cluster analysis\
-Discriminant analysis
-
-Factor analysis\
-Principal components analysis\
-Reliability analysis\
-Path analysis\
-Structural equations modeling\
-Latent class analysis
-
-Multidimensional ccaling\
-Spatial statistics\
-Time series analysis\
-Complex samples and survey methodology\
-Missing data analysis and imputation\
-Geographical information systems\
-Qualitative data analysis\
-Text mining
-
-Receiver operator characteristic (ROC) curve analysis\
-Functional data analysis\
-Data mining
-
-Classification and regression trees (CART)
-
-Chi-square automatic interaction detection (CHAID)
-
-Neural networks
-
-## Miscellaneous
-
-
-### Descriptive Statistics
-
-Analyze - Descriptive Statistics - Descriptives
-
-### Frequencies
-
-Analyze - Descriptive Statistics - Frequencies
-
-### Rank Cases
-
-Transform - Rank Cases
-
-### T-Tests & One-Way ANOVA
-
-Analyze - Compare Means
-
-### Chi-Square Test
-
-Analyze - Descriptive Statistics - Crosstabs
-
-Check the Chi-square box under "Statistics"
-
-### Create a Code Book
-
-File - Display Data File Information - Working File
-
-Check output
-
-Can export or copy/paste into Word or Excel
-
-### Adjust Options
-
-Edit - Options
-
-You can select to display variable labels or variable names in dialog
-boxes
-
-You can change what Output looks like (labels, no labels)
-
-Many other options
-
-### Recall Recently Used Dialogs Button
-
-Will open recently used dialog boxes (chi-square cross tabs,
-frequencies, etc.)
-
-Button is fourth from the left at the top of the Data View screen
-
-### Jump to a Case
-
-Edit - Go to Case
-
-Can type in or select
-
-### Jump to a Variable
-
-Edit - Go to Variable
-
-Can select the variable from the drop down menu or start typing it
-
-### Spell Check
-
-In Variable View and Data View, upper right corner
-
-Will be grayed out in Data View if you do not have string variables
-
-### Sort Variable
-
-In Data View, right click the variable you would like to sort by
-
-Select "Sort Ascending" or "Sort Descending"
-
-### View Value Labels in Data View
-
-View - Check the box for Value Labels
-
-Check data in Data View
-
-### Weights in Crosstabs
-
-If you don't have raw data (only cell counts) you can still do a
-chi-square crosstab in SPSS
-
-Open a blank SPSS data file
-
-The first variable will serve as the "weights" variable
-
-The next two variables represent rows and columns
-
-Data - Weight Cases
-
-Select "Weight Cases by" and use Var0001 for the data below
-
-Analyze - Descriptive Statistics - Crosstabs
-
-Enter in Var0002 for rows and Var0003 for columns for the data below
-
-EXAMPLE:
-
-> ***Table of Counts***
->
-> *Yes No*
->
-> *Yes 35 90*
->
-> *No 50 100*
->
-> ***SPSS Data***
->
-> *Var0001 Var0002 Var0003*
->
-> *90.00 1.00 .0*
->
-> *50.00 .0 1.00*
->
-> *35.00 1.00 1.00*
->
-> *100.0 .0 .0*
+- Tests for checking the assumptions of normality
+- Intraclass correlation coefficient
+- Partial correlations
+- General linear models
+- Generalized linear models
+- Categorical data analysis
+- Randomized clinical trials
+- Case-control clinical trials
+- Matching and propensity scores
+- Survival analysis
+- Cox regression
+- Two-stage least squares regression
+- Probit regression
+- Cluster analysis
+- Discriminant analysis
+- Factor analysis
+- Principal components analysis
+- Reliability analysis
+- Path analysis
+- Structural equations modeling
+- Latent class analysis
+- Multidimensional scaling
+- Spatial statistics
+- Time series analysis
+- Complex samples and survey methodology
+- Missing data analysis and imputation
+- Geographical information systems
+- Qualitative data analysis
+- Text mining
+- Receiver operator characteristic (ROC) curve analysis
+- Functional data analysis
+- Data mining
+- Classification and regression trees (CART)
+- Chi-square automatic interaction detection (CHAID)
+- Neural networks

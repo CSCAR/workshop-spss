@@ -10,28 +10,30 @@
 
 Let our regression model follow this form:
 
-Y=A+B+A\*B
+\[
+ Y = A + B + A*B
+\]
 
-Where Y represents our dependent/outcome variable and A\*B represents
-the interaction between A and B.
+Where Y represents our dependent/outcome variable and \(A*B\) represents
+the interaction between \(A\) and \(B\).
 
--   The regression coefficient for A shows the effect of A when B=0.
+-   The regression coefficient for \(A\) shows the effect of \(A\) when \(B=0\).
 
--   The regression coefficient for B shows the effect of B when A=0.
+-   The regression coefficient for \(B\) shows the effect of B when \(A=0\).
 
--   The regression coefficient for A\*B demonstrates how A changes with
-    a one unit increase in B. It also demonstrates how B changes with a
-    one unit increase in A.
+-   The regression coefficient for \(A*B\) demonstrates how \(A\) changes with
+    a one unit increase in \(B.\) It also demonstrates how \(B\) changes with a
+    one unit increase in \(A\).
 
 #### Two Categorical Variables
 
--   Let A represent gender
+-   Let \(A\) represent gender
 
     -   0=Female
 
     -   1=Male
 
--   Let B represent treatment condition
+-   Let \(B\) represent treatment condition
 
     -   0=Control
 
@@ -40,82 +42,84 @@ the interaction between A and B.
 -   The interaction regression coefficient shows whether the effect of
     treatment condition is different for males and females.
 
--   The regression coefficient for A shows the difference in Y between
+-   The regression coefficient for \(A\) shows the difference in \(Y\) between
     males and females for the 'control' treatment group.
 
--   The regression coefficient for B shows the difference in Y between
+-   The regression coefficient for \(B\) shows the difference in \(Y\) between
     treatment and control groups for females.
 
 #### One Categorical and One Continuous Variable
 
--   Let A represent gender
+-   Let \(A\) represent gender
 
     -   0=Female
 
     -   1=Male
 
--   Let B represent a continuous variable: age in years.
+-   Let \(B\) represent a continuous variable: age in years.
 
 -   The interaction regression coefficient shows if the effect of age on
-    Y is different for males and females.
+    \(Y\) is different for males and females.
 
--   The regression coefficient for A shows the difference between males
+-   The regression coefficient for \(A\) shows the difference between males
     and females when age is equal to zero.
 
--   The regression coefficient for B shows the effect of age for
+-   The regression coefficient for \(B\) shows the effect of age for
     females.
 
 #### Two Continuous Variables
 
--   Let A represent a continuous variable: IQ score.
+-   Let \(A\) represent a continuous variable: IQ score.
 
--   Let B represent a continuous variable: Age.
+-   Let \(B\) represent a continuous variable: Age.
 
 -   The interaction regression coefficient shows
 
-    -   if the relationship between age and Y differs according to IQ
+    -   if the relationship between age and \(Y\) differs according to IQ
 
-    -   if the relationship between IQ and Y differs according to age.
+    -   if the relationship between IQ and \(Y\) differs according to age.
 
--   The regression coefficient for A shows the relationship between IQ
-    and Y when age equals zero.
+-   The regression coefficient for \(A\) shows the relationship between IQ
+    and \(Y\) when age equals zero.
 
--   The regression coefficient for B shows the relationship between age
-    and Y when IQ equals zero.
+-   The regression coefficient for \(B\) shows the relationship between age
+    and \(Y\) when IQ equals zero.
 
 ### Three-Way Interactions
 
 
 The same principles apply from above. The general model:
 
-Y=A+B+C+A\*B+A\*C+B\*C+A\*B\*C
+\[
+  Y = A + B + C + A*B + A*C + B*C + A*B*C
+\]
 
--   The coefficient for A shows the effect of A on Y when both B and C
+-   The coefficient for \(A\) shows the effect of \(A\) on \(Y\) when both \(B\) and \(C\)
     are zero.
 
--   The coefficient for B shows the effect of B on Y when both A and C
+-   The coefficient for \(B\) shows the effect of \(B\) on \(Y\) when both \(A\) and \(C\)
     are zero.
 
--   The coefficient for C shows the effect of C on Y when both A and B
+-   The coefficient for \(C\) shows the effect of \(C\) on \(Y\) when both \(A\) and \(B\)
     are zero.
 
--   The coefficient for A\*B shows the interaction between A and B when
-    C is zero.
+-   The coefficient for \(A*B\) shows the interaction between \(A\) and \(B\) when
+    \(C\) is zero.
 
--   The coefficient for A\*C shows the interaction between A and C when
-    B is zero.
+-   The coefficient for \(A*C\) shows the interaction between \(A\) and \(C\) when
+    \(B\) is zero.
 
--   The coefficient for B\*C shows the interaction between B and C when
-    A is zero.
+-   The coefficient for \(B*C\) shows the interaction between \(B\) and \(C\) when
+    \(A\) is zero.
 
 -   The interaction regression coefficient shows if the relationship
     between
 
-    -   A and Y differs according to B and C
+    -   \(A\) and \(Y\) differs according to \(B\) and \(C\)
 
-    -   B and Y differs according to A and C
+    -   \(B\) and \(Y\) differs according to \(A\) and \(C\)
 
-    -   C and Y differs according to A and B.
+    -   \(C\) and \(Y\) differs according to \(A\) and \(B\).
 
 ## Execise Solutions
 
@@ -125,9 +129,9 @@ In order to analyze data properly in SPSS, we need to follow the
 guidelines set out above. Open [exercise1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav) and see what guidelines
 we have ignored.
 
-[![](./media/spss-exer-image1.png){width="4.229166666666667in" height="3.2511712598425198in"}](./media/spss-exer-image1.png){target="_blank"}
+#### Exercise 1 Solution
 
-Solution:
+[![](./media/spss-exer-image1.png){width="4.229166666666667in" height="3.2511712598425198in"}](./media/spss-exer-image1.png){target="_blank"}
 
 Too much information is contained in one variable
 (CTSSurgTypeCatCodeDesc, LOS, SURGLOS, DCDate, etc.)
@@ -142,13 +146,14 @@ Anything else?
 ### Exercise 2
 
 Open [exercise2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise2/exercise2_data.sav) (an Excel file). Modify this Excel file such that
-it can be imported into SPSS properly. Save the file and close it. Open
-the file in SPSS (import it). Export this file back into Excel, but only
-save the following variables: id, salary, minority.
+it can be imported into SPSS properly. Save the file and close it.
+
+Open the file in SPSS (import it). Export this file back into Excel,
+but only save the following variables: id, salary, minority.
+
+#### Exercise 2 Solution
 
 [![](./media/spss-exer-image2.png){width="6.5in" height="4.440387139107612in"}](./media/spss-exer-image2.png){target="_blank"}
-
-Solution:
 
 -   Delete the first three rows of data (remove heading)
 
@@ -158,9 +163,9 @@ Solution:
 
 -   Save the file as Exercise2\_Data\_Ready
 
--   Close Exercise2\_Data\_Ready
-
 [![](./media/spss-exer-image3.png){width="6.5in" height="4.440387139107612in"}](./media/spss-exer-image3.png){target="_blank"}
+
+-   Close Exercise2\_Data\_Ready
 
 -   Open SPSS
 
@@ -169,6 +174,8 @@ Solution:
 -   Under "Files of Type" select either "All Files" or "Excel" to view
     Exercise2\_Data\_Ready, select the file, then select "Open"
 
+[![](./media/spss-exer-image4.png){width="6.239583333333333in" height="3.3229166666666665in"}](./media/spss-exer-image4.png){target="_blank"}
+
 -   A window appears
 
 -   Check the box so the variable names will be imported
@@ -176,14 +183,14 @@ Solution:
 -   Select the sheet of the Excel file that you would like to be read
     in, then select "Ok"
 
--   The Excel data should now open in the Data Editor
-
-[![](./media/spss-exer-image4.png){width="6.239583333333333in" height="3.3229166666666665in"}](./media/spss-exer-image4.png){target="_blank"}
-
 [![](./media/spss-exer-image5.png){width="4.041666666666667in" height="2.5in"}](./media/spss-exer-image5.png){target="_blank"}
+
+-   The Excel data should now open in the Data Editor
 
 -   Delete any "blank" rows of data or columns of data (indicated by
     ".") by highlighting, right click, select "cut"
+
+[![](./media/spss-exer-image6.png){width="4.550594925634296in" height="3.4982699037620297in"}](./media/spss-exer-image6.png){target="_blank"}
 
 -   Select File - Save As
 
@@ -199,21 +206,70 @@ Solution:
 
 -   Select "Continue"
 
+[![](./media/spss-exer-image7.png){width="3.7843613298337706in" height="2.914981408573928in"}](./media/spss-exer-image7.png){target="_blank"}
+
 -   Select "Save"
 
 -   Open the new file (Exercise2\_Data\_Ready\_short) to investigate the
     results
 
-[![](./media/spss-exer-image6.png){width="4.550594925634296in" height="3.4982699037620297in"}](./media/spss-exer-image6.png){target="_blank"}
 
-[![](./media/spss-exer-image7.png){width="3.7843613298337706in" height="2.914981408573928in"}](./media/spss-exer-image7.png){target="_blank"}
 
 ### Exercise 3
 
 Open [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav) and go to Variable View. Practice defining the
 correct attributes to each variable by following the code book.
 
-[![](./media/spss-exer-image8.png){width="6.0625in" height="3.320896762904637in"}](./media/spss-exer-image8.png){target="_blank"}
+|Name          |Label                                  |Value Label                      |Missing Values |Measure
+|:-------------|:--------------------------------------|:--------------------------------|:--------------|:-------
+|              |                                       |                                 |               |
+|IDnum         |<none>                                 |<none>                           |<none>         |Scale
+|              |                                       |                                 |               |
+|sex           |Respondent's Sex                       |1 = Male                         |<none>         |Nominal
+|              |                                       |2 = Female                       |               |
+|race          |Race of Respondent                     |1 = White                        |<none>         |Nominal
+|              |                                       |2 = Black                        |               |
+|              |                                       |3 = Other                        |               |
+|region        |Region of the United States            |1 = North East                   |<none>         |Nominal
+|              |                                       |2 = South East                   |               |
+|              |                                       |3 = West                         |               |
+|happy         |General Happiness                      |0 = NAP                          |0, 8, 9        |Ordinal
+|              |                                       |1 = Very Happy                   |               |
+|              |                                       |2 = Pretty Happy                 |               |
+|              |                                       |3 = Not too Happy                |               |
+|              |                                       |8 = DK                           |               |
+|              |                                       |9 = NA                           |               |
+|life          |Is Life Exciting or Dull               |0 = NAP                          |0, 8, 9        |Ordinal
+|              |                                       |1 = Exciting                     |               |
+|              |                                       |2 = Routine                      |               |
+|              |                                       |3 = Dull                         |               |
+|              |                                       |8 = DK                           |               |
+|              |                                       |9 = NA                           |               |
+|sibs          |Number of Brothers and Sisters         |98 = DK                          |98, 99         |Scale
+|              |                                       |99 = NA                          |               |
+|childs        |Number of Children                     |8 = Eight or More                |9              |Scale
+|              |                                       |9 = NA                           |               |
+|age           |Age of Respondent                      |98 = DK                          |0, 98, 99      |Scale
+|              |                                       |99 = NA                          |               |
+|educ          |Highest Year of School Completed       |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|paeduc        |Highest Year School, Father            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|maeduc        |Highest Year School, Mother            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|seeduc        |Highest Year School, Spouse            |97 = NAP                         |97, 98, 99     |Scale
+|              |                                       |98 = DK                          |               |
+|              |                                       |99 = NA                          |               |
+|prestg80      |Occupational Prestige Score            |0 = DK,NA,NAP                    |0              |Scale
+|occcat80      |Occupational Category                  |1 = Managerial and Professional  |<none>         |Nominal
+|              |                                       |2 = Technical and Sales          |               |
+|              |                                       |3 = Service                      |               |
+|              |                                       |4 = Farming, Forest, and Fishing |               |
+|              |                                       |5 = Production and Craft         |               |
+|              |                                       |6 = General Labor                |               |
 
 Solution:
 
