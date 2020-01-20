@@ -25,9 +25,8 @@ the correct ordering.
 Suppose we want to sort by gender and then by age, with both in
 ascending order. Suppose the codes for gender are as follows:
 
-0 male
-
-1 female
+- 0: male
+- 1: female
 
 SPSS would first put males at the top of the file and females at the
 bottom. SPSS would then sort by age within each gender group. The first
@@ -72,11 +71,11 @@ condition is satisfied...." to select cases based on certain criteria.
 Then click the "If..." button to pull up a window in which you will
 state the condition. Some example conditions are:
 
-gender='m' *selects men only
+- `gender = 'm'` - selects men only
 
-age\<=12 and sex=2 *selects children 12 and under of one sex only
+- `age <= 12 and sex = 2` - selects children 12 and under of one sex only
 
-marital=0 *selects all never married respondents
+- `marital = 0`  -selects all never married respondents
 
 You can return to the data editor by clicking "Continue" and "OK".
 Notice that certain rows have been "scratched" out by SPSS. SPSS has
