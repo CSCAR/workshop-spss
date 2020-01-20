@@ -50,3 +50,42 @@ presented by faculty and staff from the Consulting for Statistics,
 Computing \& Analytics Research (CSCAR) at the University of
 Michigan. No part of this material may be used for other purposes,
 copied, changed, or sold.
+
+## Data
+
+There are a number of data sets used in these notes; some used for the examples, others for the execises.
+
+[data.zip](https://github.com/CSCAR/workshop-spss/raw/master/data/data.zip) - This zip files contains all data used within the notes.
+
+### Example Data
+
+- Section 3: [Section3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav)
+- Section 4: [Section4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav)
+- Section 5: [Section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav), [Section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav)
+
+### Exercise Data
+
+- Exercise 0: [exercise0_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_data.sav),
+[exercise0_output.spv](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_output.spv),
+<a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_syntax.sps" download>exercise0_syntax.sps</a> (You may need to right-click \& Save As for the .sps file)
+- Exercise 1: [exercise1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav)
+- Exercise 2: [exercise2_data.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise2/exercise2_data.xls)
+- Exercise 3: [exercise3_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav)
+- Exercise 4: [exercise4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise4/exercise4_data.sav)
+- Exercise 5: [exercise5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise5/exercise5_data.sav)
+- Exercise 6: [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav)
+- Exercise 7: [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav)
+- Exercise 8: [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
+
+### Additional Exercises
+
+These are for the [additional exercises](appendix.html#additional_exercises) and [final project](appendix.html#final_project) found in the appendix.
+
+- Exercise A1: [exercisea1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea1/exercisea1_data.sav)
+- Exercise A2: [exercisea2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea2/exercisea2_data.sav)
+- Exercise A3: [exercisea3_data_a.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_a.sav),
+[exercisea3_data_b.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_b.sav)
+- Exercise A4: [exercisea4_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea4/exercisea4_data.sav)
+- Exercise A5: [exercisea5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea5/exercisea5_data.sav)
+- Final Project: [cars_wave1.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave1.xls),
+[cars_wave2.xls](https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave2.xls)
