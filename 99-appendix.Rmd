@@ -1981,9 +1981,29 @@ variables (such as weight, and acceleration).
 5)  Using the codebook below, define the proper attributes in Variable
     View
 
-[![](./media/spss-exer-image173.png){width="6.5in" height="2.324293525809274in"}](./media/spss-exer-image173.png){target="_blank"}
+|**Variable** |**Position** |**Label**                                 |**Measurement Level** |**Missing Values** |
+|:------------|:------------|:-----------------------------------------|:---------------------|:------------------|
+|ID           |1            |Car ID Number                             |Nominal               |                   |
+|mpg          |2            |Miles per Gallon                          |Scale                 |999                |
+|engine       |3            |Engine Discplacement (cu. Inches)         |Scale                 |                   |
+|horse        |4            |Horsepower                                |Scale                 |                   |
+|weight       |5            |Weight (lbs.)                             |Scale                 |                   |
+|accel        |6            |Time to Accelerate from 0 to 60 mpg (sec) |Scale                 |                   |
+|year         |7            |Model Year (module 100)                   |Ordinal               |                   |
+|origin       |8            |Country of Origin                         |Nominal               |                   |
+|cylinder     |9            |Number of Cylinders                       |Ordinal               |                   |
 
-[![](./media/spss-exer-image174.png){width="3.295138888888889in" height="2.295138888888889in"}](./media/spss-exer-image174.png){target="_blank"}
+|         |**Value** |**Label**   |
+|:--------|:---------|:-----------|
+|origin   |1         |American    |
+|         |2         |European    |
+|         |3         |Japanese    |
+|cylinder |3         |3 Cylinders |
+|         |4         |4 Cylinders |
+|         |5         |5 Cylinders |
+|         |6         |6 Cylinders |
+|         |8         |8 Cylinders |
+
 
 **Working with Variables**
 
