@@ -303,7 +303,7 @@ the four most important types:</p>
 <li><p>Date is still numeric but displayed using hours, minutes, and
 seconds</p></li>
 </ul>
-<p><a href="./media/spss-image16.png" target="_blank"><img src="media/spss-image16.png" style="width:8in;height:4.57292in" /></a></p>
+<p><a href="./media/spss-image16.png" target="_blank"><img src="media/spss-image16.png" /></a></p>
 <p>Most statistical analyses use only numeric variables. SPSS can handle a
 short string variable, such as gender coded as “m” and “f”, when that
 variable defines groups for a t-test or an analysis of variance (ANOVA).</p>
@@ -354,9 +354,11 @@ do not press “Add”, the information you have typed for that value will
 be ignored.</p>
 <p><strong>Try it: Use <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav">section3_data.sav</a>. Enter in value labels for variable
 Education:</strong></p>
-<p><strong>1=High School or Less</strong></p>
-<p><strong>2=Some College</strong></p>
-<p><strong>3=College Graduate</strong></p>
+<ul>
+<li>1: High School or Less</li>
+<li>2: Some College</li>
+<li>3: College Graduate</li>
+</ul>
 <p><a href="./media/spss-image20.png" target="_blank"><img src="media/spss-image20.png" style="width:4.875in;height:3.10417in" /></a></p>
 </div>
 <div id="missing-value-labels" class="section level3" number="3.1.5">
@@ -422,11 +424,13 @@ variable from Scale to Ordinal.</strong></p>
 labels, missing values, and column format, and apply them to numerous
 variables all at once. Suppose a researcher has a series of 50 variables
 that all have values 1 through 5 as follows:</p>
-<p>1 Strongly disagree</p>
-<p>2 Disagree</p>
-<p>3 Neutral</p>
-<p>4 Agree</p>
-<p>5 Strongly agree</p>
+<ul>
+<li>1 Strongly disagree</li>
+<li>2 Disagree</li>
+<li>3 Neutral</li>
+<li>4 Agree</li>
+<li>5 Strongly agree</li>
+</ul>
 <p>Value labels would be useful for these variables, but it would be
 extremely tedious to set up value labels for all 50 variables. Set up
 the value labels for one of the 50 variables, and then click on the cell
@@ -534,70 +538,87 @@ differences.</strong></p>
 <div id="list-of-functions-available-in-the-compute-command" class="section level3" number="3.4.2">
 <h3><span class="header-section-number">3.4.2</span> List of Functions Available in the Compute Command</h3>
 <p><strong>Arithmetic Operators:</strong></p>
-<p>+ Addition</p>
-<p>- Subtraction</p>
-<p>* Multiplication</p>
-<p>/ Division</p>
-<p>** Exponentiation</p>
+<ul>
+<li><code>+</code> Addition</li>
+<li><code>-</code> Subtraction</li>
+<li><code>*</code> Multiplication</li>
+<li><code>/</code> Division</li>
+<li><code>**</code> Exponentiation</li>
+</ul>
 <p><strong>Arithmetic Functions:</strong></p>
-<p>ABS Absolute value</p>
-<p>RND Round</p>
-<p>TRUNC Truncate</p>
-<p>MOD Modulus (remainder)</p>
-<p>SQRT Square root</p>
-<p>EXP Exponential</p>
-<p>LG10 Base 10 log</p>
-<p>LN Natural log</p>
-<p>ARSIN Arcsin</p>
-<p>ARTAN Arctangent</p>
-<p>SIN Sine</p>
-<p>COS Cosine</p>
+<ul>
+<li><code>ABS</code> Absolute value</li>
+<li><code>RND</code> Round</li>
+<li><code>TRUNC</code> Truncate</li>
+<li><code>MOD</code> Modulus (remainder)</li>
+<li><code>SQRT</code> Square root</li>
+<li><code>EXP</code> Exponential</li>
+<li><code>LG10</code> Base 10 log</li>
+<li><code>LN</code> Natural log</li>
+<li><code>ARSIN</code> Arcsin</li>
+<li><code>ARTAN</code> Arctangent</li>
+<li><code>SIN</code> Sine</li>
+<li><code>COS</code> Cosine</li>
+</ul>
 <p><strong>Statistical Functions:</strong></p>
-<p>SUM(.n) Sum of arguments</p>
-<p>MEAN(.n) Mean of arguments</p>
-<p>SD(.n) Standard deviation of arguments</p>
-<p>VARIANCE(.n) Variance of arguments</p>
-<p>CFVAR(.n) Coefficient of variation of arguments</p>
-<p>MIN(.n) Minimum of arguments</p>
-<p>MAX(.n) Maximum of arguments</p>
+<ul>
+<li><code>SUM(.n)</code> Sum of arguments</li>
+<li><code>MEAN(.n)</code> Mean of arguments</li>
+<li><code>SD(.n)</code> Standard deviation of arguments</li>
+<li><code>VARIANCE(.n)</code> Variance of arguments</li>
+<li><code>CFVAR(.n)</code> Coefficient of variation of arguments</li>
+<li><code>MIN(.n)</code> Minimum of arguments</li>
+<li><code>MAX(.n)</code> Maximum of arguments</li>
+</ul>
 <p><strong>Missing Values Functions:</strong></p>
-<p>MISSING True if the value is missing</p>
-<p>NMISS Number of missing values across variables but within cases</p>
-<p>NVALID Number of non-missing values across variables but within cases</p>
+<ul>
+<li><code>MISSING</code> True if the value is missing</li>
+<li><code>NMISS</code> Number of missing values across variables but within cases</li>
+<li><code>NVALID</code> Number of non-missing values across variables but within cases</li>
+</ul>
 <p><strong>Across-case Function:</strong></p>
-<p>LAG Value from previous case, or from n cases earlier if there is a
-second argument n</p>
+<ul>
+<li><code>LAG</code> Value from previous case, or from n cases earlier if there is a second argument n</li>
+</ul>
 <p><strong>Date and Time Functions:</strong></p>
-<p>CTIME.xxx SPSS time values to common units</p>
-<p>DATE.xxx Common units to SPSS date values</p>
-<p>TIME.xxx Common units to SPSS time values</p>
-<p>XDATE.xxx SPSS date values to common units</p>
+<ul>
+<li><code>CTIME.xxx</code> SPSS time values to common units</li>
+<li><code>DATE.xxx</code> Common units to SPSS date values</li>
+<li><code>TIME.xxx</code> Common units to SPSS time values</li>
+<li><code>XDATE.xxx</code> SPSS date values to common units</li>
+</ul>
 <p><strong>Other Functions:</strong></p>
-<p>RV.UNIFORM Uniform pseudorandom no.</p>
-<p>RV.NORMAL Normal pseudorandom no.</p>
-<p>CDF.NORMAL Standard normal cumulative dis.</p>
+<ul>
+<li><code>RV.UNIFORM</code> Uniform pseudorandom no.</li>
+<li><code>RV.NORMAL</code> Normal pseudorandom no.</li>
+<li><code>CDF.NORMAL</code> Standard normal cumulative dis.</li>
+</ul>
 <p><strong>Logical Functions:</strong></p>
-<p>RANGE True if value is within range</p>
-<p>ANY True if any value matches</p>
+<ul>
+<li><code>RANGE</code> True if value is within range</li>
+<li><code>ANY</code> True if any value matches</li>
+</ul>
 <p><strong>String Functions:</strong></p>
-<p>ANY Same as for numeric values</p>
-<p>CONCAT Concatenate</p>
-<p>INDEX Index from left</p>
-<p>LAG Same as for numeric values</p>
-<p>LENGTH Defined length</p>
-<p>LOWER Convert to lower case</p>
-<p>LPAD Pad left</p>
-<p>LTRIM Trim left</p>
-<p>MAX Greatest value</p>
-<p>MIN Least value</p>
-<p>NUMBER Convert to a number</p>
-<p>RANGE Same as for numeric values</p>
-<p>RINDEX Index from right</p>
-<p>RPAD Pad right</p>
-<p>RTRIM Trim right</p>
-<p>STRING Convert to a string</p>
-<p>SUBSTR Substring</p>
-<p>UPCASE Convert to upper case</p>
+<ul>
+<li><code>ANY</code> Same as for numeric values</li>
+<li><code>CONCAT</code> Concatenate</li>
+<li><code>INDEX</code> Index from left</li>
+<li><code>LAG</code> Same as for numeric values</li>
+<li><code>LENGTH</code> Defined length</li>
+<li><code>LOWER</code> Convert to lower case</li>
+<li><code>LPAD</code> Pad left</li>
+<li><code>LTRIM</code> Trim left</li>
+<li><code>MAX</code> Greatest value</li>
+<li><code>MIN</code> Least value</li>
+<li><code>NUMBER</code> Convert to a number</li>
+<li><code>RANGE</code> Same as for numeric values</li>
+<li><code>RINDEX</code> Index from right</li>
+<li><code>RPAD</code> Pad right</li>
+<li><code>RTRIM</code> Trim right</li>
+<li><code>STRING</code> Convert to a string</li>
+<li><code>SUBSTR</code> Substring</li>
+<li><code>UPCASE</code> Convert to upper case</li>
+</ul>
 </div>
 <div id="count-values" class="section level3" number="3.4.3">
 <h3><span class="header-section-number">3.4.3</span> Count Values</h3>
@@ -622,12 +643,14 @@ Often, you will need to convert string variables into numeric variables
 in order to use them in a certain statistical procedure. Recoding is
 also a way to collapse a continuous variable into categories.</p>
 <p>Below are representations of some possible recodes:</p>
-<p><strong>“Male” – 1</strong></p>
-<p><strong>“Female” – 0</strong></p>
-<p><strong>1 – 0</strong></p>
-<p><strong>2 – 1</strong></p>
-<p><strong>3 – 2 </strong></p>
-<p><strong>4:15 – 9 </strong></p>
+<ul>
+<li>“Male” – 1</li>
+<li>“Female” – 0</li>
+<li>1 – 0</li>
+<li>2 – 1</li>
+<li>3 – 2</li>
+<li>4:15 – 9</li>
+</ul>
 </div>
 <div id="manual-recoding" class="section level3" number="3.4.4">
 <h3><span class="header-section-number">3.4.4</span> Manual Recoding</h3>
@@ -733,9 +756,9 @@ Count procedures.</p>
 <p>You can use the words and, or, and not within the If box to help write
 your criteria. Some examples of If expressions are as follows:</p>
 <ul>
-<li><p>sex = “f” and age &gt; 50 *women over 50</p></li>
-<li><p>not missing(income) *participants whose income is known</p></li>
-<li><p>educat = 5 or educat = 6 *respondents with a BA or MA</p></li>
+<li><p><code>sex = "f" and age &gt; 50</code> - women over 50</p></li>
+<li><p><code>not missing(income)</code> - participants whose income is known</p></li>
+<li><p><code>educat = 5 or educat = 6</code> - respondents with a BA or MA</p></li>
 </ul>
 </div>
 <div id="rank-cases" class="section level2" number="3.7">
@@ -750,7 +773,7 @@ by checking the box for Ntiles and placing the number 4 in the blank
 space. SPSS will create a new categorical variable and add it to the end
 of the original dataset.</p>
 <p><a href="./media/spss-image40.png" target="_blank"><img src="media/spss-image40.png" style="width:5.08333in;height:3.14583in" /></a></p>
-<p><a href="./media/spss-image41.png" target="_blank"><img src="media/spss-image41.png" style="width:3.57292in;height:2.20833in" /></a></p>
+<p><a href="./media/spss-image41.png" target="_blank"><img src="media/spss-image41.png" /></a></p>
 </div>
 <div id="exercise-4-computing-and-transforming-variables" class="section level2" number="3.8">
 <h2><span class="header-section-number">3.8</span> Exercise 4 – Computing and Transforming Variables</h2>
