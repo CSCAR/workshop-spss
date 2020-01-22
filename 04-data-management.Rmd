@@ -205,8 +205,150 @@ to the right hand side.)
 Use the "Split File" procedure to get the average age for each job
 category.
 
-## Converting Data Formats
+## Merging Files
 
+[![](./media/merging_image1.png){width="576px" height="432px"}](./media/merging_image1.png){target="_blank"}
+
+### Adding Cases
+
+Suppose you have two files containing data on different cases, in which
+many of the variables are the same in name and format. You can merge
+these files together using the Add Cases command.
+
+[![](./media/merging_image2.png)](./media/merging_image2.png){target="_blank"}
+
+To merge the files, the basic steps are:
+
+-   Open the first data file.
+
+-   Go to "Data" "Merge Files" "Add Cases".
+
+-   Find and select the second file, containing the additional cases.
+
+-   Choose variables to be included in the resulting file.
+
+-   Click OK.
+
+[![](./media/merging_image3.png){width="3.8541666666666665in" height="3.1908136482939633in"}](./media/merging_image3.png){target="_blank"}
+
+Inside the Add Cases dialogue window, one variable box on the right will
+have label "Variables in New Active Dataset". Any variable listed in
+this box exists in both files under the same name, and will
+automatically be included in the resulting data set.
+
+Variables listed in the left box are those that SPSS was not certain
+what to do with. They may appear in only one data set, or the variables
+in the two data sets may be named slightly differently. One data set we
+might use the variable number "sex" and the second the variable name
+"gender", for example.
+
+Variable names might come from the active data set or from the external
+file. SPSS indicates the origin of the name by assigning these symbols:
+
+\* the current (working) data file
+
+\+ the second (external) data file
+
+When a variable exists in only one data file, and it is not simply a
+matter of mismatched names, simply move the variable into the right-hand
+box. The variable will exist in the resulting merged file and will have
+only missing values for one group of cases.
+
+If two variables have different names, on the other hand, then select
+both variable names and click the "Pair" button. Before pairing them,
+you may want to rename one of the two to match the other; simply select
+the one whose name you would like to change and click "Rename". If you
+do not use the Rename option, the software will use the name from the
+current working data file.
+
+The last option is the box labeled "Indicate case sourse as variable".
+If you check this box, you can specify a name for a variable in the new
+file that will indicate the file that the case came from.
+
+SPSS sets up the new variable as follows:
+
+-   0 indicates the case came from the currently open data set
+
+-   1 indicates that the case is from the external (2nd) data set
+
+### Adding Variables
+
+Suppose that we have files containing the same subjects, but different
+information. If we want to combine all the information into one new
+file, we want to add variables to one of the files.
+
+[![](./media/merging_image4.png){width="576px" height="432px"}](./media/merging_image4.png){target="_blank"}
+
+Before actually using the "Add Variables" procedure, which is found
+under "Data" "Merge Files" "Add Variables", there are certain
+prerequisites that SPSS is very insistent upon:
+
+-   Both files must contain a key "matching" variable, usually ID, which
+    will be the basis for linking up each row of data.
+
+-   This key matching variable must be of the same type, including the
+    same length. Preferably, it should have the same name.
+
+-   Each data file must be sorted in ascending order based upon the key
+    matching variable. Save each file in its sorted form.
+
+**Note:** it is NOT necessary to have exactly the same cases in both
+files.
+
+If all of these conditions are met, we can proceed with the Add
+Variables procedure. The first step is to identify the exernal file that
+we will obtain the new variables from. SPSS identifies variables as
+follows:
+
+\* from the working, or current, data file
+
+\+ from the second, or external, data file
+
+[![](./media/merging_image5.png){width="6.5in" height="4.678792650918635in"}](./media/merging_image5.png){target="_blank"}
+
+There are two locations where we can find variable names in the Add
+Variables dialogue box. The right box, labeled "New Active Dataset:",
+lists the variables from the external dataset to include, and the left
+lists the excluded variables. The excluded variables are those which
+were found in both files. If the same variable is in both files, SPSS
+isn't sure which one to accept in the resulting file, since there cannot
+be duplicate variable names. It will exclude one of the two variables.
+
+Click the box marked "Match cases on key variables in sorted files".
+Next, find the ID variable from either data file, and move it into the
+"Key Variables" box. If the ID variables have different names, then
+first rename the variables so that they match.
+
+There are three options underneath the box marked "Match cases on key
+variables in sorted files". The options which include the phrase "keyed
+table" typically refer to merging with aggregated datasets. If the data
+file that is being merged into the working data file has at most one
+record per value of the key variable(s), then use the option "Non-active
+dataset is Keyed Table" in most cases.
+
+There are two things to understand about applying aggregate data:
+
+-   The key matching variable is the one that identifies each aggregate
+    case.
+
+-   The phrase "keyed table" refers to the aggregate data set.
+
+SPSS uses the key variable to go to the aggregate data set, look up the
+information for that group (e.g., job category), and take that
+information back to each and every individual in that group in the
+original data file. For that reason, SPSS sees the aggregate data set as
+a reference table, which of course includes the key variable that
+attachesthe appropriate information to the individuals.
+
+If you begin in the individual data set, go to Add Variables and proceed
+as if both files have individual data. Then select the "Non-active
+dataset is keyed table" option, notifying SPSS that the external file is
+really nothing more than a reference table from which to obtain
+information for each individual case. If you begin in the aggregate data
+set, which typically has fewer rows, then select "Active dataset is
+keyed table".
+
+## Converting Data Formats
 
 Different statistical methods frequently require different data formats.
 A repeated measures analysis of variance, for example, requires that
