@@ -121,7 +121,7 @@ The same principles apply from above. The general model:
 
     -   \(C\) and \(Y\) differs according to \(A\) and \(B\).
 
-## Execise Solutions
+## Exercise Solutions
 
 ### Exercise 1
 
@@ -169,7 +169,7 @@ but only save the following variables: id, salary, minority.
 
 -   Open SPSS
 
--   Select File - Open - Data
+-   Select File -> Open -> Data
 
 -   Under "Files of Type" select either "All Files" or "Excel" to view
     Exercise2\_Data\_Ready, select the file, then select "Open"
@@ -192,7 +192,7 @@ but only save the following variables: id, salary, minority.
 
 [![](./media/spss-exer-image6.png){width="4.550594925634296in" height="3.4982699037620297in"}](./media/spss-exer-image6.png){target="_blank"}
 
--   Select File - Save As
+-   Select File -> Save As
 
 -   Let the file name be Exercise2\_Data\_Ready\_short
 
@@ -323,7 +323,7 @@ following
 Compute a new variable that is the change from beginning salary to
 current salary for each employee.
 
--   Transform - Compute Variable
+-   Transform -> Compute Variable
 
 -   Select "Reset"
 
@@ -351,7 +351,7 @@ following
 
 - 3=Bachelor's Degree or Higher (educ\>=17)
 
--   Transform- Recode into different variables
+-   Transform -> Recode into different variables
 
 -   Move education (educ) into the Input Variable Output Variable window
     by double clicking on it or using the arrow
@@ -397,7 +397,7 @@ Open [exercise5_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data
 
 Select male managers. What is their average age?
 
-(You can obtain the average age by choosing Analyze - Descriptive Statistics - Descriptives and moving “Age of Respondent (age)” to the right hand side.)
+(You can obtain the average age by choosing Analyze -> Descriptive Statistics -> Descriptives and moving “Age of Respondent (age)” to the right hand side.)
 
 Use the “Split File” procedure to get the average age for each job category.
 
@@ -408,7 +408,7 @@ Select male managers. What is their average age?
 -   Check Values for sex and occat80 to see what values correspond to
     "male" and "manager" (it's 1 and 1).
 
--   Data - Select Cases
+-   Data -> Select Cases
 
 -   Under Select: Select the If Condition is Satisfied radio dial and
     select the If button
@@ -429,7 +429,7 @@ Select male managers. What is their average age?
 
 -   Inspect the data in Data View
 
--   Analyze - Descriptive Statistics - Descriptives
+-   Analyze -> Descriptive Statistics -> Descriptives
 
 [![](./media/spss-exer-image16.png){width="4.387911198600175in" height="2.52586176727909in"}](./media/spss-exer-image16.png){target="_blank"}
 
@@ -441,7 +441,7 @@ Select male managers. What is their average age?
 
 Use the “Split File” procedure to get the average age for each job category.
 
--   Data - Split File
+-   Data -> Split File
 
 -   Select Compare Groups
 
@@ -454,7 +454,7 @@ Use the “Split File” procedure to get the average age for each job category.
 
 [![](./media/spss-exer-image17.png){width="4.004309930008749in" height="2.963445975503062in"}](./media/spss-exer-image17.png){target="_blank"}
 
--   Analyze - Descriptive Statistics - Descriptives
+-   Analyze -> Descriptive Statistics -> Descriptives
 
 -   Select the age variable and OK
 
@@ -472,7 +472,7 @@ Convert exercise6_data from "Wide" format to "Long" format
 
 -   Open [exercise6_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise6/exercise6_data.sav)
 
--   Select Data - Restructure to open the Wizard
+-   Select Data -> Restructure to open the Wizard
 
 -   Select "Restructure selected variables into cases" then "Next"
 
@@ -537,7 +537,7 @@ Convert exercise7_data from "Long" format to "Wide" format
 
 -   Open [exercise7_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav)
 
--   Select Data - Restructure to open the Wizard
+-   Select Data -> Restructure to open the Wizard
 
 [![](./media/spss-exer-image26.png){width="5.521132983377078in" height="5.363636264216973in"}](./media/spss-exer-image26.png){target="_blank"}
 
@@ -586,8 +586,8 @@ Obtain the appropriate descriptive statistics for each variable.
 Remember, continuous variables should be investigated with descriptives
 and categorical variables should be investigated with frequency tables.
 
-\*Hint: Select more than one variable in the "Analyze","Descriptive
-Statistics","Descriptives", or "Frequencies" dialog boxes.
+\*Hint: Select more than one variable in the Analyze -> Descriptive
+Statistics -> Descriptives", or Analyze -> Descriptive Statistics -> Frequencies dialog boxes.
 
 **Part 2**: Assess the distribution of the Occupational Prestige Score
 ("prestg80") with both a histogram (normal curve displayed) and a Q-Q
@@ -597,7 +597,7 @@ Scores is normally distributed reasonable?
 **Part 3**: Compare the average highest year of school completed
 ("educ") for males and females.
 
-\*Hint: First split the file by "sex" (Data - Split File), then
+\*Hint: First split the file by "sex" (Data -> Split File), then
 calculate the descriptive statistics. Be sure to return to the Split
 File menu when you are done with this question and return the dialog
 box to "Analyze all cases".
@@ -605,7 +605,7 @@ box to "Analyze all cases".
 **Part 4**: Produce a pie chart for the variable "region". (We didn't
 cover this, you can use either Chart Builder or Legacy Dialogs.)
 
-#### Exericse 8 Solution
+#### Exercise 8 Solution
 
 Open the dataset [exercise8_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav)
 
@@ -626,7 +626,7 @@ dataset. Remember, continuous variables should be investigated with
 5-point summary descriptives and categorical variables should be
 investigated with frequency tables.
 
--   Select Analyze - Descriptive Statistics - Descriptives
+-   Select Analyze -> Descriptive Statistics -> Descriptives
 
 -   Select the following variables: sibs, childs, age, educ, paeduc,
     maeduc, speduc, prestg80
@@ -642,7 +642,7 @@ investigated with frequency tables.
 
 Frequency Tables:
 
--   Select Analyze - Descriptive Statistics - Frequencies
+-   Select Analyze -> Descriptive Statistics -> Frequencies
 
 -   Select the following variables: sex, region, race, happy, life,
     occcat80
@@ -659,7 +659,7 @@ Scores is normally distributed reasonable?
 
 -   Histogram in Legacy Dialogs
 
--   Select Graphs - Legacy Dialogs - Histogram
+-   Select Graphs -> Legacy Dialogs -> Histogram
 
 -   Variable: prestg80
 
@@ -675,7 +675,7 @@ Investigate the output
 
 -   Q-Q Plot
 
--   Select Analyze - Descriptive Statistics - Q-Q Plots
+-   Select Analyze -> Descriptive Statistics -> Q-Q Plots
 
 -   Select the variable prestg80
 
@@ -699,7 +699,7 @@ Investigate the output
 -   Set up the dataset such that the output is split by groups based on
     sex
 
--   Select Data - Split File
+-   Select Data -> Split File
 
 -   Select "Compare Groups"
 
@@ -711,7 +711,7 @@ Investigate the output
 
 -   Compute the 5-Point Summary Descriptives for "educ"
 
--   Select Analyze - Descriptive Statistics - Descriptives
+-   Select Analyze -> Descriptive Statistics -> Descriptives
 
 -   Select the variable "educ"
 
@@ -730,7 +730,7 @@ Investigate the output
 
 -   Turn the split file feature off
 
--   Select Data - Split File
+-   Select Data -> Split File
 
 -   Select "Analyze all cases, do not create groups" (Alternatively,
     "Reset" can be selected)
@@ -740,9 +740,9 @@ Investigate the output
 **Part 4**: Produce a pie chart for the variable "region". Use "Legacy
 Dialogs".
 
--   Select Graphs - Legacy Dialogs - Pie
+-   Select Graphs -> Legacy Dialogs -> Pie
 
--   Under "Data in Chare Are" select "Summaries for groups of cases"
+-   Under "Data in Chart Are" select "Summaries for groups of cases"
 
 -   Select "Define"
 
@@ -799,7 +799,7 @@ display the variable.
 -   We have one categorical variable that we would like to
     investigate...check the all on one page handout!
 
--   Analyze - Descriptive Statistics - Frequencies
+-   Analyze -> Descriptive Statistics -> Frequencies
 
 [![](./media/spss-exer-image44.png){width="4.864583333333333in" height="3.0833333333333335in"}](./media/spss-exer-image44.png){target="_blank"}
 
@@ -835,7 +835,7 @@ apparent relationship is statistically significant?
 -   We are going to compare two categorical variables. From out handout,
     we will use Pearson Chi-Square crosstabs to do this!
 
--   Analyze - Descriptive Statistics - Crosstabs
+-   Analyze -> Descriptive Statistics -> Crosstabs
 
 <!-- -->
 
@@ -904,7 +904,7 @@ positive or negative? Is it statistically significant.
 
 **Solution: **
 
--   Graphs - Legacy Dialogues - Scatter/Dot
+-   Graphs -> Legacy Dialogues -> Scatter/Dot
 
 -   Simple Scatter and Define
 
@@ -932,7 +932,7 @@ positive or negative? Is it statistically significant.
 
 <!-- -->
 
--   "Analyze" "Correlate" "Bivariate"
+-   Analyze -> Correlate -> Bivariate
 
 -   Enter the following information
 
@@ -1227,7 +1227,7 @@ marketability of the discipline the faculty member is in.
 **Investigate the correlation between 'salary' and 'market' and
 investigate a scatter plot of the two variables**
 
-In SPSS, select Analyze - Correlate - Bivariate
+In SPSS, select Analyze -> Correlate -> Bivariate
 
 [![](./media/spss-exer-image97.png){width="4.0181277340332455in" height="3.6152088801399827in"}](./media/spss-exer-image97.png){target="_blank"}
 
@@ -1251,7 +1251,7 @@ This can be done multiple ways in SPSS. The first way uses the
 regression menu from 'Analyze' while the second uses the 'General Linear
 Model' menu.
 
-Select Analyze - Regression - Linear
+Select Analyze -> Regression -> Linear
 
 [![](./media/spss-exer-image102.png){width="4.36877624671916in" height="3.584650043744532in"}](./media/spss-exer-image102.png){target="_blank"}
 
@@ -1299,7 +1299,7 @@ linear regression is preferred when there are categorical
 predictor/independent variables or interaction terms between independent
 variables.
 
-Select Analyze - General Linear Model - Univariate
+Select Analyze -> General Linear Model -> Univariate
 
 [![](./media/spss-exer-image109.png){width="4.909027777777778in" height="4.1819444444444445in"}](./media/spss-exer-image109.png){target="_blank"}
 
@@ -1320,7 +1320,7 @@ previous coefficients table.
 Notice that the results are the same between the two methods that can be
 used in SPSS to perform a regression. For the remainder of the workshop
 we will use the second method to obtain our regression results
-(Analyze - General Linear Model - Univariate).
+(Analyze -> General Linear Model -> Univariate).
 
 **Activity 3: Simple Linear Regression Diagnostics**
 
@@ -1384,7 +1384,7 @@ The plot below indicates that the normality assumption is reasonable.
 
 [![](./media/spss-exer-image122.png){width="4.5in" height="4.5in"}](./media/spss-exer-image122.png){target="_blank"}
 
-A QQ plot can also be investigated (Analyze - Descriptive Statistics - QQ Plot)
+A QQ-plot can also be investigated (Analyze -> Descriptive Statistics -> QQ Plot)
 
 [![](./media/spss-exer-image123.png){width="6in" height="4.4in"}](./media/spss-exer-image123.png){target="_blank"}
 
@@ -1399,7 +1399,7 @@ gender.
 **Create a multiple regression model where salary is the dependent
 variable, and both marketability and gender are the predictors. **
 
-Select Analyze - General Linear Model - Univariate
+Select Analyze -> General Linear Model -> Univariate
 
 Select 'salary' as the dependent variable, male as the fixed factor, and
 market as the covariate. Remember that any categorical predictor in a
@@ -1468,7 +1468,7 @@ First investigate a scatter plot between salary and time since degree.
 
 [![](./media/spss-exer-image131.png){width="6.8in" height="5.4in"}](./media/spss-exer-image131.png){target="_blank"}
 
-Select Analyze - General Linear Model - Univariate
+Select Analyze -> General Linear Model -> Univariate
 
 Select 'salary' as the dependent variable, male as the fixed factor, and
 market and yearsdg as the covariates. Remember that any categorical
@@ -1516,7 +1516,7 @@ gender and the effect of gender depends on time since degree.
 variable, marketability, gender, time since degree, and the interaction
 between gender and time since degree are the predictors. **
 
-Create a scatter plot: Select Graphs - Legacy Dialogs - Scatter/Dot
+Create a scatter plot: Select Graphs -> Legacy Dialogs -> Scatter/Dot
 and choose 'Simple' and 'Define'. Let the y-axis be 'salary',
 the x-axis be 'yearsdg', and set markers by 'male'. Select the graph
 in chart editor and click the box for 'Add fit line at subgroups'.
@@ -1525,7 +1525,7 @@ we are investigating with the proposed interaction term.
 
 [![](./media/spss-exer-image136.png){width="8in" height="6.5in"}](./media/spss-exer-image136.png){target="_blank"}
 
-Select Analyze - General Linear Model - Univariate
+Select Analyze -> General Linear Model -> Univariate
 
 [![](./media/spss-exer-image137.png){width="3.7454002624671916in" height="3.1967115048118986in"}](./media/spss-exer-image137.png){target="_blank"}
 
@@ -1588,7 +1588,7 @@ Create a side-by-side box plot for salary by rank.
 
 [![](./media/spss-exer-image143.png){width="7.2in" height="5.8in"}](./media/spss-exer-image143.png){target="_blank"}
 
-Select Analyze - General Linear Model - Univariate
+Select Analyze -> General Linear Model -> Univariate
 
 Select 'salary' as the dependent variable, 'male' and 'rank' as the
 fixed factors, and 'market' and 'yearsdg' as the covariates. Remember
@@ -1656,13 +1656,13 @@ plots from the saved variables (predicted, residuals).
 The GLM approach to regression doesn't allow for VIF's to be calculated
 directly. Multicollinearity can attempt to be assessed through
 investigating the correlations or calculating the VIF manually. Note
-that pair wise correlations do not fully capture multicollinearity.
+that pairwise correlations do not fully capture multicollinearity.
 
 [![](./media/spss-exer-image151.png){width="3.4895833333333335in" height="3.1406255468066493in"}](./media/spss-exer-image151.png){target="_blank"}
 
 [![](./media/Corr2.png){width="6.09375in" height="3.1145833333333335in"}](./media/Corr2.png){target="_blank"}
 
-Select 'Analyze' 'Descriptive Statistics' 'QQ Plot' and select the
+Select Analyze -> Descriptive Statistics -> QQ Plot and select the
 residual variable. The plot below indicates that the distribution of the
 error terms is approximately normal. This can also be confirmed with a
 histogram.
@@ -1718,7 +1718,7 @@ per capita, LOG\_GDP).
 *Perform a simple logistic regression where 'aidscat2' is the outcome
 variable and 'log\_gdp' is the independent/predictor variable.*
 
-Select Analyze - Regression - Binary Logistic' to open the logistic
+Select Analyze -> Regression -> Binary Logistic' to open the logistic
 regression dialogue box.
 
 Select AIDSCAT2 as the binary dependent variable. Note that the category
@@ -1822,7 +1822,7 @@ predictor with two levels, whether or not the country is predominantly
 muslim (MUSLIM). MUSLIM is coded as 1 = yes and 0 = no, which we would
 recommend for any two-level predictors.
 
-Select 'Analyze'-\>'Regression'-\>'Binary Logistic' to re-enter the
+Select Analyze -> Regression -> Binary Logistic to re-enter the
 logistic regression dialogue box. Replace the log\_gdp covariate with
 muslim. We need to identify the predictor as categorical so select the
 categorical button. Move the MUSLIM covariate into the 'Categorical
@@ -2031,7 +2031,7 @@ variables (such as weight, and acceleration).
 
 4)  Create a histogram of Weight.
 
-5)  Create a QQ Plot for Weight (Analyze Descriptive Statistics QQ Plot
+5)  Create a QQ-Plot for Weight (Analyze Descriptive Statistics QQ Plot
     Select Weight, leave others as default settings OK)
 
 6)  Create a bar chart for Origin.
@@ -2129,7 +2129,7 @@ variables (such as weight, and acceleration).
 
     d.  Open SPSS
 
-    e.  File Open Data Select "Excel" under File Type
+    e.  File -> Open -> Data Select "Excel" under File Type
 
     f.  Browse for the Excel files and select Open
 
@@ -2142,7 +2142,7 @@ variables (such as weight, and acceleration).
 
 3)  Merge cars\_wave1 and cars\_wave2 (add cases).
 
-    j.  Data Merge Files Add Cases
+    j.  Data -> Merge Files -> Add Cases
 
     k.  Select the open data file, then select Continue
 
@@ -2172,7 +2172,7 @@ variables (such as weight, and acceleration).
     into a different variable. Give this new variable the proper
     attributes in variable view.
 
-    a.  Transform Recode into different variables
+    a.  Transform -> Recode into different variables
 
     b.  Select Country of Origin (ORIGIN)
 
@@ -2221,7 +2221,7 @@ variables (such as weight, and acceleration).
 
     w.  The formula to use: LP100K=(100\*3.785)/(1.609\*MPG)
 
-        i.  Transform Compute Variable
+        i.  Transform -> Compute Variable
 
         ii. Target Variable = LP100K
 
@@ -2235,7 +2235,7 @@ variables (such as weight, and acceleration).
 3)  Export this SPSS data set to Microsoft Excel (it's always good to
     have a back up!). Export all of the variables.
 
-    x.  File Save As
+    x.  File -> Save As
 
     y.  Change Files of Type to Excel
 
@@ -2247,7 +2247,7 @@ variables (such as weight, and acceleration).
 
 1)  Get descriptive statistics for all scale variables in the data set.
 
-    a.  Analyze Descriptive Statistics Descriptives
+    a.  Analyze -> Descriptive Statistics -> Descriptives
 
     b.  Select
 
@@ -2270,7 +2270,7 @@ variables (such as weight, and acceleration).
 2)  Get frequency tables for all categorical variables (nominal/ordinal)
     in the data set.
 
-    d.  Analyze Descriptive Statistics Frequencies
+    d.  Analyze -> Descriptive Statistics -> Frequencies
 
     e.  Select
 
@@ -2294,7 +2294,7 @@ variables (such as weight, and acceleration).
 
 3)  Create a histogram of Horsepower.
 
-    g.  Graphs Legacy Dialogs Histogram
+    g.  Graphs -> Legacy Dialogs -> Histogram
 
     h.  Variable: Horsepower
 
@@ -2308,7 +2308,7 @@ variables (such as weight, and acceleration).
 
 4)  Create a histogram of Weight.
 
-    l.  Graphs Legacy Dialogs Histogram
+    l.  Graphs -> Legacy Dialogs -> Histogram
 
     m.  Variable: Weight
 
@@ -2320,9 +2320,9 @@ variables (such as weight, and acceleration).
 
 [![](./media/spss-exer-image181.png){width="3.4873632983377076in" height="2.794326334208224in"}](./media/spss-exer-image181.png){target="_blank"}
 
-5)  Create a QQ Plot for Weight (to help assess normality)
+5)  Create a QQ-Plot for Weight (to help assess normality)
 
-    q.  Analyze Descriptive Statistics QQ Plot
+    q.  Analyze -> Descriptive Statistics -> QQ Plot
 
     r.  Select Weight, leave others as default settings
 
@@ -2332,7 +2332,7 @@ variables (such as weight, and acceleration).
 
 6)  Create a bar chart for Origin.
 
-    t.  Graphs Legacy Dialogs Bar
+    t.  Graphs -> Legacy Dialogs -> Bar
 
     u.  Simple, summaries for groups of cases
 
@@ -2350,7 +2350,7 @@ variables (such as weight, and acceleration).
 
     y.  Investigate Horsepower (descriptive statistics)
 
-        xi. Data Select Cases
+        xi. Data -> Select Cases
 
         xii. Select If Condition is Satisfied (select If button)
 
@@ -2362,7 +2362,7 @@ variables (such as weight, and acceleration).
 
         xvi. Select OK
 
-        xvii. Data Split File
+        xvii. Data -> Split File
 
         xviii.  Select Compare Groups
 
@@ -2372,7 +2372,7 @@ variables (such as weight, and acceleration).
 
         xxi. Select OK
 
-        xxii. Analyze Descriptive Statistics Descriptives
+        xxii. Analyze -> Descriptive Statistics -> Descriptives
 
         xxiii.  Select Horsepower
 
@@ -2382,7 +2382,7 @@ variables (such as weight, and acceleration).
 
 z.  Investigate Weight (descriptive statistics)
 
-    xxv. Analyze Descriptive Statistics Descriptives
+    xxv. Analyze -> Descriptive Statistics -> Descriptives
 
     xxvi. Select Weight
 
@@ -2397,7 +2397,7 @@ a.  What do you see happening in these two variables over time?
 
 b.  Remember to turn the Split File command off before proceeding!
 
-    xxix. Data Split File
+    xxix. Data -> Split File
 
     xxx. Select Reset
 
@@ -2411,7 +2411,7 @@ b.  Remember to turn the Split File command off before proceeding!
 
     a.  Add a Linear fit line.
 
-        i.  Graphs Legacy Dialog Scatter/Dot
+        i.  Graphs -> Legacy Dialog -> Scatter/Dot
 
         ii. Simple Scatter
 
@@ -2448,7 +2448,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
 
     c.  What is the p-value for the Pearson correlation?
 
-        xii. Analyze Correlate Bivariate
+        xii. Analyze -> Correlate -> Bivariate
 
         xiii. Select Horsepower and Weight
 
@@ -2470,7 +2470,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
 
 1)  Before doing any analyses, select only cases with Year not = 0.
 
-    a.  Data Select Cases
+    a.  Data -> Select Cases
 
     b.  Select If Condition is Satisfied (select If button)
 
@@ -2485,7 +2485,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
 2)  Create a side-by-side boxplot of MPG vs. Year. Choose MPG as the
     "variable" and Year as the "category axis".
 
-    g.  Graphs Legacy Dialogs Boxplot
+    g.  Graphs -> Legacy Dialogs -> Boxplot
 
     h.  Simple, Summaries for groups of cases
 
@@ -2509,7 +2509,7 @@ b.  What is the relationship between Horsepower and Weight as shown in
     Origin (ORIGIN). (Note: even though Origin is numeric in the data
     set, its values are **nominal**: American, European, and Japanese).
 
-    a.  Graphs Legacy Dialogs Boxplot
+    a.  Graphs -> Legacy Dialogs -> Boxplot
 
     b.  Simple, Summaries for groups of cases
 
@@ -2532,7 +2532,7 @@ a.  What is the general relationship between MPG and the Origin of the
 b.  Create a side-by-side Boxplot of Miles per gallon vs. the recoded
     Country of Origin (1=Domestic, 0=Foreign).
 
-    b.  Graphs Legacy Dialogs Boxplot
+    b.  Graphs -> Legacy Dialogs -> Boxplot
 
     c.  Simple, Summaries for groups of cases
 
@@ -2549,7 +2549,7 @@ b.  Create a side-by-side Boxplot of Miles per gallon vs. the recoded
 1)  Create a correlation matrix and scatter plot matrix for Horsepower,
     Weight, and Year. How strongly are these variables correlated?
 
-    a.  Graphs Legacy Dialogs Scatter/Dot
+    a.  Graphs -> Legacy Dialogs -> Scatter/Dot
 
     b.  Matrix Scatter
 

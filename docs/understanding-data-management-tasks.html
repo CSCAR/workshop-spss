@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Understanding Data Management Tasks | Introduction to SPSS</title>
   <meta name="description" content="Chapter 4 Understanding Data Management Tasks | Introduction to SPSS" />
-  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Understanding Data Management Tasks | Introduction to SPSS" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="CSCAR Staff" />
 
 
-<meta name="date" content="2020-01-22" />
+<meta name="date" content="2021-01-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,8 @@
   
 <link rel="prev" href="working-with-variables.html"/>
 <link rel="next" href="understanding-graphical-statistical-procedures.html"/>
+<script src="libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
-<script src="libs/elevate-section-attrs-2.0/elevate-section-attrs.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -189,7 +189,7 @@
 <li class="chapter" data-level="6.1.1" data-path="appendix.html"><a href="appendix.html#two-way-interactions"><i class="fa fa-check"></i><b>6.1.1</b> Two-Way Interactions</a></li>
 <li class="chapter" data-level="6.1.2" data-path="appendix.html"><a href="appendix.html#three-way-interactions"><i class="fa fa-check"></i><b>6.1.2</b> Three-Way Interactions</a></li>
 </ul></li>
-<li class="chapter" data-level="6.2" data-path="appendix.html"><a href="appendix.html#execise-solutions"><i class="fa fa-check"></i><b>6.2</b> Execise Solutions</a>
+<li class="chapter" data-level="6.2" data-path="appendix.html"><a href="appendix.html#exercise-solutions"><i class="fa fa-check"></i><b>6.2</b> Exercise Solutions</a>
 <ul>
 <li class="chapter" data-level="6.2.1" data-path="appendix.html"><a href="appendix.html#exercise-1"><i class="fa fa-check"></i><b>6.2.1</b> Exercise 1</a></li>
 <li class="chapter" data-level="6.2.2" data-path="appendix.html"><a href="appendix.html#exercise-2"><i class="fa fa-check"></i><b>6.2.2</b> Exercise 2</a></li>
@@ -238,7 +238,7 @@
 <div id="sorting-cases" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Sorting Cases</h2>
 <p>Sorting cases based on a particular variable is often necessary when
-managing data sets. Go to Data - Sort Cases to place the cases in
+managing data sets. Go to Data -&gt; Sort Cases to place the cases in
 order. Choose the variable that determines the ordering, and choose
 “Ascending” or “Descending”.</p>
 <p><a href="./media/spss-image42.png" target="_blank"><img src="media/spss-image42.png" style="width:4.04167in;height:3.88542in" /></a></p>
@@ -285,11 +285,11 @@ Cases”.</p>
 <p>Users can specify their own filter variable. He or she can use any
 variable as a filter as long as a value of 0 for that variable indicates
 exclusion and a value of 1 inclusion. Click the “Use filter variable”
-option under Data - Select Cases to do this; move your filter variable
+option under Data -&gt; Select Cases to do this; move your filter variable
 into the box.</p>
 <div id="if-condition-is-satisfied" class="section level3" number="4.2.1">
 <h3><span class="header-section-number">4.2.1</span> If Condition is Satisfied</h3>
-<p>Go to Data - Select Cases" to use only some of the cases. Click “If
+<p>Go to Data -&gt; Select Cases to use only some of the cases. Click “If
 condition is satisfied….” to select cases based on certain criteria.
 Then click the “If…” button to pull up a window in which you will
 state the condition. Some example conditions are:</p>
@@ -305,7 +305,7 @@ condition. Analyses will only use those cases that are not scratched
 out.</p>
 <p><a href="./media/spss-image43.png" target="_blank"><img src="media/spss-image43.png" style="width:5.23958in;height:4.72917in" /></a></p>
 <p><a href="./media/spss-image44.png" target="_blank"><img src="media/spss-image44.png" style="width:6.5in;height:4.03125in" /></a></p>
-<p>To return to the entire sample, go to Data - Select Cases, choose the
+<p>To return to the entire sample, go to Data -&gt; Select Cases, choose the
 radio button next to “All Cases,” and then click “OK”. The “Filter On”
 message will disappear and all results from that point on refer to the
 entire data set.</p>
@@ -376,17 +376,16 @@ gender and job category as grouping variables, for example, then SPSS
 will give all output for each job category group within each gender.</p>
 <p>To use Split File:</p>
 <ul>
-<li><p>Go to Data - Split File.</p></li>
+<li><p>Go to Data -&gt; Split File.</p></li>
 <li><p>Click on “Compare Groups” or “Organize Output by Groups”.</p></li>
 <li><p>Select variable(s) which divide the data into groups.</p></li>
 <li><p>Click OK.</p></li>
-<li><p>To turn off the Split File command, return to Data - Split File
+<li><p>To turn off the Split File command, return to Data -&gt; Split File
 and click on “Analyze all cases, do not create groups”.</p></li>
 </ul>
 <p><a href="./media/spss-image49.png" target="_blank"><img src="media/spss-image49.png" style="width:4.625in;height:3.58333in" /></a></p>
 <p><strong>Try it: Use <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav">section4_data.sav</a>. Obtain the descriptive statistics for
-DepScale_01 for males and females separately. Hint: Select Analyze -
-Descriptive Statistics - Descriptives.</strong></p>
+DepScale_01 for males and females separately. Hint: Select Analyze -&gt; Descriptive Statistics -&gt; Descriptives.</strong></p>
 <p><a href="./media/spss-image50.png" target="_blank"><img src="media/spss-image50.png" style="width:3.93125in;height:2.875in" /></a></p>
 <p><a href="./media/spss-image-splitfile.png" target="_blank"><img src="media/spss-image-splitfile.png" style="width:5in;height:1.5in" /></a></p>
 </div>
@@ -394,8 +393,7 @@ Descriptive Statistics - Descriptives.</strong></p>
 <h2><span class="header-section-number">4.4</span> Exercise 5 – Subsetting Data</h2>
 <p>Open <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise5/exercise5_data.sav">exercise5_data.sav</a>.</p>
 <p>Select male managers. What is their average age?</p>
-<p>(You can obtain the average age by choosing Analyze - Descriptive
-Statistics - Descriptives and moving “Age of Respondent (age)”
+<p>(You can obtain the average age by choosing Analyze -&gt; Descriptive Statistics -&gt; Descriptives and moving “Age of Respondent (age)”
 to the right hand side.)</p>
 <p>Use the “Split File” procedure to get the average age for each job
 category.</p>
@@ -412,7 +410,7 @@ these files together using the Add Cases command.</p>
 <p>To merge the files, the basic steps are:</p>
 <ul>
 <li><p>Open the first data file.</p></li>
-<li><p>Go to “Data” “Merge Files” “Add Cases”.</p></li>
+<li><p>Go to Data -&gt; Merge Files -&gt; Add Cases.</p></li>
 <li><p>Find and select the second file, containing the additional cases.</p></li>
 <li><p>Choose variables to be included in the resulting file.</p></li>
 <li><p>Click OK.</p></li>
@@ -441,7 +439,7 @@ you may want to rename one of the two to match the other; simply select
 the one whose name you would like to change and click “Rename”. If you
 do not use the Rename option, the software will use the name from the
 current working data file.</p>
-<p>The last option is the box labeled “Indicate case sourse as variable”.
+<p>The last option is the box labeled “Indicate case source as variable”.
 If you check this box, you can specify a name for a variable in the new
 file that will indicate the file that the case came from.</p>
 <p>SPSS sets up the new variable as follows:</p>
@@ -457,7 +455,7 @@ information. If we want to combine all the information into one new
 file, we want to add variables to one of the files.</p>
 <p><a href="./media/merging_image4.png" target="_blank"><img src="media/merging_image4.png" width="576" height="432" /></a></p>
 <p>Before actually using the “Add Variables” procedure, which is found
-under “Data” “Merge Files” “Add Variables”, there are certain
+under Data -&gt; Merge Files -&gt; Add Variables, there are certain
 prerequisites that SPSS is very insistent upon:</p>
 <ul>
 <li><p>Both files must contain a key “matching” variable, usually ID, which
@@ -470,7 +468,7 @@ matching variable. Save each file in its sorted form.</p></li>
 <p><strong>Note:</strong> it is NOT necessary to have exactly the same cases in both
 files.</p>
 <p>If all of these conditions are met, we can proceed with the Add
-Variables procedure. The first step is to identify the exernal file that
+Variables procedure. The first step is to identify the external file that
 we will obtain the new variables from. SPSS identifies variables as
 follows:</p>
 <p>* from the working, or current, data file</p>
@@ -504,7 +502,7 @@ information for that group (e.g., job category), and take that
 information back to each and every individual in that group in the
 original data file. For that reason, SPSS sees the aggregate data set as
 a reference table, which of course includes the key variable that
-attachesthe appropriate information to the individuals.</p>
+attaches the appropriate information to the individuals.</p>
 <p>If you begin in the individual data set, go to Add Variables and proceed
 as if both files have individual data. Then select the “Non-active
 dataset is keyed table” option, notifying SPSS that the external file is

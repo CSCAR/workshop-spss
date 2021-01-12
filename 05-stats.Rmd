@@ -92,7 +92,7 @@ of any data point with respect to the other data points in a variable
 (Percentiles, Quartiles, Boxplots, etc.).
 
 In SPSS, there are two procedures which provide simple descriptive
-statistics. You can find both procedures under Analyze - Descriptive
+statistics. You can find both procedures under Analyze -> Descriptive
 Statistics.
 
 [![](./media/spss-image55.png){width="4.5in" height="2.4583333333333335in"} ](./media/spss-image55.png){target="_blank"}
@@ -215,11 +215,11 @@ While there are formal tests of normality, typically assessment is done
 with a histogram (looking for that bell shape) or a QQ-plot, which looks
 for its values to fall along the 90° line. The histogram can be created
 from the Histogram Legacy Dialog, the QQ-plot is created under Analyze
-- Descriptive Statistics - QQPlot.
+-> Descriptive Statistics -> QQPlot.
 
 **Try it: Use [section5_1_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav). Obtain a histogram for the variable
 "Age" and display the normal curve. Obtain a QQ plot for the variable
-"Age". Hint: Analyze - Descriptive Statistics - QQPlot.**
+"Age". Hint: Analyze -> Descriptive Statistics -> QQPlot.**
 
 [![](./media/spss-image67.png){width="4.0625in" height="2.7527777777777778in"} ](./media/spss-image67.png){target="_blank"}
 
@@ -241,8 +241,8 @@ Obtain the appropriate descriptive statistics for each variable.
 Remember, continuous variables should be investigated with descriptives
 and categorical variables should be investigated with frequency tables.
 
-\*Hint: Select more than one variable in the "Analyze","Descriptive
-Statistics","Descriptives", or "Frequencies" dialog boxes.
+\*Hint: Select more than one variable in the Analyze -> Descriptive
+Statistics -> Descriptives, or Analyze -> Descriptive Statistics -> Frequencies dialog boxes.
 
 **Part 2**: Assess the distribution of the Occupational Prestige Score
 ("prestg80") with both a histogram (normal curve displayed) and a Q-Q
@@ -252,7 +252,7 @@ Scores is normally distributed reasonable?
 **Part 3**: Compare the average highest year of school completed
 ("educ") for males and females.
 
-\*Hint: First split the file by "sex" (Data - Split File), then
+\*Hint: First split the file by "sex" (Data -> Split File), then
 calculate the descriptive statistics. Be sure to return to the Split
 File menu when you are done with this question and return the dialog
 box to "Analyze all cases".
@@ -293,20 +293,20 @@ The statistical significance of a correlation is the chance that you
 would observe a correlation that high or higher if there really was
 no correlation between the variables.
 
-For the Pearson Correlation Coefficient in SPSS, select Analyze -
-Correlate - Bivariate.
+For the Pearson Correlation Coefficient in SPSS, select Analyze ->
+Correlate -> Bivariate.
 
 [![](./media/spss-image71.png){width="3.8541666666666665in" height="3.0in"} ](./media/spss-image71.png){target="_blank"}
 
-For the Scatterplot in SPSS, select Graphs - Legacy Dialogs
-- Scatter/Dot, choose "Simple Scatter", and click "Define".
+For the Scatterplot in SPSS, select Graphs -> Legacy Dialogs
+-> Scatter/Dot, choose "Simple Scatter", and click "Define".
 
 [![](./media/spss-image64.png){width="3.880323709536308in" height="3.9676115485564303in"}](./media/spss-image64.png){target="_blank"}
 
 [![](./media/spss-image63.png){width="3.18125in" height="1.6041666666666667in"}](./media/spss-image63.png){target="_blank"}
 
 **Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav) Investigate the correlation between
-the individual behavior intention scales. Select Analyze - Correlate -
+the individual behavior intention scales. Select Analyze -> Correlate ->
 Bivariate. Select "BIndBehInt\_Pre" and "BIndBehInt\_Post". Select
 "OK".**
 
@@ -327,7 +327,7 @@ test.
 
 To visually investigate this relationship, use a scatterplot:
 
-Select Graphs - Legacy Dialogs - Scatter/Dot.
+Select Graphs -> Legacy Dialogs -> Scatter/Dot.
 
 Select "Simple Scatter" and "Define".
 
@@ -364,7 +364,7 @@ where the cell values represent the counts in our data that fall in
 those particular categories. We can perform a Chi-square test to
 determine if there is a relationship between smoking and lung cancer.
 
-Select Analyze - Descriptive Statistics - Crosstabs for the Chi-square
+Select Analyze -> Descriptive Statistics -> Crosstabs for the Chi-square
 test of independence and make sure to check the box "Chi-Square" under
 "Statistics". You can produce a clustered bar chart to visualize this
 table by checking the box for "Display Clustered Bar Chart" in the
@@ -379,8 +379,8 @@ participate in jokes that are derogatory to any racial group?
 Investigate the data to see what types of variables we have to answer
 this question. We have the categorical variable "Sex" and the
 categorical variable "Joke". Since we are comparing two categorical
-variables, we will use a Chi-square test. Select "Analyze" "Descriptive
-Statistics" "Crosstabs". Select "Sex" for rows, "Joke" for column, check
+variables, we will use a Chi-square test. Select Analyze -> Descriptive
+Statistics -> Crosstabs. Select "Sex" for rows, "Joke" for columns, check
 the box to "Display clustered bar charts". Select "Statistics" and check
 the box for "Chi-Square". Select "Continue" and the select "OK".**
 
@@ -417,14 +417,14 @@ Levene's test to assess homogeneity of variance. You can also
 side-by-side box plots to investigate the relationship between a
 continuous dependent variable and a categorical predictor.
 
-In SPSS, select Analyze - Compare Means to find the two-sample t-test
+In SPSS, select Analyze -> Compare Means to find the two-sample t-test
 and one-way ANOVA
 
 [![](./media/spss-image81.png){width="4.229166666666667in" height="2.3645833333333335in"}](./media/spss-image81.png){target="_blank"}
 
 [![](./media/spss-image82.png){width="4.90625in" height="2.7916666666666665in"}](./media/spss-image82.png){target="_blank"}
 
-For the side-by-side box plots, select Graphs- Legacy Dialogs - Boxplot,
+For the side-by-side box plots, select Graphs -> Legacy Dialogs -> Boxplot,
 choose "Simple" and "Summaries for groups of cases", and click "Define."
 In the next dialog, move the continuous variable and the grouping variable
 from the left-hand list of variables to the "Variable" and "Category Axis" boxes.
@@ -436,8 +436,8 @@ from the left-hand list of variables to the "Variable" and "Category Axis" boxes
 **Try it: Use [section5_2_data.sav](https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav). Is there a relationship between sex
 and the post intervention intension scale score? Sex is a categorical
 variable, the intension scale is continuous. We can use either an
-independent samples t-test or one-way ANOVA. Select Analyze - Compare
-Means - Independent Samples T Test. Select "BIndBehInt\_Post" for Test
+independent samples t-test or one-way ANOVA. Select Analyze -> Compare
+Means -> Independent Samples T Test. Select "BIndBehInt\_Post" for Test
 Variable(s). Select "Sex" for Grouping Variable. Select "Define
 Groups..." and let group 1=1, group 2=2. Select "Continue" and
 "OK".**
@@ -455,7 +455,7 @@ information for "Equal variances assumed". Our p-value is .631, so we
 fail to reject the null hypothesis that males and females have similar
 average intention scale scores.
 
-Select Analyze - Compare Means - One-Way ANOVA". Select
+Select Analyze -> Compare Means -> One-Way ANOVA". Select
 "BIndBehInt\_Post" for the dependent list. Select "Sex" for the factor.
 Select "OK"
 
@@ -466,7 +466,7 @@ Select "OK"
 The ANOVA table above yields the same p-value and conclusion as using
 the two-sample t-test.
 
-Select Graphs - Legacy Dialogs - Boxplot. Select "Simple" and "Summaries
+Select Graphs -> Legacy Dialogs -> Boxplot. Select "Simple" and "Summaries
 for groups of cases" and click "Define". Select the continuous dependent variable
 for "Variable" and the grouping variable for "Category Axis". Select "OK".
 
@@ -490,7 +490,7 @@ that the difference is significantly different from 0. This test assumes
 that the sample mean of the differences is normally distributed. The test
 only considers cases with both pre-treatment and post-treatment values.
 
-In SPSS, select Analyze - Compare Means - Paired Samples T-Test.
+In SPSS, select Analyze -> Compare Means -> Paired Samples T-Test.
 
 [![](./media/spss-image90.png){width="6.05625in" height="3.3645833333333335in"}](./media/spss-image90.png){target="_blank"}
 
@@ -499,7 +499,7 @@ average intention scores are statistically different from each other.
 Since these variables are pre and post variables, it would be
 interesting to see if the intervention was successful in increasing the
 scores of participants. To investigate this, we will use a paired
-t-test. Select Analyze - Compare Means - Paired Samples T-Test. Select
+t-test. Select Analyze -> Compare Means -> Paired Samples T-Test. Select
 "BIndBehInt\_Pre" for Variable 1. Select "BIndBehInt\_Post" for Variable
 2. Select "OK".**
 
