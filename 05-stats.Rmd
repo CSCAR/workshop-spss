@@ -76,6 +76,15 @@ distributional assumption, and generally use ranks in the place of the
 raw scores. The table below gives non-parametric tests that are
 equivalent to common parametric tests.
 
+| Parametric Test                       |                       Non-Parametric Test        |
+|---------------------------------------|--------------------------------------------------|
+| Pearson Correlation Coefficient       |       Spearman Correlation Coefficient           |
+| Independent Samples t-test (2 groups) | Mann-Whitney / Wilcoxon Rank Sum Test (2 Groups) |
+| Paired Samples t-test (2 groups)      |      Wilcoxon Signed Rank Tests (2 Groups)       |
+| One Way ANOVA (3+ groups)             |             Kruskal-Wallis Test                  |
+| Repeated Measures ANOVA               |               Friedman's Test                    |
+| Chi-Square Test                       |                       Fisher's Exact Test        |
+
 ## Basic Summary Statistics (Investigate One Variable at a Time)
 
 
