@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+  resources: data
+
+book:
+  title: "Introduction to SPSS"
+  chapters:
+    - index.qmd
+    - 01-basics.qmd
+    - 02-variables.qmd
+    - 03-data-management.qmd
+    - 04-stats.qmd
+    - appendix.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    syntax-definitions:
+        - spss.xml
+    callout-appearance: simple
+    toc: true
+    toc-depth: 4

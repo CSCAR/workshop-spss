@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Introduction to SPSS - 2&nbsp; Working with Variables</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./03-data-management.html" rel="next">
+<link href="./01-basics.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-variables.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introduction to SPSS</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview of the Workshop</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-variables.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-data-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding Data Management Tasks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-stats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Understanding Graphical &amp; Statistical Procedures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#variable-view-in-data-editor" id="toc-variable-view-in-data-editor" class="nav-link active" data-scroll-target="#variable-view-in-data-editor"><span class="header-section-number">2.1</span> Variable View in Data Editor</a>
+  <ul>
+  <li><a href="#variable-name" id="toc-variable-name" class="nav-link" data-scroll-target="#variable-name"><span class="header-section-number">2.1.1</span> Variable Name</a></li>
+  <li><a href="#variable-type" id="toc-variable-type" class="nav-link" data-scroll-target="#variable-type"><span class="header-section-number">2.1.2</span> Variable Type</a></li>
+  <li><a href="#variable-labels" id="toc-variable-labels" class="nav-link" data-scroll-target="#variable-labels"><span class="header-section-number">2.1.3</span> Variable Labels</a></li>
+  <li><a href="#value-labels" id="toc-value-labels" class="nav-link" data-scroll-target="#value-labels"><span class="header-section-number">2.1.4</span> Value Labels</a></li>
+  <li><a href="#missing-value-labels" id="toc-missing-value-labels" class="nav-link" data-scroll-target="#missing-value-labels"><span class="header-section-number">2.1.5</span> Missing Value Labels</a></li>
+  <li><a href="#columns-alignment" id="toc-columns-alignment" class="nav-link" data-scroll-target="#columns-alignment"><span class="header-section-number">2.1.6</span> Columns &amp; Alignment</a></li>
+  <li><a href="#measure" id="toc-measure" class="nav-link" data-scroll-target="#measure"><span class="header-section-number">2.1.7</span> Measure</a></li>
+  <li><a href="#copy-and-paste-variable-attributes" id="toc-copy-and-paste-variable-attributes" class="nav-link" data-scroll-target="#copy-and-paste-variable-attributes"><span class="header-section-number">2.1.8</span> Copy and Paste Variable Attributes</a></li>
+  </ul></li>
+  <li><a href="#exercise-3-variable-attributes" id="toc-exercise-3-variable-attributes" class="nav-link" data-scroll-target="#exercise-3-variable-attributes"><span class="header-section-number">2.2</span> Exercise 3 – Variable Attributes</a></li>
+  <li><a href="#creating-new-variables-and-defining-the-correct-attributes" id="toc-creating-new-variables-and-defining-the-correct-attributes" class="nav-link" data-scroll-target="#creating-new-variables-and-defining-the-correct-attributes"><span class="header-section-number">2.3</span> Creating New Variables and Defining the Correct Attributes</a></li>
+  <li><a href="#computing-variables" id="toc-computing-variables" class="nav-link" data-scroll-target="#computing-variables"><span class="header-section-number">2.4</span> Computing Variables</a>
+  <ul>
+  <li><a href="#dealing-with-missing-data" id="toc-dealing-with-missing-data" class="nav-link" data-scroll-target="#dealing-with-missing-data"><span class="header-section-number">2.4.1</span> Dealing with Missing Data</a></li>
+  <li><a href="#list-of-functions-available-in-the-compute-command" id="toc-list-of-functions-available-in-the-compute-command" class="nav-link" data-scroll-target="#list-of-functions-available-in-the-compute-command"><span class="header-section-number">2.4.2</span> List of Functions Available in the Compute Command</a></li>
+  <li><a href="#count-values" id="toc-count-values" class="nav-link" data-scroll-target="#count-values"><span class="header-section-number">2.4.3</span> Count Values</a></li>
+  <li><a href="#manual-recoding" id="toc-manual-recoding" class="nav-link" data-scroll-target="#manual-recoding"><span class="header-section-number">2.4.4</span> Manual Recoding</a></li>
+  </ul></li>
+  <li><a href="#automatic-recoding" id="toc-automatic-recoding" class="nav-link" data-scroll-target="#automatic-recoding"><span class="header-section-number">2.5</span> Automatic Recoding</a></li>
+  <li><a href="#conditional-transformations-with-ifthen-logic" id="toc-conditional-transformations-with-ifthen-logic" class="nav-link" data-scroll-target="#conditional-transformations-with-ifthen-logic"><span class="header-section-number">2.6</span> Conditional Transformations with If/Then Logic</a></li>
+  <li><a href="#rank-cases" id="toc-rank-cases" class="nav-link" data-scroll-target="#rank-cases"><span class="header-section-number">2.7</span> Rank Cases</a></li>
+  <li><a href="#exercise-4-computing-and-transforming-variables" id="toc-exercise-4-computing-and-transforming-variables" class="nav-link" data-scroll-target="#exercise-4-computing-and-transforming-variables"><span class="header-section-number">2.8</span> Exercise 4 – Computing and Transforming Variables</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Data for this section: <a href="data/section2_data.sav">section2_data.sav</a></p>
+<section id="variable-view-in-data-editor" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="variable-view-in-data-editor"><span class="header-section-number">2.1</span> Variable View in Data Editor</h2>
+<p>Variables in SPSS vary in length and may consist of letters, numbers, dates, or dollar values. Some values, such as “don’t know” replies on a survey, may be codes for missing values. SPSS allows you to label variables and values with more meaningful phrases that can appear in the output for greater clarity.</p>
+<p>To view or edit the current format for a variable, double-click on the variable’s name in the Data Editor. Doing this will open the Variable View tab in the Data Editor window. Alternatively, select the “Variable View” tab at the bottom left corner of the data editor window.</p>
+<p><strong>Try it: Open <a href="data/section2_data.sav">section2_data.sav</a>. Select “Variable View”.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image15.png" target="_blank"><img src="./media/spss-image15.png" style="width:6.5in;height:2.70833in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>There are eleven columns in the Variable View, containing values that are attributes for the variables that you can change:</p>
+<ul>
+<li>Name The name of each variable in the data set</li>
+<li>Type The type (numeric, character, date, etc) and length</li>
+<li>Width The amount of information in bytes stored in memory</li>
+<li>Decimals The number of decimals displayed for numeric vars</li>
+<li>Label A specific label for a variable</li>
+<li>Values Variable value labels</li>
+<li>Missing Missing value codes</li>
+<li>Columns Column width for variable display</li>
+<li>Align The alignment of values within a cell</li>
+<li>Measure The measurement scale for a variable</li>
+<li>Input The role of the variable when analyzing the data</li>
+</ul>
+<section id="variable-name" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="variable-name"><span class="header-section-number">2.1.1</span> Variable Name</h3>
+<p>Be sure the names follow these rules:</p>
+<ul>
+<li>Variable names should be no more than 64 characters long, and preferably no more than 8 characters long.</li>
+<li>Variable names must start with a letter.</li>
+<li>Variable names may only have letters, numbers, or underscores in them.</li>
+<li>Variable names may not have the following characters: <code>%</code>,<code>$</code>,<code>#</code>,<code>@</code>,<code>!</code>,<code>+</code>,<code>*</code>,<code>~</code>,<code>"</code>,<code>-</code>,<code>.</code>.</li>
+<li>Variable names may not have blank spaces.</li>
+<li>Each variable name must be unique; the same variable name can’t appear twice.</li>
+<li>Variable names must be on one row only.</li>
+</ul>
+</section>
+<section id="variable-type" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="variable-type"><span class="header-section-number">2.1.2</span> Variable Type</h3>
+<p>The most fundamental characteristic of a variable is its type. These are the four most important types:</p>
+<ul>
+<li>Numeric includes comma, dot, and scientific notation types</li>
+<li>String also called character, alpha, or alpha-numeric</li>
+<li>Dollar includes custom currency type but is still numeric</li>
+<li>Date is still numeric but displayed using hours, minutes, and seconds</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image16.png" target="_blank"><img src="./media/spss-image16.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+<p>Most statistical analyses use only numeric variables. SPSS can handle a short string variable, such as gender coded as “m” and “f”, when that variable defines groups for a t-test or an analysis of variance (ANOVA).</p>
+<p>The Dollar type changes the way the values appear in the data editor and the output, but all analyses treat the Dollar type as numeric.</p>
+<p>The appearance of a date variable does not affect the way that the .sav file stores the date. SPSS understands date/time variables as the number of seconds since midnight, October 14, 1582 which is a significant date marking a change in the Gregorian calendar. If you subtract one date from the other to create a new variable, the result will be in seconds. To change back to days, hours, or years, it is necessary to use a function to turn the information into a more usable, practical form. See the section Computing New Variables for more information.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Change the Variable Type for the ID variable from Dollar to Numeric.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image17.png" target="_blank"><img src="./media/spss-image17.png" style="width:6.5in;height:3.69097in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image18.png" target="_blank"><img src="./media/spss-image18.png" style="width:6.5in;height:3.11389in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="variable-labels" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="variable-labels"><span class="header-section-number">2.1.3</span> Variable Labels</h3>
+<p>Variable labels attach a description to a variable, and this description can show up in the output. To enter a variable label, click in the Label cell for a given variable in Variable View, and enter a description for the variable. Variable labels can be up to 255 characters as of Version 15.0.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Provide a label for DepScale (Depression Scale 1998).</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image19.png" target="_blank"><img src="./media/spss-image19.png" style="width:6.5in;height:3.69097in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="value-labels" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="value-labels"><span class="header-section-number">2.1.4</span> Value Labels</h3>
+<p>Value labels are similar, except that they refer to specific values within that variable. You don’t have to enter labels for all values. A value label can be up to 120 bytes long. Suppose the following question was in a survey:</p>
+<p>Which of the following describes your political beliefs best?</p>
+<ol type="1">
+<li>Democrat</li>
+<li>Republican</li>
+<li>Libertarian</li>
+<li>Other</li>
+</ol>
+<p>You will enter the responses as 1, 2, 3, or 4. These numbers are arbitrarily, however, and some users may not know or may forget their meaning. Value labels allow the user to attach meaning to the numbers. Value labels are absolutely critical in large data files. Like variable labels, value labels will appear in many of the results provided by SPSS.</p>
+<p>To assign value labels, click on the Values cell for a given variable, and click on the small grey box. Enter a number in the Value box, then the corresponding label in the Value Label box. Then press “Add”. If you do not press “Add”, the information you have typed for that value will be ignored.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Enter in value labels for variable Education:</strong></p>
+<ul>
+<li>1: High School or Less</li>
+<li>2: Some College</li>
+<li>3: College Graduate</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image20.png" target="_blank"><img src="./media/spss-image20.png" style="width:4.875in;height:3.10417in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="missing-value-labels" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="missing-value-labels"><span class="header-section-number">2.1.5</span> Missing Value Labels</h3>
+<p>There are two kinds of missing values: system-missing, in which the cell is empty, and user-missing, which flags a value as an invalid response. There often could be several reasons that a value is not available, and user-missing values allow us to discriminate between them. Examples of user-defined missing values are:</p>
+<ul>
+<li>99 “Don’t Know” reply on a survey</li>
+<li>777 Inapplicable, such as with number of births for a male respondent</li>
+<li>-999 Respondent refused to answer, which often occurs with income</li>
+</ul>
+<p>Enter user-missing values just like any other response during data entry. You need to tag the value as missing, however, so that SPSS does not include it in any computations. Consider the repercussions if we forgot to specify the 777 in the above example as Inapplicable, and then attempted to calculate the average number of births!</p>
+<p>You can specify user-missing values by clicking on the cell in the Missing column for a given variable, and then clicking on the small grey box that appears as “(…)”. You may specify single values or a range of values.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>.Enter missing value codes for Education (99).</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image21.png" target="_blank"><img src="./media/spss-image21.png" style="width:3.375in;height:2.48958in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="columns-alignment" class="level3" data-number="2.1.6">
+<h3 data-number="2.1.6" class="anchored" data-anchor-id="columns-alignment"><span class="header-section-number">2.1.6</span> Columns &amp; Alignment</h3>
+<p>You can change the alignment of the data by changing the Columns or Align attributes. You can use the Align attribute to center values or align them to the right or left of the cell in the Data Editor. Additionally, you can decrease or increase the width of the columns using the Columns attribute. A shortcut is to place the mouse at the right edge of a variable name, click on the border, and drag the column to be wider or narrower.</p>
+<p>Asterisks (*) in the cells within a particular column mean that the column is not wide enough to display the data values. Simply increase the column width and the values should appear properly in the Data Editor. Another possible problem might be that the width is too small to display all of the information for a variable.</p>
+<p>The Columns and Align attributes have no effect on the data; they only affect the way you see the data in the editor.</p>
+</section>
+<section id="measure" class="level3" data-number="2.1.7">
+<h3 data-number="2.1.7" class="anchored" data-anchor-id="measure"><span class="header-section-number">2.1.7</span> Measure</h3>
+<p>Each variable in SPSS may be designated as</p>
+<ul>
+<li>Scale a continuous variable</li>
+<li>Ordinal a categorical variable with natural ordering</li>
+<li>Nominal categorical without any natural ordering</li>
+</ul>
+<p>Graphs from the Interactive graphics method use this information. This field has no bearing for most procedures.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Change the Measure for the Education variable from Scale to Ordinal.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image22.png" target="_blank"><img src="./media/spss-image22.png" style="width:6.5in;height:2.29653in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="copy-and-paste-variable-attributes" class="level3" data-number="2.1.8">
+<h3 data-number="2.1.8" class="anchored" data-anchor-id="copy-and-paste-variable-attributes"><span class="header-section-number">2.1.8</span> Copy and Paste Variable Attributes</h3>
+<p>You can set up any of the attributes discussed above, such as type, labels, missing values, and column format, and apply them to numerous variables all at once. Suppose a researcher has a series of 50 variables that all have values 1 through 5 as follows:</p>
+<ul>
+<li>1 Strongly disagree</li>
+<li>2 Disagree</li>
+<li>3 Neutral</li>
+<li>4 Agree</li>
+<li>5 Strongly agree</li>
+</ul>
+<p>Value labels would be useful for these variables, but it would be extremely tedious to set up value labels for all 50 variables. Set up the value labels for one of the 50 variables, and then click on the cell containing the value labels for that variable. Select “Copy” from the “Edit” menu or hit CTRL + C, and then highlight the value labels cells for the remaining 49 variables by clicking on the first empty cell and dragging downward. Select “Paste” from the “Edit” menu or hit CTRL + V, and the value labels will be applied to the remaining 49 variables instantly. You can also right-click and use the copy and paste functions. You can use this same copy and paste feature for other variable attributes and save a great deal of time!</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Copy and paste the missing value code from Education to DepScale.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image23.png" target="_blank"><img src="./media/spss-image23.png" style="width:6.5in;height:2.78403in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image24.png" target="_blank"><img src="./media/spss-image24.png" style="width:6.5in;height:2.78403in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="exercise-3-variable-attributes" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="exercise-3-variable-attributes"><span class="header-section-number">2.2</span> Exercise 3 – Variable Attributes</h2>
+<p>Open <a href="data/exercise3/exercise3_data.sav">exercise3_data.sav</a> and go to Variable View. Practice defining the correct attributes to each variable by following the code book below.</p>
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 35%">
+<col style="width: 30%">
+<col style="width: 13%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Label</th>
+<th style="text-align: left;">Value Label</th>
+<th style="text-align: left;">Missing Values</th>
+<th style="text-align: left;">Measure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">IDnum</td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sex</td>
+<td style="text-align: left;">Respondent’s Sex</td>
+<td style="text-align: left;">1 = Male</td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;">Nominal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = Female</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">race</td>
+<td style="text-align: left;">Race of Respondent</td>
+<td style="text-align: left;">1 = White</td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;">Nominal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = Black</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3 = Other</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">region</td>
+<td style="text-align: left;">Region of the United States</td>
+<td style="text-align: left;">1 = North East</td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;">Nominal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = South East</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3 = West</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">happy</td>
+<td style="text-align: left;">General Happiness</td>
+<td style="text-align: left;">0 = NAP</td>
+<td style="text-align: left;">0, 8, 9</td>
+<td style="text-align: left;">Ordinal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = Very Happy</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = Pretty Happy</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3 = Not too Happy</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">8 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">9 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">life</td>
+<td style="text-align: left;">Is Life Exciting or Dull</td>
+<td style="text-align: left;">0 = NAP</td>
+<td style="text-align: left;">0, 8, 9</td>
+<td style="text-align: left;">Ordinal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">1 = Exciting</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = Routine</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3 = Dull</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">8 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">9 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">sibs</td>
+<td style="text-align: left;">Number of Brothers and Sisters</td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;">98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">childs</td>
+<td style="text-align: left;">Number of Children</td>
+<td style="text-align: left;">8 = Eight or More</td>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">9 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">age</td>
+<td style="text-align: left;">Age of Respondent</td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;">0, 98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">educ</td>
+<td style="text-align: left;">Highest Year of School Completed</td>
+<td style="text-align: left;">97 = NAP</td>
+<td style="text-align: left;">97, 98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">paeduc</td>
+<td style="text-align: left;">Highest Year School, Father</td>
+<td style="text-align: left;">97 = NAP</td>
+<td style="text-align: left;">97, 98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">maeduc</td>
+<td style="text-align: left;">Highest Year School, Mother</td>
+<td style="text-align: left;">97 = NAP</td>
+<td style="text-align: left;">97, 98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">seeduc</td>
+<td style="text-align: left;">Highest Year School, Spouse</td>
+<td style="text-align: left;">97 = NAP</td>
+<td style="text-align: left;">97, 98, 99</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">98 = DK</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">99 = NA</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">prestg80</td>
+<td style="text-align: left;">Occupational Prestige Score</td>
+<td style="text-align: left;">0 = DK,NA,NAP</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">Scale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">occcat80</td>
+<td style="text-align: left;">Occupational Category</td>
+<td style="text-align: left;">1 = Managerial and Professional</td>
+<td style="text-align: left;"><none></none></td>
+<td style="text-align: left;">Nominal</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">2 = Technical and Sales</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">3 = Service</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">4 = Farming, Forest, and Fishing</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">5 = Production and Craft</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">6 = General Labor</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="creating-new-variables-and-defining-the-correct-attributes" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="creating-new-variables-and-defining-the-correct-attributes"><span class="header-section-number">2.3</span> Creating New Variables and Defining the Correct Attributes</h2>
+<p>To create a new variable in SPSS for entering data, simply double-click on an empty column’s heading, or start entering data directly into the column in Data View. To enter values, first click in an empty cell; then type each value and press either return or the down arrow.</p>
+<p>During data entry, be aware that the order of cases in an SPSS data file can change because certain procedures require that cases be sorted. Therefore, be careful to match values with an ID variable. The case that occupied the first row in the file a week ago may not be in the first row any longer!</p>
+<p>New variables, including those created by computation or recoding, appear at the far right of the data file. Use the scroll bar at the bottom to verify that a new variable was properly created.</p>
+<p>Cut, copy, or paste a variable or insert a new empty column by right clicking on a variable name.</p>
+<p>A pasted variable <strong>is not</strong> inserted in between existing variables. It replaces the highlighted column entirely, and could over-write an existing variable. Be sure to create a new, blank column and paste on top of that.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Create a new variable called NewVar.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image26.png" target="_blank"><img src="./media/spss-image26.png" style="width:6.5in;height:2.78403in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="computing-variables" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="computing-variables"><span class="header-section-number">2.4</span> Computing Variables</h2>
+<p>You can use the COMPUTE command to create new numeric or string variables by:</p>
+<ul>
+<li>Assigning a particular value to all cases, or a subset of cases</li>
+<li>Transforming a variable by taking a log, or another mathematical function</li>
+<li>Creating a sum, average, or other summary of several existing variables</li>
+</ul>
+<p><strong>Helpful Hint:</strong> You can use the COMPUTE procedure to edit or overwrite an existing variable, but we highly recommend that you create new variables. If you do over-write an existing variable, be aware that some old values may not be overwritten. If some of the necessary information is missing for a certain case in the file, and the software cannot compute the new value, then the value from the old variable will remain.</p>
+<p>Select Transform -&gt; Compute Variable and enter a name for the new variable in the upper left box, labeled “Target Variable.” SPSS will automatically create the new variable when it executes the compute command.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image27.png" target="_blank"><img src="./media/spss-image27.png" style="width:6.5in;height:5.0125in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>By default, SPSS assumes that the user wants to compute a numeric variable. If you want to create a string variable, click “Type &amp; Label” underneath the new variable name, and select “String.”</p>
+<p>In the box titled “Numeric Expression”, provide the actual formula or value for the new variable. You may write the numeric expressions by hand or insert variables and functions using the mouse.</p>
+<p><strong>Helpful Hint:</strong> Click on the function name to get a function description in the dialogue box.</p>
+<p>If you want to create new dollar or date variables, then proceed as if creating a numeric variable. The type can be changed after the compute command is used. Note that seconds are the units of measurement for date variables. To create date variables, we must use functions specifically designed for the date variable type. See the List of Functions below for more information.</p>
+<section id="dealing-with-missing-data" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="dealing-with-missing-data"><span class="header-section-number">2.4.1</span> Dealing with Missing Data</h3>
+<p>Applying a function to a variable containing missing values will result in a variable with corresponding system-missing values.</p>
+<p>When taking the mean or sum of a set of variables, be sure to use the mean() and sum() functions. SPSS only evaluates formulas such as <code>(var1 + var2 + var3 + var4)/4</code> if all four variables have valid, non-missing values.</p>
+<p>By contrast, the software evaluates the formula <code>mean(var1, var2, var3, var4)</code> as long as an individual has at least one valid response. You can also stipulate that SPSS perform the calculation only when there are a minimum number of valid responses. The formula <code>mean.3(var1, var2, var3, var4, var5)</code>, for example, would mean that an individual must have answered at least 3 of the 5 questions. The new variable will have a missing value otherwise.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Calculate the average depression score using DepScale_01, DepScale_02, DepScale_3. First use the function “mean”. Next write the expression by hand. Investigate the differences.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image28.png" target="_blank"><img src="./media/spss-image28.png" style="width:6.4973in;height:4.17708in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image29.png" target="_blank"><img src="./media/spss-image29.png" style="width:6.4973in;height:4.45833in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image30.png" target="_blank"><img src="./media/spss-image30.png" style="width:6.5in;height:4.73194in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="list-of-functions-available-in-the-compute-command" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="list-of-functions-available-in-the-compute-command"><span class="header-section-number">2.4.2</span> List of Functions Available in the Compute Command</h3>
+<p><strong>Arithmetic Operators:</strong></p>
+<ul>
+<li><code>+</code> Addition</li>
+<li><code>-</code> Subtraction</li>
+<li><code>*</code> Multiplication</li>
+<li><code>/</code> Division</li>
+<li><code>**</code> Exponentiation</li>
+</ul>
+<p><strong>Arithmetic Functions:</strong></p>
+<ul>
+<li><code>ABS</code> Absolute value</li>
+<li><code>RND</code> Round</li>
+<li><code>TRUNC</code> Truncate</li>
+<li><code>MOD</code> Modulus (remainder)</li>
+<li><code>SQRT</code> Square root</li>
+<li><code>EXP</code> Exponential</li>
+<li><code>LG10</code> Base 10 log</li>
+<li><code>LN</code> Natural log</li>
+<li><code>ARSIN</code> Arcsin</li>
+<li><code>ARTAN</code> Arctangent</li>
+<li><code>SIN</code> Sine</li>
+<li><code>COS</code> Cosine</li>
+</ul>
+<p><strong>Statistical Functions:</strong></p>
+<ul>
+<li><code>SUM(.n)</code> Sum of arguments</li>
+<li><code>MEAN(.n)</code> Mean of arguments</li>
+<li><code>SD(.n)</code> Standard deviation of arguments</li>
+<li><code>VARIANCE(.n)</code> Variance of arguments</li>
+<li><code>CFVAR(.n)</code> Coefficient of variation of arguments</li>
+<li><code>MIN(.n)</code> Minimum of arguments</li>
+<li><code>MAX(.n)</code> Maximum of arguments</li>
+</ul>
+<p><strong>Missing Values Functions:</strong></p>
+<ul>
+<li><code>MISSING</code> True if the value is missing</li>
+<li><code>NMISS</code> Number of missing values across variables but within cases</li>
+<li><code>NVALID</code> Number of non-missing values across variables but within cases</li>
+</ul>
+<p><strong>Across-case Function:</strong></p>
+<ul>
+<li><code>LAG</code> Value from previous case, or from n cases earlier if there is a second argument n</li>
+</ul>
+<p><strong>Date and Time Functions:</strong></p>
+<ul>
+<li><code>CTIME.xxx</code> SPSS time values to common units</li>
+<li><code>DATE.xxx</code> Common units to SPSS date values</li>
+<li><code>TIME.xxx</code> Common units to SPSS time values</li>
+<li><code>XDATE.xxx</code> SPSS date values to common units</li>
+</ul>
+<p><strong>Other Functions:</strong></p>
+<ul>
+<li><code>RV.UNIFORM</code> Uniform pseudorandom no.</li>
+<li><code>RV.NORMAL</code> Normal pseudorandom no.</li>
+<li><code>CDF.NORMAL</code> Standard normal cumulative dis.</li>
+</ul>
+<p><strong>Logical Functions:</strong></p>
+<ul>
+<li><code>RANGE</code> True if value is within range</li>
+<li><code>ANY</code> True if any value matches</li>
+</ul>
+<p><strong>String Functions:</strong></p>
+<ul>
+<li><code>ANY</code> Same as for numeric values</li>
+<li><code>CONCAT</code> Concatenate</li>
+<li><code>INDEX</code> Index from left</li>
+<li><code>LAG</code> Same as for numeric values</li>
+<li><code>LENGTH</code> Defined length</li>
+<li><code>LOWER</code> Convert to lower case</li>
+<li><code>LPAD</code> Pad left</li>
+<li><code>LTRIM</code> Trim left</li>
+<li><code>MAX</code> Greatest value</li>
+<li><code>MIN</code> Least value</li>
+<li><code>NUMBER</code> Convert to a number</li>
+<li><code>RANGE</code> Same as for numeric values</li>
+<li><code>RINDEX</code> Index from right</li>
+<li><code>RPAD</code> Pad right</li>
+<li><code>RTRIM</code> Trim right</li>
+<li><code>STRING</code> Convert to a string</li>
+<li><code>SUBSTR</code> Substring</li>
+<li><code>UPCASE</code> Convert to upper case</li>
+</ul>
+</section>
+<section id="count-values" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="count-values"><span class="header-section-number">2.4.3</span> Count Values</h3>
+<p>One useful way to compute new variables is through the “Count Values within Cases” procedure. This procedure counts how many times particular values occur, within each case, across certain variables. Suppose we have a data set of students where we recorded their scores on ten separate quizzes over the course of a semester. We could use “Count Values within Cases” to tally up the number of A’s each student earned.</p>
+<p>To use the Count Values within Cases procedure:</p>
+<ul>
+<li>Go to Transform -&gt; Count Values within Cases.</li>
+<li>Specify a new variable name under “Target Variable”.</li>
+<li>Place the variables to be examined in the “Variables” box.</li>
+<li>Click “Define Values”, and type the values to be counted.</li>
+<li>Click “Continue”, then “OK”.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image31.png" target="_blank"><img src="./media/spss-image31.png" style="width:4.875in;height:2.82292in" class="figure-img"></a></p>
+</figure>
+</div>
+<p><strong><em>Recoding Variables</em></strong></p>
+<p>Recoding a variable means changing or “mapping” its values to new ones. Often, you will need to convert string variables into numeric variables in order to use them in a certain statistical procedure. Recoding is also a way to collapse a continuous variable into categories.</p>
+<p>Below are representations of some possible recodes:</p>
+<ul>
+<li>“Male” – 1</li>
+<li>“Female” – 0</li>
+<li>1 – 0</li>
+<li>2 – 1</li>
+<li>3 – 2</li>
+<li>4:15 – 9</li>
+</ul>
+</section>
+<section id="manual-recoding" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="manual-recoding"><span class="header-section-number">2.4.4</span> Manual Recoding</h3>
+<p>There are two ways to recode in SPSS:</p>
+<ul>
+<li>Recode Into Same Variables <strong>Not Recommended</strong></li>
+<li>Recode Into Different Variables <strong>Recommended</strong></li>
+</ul>
+<p>By using “Recode Into Different Variables”, your original variable will not change, which is not the case with “Recode Into Same Variables”. “Recode Into Same Variables” is risky since you will not be able to undo the changes if you make a mistake.</p>
+<p>Select Transform -&gt; Recode into Different Variables</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image32.png" target="_blank"><img src="./media/spss-image32.png" style="width:6.5in;height:3.63056in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>In the “Recode Into Different Variables” dialogue box:</p>
+<ul>
+<li>Select the old (original) variable.</li>
+<li>Specify a new variable name, and click “Change”.</li>
+<li>Click “Old and New Values”.
+<ul>
+<li>Specify each old value, or range of values, on the left side of the box and each new number you want assigned on the right side of the box. Click “Add” each time.</li>
+<li>Make sure you include every original value. Unmentioned original values become missing values in the new variable.</li>
+<li>Click “Continue”.</li>
+</ul></li>
+<li>Click “OK”.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image33.png" target="_blank"><img src="./media/spss-image33.png" style="width:6.5in;height:3.74306in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>Note that when using “Recode Into Different Variables”, it is also possible to recode a numeric variable into a character (string) variable, or vice-versa:</p>
+<ul>
+<li>Check the box marked “Output variables are strings” to change from numeric to string in the “Old and New Values” window</li>
+<li>Check the box marked “Convert numeric strings to numbers” to change from string to numeric in the “Old and New Values” window.</li>
+</ul>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Recode Gender with F=1 and M=2. Inspect the output.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image34.png" target="_blank"><img src="./media/spss-image34.png" style="width:6.5in;height:3.63056in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image35.png" target="_blank"><img src="./media/spss-image35.png" style="width:6.5in;height:3.74306in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="automatic-recoding" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="automatic-recoding"><span class="header-section-number">2.5</span> Automatic Recoding</h2>
+<p>The Automatic Recode procedure recodes any variable’s values into consecutive integers 1, 2, 3, etc…. The software codes the lowest numeric value, or the first value in alphabetical order in the case of string variables, to a 1 by default. The next lowest number or next item in alphabetical order becomes a 2, and so forth. Optionally, the recoding can begin with the highest number of the last string value in alphabetical order.</p>
+<p>Automatic Recode always creates a new variable.</p>
+<p><strong>Helpful Hint:</strong> Automatic Recode is a quick way to make string variables (e.g., gender) ready for statistical procedures that require numeric variables.</p>
+<p>To use Automatic Recode:</p>
+<ul>
+<li>Go to Transform -&gt; Automatic Recode.</li>
+<li>Choose the original variable to be recoded.</li>
+<li>Specify a new variable name and click “Add New Name”.</li>
+<li>Select the order – start numbering from smallest or largest values.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image36.png" target="_blank"><img src="./media/spss-image36.png" style="width:4.67708in;height:4.85417in" class="figure-img"></a></p>
+</figure>
+</div>
+<p><strong>Helpful Hint:</strong> If you had assigned value labels for the old variable, those labels will carry over to the corresponding new values. If there were no value labels, then the old values themselves become the new labels.</p>
+<p><strong>Try it: Use <a href="data/section2_data.sav">section2_data.sav</a>. Use Automatic Recode to recode Gender. Call this new variable AutoGender.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image37.png" target="_blank"><img src="./media/spss-image37.png" style="width:4.67708in;height:4.85417in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="conditional-transformations-with-ifthen-logic" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="conditional-transformations-with-ifthen-logic"><span class="header-section-number">2.6</span> Conditional Transformations with If/Then Logic</h2>
+<p>The “If” button, which appears in the Compute, Recode, and Count dialogue boxes, represents an important feature in variable transformations. Using the “If” option, users can tell SPSS to perform calculations or recodes only if cases meet certain conditions.</p>
+<p>For example, suppose we surveyed women regarding the number of times they had given birth, but women who had never been pregnant skipped that section of the questionnaire. We might now want to assign a “0” for the number of births for those women who had never been pregnant, to replace the missing entry they currently have.</p>
+<p>Assuming that we have a string variable called “everpreg” coded “Y” and “N” for yes and no, and that our number of births variable is called “numbirth”, we would proceed as follows:</p>
+<p>Go to Transform -&gt; Compute Variable</p>
+<ul>
+<li>Put numbirth in the “Target Variable” box.</li>
+<li>Place a 0 in the “Numeric Expression” box.</li>
+<li>Click “If”.</li>
+<li>Click “Include if case satisfies condition”.</li>
+<li>Type everpreg = “N” in the condition box.</li>
+<li>Click “Continue” and “OK”.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image38.png" target="_blank"><img src="./media/spss-image38.png" style="width:5.95352in;height:4.86458in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image39.png" target="_blank"><img src="./media/spss-image39.png" style="width:5.6875in;height:4.35118in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>This “If” button, which allows transformations to take place for selected cases only, works exactly the same in the Compute, Recode, and Count procedures.</p>
+<p>You can use the words and, or, and not within the If box to help write your criteria. Some examples of If expressions are as follows:</p>
+<ul>
+<li><code>sex = "f" and age &gt; 50</code> - women over 50</li>
+<li><code>not missing(income)</code> - participants whose income is known</li>
+<li><code>educat = 5 or educat = 6</code> - respondents with a BA or MA</li>
+</ul>
+</section>
+<section id="rank-cases" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="rank-cases"><span class="header-section-number">2.7</span> Rank Cases</h2>
+<p>You can perform variable transformations based on the ranked value for a particular variable. It may be more convenient to analyze the quartiles, for example, than the variables themselves.</p>
+<p>Select “Transform” and then “Rank Cases” to recode a continuous variable into a new variable based on rank. Select the variable of interest and then click “Rank Types”. You can select quartiles in this dialogue box by checking the box for Ntiles and placing the number 4 in the blank space. SPSS will create a new categorical variable and add it to the end of the original dataset.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image40.png" target="_blank"><img src="./media/spss-image40.png" style="width:5.08333in;height:3.14583in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image41.png" target="_blank"><img src="./media/spss-image41.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="exercise-4-computing-and-transforming-variables" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="exercise-4-computing-and-transforming-variables"><span class="header-section-number">2.8</span> Exercise 4 – Computing and Transforming Variables</h2>
+<p>Open <a href="data/exercise4/exercise4_data.sav">exercise4_data.sav</a>.</p>
+<p>Compute a new variable that is the change from beginning salary to current salary for each employee.</p>
+<p>Recode the education variable into a new variable according to the following</p>
+<ul>
+<li>1 = High School or Less (educ&lt;=12)</li>
+<li>2 = Some College (12&lt;educ&lt;=16)</li>
+<li>3 = Bachelor’s Degree or Higher (educ&gt;=17)</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./01-basics.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./03-data-management.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding Data Management Tasks</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

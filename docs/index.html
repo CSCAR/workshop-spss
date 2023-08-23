@@ -1,306 +1,242 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
-<head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Introduction to SPSS</title>
-  <meta name="description" content="Introduction to SPSS" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
 
-  <meta property="og:title" content="Introduction to SPSS" />
-  <meta property="og:type" content="book" />
-  
-  
-  
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Introduction to SPSS" />
-  
-  
-  
-
-<meta name="author" content="CSCAR Staff" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<meta name="date" content="2021-09-16" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-
-<link rel="next" href="the-basics-of-spss.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<title>Introduction to SPSS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
 
 
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./01-basics.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
 
-
-
-
-
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
-
-
-
-
-<link rel="stylesheet" href="css/standard_html.css" type="text/css" />
-<link rel="stylesheet" href="css/book.css" type="text/css" />
 </head>
 
-<body>
+<body class="nav-sidebar floating">
 
-
-
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li><a href="./index.html">Introduction to SPSS</a></li>
-
-<li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview of the Workshop</a>
-<ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#contact-information"><i class="fa fa-check"></i><b>1.1</b> Contact information</a>
-<ul>
-<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#cscar"><i class="fa fa-check"></i><b>1.1.1</b> CSCAR</a></li>
-</ul></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i><b>1.2</b> Acknowledgments</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#images"><i class="fa fa-check"></i><b>1.3</b> Images</a></li>
-<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#data"><i class="fa fa-check"></i><b>1.4</b> Data</a>
-<ul>
-<li class="chapter" data-level="1.4.1" data-path="index.html"><a href="index.html#example-data"><i class="fa fa-check"></i><b>1.4.1</b> Example Data</a></li>
-<li class="chapter" data-level="1.4.2" data-path="index.html"><a href="index.html#exercise-data"><i class="fa fa-check"></i><b>1.4.2</b> Exercise Data</a></li>
-<li class="chapter" data-level="1.4.3" data-path="index.html"><a href="index.html#additional-exercises"><i class="fa fa-check"></i><b>1.4.3</b> Additional Exercises</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html"><i class="fa fa-check"></i><b>2</b> The Basics of SPSS</a>
-<ul>
-<li class="chapter" data-level="2.1" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#what-does-spss-stand-for"><i class="fa fa-check"></i><b>2.1</b> What does SPSS Stand For?</a></li>
-<li class="chapter" data-level="2.2" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#spss-compared-to-other-statistical-software-packages"><i class="fa fa-check"></i><b>2.2</b> SPSS Compared to Other Statistical Software Packages</a></li>
-<li class="chapter" data-level="2.3" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#the-three-parts-of-spss"><i class="fa fa-check"></i><b>2.3</b> The Three Parts of SPSS</a>
-<ul>
-<li class="chapter" data-level="2.3.1" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#data-editor"><i class="fa fa-check"></i><b>2.3.1</b> Data Editor</a></li>
-<li class="chapter" data-level="2.3.2" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#output-viewer"><i class="fa fa-check"></i><b>2.3.2</b> Output Viewer</a></li>
-<li class="chapter" data-level="2.3.3" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#syntax-window"><i class="fa fa-check"></i><b>2.3.3</b> Syntax Window</a></li>
-</ul></li>
-<li class="chapter" data-level="2.4" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#good-to-know"><i class="fa fa-check"></i><b>2.4</b> Good to Know</a>
-<ul>
-<li class="chapter" data-level="2.4.1" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#dialogue-boxes"><i class="fa fa-check"></i><b>2.4.1</b> Dialogue Boxes</a></li>
-<li class="chapter" data-level="2.4.2" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#adding-comments"><i class="fa fa-check"></i><b>2.4.2</b> Adding Comments</a></li>
-</ul></li>
-<li class="chapter" data-level="2.5" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#tips-for-preparing-an-excel-file-for-use-with-spss"><i class="fa fa-check"></i><b>2.5</b> Tips for Preparing an Excel File for Use with SPSS</a></li>
-<li class="chapter" data-level="2.6" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#exercise-1-properly-formatted-data"><i class="fa fa-check"></i><b>2.6</b> Exercise 1 – Properly Formatted Data</a></li>
-<li class="chapter" data-level="2.7" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#importing-data-into-spss"><i class="fa fa-check"></i><b>2.7</b> Importing Data into SPSS</a></li>
-<li class="chapter" data-level="2.8" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#exporting-data-from-spss"><i class="fa fa-check"></i><b>2.8</b> Exporting Data from SPSS</a></li>
-<li class="chapter" data-level="2.9" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#exercise-2-importingexporting-excel"><i class="fa fa-check"></i><b>2.9</b> Exercise 2 – Importing/Exporting Excel</a></li>
-<li class="chapter" data-level="2.10" data-path="the-basics-of-spss.html"><a href="the-basics-of-spss.html#getting-help-from-spss"><i class="fa fa-check"></i><b>2.10</b> Getting Help from SPSS</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="working-with-variables.html"><a href="working-with-variables.html"><i class="fa fa-check"></i><b>3</b> Working with Variables</a>
-<ul>
-<li class="chapter" data-level="3.1" data-path="working-with-variables.html"><a href="working-with-variables.html#variable-view-in-data-editor"><i class="fa fa-check"></i><b>3.1</b> Variable View in Data Editor</a>
-<ul>
-<li class="chapter" data-level="3.1.1" data-path="working-with-variables.html"><a href="working-with-variables.html#variable-name"><i class="fa fa-check"></i><b>3.1.1</b> Variable Name</a></li>
-<li class="chapter" data-level="3.1.2" data-path="working-with-variables.html"><a href="working-with-variables.html#variable-type"><i class="fa fa-check"></i><b>3.1.2</b> Variable Type</a></li>
-<li class="chapter" data-level="3.1.3" data-path="working-with-variables.html"><a href="working-with-variables.html#variable-labels"><i class="fa fa-check"></i><b>3.1.3</b> Variable Labels</a></li>
-<li class="chapter" data-level="3.1.4" data-path="working-with-variables.html"><a href="working-with-variables.html#value-labels"><i class="fa fa-check"></i><b>3.1.4</b> Value Labels</a></li>
-<li class="chapter" data-level="3.1.5" data-path="working-with-variables.html"><a href="working-with-variables.html#missing-value-labels"><i class="fa fa-check"></i><b>3.1.5</b> Missing Value Labels</a></li>
-<li class="chapter" data-level="3.1.6" data-path="working-with-variables.html"><a href="working-with-variables.html#columns-alignment"><i class="fa fa-check"></i><b>3.1.6</b> Columns &amp; Alignment</a></li>
-<li class="chapter" data-level="3.1.7" data-path="working-with-variables.html"><a href="working-with-variables.html#measure"><i class="fa fa-check"></i><b>3.1.7</b> Measure</a></li>
-<li class="chapter" data-level="3.1.8" data-path="working-with-variables.html"><a href="working-with-variables.html#copy-and-paste-variable-attributes"><i class="fa fa-check"></i><b>3.1.8</b> Copy and Paste Variable Attributes</a></li>
-</ul></li>
-<li class="chapter" data-level="3.2" data-path="working-with-variables.html"><a href="working-with-variables.html#exercise-3-variable-attributes"><i class="fa fa-check"></i><b>3.2</b> Exercise 3 – Variable Attributes</a></li>
-<li class="chapter" data-level="3.3" data-path="working-with-variables.html"><a href="working-with-variables.html#creating-new-variables-and-defining-the-correct-attributes"><i class="fa fa-check"></i><b>3.3</b> Creating New Variables and Defining the Correct Attributes</a></li>
-<li class="chapter" data-level="3.4" data-path="working-with-variables.html"><a href="working-with-variables.html#computing-variables"><i class="fa fa-check"></i><b>3.4</b> Computing Variables</a>
-<ul>
-<li class="chapter" data-level="3.4.1" data-path="working-with-variables.html"><a href="working-with-variables.html#dealing-with-missing-data"><i class="fa fa-check"></i><b>3.4.1</b> Dealing with Missing Data</a></li>
-<li class="chapter" data-level="3.4.2" data-path="working-with-variables.html"><a href="working-with-variables.html#list-of-functions-available-in-the-compute-command"><i class="fa fa-check"></i><b>3.4.2</b> List of Functions Available in the Compute Command</a></li>
-<li class="chapter" data-level="3.4.3" data-path="working-with-variables.html"><a href="working-with-variables.html#count-values"><i class="fa fa-check"></i><b>3.4.3</b> Count Values</a></li>
-<li class="chapter" data-level="3.4.4" data-path="working-with-variables.html"><a href="working-with-variables.html#manual-recoding"><i class="fa fa-check"></i><b>3.4.4</b> Manual Recoding</a></li>
-</ul></li>
-<li class="chapter" data-level="3.5" data-path="working-with-variables.html"><a href="working-with-variables.html#automatic-recoding"><i class="fa fa-check"></i><b>3.5</b> Automatic Recoding</a></li>
-<li class="chapter" data-level="3.6" data-path="working-with-variables.html"><a href="working-with-variables.html#conditional-transformations-with-ifthen-logic"><i class="fa fa-check"></i><b>3.6</b> Conditional Transformations with If/Then Logic</a></li>
-<li class="chapter" data-level="3.7" data-path="working-with-variables.html"><a href="working-with-variables.html#rank-cases"><i class="fa fa-check"></i><b>3.7</b> Rank Cases</a></li>
-<li class="chapter" data-level="3.8" data-path="working-with-variables.html"><a href="working-with-variables.html#exercise-4-computing-and-transforming-variables"><i class="fa fa-check"></i><b>3.8</b> Exercise 4 – Computing and Transforming Variables</a></li>
-</ul></li>
-<li class="chapter" data-level="4" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html"><i class="fa fa-check"></i><b>4</b> Understanding Data Management Tasks</a>
-<ul>
-<li class="chapter" data-level="4.1" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#sorting-cases"><i class="fa fa-check"></i><b>4.1</b> Sorting Cases</a></li>
-<li class="chapter" data-level="4.2" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#analyzing-subsets-of-data"><i class="fa fa-check"></i><b>4.2</b> Analyzing Subsets of Data</a>
-<ul>
-<li class="chapter" data-level="4.2.1" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#if-condition-is-satisfied"><i class="fa fa-check"></i><b>4.2.1</b> If Condition is Satisfied</a></li>
-<li class="chapter" data-level="4.2.2" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#randomly-selecting-subsets"><i class="fa fa-check"></i><b>4.2.2</b> Randomly Selecting Subsets</a></li>
-<li class="chapter" data-level="4.2.3" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#output-options"><i class="fa fa-check"></i><b>4.2.3</b> Output Options</a></li>
-</ul></li>
-<li class="chapter" data-level="4.3" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#analyzing-groups-of-data-separately"><i class="fa fa-check"></i><b>4.3</b> Analyzing Groups of Data Separately</a></li>
-<li class="chapter" data-level="4.4" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#exercise-5-subsetting-data"><i class="fa fa-check"></i><b>4.4</b> Exercise 5 – Subsetting Data</a></li>
-<li class="chapter" data-level="4.5" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#merging-files"><i class="fa fa-check"></i><b>4.5</b> Merging Files</a>
-<ul>
-<li class="chapter" data-level="4.5.1" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#adding-cases"><i class="fa fa-check"></i><b>4.5.1</b> Adding Cases</a></li>
-<li class="chapter" data-level="4.5.2" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#adding-variables"><i class="fa fa-check"></i><b>4.5.2</b> Adding Variables</a></li>
-</ul></li>
-<li class="chapter" data-level="4.6" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#converting-data-formats"><i class="fa fa-check"></i><b>4.6</b> Converting Data Formats</a>
-<ul>
-<li class="chapter" data-level="4.6.1" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#wide-to-long-aka-variables-into-cases"><i class="fa fa-check"></i><b>4.6.1</b> Wide to Long (AKA “Variables into Cases”)</a></li>
-<li class="chapter" data-level="4.6.2" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#long-to-wide-aka-cases-into-variables"><i class="fa fa-check"></i><b>4.6.2</b> Long to Wide (AKA “Cases into Variables”)</a></li>
-</ul></li>
-<li class="chapter" data-level="4.7" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#exercise-6-restructuring-i-wide-to-long"><i class="fa fa-check"></i><b>4.7</b> Exercise 6 – Restructuring I (Wide to Long)</a></li>
-<li class="chapter" data-level="4.8" data-path="understanding-data-management-tasks.html"><a href="understanding-data-management-tasks.html#exercise-7-restructuring-ii-long-to-wide"><i class="fa fa-check"></i><b>4.8</b> Exercise 7 – Restructuring II (Long to Wide)</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html"><i class="fa fa-check"></i><b>5</b> Understanding Graphical &amp; Statistical Procedures</a>
-<ul>
-<li class="chapter" data-level="5.1" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#thinking-about-statistics"><i class="fa fa-check"></i><b>5.1</b> Thinking About Statistics</a></li>
-<li class="chapter" data-level="5.2" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#correlation-vs.-causation"><i class="fa fa-check"></i><b>5.2</b> Correlation vs. Causation</a></li>
-<li class="chapter" data-level="5.3" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#everything-on-one-page-handout"><i class="fa fa-check"></i><b>5.3</b> Everything On One Page Handout</a></li>
-<li class="chapter" data-level="5.4" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#parametric-vs.-non-parametric-tests"><i class="fa fa-check"></i><b>5.4</b> Parametric vs. Non-parametric Tests</a></li>
-<li class="chapter" data-level="5.5" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#basic-summary-statistics-investigate-one-variable-at-a-time"><i class="fa fa-check"></i><b>5.5</b> Basic Summary Statistics (Investigate One Variable at a Time)</a></li>
-<li class="chapter" data-level="5.6" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#visualizations"><i class="fa fa-check"></i><b>5.6</b> Visualizations</a>
-<ul>
-<li class="chapter" data-level="5.6.1" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#chart-builder"><i class="fa fa-check"></i><b>5.6.1</b> Chart Builder</a></li>
-<li class="chapter" data-level="5.6.2" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#legacy-dialogs"><i class="fa fa-check"></i><b>5.6.2</b> Legacy Dialogs</a></li>
-</ul></li>
-<li class="chapter" data-level="5.7" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#normality"><i class="fa fa-check"></i><b>5.7</b> Normality</a></li>
-<li class="chapter" data-level="5.8" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#exercise-8-data-exploration-and-visualization"><i class="fa fa-check"></i><b>5.8</b> Exercise 8 – Data Exploration and Visualization</a></li>
-<li class="chapter" data-level="5.9" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#investigating-two-variables-at-a-time"><i class="fa fa-check"></i><b>5.9</b> Investigating Two Variables at a Time</a>
-<ul>
-<li class="chapter" data-level="5.9.1" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#pearson-correlation-coefficient-scatterplots"><i class="fa fa-check"></i><b>5.9.1</b> Pearson Correlation Coefficient &amp; Scatterplots</a></li>
-<li class="chapter" data-level="5.9.2" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#pearson-chi-square-crosstabs-and-test-of-independence"><i class="fa fa-check"></i><b>5.9.2</b> Pearson Chi-Square Crosstabs and Test of Independence</a></li>
-</ul></li>
-<li class="chapter" data-level="5.10" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#investigating-many-variables-at-a-time"><i class="fa fa-check"></i><b>5.10</b> Investigating Many Variables at a Time</a></li>
-<li class="chapter" data-level="5.11" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#repeated-measures-longitudinal-clustered-multilevel-mixed-procedures"><i class="fa fa-check"></i><b>5.11</b> Repeated Measures, Longitudinal, Clustered, Multilevel, Mixed Procedures</a></li>
-<li class="chapter" data-level="5.12" data-path="understanding-graphical-statistical-procedures.html"><a href="understanding-graphical-statistical-procedures.html#other-procedures-in-spss"><i class="fa fa-check"></i><b>5.12</b> Other Procedures in SPSS</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="appendix.html"><a href="appendix.html"><i class="fa fa-check"></i><b>6</b> Appendix</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="appendix.html"><a href="appendix.html#interpreting-interactions-in-a-regression-model-overview"><i class="fa fa-check"></i><b>6.1</b> Interpreting Interactions in a Regression Model Overview</a>
-<ul>
-<li class="chapter" data-level="6.1.1" data-path="appendix.html"><a href="appendix.html#two-way-interactions"><i class="fa fa-check"></i><b>6.1.1</b> Two-Way Interactions</a></li>
-<li class="chapter" data-level="6.1.2" data-path="appendix.html"><a href="appendix.html#three-way-interactions"><i class="fa fa-check"></i><b>6.1.2</b> Three-Way Interactions</a></li>
-</ul></li>
-<li class="chapter" data-level="6.2" data-path="appendix.html"><a href="appendix.html#exercise-solutions"><i class="fa fa-check"></i><b>6.2</b> Exercise Solutions</a>
-<ul>
-<li class="chapter" data-level="6.2.1" data-path="appendix.html"><a href="appendix.html#exercise-1"><i class="fa fa-check"></i><b>6.2.1</b> Exercise 1</a></li>
-<li class="chapter" data-level="6.2.2" data-path="appendix.html"><a href="appendix.html#exercise-2"><i class="fa fa-check"></i><b>6.2.2</b> Exercise 2</a></li>
-<li class="chapter" data-level="6.2.3" data-path="appendix.html"><a href="appendix.html#exercise-3"><i class="fa fa-check"></i><b>6.2.3</b> Exercise 3</a></li>
-<li class="chapter" data-level="6.2.4" data-path="appendix.html"><a href="appendix.html#exercise-4"><i class="fa fa-check"></i><b>6.2.4</b> Exercise 4</a></li>
-<li class="chapter" data-level="6.2.5" data-path="appendix.html"><a href="appendix.html#exercise-5"><i class="fa fa-check"></i><b>6.2.5</b> Exercise 5</a></li>
-<li class="chapter" data-level="6.2.6" data-path="appendix.html"><a href="appendix.html#exercise-6"><i class="fa fa-check"></i><b>6.2.6</b> Exercise 6</a></li>
-<li class="chapter" data-level="6.2.7" data-path="appendix.html"><a href="appendix.html#exercise-7"><i class="fa fa-check"></i><b>6.2.7</b> Exercise 7</a></li>
-<li class="chapter" data-level="6.2.8" data-path="appendix.html"><a href="appendix.html#exercise-8"><i class="fa fa-check"></i><b>6.2.8</b> Exercise 8</a></li>
-</ul></li>
-<li class="chapter" data-level="6.3" data-path="appendix.html"><a href="appendix.html#additional-exercises-1"><i class="fa fa-check"></i><b>6.3</b> Additional Exercises</a>
-<ul>
-<li class="chapter" data-level="6.3.1" data-path="appendix.html"><a href="appendix.html#exercise-a1-categorical-data-analysis"><i class="fa fa-check"></i><b>6.3.1</b> Exercise A1 – Categorical Data Analysis</a></li>
-<li class="chapter" data-level="6.3.2" data-path="appendix.html"><a href="appendix.html#exercise-a1-solution"><i class="fa fa-check"></i><b>6.3.2</b> Exercise A1 Solution</a></li>
-<li class="chapter" data-level="6.3.3" data-path="appendix.html"><a href="appendix.html#exercise-a2-continuous-data-analysis"><i class="fa fa-check"></i><b>6.3.3</b> Exercise A2 – Continuous Data Analysis</a></li>
-<li class="chapter" data-level="6.3.4" data-path="appendix.html"><a href="appendix.html#exercise-a2-solution"><i class="fa fa-check"></i><b>6.3.4</b> Exercise A2 Solution</a></li>
-<li class="chapter" data-level="6.3.5" data-path="appendix.html"><a href="appendix.html#exercise-a3-methodology-choice-practice"><i class="fa fa-check"></i><b>6.3.5</b> Exercise A3 – Methodology Choice Practice</a></li>
-<li class="chapter" data-level="6.3.6" data-path="appendix.html"><a href="appendix.html#exercise-a4-case-study-i-salary-regression"><i class="fa fa-check"></i><b>6.3.6</b> Exercise A4 – Case Study I: Salary (Regression)</a></li>
-<li class="chapter" data-level="6.3.7" data-path="appendix.html"><a href="appendix.html#exercise-a5-case-study-ii-aids-logistic-regression"><i class="fa fa-check"></i><b>6.3.7</b> Exercise A5 – Case Study II: AIDS (Logistic Regression)</a></li>
-</ul></li>
-<li class="chapter" data-level="6.4" data-path="appendix.html"><a href="appendix.html#final-project"><i class="fa fa-check"></i><b>6.4</b> Final Project</a>
-<ul>
-<li class="chapter" data-level="6.4.1" data-path="appendix.html"><a href="appendix.html#final-project-solution"><i class="fa fa-check"></i><b>6.4.1</b> Final Project Solution</a></li>
-</ul></li>
-</ul></li>
-</ul>
-
-      </nav>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview of the Workshop</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
-
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to SPSS</a>
-          </h1>
-        </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Introduction to SPSS</h1>
-<p class="author"><em>CSCAR Staff</em></p>
-<p class="date"><em>2021-09-16</em></p>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introduction to SPSS</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-<div id="overview-of-the-workshop" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Overview of the Workshop</h1>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Overview of the Workshop</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-data-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding Data Management Tasks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-stats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Understanding Graphical &amp; Statistical Procedures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview-of-the-workshop" id="toc-overview-of-the-workshop" class="nav-link active" data-scroll-target="#overview-of-the-workshop">Overview of the Workshop</a>
+  <ul>
+  <li><a href="#contact-information" id="toc-contact-information" class="nav-link" data-scroll-target="#contact-information">Contact information</a>
+  <ul class="collapse">
+  <li><a href="#cscar" id="toc-cscar" class="nav-link" data-scroll-target="#cscar">CSCAR</a></li>
+  </ul></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a>
+  <ul class="collapse">
+  <li><a href="#example-data" id="toc-example-data" class="nav-link" data-scroll-target="#example-data">Example Data</a></li>
+  <li><a href="#exercise-data" id="toc-exercise-data" class="nav-link" data-scroll-target="#exercise-data">Exercise Data</a></li>
+  <li><a href="#additional-exercises" id="toc-additional-exercises" class="nav-link" data-scroll-target="#additional-exercises">Additional Exercises</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Introduction to SPSS</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="overview-of-the-workshop" class="level1 unnumbered">
+<h1 class="unnumbered">Overview of the Workshop</h1>
 <p>There are four sections to this workshop:</p>
 <ul>
-<li><a href="the-basics-of-spss.html">Chapter 2</a>: The Basics of SPSS</li>
-<li><a href="working-with-variables.html">Chapter 3</a>: Working with Variables</li>
-<li><a href="understanding-data-management-tasks.html">Chapter 4</a>: Understanding Data Management Tasks</li>
-<li><a href="understanding-graphical-statistical-procedures.html">Chapter 5</a>: Understanding Graphical &amp; Statistical Procedures, Msc.</li>
+<li><a href="./01-basics.html">Chapter 1</a>: The Basics of SPSS</li>
+<li><a href="./02-variables.html">Chapter 2</a>: Working with Variables</li>
+<li><a href="./03-data-management.html">Chapter 3</a>: Understanding Data Management Tasks</li>
+<li><a href="./04-stats.html">Chapter 4</a>: Understanding Graphical &amp; Statistical Procedures, Msc.</li>
 </ul>
-<p>These sections will generally be presented in sequence. The discussion
-will alternate between theory and practice. The format will alternate
-between lecture and lab sessions. Please ask questions as soon as they
-arise in your mind. Please provide feedback or voice concerns.</p>
-<p>There is additionally an <a href="appendix.html">Appendix</a> which primarily houses the exercise solutions, as well as a collection of additional, more advanced, exercises.</p>
-<div id="contact-information" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Contact information</h2>
-<div id="cscar" class="section level3" number="1.1.1">
-<h3><span class="header-section-number">1.1.1</span> CSCAR</h3>
+<p>These sections will generally be presented in sequence. The discussion will alternate between theory and practice. The format will alternate between lecture and lab sessions. Please ask questions as soon as they arise in your mind. Please provide feedback or voice concerns.</p>
+<p>There is additionally an <a href="./appendix.html">Appendix</a> which primarily houses the exercise solutions, as well as a collection of additional, more advanced, exercises.</p>
+<section id="contact-information" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="contact-information">Contact information</h2>
+<section id="cscar" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="cscar">CSCAR</h3>
 <ul>
 <li>Office Hours: Monday-Friday 9am to 5pm (Closed Tuesday 12-1pm)</li>
 <li>Phone: 734.764.7828</li>
-<li>Statistical Assistance: <a href="mailto:stats-consulting@umich.edu" class="email">stats-consulting@umich.edu</a></li>
-<li>Data Science Assistance: <a href="mailto:ds-consulting@umich.edu" class="email">ds-consulting@umich.edu</a></li>
-<li>High Performance Computing: <a href="mailto:hpc-consulting@umich.edu" class="email">hpc-consulting@umich.edu</a></li>
+<li>Statistical Assistance: stats-consulting@umich.edu</li>
+<li>Data Science Assistance: ds-consulting@umich.edu</li>
+<li>High Performance Computing: hpc-consulting@umich.edu</li>
 <li><a href="http://cscar.research.umich.edu/" class="uri">http://cscar.research.umich.edu/</a></li>
 </ul>
-</div>
-</div>
-<div id="acknowledgments" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Acknowledgments</h2>
-<p>These notes have evolved over the years thanks to many CSCAR
-statisticians, including Corey Powell, Josh Errickson, Giselle
-Kolenic, and Missy Plegue.</p>
-<p>This material was created for use in workshops and short courses
-presented by faculty and staff from the Consulting for Statistics,
-Computing &amp; Analytics Research (CSCAR) at the University of
-Michigan. No part of this material may be used for other purposes,
-copied, changed, or sold.</p>
-</div>
-<div id="images" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Images</h2>
+</section>
+</section>
+<section id="acknowledgments" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>These notes have evolved over the years thanks to many CSCAR statisticians, including Corey Powell, Josh Errickson, Giselle Kolenic, and Missy Plegue.</p>
+<p>This material was created for use in workshops and short courses presented by faculty and staff from the Consulting for Statistics, Computing &amp; Analytics Research (CSCAR) at the University of Michigan. No part of this material may be used for other purposes, copied, changed, or sold.</p>
+</section>
+<section id="images" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="images">Images</h2>
 <p>All images embedded within the document should link to a full-size version of the image.</p>
-</div>
-<div id="data" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Data</h2>
+</section>
+<section id="data" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="data">Data</h2>
 <p>There are a number of data sets used in these notes; some used for the examples, others for the execises.</p>
 <p><a href="https://github.com/CSCAR/workshop-spss/raw/master/data/data.zip">data.zip</a> - This zip files contains all data used within the notes.</p>
-<div id="example-data" class="section level3" number="1.4.1">
-<h3><span class="header-section-number">1.4.1</span> Example Data</h3>
+<section id="example-data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="example-data">Example Data</h3>
 <ul>
-<li>Section 3: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav">section3_data.sav</a></li>
-<li>Section 4: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav">section4_data.sav</a></li>
-<li>Section 5: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav">section5_1_data.sav</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav">section5_2_data.sav</a></li>
+<li>Section 2: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section3_data.sav">section2_data.sav</a></li>
+<li>Section 3: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section4_data.sav">section3_data.sav</a></li>
+<li>Section 4: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section5_1_data.sav">section4_1_data.sav</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/section5_2_data.sav">section4_2_data.sav</a></li>
 </ul>
-</div>
-<div id="exercise-data" class="section level3" number="1.4.2">
-<h3><span class="header-section-number">1.4.2</span> Exercise Data</h3>
+</section>
+<section id="exercise-data" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="exercise-data">Exercise Data</h3>
 <ul>
-<li>Exercise 0: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_data.sav">exercise0_data.sav</a>,
-<a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_output.spv">exercise0_output.spv</a>,
-<a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_syntax.sps" download>exercise0_syntax.sps</a> (You may need to right-click &amp; Save As for the .sps file)</li>
+<li>Exercise 0: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_data.sav">exercise0_data.sav</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_output.spv">exercise0_output.spv</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise0/exercise0_syntax.sps">exercise0_syntax.sps</a> (You may need to right-click &amp; Save As for the .sps file)</li>
 <li>Exercise 1: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise1/exercise1_data.sav">exercise1_data.sav</a></li>
 <li>Exercise 2: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise2/exercise2_data.xls">exercise2_data.xls</a></li>
 <li>Exercise 3: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise3/exercise3_data.sav">exercise3_data.sav</a></li>
@@ -310,88 +246,384 @@ copied, changed, or sold.</p>
 <li>Exercise 7: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise7/exercise7_data.sav">exercise7_data.sav</a></li>
 <li>Exercise 8: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercise8/exercise8_data.sav">exercise8_data.sav</a></li>
 </ul>
-</div>
-<div id="additional-exercises" class="section level3" number="1.4.3">
-<h3><span class="header-section-number">1.4.3</span> Additional Exercises</h3>
-<p>These are for the <a href="appendix.html#additional_exercises">additional exercises</a> and <a href="appendix.html#final_project">final project</a> found in the appendix.</p>
+</section>
+<section id="additional-exercises" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="additional-exercises">Additional Exercises</h3>
+<p>These are for the <a href="./appendix.html#additional-exercises">additional exercises</a> and <a href="./appendix.html#final-project">final project</a> found in the appendix.</p>
 <ul>
 <li>Exercise A1: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea1/exercisea1_data.sav">exercisea1_data.sav</a></li>
 <li>Exercise A2: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea2/exercisea2_data.sav">exercisea2_data.sav</a></li>
-<li>Exercise A3: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_a.sav">exercisea3_data_a.sav</a>,
-<a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_b.sav">exercisea3_data_b.sav</a></li>
+<li>Exercise A3: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_a.sav">exercisea3_data_a.sav</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea3/exercisea3_data_b.sav">exercisea3_data_b.sav</a></li>
 <li>Exercise A4: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea4/exercisea4_data.sav">exercisea4_data.sav</a></li>
 <li>Exercise A5: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/exercisea5/exercisea5_data.sav">exercisea5_data.sav</a></li>
-<li>Final Project: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave1.xls">cars_wave1.xls</a>,
-<a href="https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave2.xls">cars_wave2.xls</a></li>
+<li>Final Project: <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave1.xls">cars_wave1.xls</a>, <a href="https://github.com/CSCAR/workshop-spss/raw/master/data/finalproject/cars_wave2.xls">cars_wave2.xls</a></li>
 </ul>
 
-</div>
-</div>
-</div>
-            </section>
 
-          </div>
-        </div>
-      </div>
+</section>
+</section>
+</section>
 
-<a href="the-basics-of-spss.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": null,
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": null,
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
-});
-});
-</script>
+  <div class="nav-page nav-page-next">
+      <a href="./01-basics.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-</body>
 
-</html>
+
+</body></html>

@@ -1,10 +1,11 @@
+.PHONY:default
 default:
-	Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+	quarto render
 
-clean:
-	@rm -rf docs
-
-fresh: clean default
-
+.PHONY:open
 open:
 	@open docs/index.html
+
+.PHONY:preview
+preview:
+	quarto preview

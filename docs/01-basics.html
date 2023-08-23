@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Introduction to SPSS - 1&nbsp; The Basics of SPSS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./02-variables.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-basics.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introduction to SPSS</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview of the Workshop</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-basics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-variables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-data-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Understanding Data Management Tasks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-stats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Understanding Graphical &amp; Statistical Procedures</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./appendix.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Appendix</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-does-spss-stand-for" id="toc-what-does-spss-stand-for" class="nav-link active" data-scroll-target="#what-does-spss-stand-for"><span class="header-section-number">1.1</span> What does SPSS Stand For?</a></li>
+  <li><a href="#spss-compared-to-other-statistical-software-packages" id="toc-spss-compared-to-other-statistical-software-packages" class="nav-link" data-scroll-target="#spss-compared-to-other-statistical-software-packages"><span class="header-section-number">1.2</span> SPSS Compared to Other Statistical Software Packages</a></li>
+  <li><a href="#the-three-parts-of-spss" id="toc-the-three-parts-of-spss" class="nav-link" data-scroll-target="#the-three-parts-of-spss"><span class="header-section-number">1.3</span> The Three Parts of SPSS</a>
+  <ul>
+  <li><a href="#data-editor" id="toc-data-editor" class="nav-link" data-scroll-target="#data-editor"><span class="header-section-number">1.3.1</span> Data Editor</a>
+  <ul class="collapse">
+  <li><a href="#open-a-data-file" id="toc-open-a-data-file" class="nav-link" data-scroll-target="#open-a-data-file"><span class="header-section-number">1.3.1.1</span> Open a Data File</a></li>
+  </ul></li>
+  <li><a href="#output-viewer" id="toc-output-viewer" class="nav-link" data-scroll-target="#output-viewer"><span class="header-section-number">1.3.2</span> Output Viewer</a>
+  <ul class="collapse">
+  <li><a href="#labels-in-output" id="toc-labels-in-output" class="nav-link" data-scroll-target="#labels-in-output"><span class="header-section-number">1.3.2.1</span> Labels in Output</a></li>
+  <li><a href="#tables-charts" id="toc-tables-charts" class="nav-link" data-scroll-target="#tables-charts"><span class="header-section-number">1.3.2.2</span> Tables &amp; Charts</a></li>
+  <li><a href="#export-output" id="toc-export-output" class="nav-link" data-scroll-target="#export-output"><span class="header-section-number">1.3.2.3</span> Export Output</a></li>
+  </ul></li>
+  <li><a href="#syntax-window" id="toc-syntax-window" class="nav-link" data-scroll-target="#syntax-window"><span class="header-section-number">1.3.3</span> Syntax Window</a>
+  <ul class="collapse">
+  <li><a href="#run-syntax" id="toc-run-syntax" class="nav-link" data-scroll-target="#run-syntax"><span class="header-section-number">1.3.3.1</span> Run Syntax</a></li>
+  <li><a href="#reading-in-raw-data-with-syntax" id="toc-reading-in-raw-data-with-syntax" class="nav-link" data-scroll-target="#reading-in-raw-data-with-syntax"><span class="header-section-number">1.3.3.2</span> Reading in Raw Data with Syntax</a></li>
+  <li><a href="#syntax-examples" id="toc-syntax-examples" class="nav-link" data-scroll-target="#syntax-examples"><span class="header-section-number">1.3.3.3</span> Syntax Examples</a></li>
+  <li><a href="#writing-syntax-tips" id="toc-writing-syntax-tips" class="nav-link" data-scroll-target="#writing-syntax-tips"><span class="header-section-number">1.3.3.4</span> Writing Syntax Tips</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#good-to-know" id="toc-good-to-know" class="nav-link" data-scroll-target="#good-to-know"><span class="header-section-number">1.4</span> Good to Know</a>
+  <ul>
+  <li><a href="#dialogue-boxes" id="toc-dialogue-boxes" class="nav-link" data-scroll-target="#dialogue-boxes"><span class="header-section-number">1.4.1</span> Dialogue Boxes</a></li>
+  <li><a href="#adding-comments" id="toc-adding-comments" class="nav-link" data-scroll-target="#adding-comments"><span class="header-section-number">1.4.2</span> Adding Comments</a></li>
+  </ul></li>
+  <li><a href="#tips-for-preparing-an-excel-file-for-use-with-spss" id="toc-tips-for-preparing-an-excel-file-for-use-with-spss" class="nav-link" data-scroll-target="#tips-for-preparing-an-excel-file-for-use-with-spss"><span class="header-section-number">1.5</span> Tips for Preparing an Excel File for Use with SPSS</a></li>
+  <li><a href="#exercise-1-properly-formatted-data" id="toc-exercise-1-properly-formatted-data" class="nav-link" data-scroll-target="#exercise-1-properly-formatted-data"><span class="header-section-number">1.6</span> Exercise 1 – Properly Formatted Data</a></li>
+  <li><a href="#importing-data-into-spss" id="toc-importing-data-into-spss" class="nav-link" data-scroll-target="#importing-data-into-spss"><span class="header-section-number">1.7</span> Importing Data into SPSS</a></li>
+  <li><a href="#exporting-data-from-spss" id="toc-exporting-data-from-spss" class="nav-link" data-scroll-target="#exporting-data-from-spss"><span class="header-section-number">1.8</span> Exporting Data from SPSS</a></li>
+  <li><a href="#exercise-2-importingexporting-excel" id="toc-exercise-2-importingexporting-excel" class="nav-link" data-scroll-target="#exercise-2-importingexporting-excel"><span class="header-section-number">1.9</span> Exercise 2 – Importing/Exporting Excel</a></li>
+  <li><a href="#getting-help-from-spss" id="toc-getting-help-from-spss" class="nav-link" data-scroll-target="#getting-help-from-spss"><span class="header-section-number">1.10</span> Getting Help from SPSS</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Basics of SPSS</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="what-does-spss-stand-for" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="what-does-spss-stand-for"><span class="header-section-number">1.1</span> What does SPSS Stand For?</h2>
+<ul>
+<li>Originally, SPSS stood for Statistical Package for the Social Sciences.</li>
+<li>Now, it stands for Statistical Product and Service Solutions.</li>
+<li>SPSS has also been known as “PASW” which stands for Predictive Analytics Software.</li>
+</ul>
+</section>
+<section id="spss-compared-to-other-statistical-software-packages" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="spss-compared-to-other-statistical-software-packages"><span class="header-section-number">1.2</span> SPSS Compared to Other Statistical Software Packages</h2>
+<p>We can think of statistical software packages on a spectrum organized by difficulty and complexity. On one end we have Excel which is easy and familiar to most people. On the other end we have C++ which is difficult and unfamiliar. All software packages are somewhere in between. SPSS is closer to the Excel end of the spectrum which makes it convenient to use. SPSS builds on what you already know from Excel, which makes the transition from Excel to a more powerful statistical software package easier.</p>
+<p><strong>Easiest:</strong> Excel</p>
+<p>SPSS</p>
+<p>Minitab</p>
+<p>JMP</p>
+<p>Stata,SAS</p>
+<p>R/S-Plus</p>
+<p>Matlab</p>
+<p><strong>Hardest:</strong> C++</p>
+<p>SPSS requires that data, code, and output are in separate places, unlike Excel. These differences seem big at first, but they are a small price to pay for the additional data management, graphical, and statistical capabilities that SPSS will give you over Excel. While SPSS seems to be more restrictive than Excel, the restrictions it sets ensure that your data set is ready for statistical analysis.</p>
+</section>
+<section id="the-three-parts-of-spss" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="the-three-parts-of-spss"><span class="header-section-number">1.3</span> The Three Parts of SPSS</h2>
+<p>There are three parts to SPSS, each with its own window: Data Editor, Output Viewer, and Syntax Window. The sections below describe each of these parts in detail.</p>
+<ul>
+<li>Data Editor Enter and View Data Values, files end in .sav or.por</li>
+<li>Output Viewer View Statistical Results, files end in .spv</li>
+<li>Syntax Window Write &amp; Run Syntax Command, files end in .sps</li>
+</ul>
+<section id="data-editor" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="data-editor"><span class="header-section-number">1.3.1</span> Data Editor</h3>
+<p>The Data Editor is visible when SPSS starts up. There are two views of the Data Editor: Data View and Variable View. In Data View, each row represents one case (e.g., one survey respondent), while each column represents one variable (one piece of information, e.g.&nbsp;age). By using the scroll bars to go up and down, you can examine any case in the sample. By using the scroll bars to go right and left, you can see any variable.</p>
+<p>The first step in an SPSS session is to open a data file or start entering data in a new data file. A data file is a binary file ending in the extension .sav or .por, which contains a given data set. Any requested statistics or analyses that are performed pertain to this data set.</p>
+<section id="open-a-data-file" class="level4" data-number="1.3.1.1">
+<h4 data-number="1.3.1.1" class="anchored" data-anchor-id="open-a-data-file"><span class="header-section-number">1.3.1.1</span> Open a Data File</h4>
+<p>To open a data file, go to “File” at the upper left of the menu bar. Click “Open” then “Data”. Locate the file that you want to open and double-click on it.</p>
+<p><strong>Try it: Open <a href="data/exercise0/exercise0_data.sav">exercise0_data.sav</a></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image2.png" target="_blank"><img src="./media/spss-image2.png" style="width:6.4974in;height:3.80208in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image3.png" target="_blank"><img src="./media/spss-image3.png" style="width:6.4974in;height:4.05208in" class="figure-img"></a></p>
+</figure>
+</div>
+<p><strong><em>Start a New Data File</em></strong></p>
+<p>To start a new data file, go to “File” at the upper left of the menu bar. Click “New” then “Data”.</p>
+</section>
+</section>
+<section id="output-viewer" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="output-viewer"><span class="header-section-number">1.3.2</span> Output Viewer</h3>
+<p>The output viewer is a window where any statistical results, including tables or graphs, can be viewed. The output window does not appear until the first time SPSS is asked to provide some sort of results. The output viewer will also record the syntax used to generate the results.</p>
+<p><strong>Try it: Open <a href="data/exercise0/exercise0_output.spv">exercise0_output.spv</a></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image4.png" target="_blank"><img src="./media/spss-image4.png" style="width:6.5in;height:5.2in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>The output viewer is divided into two parts: on the left, a narrow window shows an outline which organizes all the results. The outline can be used to delete certain portions of the output, rearrange pieces of the output, jump to specific results, and temporarily hide (or make visible) certain parts of the output. More on this later.</p>
+<p>The actual results themselves are in the larger window to the right. When printing the output, only the information in this window is printed. Once the viewer has been opened, it will remain open even if all the output is deleted and the output window is empty.</p>
+<p>Occasionally the results from a procedure will be quite lengthy, and only the first portion will appear in the window. In these cases, a small red triangle pointing down will appear at the bottom of this visible portion. To see those results in their entirety, double-click on that section of output. Scroll bars will appear which pertain to that piece of output; scroll down to see the remainder.</p>
+<section id="labels-in-output" class="level4" data-number="1.3.2.1">
+<h4 data-number="1.3.2.1" class="anchored" data-anchor-id="labels-in-output"><span class="header-section-number">1.3.2.1</span> Labels in Output</h4>
+<p>Variable labels and value labels will be used in place of the actual variable names or values, by default. This can be changed under the Edit -&gt; Options -&gt; Output tab. SPSS can display labels only, the actual names or values only, or both.</p>
+</section>
+<section id="tables-charts" class="level4" data-number="1.3.2.2">
+<h4 data-number="1.3.2.2" class="anchored" data-anchor-id="tables-charts"><span class="header-section-number">1.3.2.2</span> Tables &amp; Charts</h4>
+<p>Results are commonly presented in the output viewer in table form or chart (graph) form. To edit a table, double-click on that table (anywhere will do). An editing window is set up around that table, indicated by a rough gray outline. New menus appear in the menu bar at the top. Once this editing mode is begun, double-clicking in any cell in a table will allow you to change the names, labels, or values in those cells.</p>
+<p><strong>Helpful Hint:</strong> To remove scientific notation in a table, double-click on the table and highlight the columns or rows containing the notation. Under Format -&gt; Cell Properties and select a new numeric format, such as #,###.##. The number of decimal places can be increased or decreased here as well.</p>
+<p>Editing a chart is similar to editing a table. Begin by double-clicking anywhere on the chart and the Chart Editor window will appear. Once in the Chart Editor, many things can be altered simply by double-clicking and changing fields in the dialogue boxes which appear.</p>
+<p><strong>Try it: Double click on the Descriptive Statistics table for the salary variable. Change the Std. Deviation to have only two digits to the right of the decimal point.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image5.png" target="_blank"><img src="./media/spss-image5.png" style="width:6.4974in;height:4.47917in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="export-output" class="level4" data-number="1.3.2.3">
+<h4 data-number="1.3.2.3" class="anchored" data-anchor-id="export-output"><span class="header-section-number">1.3.2.3</span> Export Output</h4>
+<p>You can save the output file for future use or to send to colleagues. In order to open a SPSS output file, your computer must have SPSS. Sometimes it is useful to export the information from your output file into another format, such as Microsoft Excel or Microsoft Word. Excel is a great platform to export to—tables turn out very nicely. To export, select File -&gt; Export and the export wizard will appear. Select the file type and the location to save the file, then select “OK”.</p>
+<p><strong>Try it: Export the output table as an Excel file and investigate the Excel file.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image6.png" target="_blank"><img src="./media/spss-image6.png" style="width:6.5in;height:5.20069in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>Starting with SPSS Version 11.5, selected output objects, such as charts and tables, can also be exported in an Excel or Word format. This is a very useful feature that can be used to export selected tables from the Output Viewer into an Excel format, for additional work such as creation of custom graphs. To export charts, select the charts in the output window by clicking once on them, and then go to File -&gt; Export and select “Selected” where it asks what objects to export. Choose the “html” file type for charts, and under the Graphics portion of the dialogue box a drop down menu allows one to access the various types of image files available. The bitmap image format is one option. Although these images are somewhat large in terms of kilobytes, they can be read by a great many programs, including Word, Power Point and others.</p>
+<p>One last option for exporting SPSS output is to copy and paste all output into a Word file. The steps are as follows:</p>
+<ul>
+<li>Click once to select the piece(s) of output to move.</li>
+<li>Go to Edit -&gt; Copy, press the short-cut ctrl-C, or right-click and select “Copy”).</li>
+<li>In Word, place the cursor where the output will go.</li>
+<li>Under “Edit”, click “Paste”, or use the short-cut ctrl-V.</li>
+</ul>
+<p>You can then resize and move around the pasted objects in Word. The same process outlined above should work for other Microsoft programs, such as Power Point or Excel. While pasted objects can be edited in theory, this is usually difficult. It is best to do all editing in SPSS before pasting to Word.</p>
+</section>
+</section>
+<section id="syntax-window" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="syntax-window"><span class="header-section-number">1.3.3</span> Syntax Window</h3>
+<p>The Syntax Window looks like the Output Viewer, but it is a text editing window in which SPSS commands can be written out by hand. It allows users to type commands in the right-hand side window rather than use menus. Commands executed using written code are no different from commands executed using the pull-down menus and dialogue boxes. There are some rare instances when something is available only by writing syntax, and cannot be found in any menu.</p>
+<p>The syntax window provides these advantages:</p>
+<ul>
+<li>It allows a user to do repetitive tasks more quickly, using copy &amp; paste.</li>
+<li>It provides a written record of data management and analyses performed.</li>
+<li>It can be sent to other SPSS users to help in setting up data files or to re-create your analyses.</li>
+</ul>
+<p><strong>Try it: Open <a href="data/exercise0/exercise0_syntax.sps">exercise0_syntax.sps</a></strong> (Right-click &amp; Save-as)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image7.png" target="_blank"><img src="./media/spss-image7.png" style="width:6.5in;height:5.2in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>You can generate syntax in a few different ways:</p>
+<ul>
+<li>Write out the syntax by hand.</li>
+<li>Use the “Paste” button inside a dialogue box.</li>
+<li>Copy and paste the syntax from the output viewer.</li>
+</ul>
+<p>The “Paste” button in dialogue boxes causes the written syntax equivalent of a command to be entered into the syntax window. A new syntax window will open if no syntax window was open previously.</p>
+<section id="run-syntax" class="level4" data-number="1.3.3.1">
+<h4 data-number="1.3.3.1" class="anchored" data-anchor-id="run-syntax"><span class="header-section-number">1.3.3.1</span> Run Syntax</h4>
+<p>To run commands in the syntax window, highlight the commands of interest and go to Run -&gt; Selection. Alternatively, you can click on the toolbar button that looks like a “Play” symbol on a CD player or press ctrl-R as a short-cut. You can also run all commands in the syntax window by using Run -&gt; All.</p>
+<p><strong>Try it: In the Syntax Window, highlight number 3 and run the selection highlighted below. Check the Output Viewer.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image8.png" target="_blank"><img src="./media/spss-image8.png" style="width:6.4974in;height:4.04167in" class="figure-img"></a></p>
+</figure>
+</div>
+<p><em>Repetitive Commands</em></p>
+<p>As a simple example of repetitive commands, consider a user who needs to take logs of thirty different variables. To go through the menus and do thirty computations would be quite time-consuming. This is a case where using syntax would be easier, because cut, copy, and paste commands are available in the Syntax Window. If you pasted one such computation command to the syntax window, you could then copy the command out thirty times. You would only need to edit the variable names in each line.</p>
+<p>The steps for using syntax for repetitive commands are:</p>
+<ul>
+<li>Paste one example command into the syntax window.</li>
+<li>Copy this command by highlighting it and typing ctrl-C or by right clicking and copying.</li>
+<li>Paste the command repeatedly using ctrl-V or right clicking and pasting.</li>
+<li>Edit each line by changing the variable names.</li>
+<li>Run the commands!</li>
+</ul>
+<p>Once again, the cut, copy, and paste commands have these short-cuts:</p>
+<ul>
+<li>Cut ctrl-X</li>
+<li>Copy ctrl-C</li>
+<li>Paste ctrl-V</li>
+</ul>
+<p><strong>Helpful Hint:</strong> If you want to start setting up a data set, by formatting variables, recoding, etc., you can begin before you receive all the data. Test your data management commands on the cases you do have, and save the syntax file. When you receive the final data delivery, you can re-run the syntax one last time and be ready to go!</p>
+<p><strong>Try it: Highlight Number 5, copy and paste the syntax. Modify the syntax such that VARIABLES=salbegin.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image9.png" target="_blank"><img src="./media/spss-image9.png" style="width:6.5in;height:5.2in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="reading-in-raw-data-with-syntax" class="level4" data-number="1.3.3.2">
+<h4 data-number="1.3.3.2" class="anchored" data-anchor-id="reading-in-raw-data-with-syntax"><span class="header-section-number">1.3.3.2</span> Reading in Raw Data with Syntax</h4>
+<p>Reading in raw data files is another common use of the syntax window. Many organizations will provide large, publicly available data sets by distributing the raw data and a SPSS syntax file which reads in and formats that data. If you receive a raw data file and a SPSS syntax file, sometimes referred to as data definition statements, then follow these steps to get a copy of the data file in SPSS format:</p>
+<ul>
+<li>Start SPSS, but do not open any data file yet.</li>
+<li>Open the syntax file containing the commands to read the data.</li>
+<li>At the top of the syntax, find the “FILE HANDLE” statement. Change the path and the name of the file to match the current file location and name (the file should contain instructions as well).</li>
+<li>Select Run -&gt; All .</li>
+</ul>
+</section>
+<section id="syntax-examples" class="level4" data-number="1.3.3.3">
+<h4 data-number="1.3.3.3" class="anchored" data-anchor-id="syntax-examples"><span class="header-section-number">1.3.3.3</span> Syntax Examples</h4>
+<p><strong>1) Accessing an SPSS data file and rename the dataset</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>GET <span class="ot">FILE</span> = <span class="st">'C:</span><span class="ch">\\</span><span class="st">SPSS</span><span class="ch">\\</span><span class="st">data</span><span class="ch">\\</span><span class="st">example.sav'</span>.</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>DATASET NAME example.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>2) Entering new variables and data</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>DATA LIST LIST / <span class="kw">age</span> <span class="kw">(</span>F2<span class="fl">.0</span><span class="kw">)</span> <span class="kw">sex</span> <span class="kw">(</span>A1<span class="kw">)</span> <span class="kw">income</span> <span class="kw">(</span>F2<span class="fl">.1</span><span class="kw">)</span> <span class="kw">ethnic</span> <span class="kw">(</span>F1<span class="fl">.0</span><span class="kw">)</span>.</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>BEGIN DATA</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="dv">45</span> F <span class="fl">60.9</span> <span class="dv">2</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="dv">52</span> M <span class="fl">22.3</span> <span class="dv">1</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="dv">34</span> M <span class="fl">45.8</span> <span class="dv">3</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="dv">67</span> F <span class="fl">34.5</span> <span class="dv">1</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>END DATA.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>3) Creating new numeric or string variables</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>NUMERIC <span class="kw">ses</span> <span class="kw">(</span>F1<span class="fl">.0</span><span class="kw">)</span> / numkids <span class="kw">yrsmarr</span> <span class="kw">(</span>F2<span class="fl">.0</span><span class="kw">)</span>.</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>STRING <span class="kw">state</span> <span class="kw">(</span>A2<span class="kw">)</span> / <span class="kw">region</span> <span class="kw">(</span>A1<span class="kw">)</span> / <span class="kw">citycode</span> <span class="kw">(</span>A4<span class="kw">)</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>4) Labeling variables</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>VARIABLE LABELS age <span class="st">"Age"</span> sex <span class="st">"Sex"</span> ethnic <span class="st">"Ethnic category"</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>5) Labeling values of a variable</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>VALUE LABELS sex <span class="st">'M'</span> <span class="st">"Male"</span> <span class="st">'F'</span> <span class="st">"Female"</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>6) Defining missing values</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ot">MISSING</span> VALUES <span class="kw">sex</span> <span class="kw">(</span><span class="st">'X'</span><span class="kw">)</span> <span class="kw">ethnic</span> <span class="kw">(</span><span class="dv">8</span>,<span class="dv">9</span><span class="kw">)</span> <span class="kw">income</span> <span class="kw">(</span><span class="dv">7777</span><span class="kw">)</span> <span class="kw">age</span> <span class="kw">(</span><span class="dv">0</span><span class="kw">)</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>7) Calculating a new variable using a function</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>COMPUTE log10inc = <span class="kw">LG10(</span>income<span class="kw">)</span>.</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>8) Calculating a new variable using “if then” logic</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>IF <span class="kw">(</span><span class="dt">sex=</span><span class="st">'M'</span> and age &gt;= <span class="dv">65</span><span class="kw">)</span> olderman=<span class="fl">1.</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>IF <span class="kw">(</span><span class="dt">sex=</span><span class="st">'F'</span> or age &lt; <span class="dv">65</span><span class="kw">)</span> olderman=<span class="fl">0.</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>or:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>COMPUTE olderman = <span class="kw">(</span><span class="dt">sex=</span><span class="st">'M'</span> and age &gt;= <span class="dv">65</span><span class="kw">)</span>.</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>9) Recoding a variable</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>RECODE <span class="kw">ethnic</span> <span class="kw">(</span><span class="dv">1</span>=<span class="dv">0</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">2</span>=<span class="dv">1</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">3</span>=<span class="dv">1</span><span class="kw">)</span>.</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>10) Recoding into a new variable, keeping the original intact</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>RECODE <span class="kw">ethnic</span> <span class="kw">(</span><span class="dv">1</span>=<span class="dv">0</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">2</span>=<span class="dv">1</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">3</span>=<span class="dv">1</span><span class="kw">)</span> INTO wh_nonwh.</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>RECODE <span class="kw">income</span> <span class="kw">(</span>LOWEST THRU <span class="dv">25</span> = <span class="dv">1</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">26</span> THRU <span class="dv">44</span> = <span class="dv">2</span><span class="kw">)</span> <span class="kw">(</span><span class="dv">45</span> THRU <span class="dt">HIGHEST=</span><span class="dv">3</span><span class="kw">)</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>INTO incomcat.</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>11) Obtaining descriptive statistics for continuous variables</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>DESCRIPTIVES <span class="ot">VARIABLES</span>=income age</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a> /<span class="ot">STATISTICS</span>=MEAN STDDEV VARIANCE MIN MAX SEMEAN.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>12) Getting frequencies for categorical variables</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>FREQUENCIES <span class="ot">VARIABLES</span>=sex ethnic olderman.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>13) Obtaining a cross-tabulation between two categorical variables</strong></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>CROSSTABS</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a> /<span class="ot">TABLES</span> = jobcat BY gender</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a> /STATISTIC = CHISQ</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a> /<span class="ot">CELLS</span> = COUNT ROW COLUMN.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>14) Producing a histogram</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>GRAPH</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a> /<span class="kw">HISTOGRAM(</span>NORMAL<span class="kw">)</span>=income</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a> /TITLE= <span class="st">'Histogram of Income'</span>.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>15) Creating side-by-side box-plots</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>EXAMINE <span class="ot">VARIABLES</span>=income BY ethnic</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a> /PLOT=BOXPLOT</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a> /<span class="ot">STATISTICS</span>=NONE</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a> /NOTOTAL.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>16) Generating a scatter plot</strong></p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>GRAPH</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a> /<span class="kw">SCATTERPLOT(</span>BIVAR<span class="kw">)</span>=age WITH income</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a> /<span class="ot">MISSING</span>=LISTWISE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>17) Obtaining a line graph</strong></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>GRAPH</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a> /<span class="kw">LINE(</span>SIMPLE<span class="kw">)</span>=<span class="kw">MEAN(</span>income<span class="kw">)</span> BY ethnic.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>18) Getting a line graph with multiple lines (e.g.&nbsp;one for women, one for men)</strong></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>GRAPH</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a> /<span class="kw">LINE(</span>MULTIPLE<span class="kw">)</span>=<span class="kw">MEAN(</span>income<span class="kw">)</span> BY ethnic BY sex.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>19) Choosing a subset of the data to analyze or examine</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>COMPUTE filt_var=<span class="kw">(</span><span class="dt">gender=</span><span class="st">'m'</span><span class="kw">)</span>.</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>FILTER BY filt_var.</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>20) Returning to the entire sample after looking at a subset</strong></p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>FILTER OFF.</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>EXECUTE.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>21) Splitting the observations into strata, so that future analyses will be repeated for each stratum separately</strong></p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>SORT CASES BY ethnic.</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>SPLIT <span class="ot">FILE</span> BY ethnic.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="writing-syntax-tips" class="level4" data-number="1.3.3.4">
+<h4 data-number="1.3.3.4" class="anchored" data-anchor-id="writing-syntax-tips"><span class="header-section-number">1.3.3.4</span> Writing Syntax Tips</h4>
+<ul>
+<li>Each command must begin on a new line and must end with a period.</li>
+<li>A comment can be included in a syntax file. The comment starts with an asterisk (<code>*</code>) and can go beyond one line. A period (<code>.</code>) is required in the end of the last line to terminate the comment.</li>
+<li>SPSS syntax is case insensitive. Capitalized words are used to indicate keywords and command names in SPSS documentation, while lowercase letters indicate user-specified words; this is only a convention.</li>
+<li>String values must be enclosed in single or double quotes.</li>
+<li>Commands, sub-commands, and keywords can be abbreviated to three letters, but use four or five to avoid ambiguities.</li>
+<li>Variable names must always be typed out in full. Numbers and underscores are valid in a variable name if they are not the first letter.</li>
+<li>The use of capitals will not distinguish two variable names; <code>name</code> and <code>NAME</code> are identical.</li>
+<li>Sub-commands are preceded by a forward slash (<code>/</code>); they need not begin on a new line. However, lines of code can’t be more than 80 characters long.</li>
+<li>The word <code>EXECUTE</code> and a period (<code>.</code>) should be included after each command, such as <code>COMPUTE</code> and <code>RECODE</code>, that requires changes to the data set. Adding in <code>EXECUTE.</code> will never hurt anything; if in doubt, include it.</li>
+<li>Labels and other items enclosed in quotes must not run onto the next line.</li>
+<li>The word “then” never appears in “if then” types of commands.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="good-to-know" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="good-to-know"><span class="header-section-number">1.4</span> Good to Know</h2>
+<section id="dialogue-boxes" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="dialogue-boxes"><span class="header-section-number">1.4.1</span> Dialogue Boxes</h3>
+<p>The main way that a user tells SPSS what to do is through dialogue boxes. These are windows that pop up when you click on an item in a menu or double-click on particular objects.</p>
+<p><strong>Try it: In Data View for <a href="data/exercise0/exercise0_data.sav">exercise0_data.sav</a>, select Analyze -&gt; Descriptive Statistics -&gt; Descriptives.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image10.png" target="_blank"><img src="./media/spss-image10.png" style="width:5.03125in;height:3.53125in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>While dialogue boxes vary according to the task involved, they all have at least some of the following buttons:</p>
+<ul>
+<li>“OK” Carries out the procedure; executes the command now.</li>
+<li>“Continue” Returns to the main dialogue box after specifying an option.</li>
+<li>“Paste” Writes out the syntax for the procedure in a syntax window.</li>
+<li>“Reset” Returns the dialogue box to its original blank state.</li>
+<li>“Cancel” Closes the dialogue box without taking any action.</li>
+<li>“Help” Opens up a help window specific to that procedure.</li>
+</ul>
+<p>In most dialogue boxes, you select certain variables from the list on the left and move these variables into the active variable box on the right. Here are some tips:</p>
+<ul>
+<li>Click on any variable in the variable list, then type the first few letters of a variable name to zoom to that name in the list.</li>
+<li>Hold down the Shift key and click on any two variables to select every variable in between.</li>
+<li>Hold down the Control key and click to select multiple variables that are not necessarily adjacent in the list.</li>
+</ul>
+<p>You could choose to display either variable labels or names in the variable list. For example, if you want the names to be displayed, go to then “Edit” menu and click “Options”. When a new window comes up, click on the tab labeled “General”. In the “Variable Lists” section, choose option “Display names” or “Display labels” for variable labels.</p>
+</section>
+<section id="adding-comments" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="adding-comments"><span class="header-section-number">1.4.2</span> Adding Comments</h3>
+<p>You can add descriptive comments to data files by going to Utilities -&gt; Data File Comments.</p>
+</section>
+</section>
+<section id="tips-for-preparing-an-excel-file-for-use-with-spss" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="tips-for-preparing-an-excel-file-for-use-with-spss"><span class="header-section-number">1.5</span> Tips for Preparing an Excel File for Use with SPSS</h2>
+<ul>
+<li>Place the variable names in the first row. Be sure the names follow these rules:
+<ul>
+<li>variable names should be no more than 64 characters long (and no longer than 8 characters is usually recommended)</li>
+<li>variable names must start with a letter</li>
+<li>variable names may only have letters, numbers, or underscores in them</li>
+<li>the following characters must not appear in variable names: <code>%</code>,<code>$</code>,<code>#</code>,<code>@</code>,<code>!</code>,<code>+</code>,<code>*</code>,<code>~</code>,<code>"</code>,<code>-</code>,<code>.</code></li>
+<li>no blank spaces can appear in variable names</li>
+<li>each variable name must be unique, with no duplicate variable names</li>
+<li>variable names can be on one row only</li>
+</ul></li>
+<li>Only include the raw, un-summarized data. Delete extraneous data in your Excel file, like row or column totals, graphs, etc.</li>
+<li>Include an identifying number for each case that is unique. If you have several spreadsheets for one person, include the identifier on each sheet.</li>
+<li>Only include one value per cell. Don’t enter data such as “120/80” for blood pressure. Enter systolic blood pressure as one variable, and diastolic blood pressure as another variable.</li>
+<li>Don’t leave blank rows in the data.</li>
+<li>Don’t mix numeric and character values, such as names and ID numbers, in the same column.</li>
+<li>Character variables are allowed in statistical packages but are not as flexible as numeric variables. Use numeric values when feasible.</li>
+<li>If you have missing values, you can indicate them with a numeric code, such as 99 or 999, or you can leave the cell blank. Be sure, if you use a missing value code, that it is not a plausible real data value.</li>
+<li>Save the spreadsheet with values only – not formulas.</li>
+</ul>
+<p>An ideal Excel data set might look like this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image11.png" target="_blank"><img src="./media/spss-image11.png" width="439" height="185" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="exercise-1-properly-formatted-data" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="exercise-1-properly-formatted-data"><span class="header-section-number">1.6</span> Exercise 1 – Properly Formatted Data</h2>
+<p>In order to analyze data properly in SPSS, we need to follow the guidelines set out in the course notes.</p>
+<p>Open <a href="data/exercise1/exercise1_data.sav">exercise1_data.sav</a> and see what guidelines we have ignored.</p>
+</section>
+<section id="importing-data-into-spss" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="importing-data-into-spss"><span class="header-section-number">1.7</span> Importing Data into SPSS</h2>
+<p>SPSS can easily read in data from Excel, SAS or Stata, as well as several lesser used options.</p>
+<p>To open a file from another program, go to File -&gt; Open. Under “File Type” find the program the data file was created in. Select this type and find the file you’d like to open. Click “Open”. It’s that easy – the data file should appear. If your data is not stored in a format that SPSS can read, then first convert the file to Excel format. Excel is a useful liaison between other programs and SPSS.</p>
+<p><strong>Try it: Select File -&gt; Open. Investigate the different file types that you can open.</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image12.png" target="_blank"><img src="./media/spss-image12.png" style="width:5.375in;height:3.4903in" class="figure-img"></a></p>
+</figure>
+</div>
+<p>Data files that are in TEXT FORMAT (.txt) are either delimited or divided into columns of fixed length. SPSS provides a wizard that asks questions and makes intelligent guesses in order to import your text data. This facility is somewhat like Excel’s data-reading wizard.</p>
+<p>Delimited files have rows of values that are separated by tabs, commas, or spaces.</p>
+<p>The first rows of data from a tab-delimited file might look like (where the first row identifies variable names, the second row is the first row of data):</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>Name Age Gender Occupation Yearly Salary</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>Jim <span class="dv">25</span> Male Accountant <span class="dv">65</span>,<span class="dv">000</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>A row of data from a comma-delimited file might look like:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode spss code-with-copy"><code class="sourceCode spss"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>Name,Age,Gender,Occupation,Yearly,Salary</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>Jim,<span class="dv">25</span>,Male,Accountant,<span class="dv">65</span>,<span class="dv">000</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Read delimited files into SPSS by going to File -&gt; Read Text Data. First, locate the name of the text file and click Open. Answer the questions as you go along, clicking Next to move on to the next question. Be sure to choose the Delimited file type, and identify the character (comma, space, tab, etc) that acts as the delimiter.</p>
+<p>Similarly, read fixed-column data files by going to File -&gt; Read Text Data. Open the file containing the text data. Follow along with the questions, clicking Next to move along. Be sure to select the Fixed width option.</p>
+<p>You may name the variables for either delimited or fixed width files during the import procedure, or after the data have already been read into the Data Editor. Sometimes the variable names are already in the top row of the text file. You will be able to tell SPSS whether these names are present or absent in the text file.</p>
+<p>Note that for fixed width data, particularly when many variables are involved, it may be easier to use syntax commands rather than the menus. This will provide a record of how the data were imported, and it will allow you to stop and resume the import process in a later SPSS session. When using the menus, there is no way to stop halfway through and save your work.</p>
+</section>
+<section id="exporting-data-from-spss" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="exporting-data-from-spss"><span class="header-section-number">1.8</span> Exporting Data from SPSS</h2>
+<p>To save files in a certain format so that you can move data from SPSS to another program (this is exporting from SPSS), make certain you are in the Data Editor window, and go to File -&gt; Save As and then select “File Type”. Be sure to give this new file a name.</p>
+<p>You can export to most of the same file types as you can import.</p>
+<p>You can also select a subset of variables to save in a new data file by selecting the “Variables…” button in the “Save Data As” window. Once you have selected the variables that you want for the new data file, select “Continue” then “Save”.</p>
+<p>Try it: Select File -&gt; Save As. Investigate the different file types. Select the “Variables” button and investigate.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image13.png" target="_blank"><img src="./media/spss-image13.png" style="width:5.17in;height:3.36in" class="figure-img"></a></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./media/spss-image14.png" target="_blank"><img src="./media/spss-image14.png" style="width:4.625in;height:3.5625in" class="figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="exercise-2-importingexporting-excel" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="exercise-2-importingexporting-excel"><span class="header-section-number">1.9</span> Exercise 2 – Importing/Exporting Excel</h2>
+<p>Open <a href="data/exercise2/exercise2_data.xls">exercise2_data.xls</a> (an Excel file). Modify this Excel file such that it can be imported into SPSS properly. Save the file and close it.</p>
+<p>Open the file in SPSS (import it). Export this file back into Excel, but only save the following variables: id, salary, minority.</p>
+</section>
+<section id="getting-help-from-spss" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="getting-help-from-spss"><span class="header-section-number">1.10</span> Getting Help from SPSS</h2>
+<p>Underneath the help menu are several different options. Here are a few:</p>
+<ul>
+<li>“Topics” Search for a word or command</li>
+<li>“Tutorial” Get an introduction to some SPSS basics</li>
+<li>“Case Studies” Look at some example analyses using SPSS</li>
+<li>“Statistics Coach” Get help in choosing the right statistical procedure</li>
+<li>“Syntax Reference” View syntax manuals in their complete form (.pdf)</li>
+<li>“SPSS Home Page” Open an internet browser and go to www.spss.com</li>
+<li>“About” View version number and license expiration date</li>
+<li>“Product Registration” Renew the license once it has expired</li>
+</ul>
+<p>When looking at a help entry for a statistical procedure, there will usually be a link labeled “Show Me”, which provides explicit instructions for carrying out the procedure via an example.</p>
+<p>The “Command Syntax Reference” menu allows users to access the entire text that can be found in the hard-copy manuals. The on-line manuals open in Adobe Acrobat Reader and come with an index of topics. Click on any page number to go instantly to that page.</p>
+<p><strong>Helpful Hint:</strong> when examining the on-line syntax guides, click the small button at the bottom marked “100%” and choose 150% or 200% for easier reading.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview of the Workshop</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./02-variables.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Working with Variables</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
