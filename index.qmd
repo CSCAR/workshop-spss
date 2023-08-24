@@ -1,3 +1,9 @@
+---
+engine: knitr
+---
+
+Last modified: `r Sys.Date()`
+
 # Overview of the Workshop {.unnumbered}
 
 There are four sections to this workshop:
